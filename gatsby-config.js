@@ -7,24 +7,23 @@ module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
-    title: 'Blog by John Doe',
-    subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    title: 'Blog by IPADORUSA',
+    subtitle: 'GATSBY로 만든 블로그',
     copyright: '© All rights reserved.',
-    disqusShortname: '',
+    disqusShortname: 'ipadorusa-com',
     menu: [
       {
         label: 'Articles',
         path: '/',
       },
-      {
-        label: 'About me',
-        path: '/about/',
-      },
-      {
-        label: 'Contact me',
-        path: '/contact/',
-      },
+      // {
+      //   label: 'About me',
+      //   path: '/about/',
+      // },
+      // {
+      //   label: 'Contact me',
+      //   path: '/contact/',
+      // },
     ],
     author: {
       name: 'IPADORUSA',
@@ -124,7 +123,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-google-analytics',
-      options: { trackingId: 'UA-73379983-2' },
+      options: { trackingId: 'UA-43243939-2' },
     },
     {
       resolve: 'gatsby-plugin-google-fonts',
