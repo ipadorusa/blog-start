@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[GATSBY로 만든 블로그]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Sat, 11 Jan 2020 12:23:10 GMT</lastBuildDate><item><title><![CDATA[Git 관련 유용한 자료]]></title><description><![CDATA[Git, Github Flow 관련 유용한 자료]]></description><link>https://ipadorusa.com/posts/Git 관련 유용한 자료</link><guid isPermaLink="false">https://ipadorusa.com/posts/Git 관련 유용한 자료</guid><pubDate>Sat, 11 Jan 2020 08:08:35 GMT</pubDate><content:encoded>&lt;h1&gt;Git, Github Flow 관련 유용한 자료&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Github Flow 에 관련된 설명&lt;/p&gt;
+&lt;p&gt;[Guides Github]: &lt;a href=&quot;https://guides.github.com/introduction/flow/&quot;&gt;https://guides.github.com/introduction/flow/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Git cheat sheet&lt;/p&gt;
+&lt;p&gt;[Git cheat sheet]: &lt;a href=&quot;https://about.gitlab.com/images/press/git-cheat-sheet.pdf&quot;&gt;https://about.gitlab.com/images/press/git-cheat-sheet.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Gatsby로 블로그 시작해보기(1)]]></title><description><![CDATA[Gatsby로 블로그 시작해보기, Gatsby + typescript + netlify]]></description><link>https://ipadorusa.com/posts/Gatsby로 블로그 시작해보기(1)/</link><guid isPermaLink="false">https://ipadorusa.com/posts/Gatsby로 블로그 시작해보기(1)/</guid><pubDate>Fri, 10 Jan 2020 13:46:30 GMT</pubDate><content:encoded>&lt;h1&gt;블로그 만들기(1)&lt;/h1&gt;
+&lt;p&gt;신기술이나 공부하기 위해 마이크로 사이트 겸 블로그를 해보고 싶어졌다.
+작년에는 AMP 와 허접한 PHP 로 만들었지만 생각보다 관리나 컨텐츠 생산성이 너무 떨어졌다. 그리고 검색도 잘 안됐다. 망할(amp)… google ㅜㅜ.&lt;/p&gt;
+&lt;p&gt;어떻게 좀 더 편하게 기록하거나 해보지 못한 신기술(Front-end)를 해볼수 있을까 고민 끝에 몇가지 초점을 두고 만들어보자고
+생각했다.&lt;/p&gt;
+&lt;h2&gt;블로그 고려 사항.&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;React 나 Vue 면 좋겠다.&lt;/li&gt;
+&lt;li&gt;SEO 및 SSR 을 지원해야한다.&lt;/li&gt;
+&lt;li&gt;Markdown 문법을 지원해야한다.&lt;/li&gt;
+&lt;li&gt;Code Block 영역이 이쁘게 나왔으면 한다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;그래서 다른 개발자들은 어떻게 블로그를 하나 검색을 했다.
+많은 사람들이 github + jekyll 을 사용하거나 hexo 를 사용했었고 그들중 몇몇 사람들은 게츠비(Gatsby)로 많이 넘어가는 듯 했다.&lt;/p&gt;
+&lt;p&gt;그래서 나는 관심을 가지고 몇몇 글을 읽었고 Gatsby + typescript + netlify 조합에 대해서 고민하기 시작했다.&lt;/p&gt;
+&lt;p&gt;내가 참고한 사이트는 주소는 링크 &lt;a href=&quot;https://sosolog.netlify.com/posts/gatsbyJS-blog/&quot;&gt;참조링크사이트 1&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;이분이 만드는데로 그대로 했다. 왠지 댓글 기능도 필요할꺼 같아서..&lt;/p&gt;
+&lt;p&gt;타입스크립트까지 욕심이 있어서..나는 할줄 모르지만 따라하거나 만들다 보면 이해가 될꺼 같아 했으나. 아직은 무리…&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;내가 참고한 블로그&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://sosolog.netlify.com/posts/gatsbyJS-blog/&quot;&gt;참조링크사이트 1&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Typescript+gatsby 참고 블로그&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://imch.dev/posts/build-a-blog-with-gatsby-and-typescript-part-1&quot;&gt;Gatsby 로 블로그 만들기 (1)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://imch.dev/posts/build-a-blog-with-gatsby-and-typescript-part-2&quot;&gt;Gatsby 로 블로그 만들기 (2)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://imch.dev/posts/build-a-blog-with-gatsby-and-typescript-part-3&quot;&gt;Gatsby 로 블로그 만들기 (3)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://imch.dev/posts/build-a-blog-with-gatsby-and-typescript-part-4&quot;&gt;Gatsby 로 블로그 만들기 (4)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item></channel></rss>
