@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 const lost = require('lost')
 const pxtorem = require('postcss-pxtorem')
 
@@ -29,7 +30,7 @@ module.exports = {
       name: 'IPADORUSA',
       email: 'ipadorusa@gmail.com',
       telegram: '#',
-      twitter: '#',
+      twitter: '//twitter.com/kedokedobookedo',
       github: '//github.com/ipadorusa',
       rss: '#',
       vk: '#',
