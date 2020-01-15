@@ -14,7 +14,13 @@ tags:
 description: '어떤게 표준일까? window.scrollX, window.scrollY, pageXOffset,pageYOffset'
 ---
 
-# window.scrollY, window.scrollX vs window.pageXOffset,window.pageYOffset ?
+# window.scrollY vs window.pageYOffset ?
+
+어떤게 표준일까?
+
+# window.scrollX vs window.pageXOffset ?
+
+어떤게 표준일까?
 
 어떤걸 써야할까? 나는 항상 헛 갈렸다. D3 차트를 만들때 툴팁의 위치를 정할때나, 스크롤 이벤트로 인한 어떤 값이 필요로 할때 기존 소스를 활용하거나 검색하여 찾아서 넣었었다.
 
