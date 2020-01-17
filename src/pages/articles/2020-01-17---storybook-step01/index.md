@@ -34,20 +34,29 @@ Official addons 기능으로는 [Knobs](https://github.com/storybookjs/storybook
 
 - Knobs : 동적으로 Props를 통해 변화를 줄수 있는 기능
 ![Knobs](https://raw.githubusercontent.com/storybookjs/storybook/master/addons/knobs/docs/storybook-knobs-example.png)
+
 - Actions : 이벤트 핸드러를 통해 수신한 내용을 화면에 표시하는 기능
 ![Actions](https://raw.githubusercontent.com/storybookjs/storybook/HEAD/addons/actions/docs/screenshot.png)
+
 - Source : 소스 코드를 보고 작동방법을 확인거나 긁을수 있게 해주는 기능
 ![Source](https://raw.githubusercontent.com/storybookjs/storybook/master/addons/storysource/docs/demo.gif)
+
 - Docs : 기능 문서를 편하게 만들수 있게 하는 기능 [참고링크](https://github.com/storybookjs/storybook/blob/master/addons/docs/docs/docspage.md)
 ![Docs](https://raw.githubusercontent.com/storybookjs/storybook/master/addons/docs/docs/media/docs-tab.png)
+
 - Viewport : 뷰포트 크기와 방향을 조정하여 반응형 구성 요소를 체크 기능
 ![Viewport](https://raw.githubusercontent.com/storybookjs/storybook/master/addons/viewport/docs/viewport.png)
+
 - Storyshots : Jest, Puppeteer 를 이용하여 테스트(기능,디바이스별) 해볼수 있음.
 ![Storyshots-Jest](https://raw.githubusercontent.com/storybookjs/storybook/HEAD/addons/storyshots/storyshots-core/docs/storyshots-fail.png)
+
 - Backgrounds : 미리보기 패널에 배경색을 변경할수 있음.
 ![Backgrounds](https://raw.githubusercontent.com/storybookjs/storybook/master/docs/static/img/addon-backgrounds.gif)
+
 - Accesibility : UI의 구성요소의 접근성 테스트 기능.
 ![Backgrounds](https://raw.githubusercontent.com/storybookjs/storybook/HEAD/addons/a11y/docs/screenshot.png)
+
 - Console : 콘솔창 기능.
-![Console](https://raw.githubusercontent.com/storybooks/storybook-addon-console/master/docs/storybook-addon-console.png
+![Console](https://raw.githubusercontent.com/storybooks/storybook-addon-console/master/docs/storybook-addon-console.png)
+
 - Links : 스토리북간의 링크(router 네비게이트 같은기능)
