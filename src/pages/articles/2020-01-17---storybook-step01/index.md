@@ -47,7 +47,7 @@ Official addons 기능으로는 [Knobs](https://github.com/storybookjs/storybook
 - Backgrounds : 미리보기 패널에 배경색을 변경할수 있음.
 ![Backgrounds](https://raw.githubusercontent.com/storybookjs/storybook/master/docs/static/img/addon-backgrounds.gif)
 - Accesibility : UI의 구성요소의 접근성 테스트 기능.
-![Backgrounds](https://raw.githubusercontent.com/storybookjs/storybook/master/docs/static/img/addon-backgrounds.gif)
+![Backgrounds](https://raw.githubusercontent.com/storybookjs/storybook/HEAD/addons/a11y/docs/screenshot.png)
 - Console : 콘솔창 기능.
-![Console](https://raw.githubusercontent.com/storybookjs/storybook/HEAD/addons/a11y/docs/screenshot.png)
+![Console](https://raw.githubusercontent.com/storybooks/storybook-addon-console/master/docs/storybook-addon-console.png
 - Links : 스토리북간의 링크(router 네비게이트 같은기능)
