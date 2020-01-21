@@ -1,4 +1,118 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[GATSBY로 만든 블로그]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Wed, 15 Jan 2020 13:11:07 GMT</lastBuildDate><item><title><![CDATA[window.scrollY vs window.pageYOffset]]></title><description><![CDATA[어떤게 표준일까? window.scrollX, window.scrollY, pageXOffset,pageYOffset]]></description><link>https://ipadorusa.com/posts/scrollY, pageYOffset</link><guid isPermaLink="false">https://ipadorusa.com/posts/scrollY, pageYOffset</guid><pubDate>Wed, 15 Jan 2020 13:04:12 GMT</pubDate><content:encoded>&lt;h1&gt;window.scrollY vs window.pageYOffset ?&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[GATSBY로 만든 블로그]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Tue, 21 Jan 2020 13:48:23 GMT</lastBuildDate><item><title><![CDATA[경제 관련 꿀팁 정보]]></title><description><![CDATA[[펌]경제 관련 꿀팁 정보, 앞으로의 10 년을 생각해야하는 나로써는 경제공부를 안할수가 없다. 주식 및 추가 소득을 위한 공부]]></description><link>https://ipadorusa.com/posts/경제관련꿀팁정보</link><guid isPermaLink="false">https://ipadorusa.com/posts/경제관련꿀팁정보</guid><pubDate>Tue, 21 Jan 2020 13:45:05 GMT</pubDate><content:encoded>&lt;h1&gt;경제공부 무료로 하는 꿀팁&lt;/h1&gt;
+&lt;p&gt;앞으로의 10 년을 생각해야하는 나로써는 경제공부를 안할수가 없다.
+주 관심사는 주소득외 추가 소득을 어떻게 만드느냐..
+자주 가는 사이트에 경제공부 관련 사이트와 YOUTUBE 채널 정리된게 있어 퍼온다.
+좀더 나은 삶을 살기 위해.&lt;/p&gt;
+&lt;h2&gt;경제공부 링크&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.etoland.co.kr/bbs/board.php?bo_table=hit&amp;#x26;wr_id=2064393&quot;&gt;펌주소&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCsJ6RuBiTVWRX156FVbeaGg&quot;&gt;슈카월드&lt;/a&gt; : 썰 푸는 내공이 압도적인 전직 증권맨의 경제/시사상식 유튜브&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://soonsal.com/&quot;&gt;순살브리핑&lt;/a&gt; : 미국 투자은행 모건스탠리 출신이 운영하는 글로벌 경제/산업 뉴스레터. 구독신청하면 매일 오전 이메일로 옴&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://insidestory.kr/&quot;&gt;생각노트&lt;/a&gt; : 브랜드, 산업 등의 주제로 다양한 콘텐츠가 올라오는 블로그 ‘생각노트’에서 운영하는 뉴스레터&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCaJdckl6MBdDPDf75Ec_bJA&quot;&gt;신사임당&lt;/a&gt; : 부동산/경제/산업 전반 유튜브. 한국경제 tv 출신&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/channel/UChlv4GSd7OQl3js-jkLOnFA&quot;&gt;삼프로 TV&lt;/a&gt; : 경제 각 분야의 전문가 초대해서 인터뷰하는 형식의 유튜브&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://glance.media/&quot;&gt;스타트업위클리&lt;/a&gt; : 매주 월요일 아침, 전 주의 스타트업 관련 뉴스 링크를 모두 모아 보내 주는 뉴스레터&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.globalmonitor.co.kr/&quot;&gt;globalmonitor&lt;/a&gt; : 실시간 글로벌 경제/금융 뉴스와 분석 및 코멘터리 전문 미디어&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://kimdongjo.com/&quot;&gt;김동조블로그&lt;/a&gt; : 이자율 트레이더 출신의 경제 금융에 관한 정보 제공 블로그. 유료이지만 그만큼 양질 컨텐츠 보유&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/channel/UC8tYgnrcFXk7OCY_uoBmh-A&quot;&gt;효기심&lt;/a&gt; : 국제정치에 대해 쉽게 썰 풀어주는 유튜브. 이런 역사 선생님 있었음 역사가가 될 뻔&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCgOhfdnrfpoorDYufNv_Vfw&quot;&gt;더나은삶&lt;/a&gt; : 경제/재테크/자기계발 영역이 조금씩 다 섞여있는 유튜브&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.roadaily.co.kr/&quot;&gt;ROA daily&lt;/a&gt; : 주요 디지털 기술 및 플랫폼 관련 최신정보와 트렌드 분석&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://newneek.co/&quot;&gt;뉴닉&lt;/a&gt; : 밀레니얼 대상, 시사상식 쉽게 풀어 설명해주는 이메일 뉴스레터&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://uppity.co.kr/&quot;&gt;어피티&lt;/a&gt; : 사회초년생들 경제, 재테크 팁을 초보자의 관점에서 설명하는 뉴스레터&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://now.rememberapp.co.kr/&quot;&gt;리멤버 나우&lt;/a&gt; : 명함관리앱 리멤버에서 운영하는 경제 관련 뉴스레터&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[IE9 D3 Chart 안나옴 // IE9 개발자 도구 연 상태에서 새로 고침하면 나옴]]></title><description><![CDATA[IE9 D3 차트 안나오는 현상 개발자 도구 연 상태에서 새로 고침하면 나옴. module,webpack 번들러의 문제]]></description><link>https://ipadorusa.com/posts/IE9_D3_notworking</link><guid isPermaLink="false">https://ipadorusa.com/posts/IE9_D3_notworking</guid><pubDate>Tue, 21 Jan 2020 13:22:03 GMT</pubDate><content:encoded>&lt;h1&gt;IE9 D3 차트 안나오는 현상 개발자 도구 연 상태에서 새로 고침하면 나옴&lt;/h1&gt;
+&lt;p&gt;IE9 에서 그래프가 안나오는 현상 =&gt; 익스 개발자 도구 연 상태에서 새로고침하면 화면에 표현, 그 뒤 새로고침하면 나옴 에러 메시지 없음..;;&lt;/p&gt;
+&lt;p&gt;몰까; 익스에서만 개발자도구 열었을때 작동하는거면 console 문제로 생각되서 console 이 들어간 부분을 찾았으나 만든 그래프 만든 소스상에서는 콘솔이 들어간 부분이 없어서 다른쪽 문제라고 판단 하였다.&lt;/p&gt;
+&lt;p&gt;5 시간동안. 이것저것 다해봄, 차트나 그외 같이 묶은거 하나하나 열어서..
+콘솔이 이유인거 알겠으나 왜 차트에서만 문제가 생긴지는 모르겠었음. 혹시나 하는 마음에. 바벨을 확인&lt;/p&gt;
+&lt;h2&gt;원인을 찾다.&lt;/h2&gt;
+&lt;p&gt;내 소스에도 없으면 웹팩에서 바벨 설정이나 말리면서 생기는 소스라고 판단. 일단 바벨부터 의심. 말린 dist 파일을 보니 콘솔이 있긴 있는데; 이걸 어떻게 지워야하나..
+고민중 google 에 검색을 하니 babel-plugin-transform-remove-console 모듈이 있었다.&lt;/p&gt;
+&lt;h3&gt;해결 방법&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.npmjs.com/package/babel-plugin-transform-remove-console&quot;&gt;babel-plugin-transform-remove-console&lt;/a&gt; 모듈 설치후
+웹팩 설정에
+plugins: [‘@babel/plugin-syntax-dynamic-import’, ‘transform-remove-console’]
+transform-remove-console 넣어 해결&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Storybook(Vue) 도입해 보자 - 1]]></title><description><![CDATA[Storybook(Vue) 도입해 보자 - 1]]></description><link>https://ipadorusa.com/posts/Storybook-vue-step01</link><guid isPermaLink="false">https://ipadorusa.com/posts/Storybook-vue-step01</guid><pubDate>Fri, 17 Jan 2020 04:23:12 GMT</pubDate><content:encoded>&lt;h1&gt;Storybook 을 도입해보자 - Vue.js&lt;/h1&gt;
+&lt;p&gt;3년전쯤 회사에 도입할려고 생각하고 준비 했었으나 많은 일(?)과 다른 사정으로 인해 준비를 못했었다.&lt;/p&gt;
+&lt;h2&gt;Storybook이란?&lt;/h2&gt;
+&lt;p&gt;Storybook은 UI컴포넌트를 직접 보면서 개발을 할 수 있는 환경을 제공하는 툴이다. 실제 프로젝트 내에서 실행 되는 것이 아니라 독립된 환경으로 실행한다.&lt;/p&gt;
+&lt;p&gt;순수 UI개발에 집중할 수 있게 해준다. Storybook을 잘 활용하면 UI개발 포함 (기획,디자인,개발)과의 협업 구조에서 원활하게 커뮤케이션과 빠른 이터레이션(iteration)을 통해 개발 생산성 효과 누릴수 있다.&lt;/p&gt;
+&lt;p&gt;UI 개발을 하다 보면 빈번하게 일어나는 디자인 스펙 오류, 기획 프로세스 오류 등을 빠르게 확인 하여 수정 할 수 있으며, 개발자는 컴포넌트를 더욱 유연하고, 재사용 가능한 컴포넌트 개발을 할 수 있도록 도와준다.&lt;/p&gt;
+&lt;p&gt;Storybook의 경우 현재 많은 회사에서 사용 하고 있는데, Airbnb, Slack, Coursera 등과 많은 리액트 오픈소스 프로젝트에서 사용 되고 있다. &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://storybook.js.org/docs/examples/&quot;&gt;Storybook 예시 사이트&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Storybook Addon 기능&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://storybook.js.org/addons/&quot;&gt;Storybook Addons&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Official addons 기능으로는 &lt;a href=&quot;https://github.com/storybookjs/storybook/tree/master/addons/knobs&quot;&gt;Knobs&lt;/a&gt;, &lt;a href=&quot;https://github.com/storybookjs/storybook/blob/master/addons/actions/README.md&quot;&gt;Actions&lt;/a&gt;, &lt;a href=&quot;https://github.com/storybookjs/storybook/tree/master/addons/storysource&quot;&gt;Source&lt;/a&gt;, &lt;a href=&quot;https://github.com/storybookjs/storybook/tree/master/addons/docs&quot;&gt;Docs&lt;/a&gt;, &lt;a href=&quot;https://github.com/storybookjs/storybook/tree/master/addons/viewport&quot;&gt;Viewport&lt;/a&gt;, &lt;a href=&quot;https://github.com/storybookjs/storybook/tree/master/addons/storyshots&quot;&gt;Storyshots&lt;/a&gt;, &lt;a href=&quot;Backgrounds&quot;&gt;Backgrounds&lt;/a&gt;, &lt;a href=&quot;https://github.com/storybookjs/storybook/tree/master/addons/a11y&quot;&gt;Accesibility&lt;/a&gt;, &lt;a href=&quot;https://github.com/storybookjs/storybook-addon-console&quot;&gt;Console&lt;/a&gt;, &lt;a href=&quot;https://github.com/storybookjs/storybook/tree/master/addons/links&quot;&gt;Links&lt;/a&gt;. 있다.
+그외 기능들은 &lt;a href=&quot;https://github.com/storybookjs/storybook/blob/next/ADDONS_SUPPORT.md&quot;&gt;Addon / Framework Support Table&lt;/a&gt; 을 보면 되겠다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Knobs : 동적으로 Props를 통해 변화를 줄수 있는 기능
+&lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/master/addons/knobs/docs/storybook-knobs-example.png&quot; alt=&quot;Knobs&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Actions : 이벤트 핸드러를 통해 수신한 내용을 화면에 표시하는 기능
+&lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/HEAD/addons/actions/docs/screenshot.png&quot; alt=&quot;Actions&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Source : 소스 코드를 보고 작동방법을 확인거나 긁을수 있게 해주는 기능
+&lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/master/addons/storysource/docs/demo.gif&quot; alt=&quot;Source&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Docs : 기능 문서를 편하게 만들수 있게 하는 기능 &lt;a href=&quot;https://github.com/storybookjs/storybook/blob/master/addons/docs/docs/docspage.md&quot;&gt;참고링크&lt;/a&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/master/addons/docs/docs/media/docs-tab.png&quot; alt=&quot;Docs&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Viewport : 뷰포트 크기와 방향을 조정하여 반응형 구성 요소를 체크 기능
+&lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/master/addons/viewport/docs/viewport.png&quot; alt=&quot;Viewport&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Storyshots : Jest, Puppeteer 를 이용하여 테스트(기능,디바이스별) 해볼수 있음.
+&lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/HEAD/addons/storyshots/storyshots-core/docs/storyshots-fail.png&quot; alt=&quot;Storyshots-Jest&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Backgrounds : 미리보기 패널에 배경색을 변경할수 있음.
+&lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/master/docs/static/img/addon-backgrounds.gif&quot; alt=&quot;Backgrounds&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Accesibility : UI의 구성요소의 접근성 테스트 기능.
+&lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/HEAD/addons/a11y/docs/screenshot.png&quot; alt=&quot;Backgrounds&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Console : 콘솔창 기능.
+&lt;img src=&quot;https://raw.githubusercontent.com/storybooks/storybook-addon-console/master/docs/storybook-addon-console.png&quot; alt=&quot;Console&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Links : 스토리북간의 링크(router 네비게이트 같은기능)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[window.scrollY vs window.pageYOffset]]></title><description><![CDATA[어떤게 표준일까? window.scrollX, window.scrollY, pageXOffset,pageYOffset]]></description><link>https://ipadorusa.com/posts/scrollY, pageYOffset</link><guid isPermaLink="false">https://ipadorusa.com/posts/scrollY, pageYOffset</guid><pubDate>Wed, 15 Jan 2020 13:04:12 GMT</pubDate><content:encoded>&lt;h1&gt;window.scrollY vs window.pageYOffset ?&lt;/h1&gt;
 &lt;p&gt;어떤게 표준일까?&lt;/p&gt;
 &lt;h1&gt;window.scrollX vs window.pageXOffset ?&lt;/h1&gt;
 &lt;p&gt;어떤게 표준일까?&lt;/p&gt;
