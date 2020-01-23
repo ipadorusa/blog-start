@@ -1,4 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[GATSBY로 만든 블로그]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Tue, 21 Jan 2020 13:49:06 GMT</lastBuildDate><item><title><![CDATA[경제 관련 꿀팁 정보]]></title><description><![CDATA[[펌]경제 관련 꿀팁 정보, 앞으로의 10 년을 생각해야하는 나로써는 경제공부를 안할수가 없다. 주식 및 추가 소득을 위한 공부]]></description><link>https://ipadorusa.com/posts/경제관련꿀팁정보</link><guid isPermaLink="false">https://ipadorusa.com/posts/경제관련꿀팁정보</guid><pubDate>Tue, 21 Jan 2020 13:45:05 GMT</pubDate><content:encoded>&lt;h1&gt;경제공부 무료로 하는 꿀팁&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[GATSBY로 만든 블로그]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Thu, 23 Jan 2020 14:39:10 GMT</lastBuildDate><item><title><![CDATA[Storybook Vue 설치 (1)]]></title><description><![CDATA[Storybook Vue 설치 해보자. 윈도우 버전에서는 Automactic setup 시키는대로 하면 작동이 안됐는데. 일단 맥에서 해보자]]></description><link>https://ipadorusa.com/posts/Storybook-vue-step02</link><guid isPermaLink="false">https://ipadorusa.com/posts/Storybook-vue-step02</guid><pubDate>Thu, 23 Jan 2020 14:38:30 GMT</pubDate><content:encoded>&lt;h1&gt;Storybook Vue 버전으로 설치 해보자&lt;/h1&gt;
+&lt;p&gt;vue 버전으로 설치 설명글은 &lt;a href=&quot;https://storybook.js.org/docs/guides/guide-vue/&quot;&gt;https://storybook.js.org/docs/guides/guide-vue/&lt;/a&gt;에 나와있다.&lt;/p&gt;
+&lt;p&gt;두가지 방법이 있다.
+참고로 윈도우에서는 Automactic setup 으로 하면 모듈이 부족했는데… Mac 에서는 어떤가 모 같겠지만… 기억으로 dependencies 부족으로…&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Automactic setup &lt;a href=&quot;https://storybook.js.org/docs/guides/guide-vue/#automatic-setup&quot;&gt;공식문서 link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Manual setup &lt;a href=&quot;https://storybook.js.org/docs/guides/guide-vue/#manual-setup&quot;&gt;공식문서 link&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Automactic setup 으로 설치&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt; npx -p @storybook/cli sb init --type vue&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;짜짠…설치후 yarn storybook…&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;ERR! Error: Cannot find module &amp;#39;vue-loader/lib/plugin&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;vue-loader 를 찾을수 없다며…
+vue-loader 를 npm 으로 설치하면 될듯하나.. 몬가 첫 시작부터 찜찜하니.. package.json 을 까봤다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;quot;dependencies&amp;quot;: {},
+&amp;quot;devDependencies&amp;quot;: {
+  &amp;quot;@babel/core&amp;quot;: &amp;quot;^7.8.3&amp;quot;,
+  &amp;quot;@storybook/addon-actions&amp;quot;: &amp;quot;^5.3.8&amp;quot;,
+  &amp;quot;@storybook/addon-links&amp;quot;: &amp;quot;^5.3.8&amp;quot;,
+  &amp;quot;@storybook/addons&amp;quot;: &amp;quot;^5.3.8&amp;quot;,
+  &amp;quot;@storybook/vue&amp;quot;: &amp;quot;^5.3.8&amp;quot;,
+  &amp;quot;babel-loader&amp;quot;: &amp;quot;^8.0.6&amp;quot;,
+  &amp;quot;babel-preset-vue&amp;quot;: &amp;quot;^2.0.2&amp;quot;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;많이 부족하다. vue 도 dependencies 에도 설치가 안되어 있고. 기분이 찜찜하다.
+3 년전에도 Storybook 은 vue 를 편하게 지원하지 않았다.
+vue-loader 만 설치한다고 해결 되지가 않을꺼 같아 Manual setup(수동 설치)는 어떻게 하나 살펴 봤다.&lt;/p&gt;
+&lt;h2&gt;Manual setup&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install @storybook/vue --save-dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;추가적으로 vue, vue-loader, vue-template-compiler, @babel/core, babel-loader and babel-preset-vue 를 설치하라고 나왔있다.
+그래서 Automactic setup 이 설치한 폴더에서 아래처럼 추가 설치를 하였다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install vue --save
+npm install vue-loader vue-template-compiler @babel/core babel-loader babel-preset-vue --save-dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;실행&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm run storybook&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;짜짠 설치 완료.
+왜 그럴까;;; 내가 무엇을 놓친걸까…
+이렇게 하는게 맞는걸까?&lt;/p&gt;</content:encoded></item><item><title><![CDATA[경제관련 공부하면서 읽은 블로그나 괜찮은 링크 저장 및 요약]]></title><description><![CDATA[경제관련 공부하면서 읽은 블로그나 괜찮은 링크 저장 및 요약]]></description><link>https://ipadorusa.com/posts/20200123-경제공부</link><guid isPermaLink="false">https://ipadorusa.com/posts/20200123-경제공부</guid><pubDate>Wed, 22 Jan 2020 22:10:00 GMT</pubDate><content:encoded>&lt;h1&gt;네이버 경제 탭에 선정된 내용 공부하기&lt;/h1&gt;
+&lt;h2&gt;1. &lt;a href=&quot;https://post.naver.com/viewer/postView.nhn?volumeNo=27331272&amp;#x26;memberNo=15470144&quot;&gt;강남 아파트값 뛸때 삼성전자 주식은 날았다.. 주식 vs 부동산 투자수익률 분석&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;강남 A아파트와 삼성전자 주식 비교를 장기투자로 볼경우 주식이 부동산 투자보다 괜찮은 자산이다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;2. &lt;a href=&quot;https://post.naver.com/viewer/postView.nhn?volumeNo=27241097&amp;#x26;memberNo=11166748&quot;&gt;초저금리 시대, 자투리 시간 투자해 푼돈 모이는 ‘앱테크’인기&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;잔돈,푼돈으로 어떻게 투자로 사용이 되는가에 대한 다양한 방법을 소개  (정확하게 어떤 취지로 쓴글인지는…)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;3. [13월의 월급 VS 세금 폭탄, 달라진 2020 연말정산의 모든 것] (&lt;a href=&quot;https://post.naver.com/viewer/postView.nhn?volumeNo=27309434&amp;#x26;memberNo=24109238&quot;&gt;https://post.naver.com/viewer/postView.nhn?volumeNo=27309434&amp;#x26;memberNo=24109238&lt;/a&gt;)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;2020년 연말정산 바뀐점(박물관과 미술관 입장료에 대해 30% 소득공제, 산후조리원 지출 비용 최대 200만원, 고액 기부금 세액공제 기준 변경)&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;똑똑한 연말정산 체크리스트 5 &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;소득이 비슷한 맞벌이 부부라면 소득이 적은 사람에게 카드 사용 몰아주기&lt;/li&gt;
+&lt;li&gt;부부의 연봉 차이가 크다면 소득이 ㅁ낳은 배우자의 카드 집중적으로 사용하기&lt;/li&gt;
+&lt;li&gt;모든 공제는 급여의 25% 이상을 사용한 구간부터 공제 적용&lt;/li&gt;
+&lt;li&gt;공제 신고서에 잘몬된 부분은 없는지 사전에 꼼꼼히 살피기&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[경제 관련 꿀팁 정보]]></title><description><![CDATA[[펌]경제 관련 꿀팁 정보, 앞으로의 10 년을 생각해야하는 나로써는 경제공부를 안할수가 없다. 주식 및 추가 소득을 위한 공부]]></description><link>https://ipadorusa.com/posts/경제관련꿀팁정보</link><guid isPermaLink="false">https://ipadorusa.com/posts/경제관련꿀팁정보</guid><pubDate>Tue, 21 Jan 2020 13:45:05 GMT</pubDate><content:encoded>&lt;h1&gt;경제공부 무료로 하는 꿀팁&lt;/h1&gt;
 &lt;p&gt;앞으로의 10 년을 생각해야하는 나로써는 경제공부를 안할수가 없다.
 주 관심사는 주소득외 추가 소득을 어떻게 만드느냐..
 자주 가는 사이트에 경제공부 관련 사이트와 YOUTUBE 채널 정리된게 있어 퍼온다.
