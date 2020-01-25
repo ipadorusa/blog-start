@@ -75,6 +75,25 @@ npm install vue-loader vue-template-compiler @babel/core babel-loader babel-pres
 npm run storybook
 ```
 
+#### package.json 내용
+
+```
+"dependencies": {
+    "vue": "^2.6.11"
+  },
+"devDependencies": {
+  "@babel/core": "^7.8.3",
+  "@storybook/addon-actions": "^5.3.8",
+  "@storybook/addon-links": "^5.3.8",
+  "@storybook/addons": "^5.3.8",
+  "@storybook/vue": "^5.3.9",
+  "babel-loader": "^8.0.6",
+  "babel-preset-vue": "^2.0.2",
+  "vue-loader": "^15.8.3",
+  "vue-template-compiler": "^2.6.11"
+}
+```
+
 짜짠 설치 완료.
 왜 그럴까;;; 내가 무엇을 놓친걸까...
 이렇게 하는게 맞는걸까?
