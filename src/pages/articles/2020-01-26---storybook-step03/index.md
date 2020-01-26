@@ -1,6 +1,6 @@
 ---
 title: Storybook Vue 설치 (2)
-date: '2020-01-26 13:30:33'
+date: '2020-01-26 21:25:06'
 layout: post
 draft: false
 path: '/posts/Storybook-vue-step03'
@@ -200,11 +200,11 @@ export default {
 
 Props 의 showApp 에는 타입과 디폴트에 로그가 찍히게 해놨다. [vue-props 설명](https://kr.vuejs.org/v2/guide/components-props.html)에서 보면 된다.
 
-data 에는 스타일을 적용하기위해 넣었는데 logo 는 없는데 아마도 리액트에는 있지 않을까 한다.
+data 에는 정의된 내용을 보니 css 스타일을 넣어놨다 그중에 logo 는 없는데 정의된 걸 보니 아마도 리액트에는 있지 않을까 한다.
 
 그리고 methods 에는 onClick 이벤트 함수명을 넣었고
 
-@click="onClick" 를 찾아보면 this.showApp() 이라는걸 실행하게 했는데 이건 0-Welcome.stories.js 에 { action: linkTo('Button') } 과 props 로 연결이 된다
+@click="onClick" 를 찾아보면 this.showApp() 이라는걸 실행하게 했는데 이건 0-Welcome.stories.js 에 { action: linkTo('Button') } 과 props 로 연결이 된다.
 
 #### 요약
 
