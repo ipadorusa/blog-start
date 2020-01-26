@@ -9,7 +9,7 @@ module.exports = {
     url,
     siteUrl: url,
     title: 'Blog by IPADORUSA',
-    subtitle: 'GATSBY로 만든 블로그',
+    subtitle: '웹프론트엔드를 꿈꾼다',
     copyright: '© All rights reserved.',
     disqusShortname: 'ipadorusa-com',
     menu: [
