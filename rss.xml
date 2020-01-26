@@ -1,4 +1,393 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[GATSBY로 만든 블로그]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Thu, 23 Jan 2020 14:39:10 GMT</lastBuildDate><item><title><![CDATA[Storybook Vue 설치 (1)]]></title><description><![CDATA[Storybook Vue 설치 해보자. 윈도우 버전에서는 Automactic setup 시키는대로 하면 작동이 안됐는데. 일단 맥에서 해보자]]></description><link>https://ipadorusa.com/posts/Storybook-vue-step02</link><guid isPermaLink="false">https://ipadorusa.com/posts/Storybook-vue-step02</guid><pubDate>Thu, 23 Jan 2020 14:38:30 GMT</pubDate><content:encoded>&lt;h1&gt;Storybook Vue 버전으로 설치 해보자&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Sun, 26 Jan 2020 08:56:06 GMT</lastBuildDate><item><title><![CDATA[Storybook Vue 설치 (2)]]></title><description><![CDATA[Storybook Vue 설치후 폴더 구조 파악하기]]></description><link>https://ipadorusa.com/posts/Storybook-vue-step03</link><guid isPermaLink="false">https://ipadorusa.com/posts/Storybook-vue-step03</guid><pubDate>Sun, 26 Jan 2020 04:30:33 GMT</pubDate><content:encoded>&lt;h1&gt;Storybook Vue 폴더 구조 보기&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;/posts/Storybook-vue-step02&quot;&gt;Storybook Vue 설치 (1)&lt;/a&gt;에서 문제 없이 설치가 됐다면 아래 이미지처럼 폴더가 구성이 되어 있을 것이다.
+
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 588px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 43.53741496598639%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABEElEQVQoz42Q646CMBBGfRJhy60FEVpUQJc7roj6/o/zbZmExI1u5MdJmrZz5ptZhbsMMi9QD3eiuT7QDA8ESQoe7yDkfjFWnGMVBAFUkqCqa6KuG1RVhW0UQfg+uBCLYYHEinMOKRW6rkdRlDidvnEdR4yasqxgWTZsx4VtOx8xeaSFHodSCRVP6eJYwnU9eFzA1W+Oli1iFgru0cjH40mPWiMMt2DMok9z508y+1l4ODCk6R7n8w/atsPlMlDaaQXT3e12p9Rzk3eyP0KlLD2yov3NpGmGLMux2YQQwqcV/Jf0RShjpotTStP3PSVsmpbScr3HKdkseyd9ETJmU9F6bcAwTJjmFzGdn0VLE/4CVoYSEFjda/8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;스토리북폴더구조&quot;
+        title=&quot;&quot;
+        src=&quot;/static/storybook_structure_01-d6fbc2598394efefc91a0f793771f46e-2d8cd.png&quot;
+        srcset=&quot;/static/storybook_structure_01-d6fbc2598394efefc91a0f793771f46e-5bdce.png 240w,
+/static/storybook_structure_01-d6fbc2598394efefc91a0f793771f46e-af669.png 480w,
+/static/storybook_structure_01-d6fbc2598394efefc91a0f793771f46e-2d8cd.png 588w&quot;
+        sizes=&quot;(max-width: 588px) 100vw, 588px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/p&gt;
+&lt;h3&gt;.storybook 폴더(main.js)&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  stories&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;../stories/**/*.stories.js&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  addons&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;@storybook/addon-actions&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;@storybook/addon-links&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;main.js 내용을 보자 stories Key 에는 [’../stories/*&lt;em&gt;/&lt;/em&gt;.stories.js’] stories.js 를 넣고 있고 addons Key 에는 에드온들을 넣고 있다.
+그럼 stories.js 라는 확장자명을 가진 파일들을 활용한다고 볼수 있고 에드온도 main.js 에서 선언을 해야한다는걸 추측할수 있다.&lt;/p&gt;
+&lt;h3&gt;stories 폴더&lt;/h3&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/storybook_structure_02-4d8873107dff051551919a514ccbc778-55349.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 432px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 49.074074074074076%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABhklEQVQoz3WRZ3LCQAxGfRP67rrhQjUG00ILxUDoSe5/jC/SzjiTUH68kVc7lp60hutWEYY1XK83bLc7fH19Y7NJUSyWIIREpSJeUi5XHnIG/ySlhG07sCxbR6VMFApF5PMFDX9nZGdumBX9W9iwLIXFooI4bmM6neF4POJ8vmC1WpPxVltzfr/fY73e0P0Js9lc57jwg6GUCqYpCOvXMghC+H6g8Txfw7lsPY1GE7VaHaVS+bGgaUoylPSzq7teyG5NdintsddLtCmbLZcrTCdTDTfP5fL/Rs4w+NLzTUil4JBBo9nS3etk4ZEhR841W21EnQ4Rw6JJBE32DMMLfaxSF8mwj/PtE4fTGbvDAen+A5P5ArP3JeKkj5JQkLQOQZjU2Kp6sDjeYdiuCz+04QUBOt0eukmCKO6i2Y5QI7suFWNDSZOYZMYoKvoKGllhMBCo10Ok6Q5zsuLdjcdvmn5/oB8qe4D7nT3sUCmJKBJwHBuj0RjD4UgXSciMI58dx336os/4ATHPO8W8iWONAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;스토리북폴더구조&quot;
+        title=&quot;&quot;
+        src=&quot;/static/storybook_structure_02-4d8873107dff051551919a514ccbc778-55349.png&quot;
+        srcset=&quot;/static/storybook_structure_02-4d8873107dff051551919a514ccbc778-606d3.png 240w,
+/static/storybook_structure_02-4d8873107dff051551919a514ccbc778-55349.png 432w&quot;
+        sizes=&quot;(max-width: 432px) 100vw, 432px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+어떻게 구성이 되어 있나를 분석하기 위해 0-Welcome.stories.js 와 Welcome.js 를 파일 내용을 비교해 봤다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;//0-Welcome.stories.js 내용&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; linkTo &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;@storybook/addon-links&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Welcome &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;./Welcome&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  title&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Welcome&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  component&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Welcome&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;ToStorybook&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  components&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Welcome &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  template&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&amp;lt;welcome :showApp=&quot;action&quot; /&gt;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  methods&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; action&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;linkTo&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Button&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+ToStorybook&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;story &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;to Storybook&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;0-Welcome.stories.js 내용해석&lt;/h2&gt;
+&lt;p&gt;첫줄은 @storybook/addon-links 로 스토리북내에 링크를 걸기 위해 불렀고 ToStorybook 함수내 methods 에 action 에 걸린걸 알수 있다.
+Welcome 이라는 이름으로 ./Welcome 스크립트를 import 시켰다.
+그리고 title 은 ‘Welcome’ 이름으로 내보냈고 component 명은 Welcome 으로 내보냈다.&lt;/p&gt;
+&lt;p&gt;export const ToStorybook 에 내용은&lt;/p&gt;
+&lt;p&gt;컴포넌트는 Welcome 이고, template: 에는 &amp;#x3C;welcome 이름의 콤포넌트에 :showApp 에는 props 를 받았다.&lt;/p&gt;
+&lt;p&gt;액션에는 stroybook linkTo 를 ‘Button’ (.stories.js 의 export default 에 title 에 따라간다)이동하게 할당했고 ToStorybook.story 의 name 은 to Storybook 이라고 명명하였는데 이것은 메뉴명 2depth 에 이름이다.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/storybook_2depth-b8a1e060f7e90afbe39d68958b2218ff-07553.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 414px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 89.85507246376812%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAABYlAAAWJQFJUiTwAAAC+0lEQVQ4y62TTW9bRRSGvWJBWfBDqACprVggdYNAYoPYwwKJDfwUNlSoRSARp6YqBdrYSYrz1bR1kiZO0kC+KLfCidu0OE2c2L6+vt93xk9nxnXqFJcVIz06c+eeeeecM2dSXizxGx6BVSGwffxEIukMbQXPh/4O4jZemOBHAjeIDS0/MmualKud5iz4aoTG2Ao/568zMT7F9K0CC4vLjFzPMzM3z83bM1zLDlOtNQiTjmjTDXhc2eOg3jTCRjDRJ1tP4OtxksUt1svbLC2tMF9cYna+yPjkDWbvLDCtBCemptk/rB8JOl5IvdnCbnnPBRfv/qE2FClMFVQkCxSXV1hYukupvGNSbHN8BKpE3ZS1dYPIiHVLkDr3zXnSFzN8PzDAD+mLikEufPsdg5lLR2l166PRgnpzP4zgzcIsw6N5Rn8bV4xxdSjHpctXuDUzZ9Kp1mwqe1X2D+o8fFxRNXvCo392Td26kR4TVNb8sFu+isbHdjxqtqPEXLOmOWw4Bn0hB+oALVazWzSUr86gN4uUOcWclPwrha5T91una1LuSbvXx0TYChLqvsJTUbohTV/1Vah+RlJZaeaO8nk54gi9N0XosufEVJoxD+6tsr5cpGxtGu6v/U6zutu567ZusKRj+6JqJ5Vgriy4uiX4VXHF8slstkivO2Q2HNIbLj/+FfLT34LLz/ilJMhtC7J9GNpSNTwxKHh1UPJ6RnJyqM2b2TZv5eCDCTibh1PDbd7LS94Zkbw/JnnjmuSVAclras+JF0kLUqdzkjPDgndHJR9OwsfT8GkBPrkNnxUkn89IvrgjzfxLZT+alLydFZzJCU4fQ3IqqyKsNCPu1wSb1YjNh/usPqiytnPIvYrNdiOhbIuOVWi70xTsthTOC6g1fQ+pwHN5ZCdsHYZYf26wurqGZVmUSiV8P0AkgiROOiQJsbJRH+JYEEZK0Iv0RKEWPNUqgXr4ftTpNU+3j36vxv4XifFt6T7sfaf96Dbvy95v73/T2P4z9f9L8CkCEyTiVfG9xQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;2depth메뉴&quot;
+        title=&quot;&quot;
+        src=&quot;/static/storybook_2depth-b8a1e060f7e90afbe39d68958b2218ff-07553.png&quot;
+        srcset=&quot;/static/storybook_2depth-b8a1e060f7e90afbe39d68958b2218ff-b70ff.png 240w,
+/static/storybook_2depth-b8a1e060f7e90afbe39d68958b2218ff-07553.png 414w&quot;
+        sizes=&quot;(max-width: 414px) 100vw, 414px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// Welcome.js 내용&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// eslint-disable-next-line no-console&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;log&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Welcome to storybook!&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;welcome&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+  props&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    showApp&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      type&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Function&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; log&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+  &lt;span class=&quot;token function&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      main&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        padding&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;15&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        lineHeight&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1.4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        fontFamily&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;token string&quot;&gt;&apos;&quot;Helvetica Neue&quot;, Helvetica, &quot;Segoe UI&quot;, Arial, freesans, sans-serif&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        backgroundColor&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;#ffffff&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+      logo&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        width&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+      link&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        color&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;#1474f3&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        textDecoration&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;none&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        borderBottom&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;1px solid #1474f3&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        paddingBottom&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+      code&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        fontSize&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;15&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        fontWeight&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;600&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        padding&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;2px 5px&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        border&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;1px solid #eae9e9&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        borderRadius&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        backgroundColor&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;#f3f2f2&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        color&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;#3a3a3a&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+      note&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        opacity&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+  template&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`
+    &amp;lt;div :style=&quot;main&quot;&gt;
+      &amp;lt;h1&gt;Welcome to STORYBOOK&amp;lt;/h1&gt;
+      &amp;lt;p&gt;
+        This is a UI component dev environment for your app.
+      &amp;lt;/p&gt;
+      &amp;lt;p&gt;
+        We&apos;ve added some basic stories inside the
+        &amp;lt;br /&gt;
+        &amp;lt;code :style=&quot;code&quot;&gt;src/stories&amp;lt;/code&gt;
+        &amp;lt;br /&gt;
+        directory.
+        &amp;lt;br /&gt;
+        A story is a single state of one or more UI components. You can have as many stories as
+        you want.
+        &amp;lt;br /&gt;
+        (Basically a story is like a visual test case.)
+      &amp;lt;/p&gt;
+      &amp;lt;p&gt;
+        See these sample
+        &amp;lt;br /&gt;
+        &amp;lt;a :style=&quot;link&quot; @click=&quot;onClick&quot; role=&quot;button&quot; tabIndex=&quot;0&quot;&gt;stories&amp;lt;/a&gt;
+        &amp;lt;br /&gt;
+        for a component called
+        &amp;lt;br /&gt;
+        &amp;lt;code :style=&quot;code&quot;&gt;Button&amp;lt;/code&gt;
+        .
+      &amp;lt;/p&gt;
+      &amp;lt;p&gt;
+        Just like that, you can add your own components as stories.
+        &amp;lt;br /&gt;
+        You can also edit those components and see changes right away.
+        &amp;lt;br /&gt;
+        (Try editing the &amp;lt;code :style=&quot;code&quot;&gt;Button&amp;lt;/code&gt; component
+        located at &amp;lt;code :style=&quot;code&quot;&gt;src/stories/Button.js&amp;lt;/code&gt;.)
+      &amp;lt;/p&gt;
+      &amp;lt;p&gt;
+        This is just one thing you can do with Storybook.
+        &amp;lt;br /&gt;
+        Have a look at the
+        &amp;lt;br /&gt;
+        &amp;lt;a
+          :style=&quot;link&quot;
+          href=&quot;https://github.com/storybookjs/storybook&quot;
+          target=&quot;_blank&quot;
+          rel=&quot;noopener noreferrer&quot;
+        &gt;
+          Storybook
+        &amp;lt;/a&gt;
+        &amp;lt;br /&gt;
+        repo for more information.
+      &amp;lt;/p&gt;
+      &amp;lt;p :style=&quot;note&quot;&gt;
+        &amp;lt;b&gt;NOTE:&amp;lt;/b&gt;
+        &amp;lt;br /&gt;
+        Have a look at the
+        &amp;lt;br /&gt;
+        &amp;lt;code :style=&quot;code&quot;&gt;.storybook/webpack.config.js&amp;lt;/code&gt;
+        &amp;lt;br /&gt;
+        to add webpack
+        loaders and plugins you are using in this project.
+      &amp;lt;/p&gt;
+    &amp;lt;/div&gt;
+  `&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+
+  methods&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;onClick&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;event&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      event&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;preventDefault&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;showApp&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Welcome.js 내용해석&lt;/h3&gt;
+&lt;p&gt;Props 의 showApp 에는 타입과 디폴트에 로그가 찍히게 해놨다. &lt;a href=&quot;https://kr.vuejs.org/v2/guide/components-props.html&quot;&gt;vue-props 설명&lt;/a&gt;에서 보면 된다.&lt;/p&gt;
+&lt;p&gt;data 에는 스타일을 적용하기위해 넣었는데 logo 는 없는데 아마도 리액트에는 있지 않을까 한다.&lt;/p&gt;
+&lt;p&gt;그리고 methods 에는 onClick 이벤트 함수명을 넣었고&lt;/p&gt;
+&lt;p&gt;@click=“onClick” 를 찾아보면 this.showApp() 이라는걸 실행하게 했는데 이건 0-Welcome.stories.js 에 { action: linkTo(‘Button’) } 과 props 로 연결이 된다&lt;/p&gt;
+&lt;h4&gt;요약&lt;/h4&gt;
+&lt;p&gt;스토리북은 참 가이드가… 불친절한거 같다. 아니면 내가 실력이 부족해서 그런거 일지도..&lt;/p&gt;</content:encoded></item><item><title><![CDATA[우한 폐렴으로 대한항공,아시아나 환불규정에 대해 알아보자]]></title><description><![CDATA[대한항공 사이트에 들어가니 우한 폐렴 관련 환불에 대해 공지가 나와 아시아나 항공는 어떤가 확인해 보았다.]]></description><link>https://ipadorusa.com/posts/travel-refund</link><guid isPermaLink="false">https://ipadorusa.com/posts/travel-refund</guid><pubDate>Sun, 26 Jan 2020 02:01:53 GMT</pubDate><content:encoded>&lt;h1&gt;우한 폐렴 비행기 환불 어떻게 되나? 대한항공과 아시아나 비교해보자&lt;/h1&gt;
+&lt;h2&gt;대한항공 모바일에서 안내되는 팝업&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/koreaair-5068fbadf5485b24df45c39f9954a9f5-85293.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 766px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 167.10182767624022%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAhABQDASIAAhEBAxEB/8QAGQABAQADAQAAAAAAAAAAAAAAAAQBAgMG/8QAGAEAAwEBAAAAAAAAAAAAAAAAAAEDAgT/2gAMAwEAAhADEAAAAd88qqS0YGbKZqJ3icQq7hnmxbl//8QAIBAAAQQBBAMAAAAAAAAAAAAAAwABAhIEERMhMyIjMv/aAAgBAQABBQKzJn1XDKGNuoWJtuRqyFBq6In2DyHVEl7MTqR+7//EABgRAAMBAQAAAAAAAAAAAAAAAAABEhAx/9oACAEDAQE/AYRK1D6f/8QAGREAAgMBAAAAAAAAAAAAAAAAAAEQERIx/9oACAECAQE/AdFy+iP/xAAiEAABAwMDBQAAAAAAAAAAAAAAARARAjFREiEiQXFygaH/2gAIAQEABj8CuXllq1RvgXl8Iw3QU9tVKpcXyVq+5//EAB4QAAICAgIDAAAAAAAAAAAAAAABETEhQRBxUWGR/9oACAEBAAE/IWvRPsRRehPoI8TKhOs5UDpKBDFW27FCl9ClK2nE/kSl4Wz4ot8J/9oADAMBAAIAAwAAABDD2gOD/wD/xAAZEQEBAQADAAAAAAAAAAAAAAABADERIUH/2gAIAQMBAT8QE8kHJOOpCxbX/8QAGREBAQADAQAAAAAAAAAAAAAAAQAQETFB/9oACAECAQE/EFHsPBu6XBf/xAAgEAEAAgICAgMBAAAAAAAAAAABABEhMUFRobFhcdHw/9oACAEBAAE/EEk+8P7H0YrJl6jQFeWYHHg5armzuKOddhXmYA2UHvLMR6VWmWprj+bXAbQ3zA3dDd6OoFHKmHZKgAIT+l3PZPPz/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;대한항공&quot;
+        title=&quot;&quot;
+        src=&quot;/static/koreaair-5068fbadf5485b24df45c39f9954a9f5-85293.jpeg&quot;
+        srcset=&quot;/static/koreaair-5068fbadf5485b24df45c39f9954a9f5-c81cf.jpeg 240w,
+/static/koreaair-5068fbadf5485b24df45c39f9954a9f5-87598.jpeg 480w,
+/static/koreaair-5068fbadf5485b24df45c39f9954a9f5-85293.jpeg 766w&quot;
+        sizes=&quot;(max-width: 766px) 100vw, 766px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;[대한항공] 우한 폐렴 관련 항공권 변경/환불 규정 안내&lt;/h3&gt;
+&lt;p&gt;중국 출/도착 항공권 (출발일 1/20~2/29, 발권일 1/24 일 이전) 대상 환불 위약금 면제, 예약/여정 변경 허용 및 재발행 수수료 1 회 면제 (운임 차액 발생 시 징수) 하오니 해당 기간 항공편 이용 고객께서는 참고하여 주시기 바랍니다.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/asiana-ea18fb6f94d5bf3e2902478280f7339f-52cb4.jpeg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 591px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 216.58206429780034%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAArABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECAwUE/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAABktpmKbQDUhEgrlVSdpWH/8QAHBAAAQQDAQAAAAAAAAAAAAAAAAIDEBQBIUER/9oACAEBAAEFAq7hXcK7ke4jZuOx2FCFqyo//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwFf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwFf/8QAGhAAAgIDAAAAAAAAAAAAAAAAADEBERAwof/aAAgBAQAGPwJC6LbJV4//xAAeEAACAQUAAwAAAAAAAAAAAAAAAREhMVFhkRBBcf/aAAgBAQABPyGhZTaNTgeJ1DamxoJWC4WiGfDEo9sjwVc9IHaUBAagSUs//9oADAMBAAIAAwAAABBgxTDwD//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QX//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QX//EACEQAQACAgEDBQAAAAAAAAAAAAEAESFRQTFhcYGRwdHw/9oACAEBAAE/EFgeFV8zX+7vFPU8fdBoq53Ck56CPDT0jR0YvUwSSuSolLDblJauzyxDHCXOeGBo9DBTl947KkFl4KjijUUrdrnLqf/Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;아시아나항공&quot;
+        title=&quot;&quot;
+        src=&quot;/static/asiana-ea18fb6f94d5bf3e2902478280f7339f-52cb4.jpeg&quot;
+        srcset=&quot;/static/asiana-ea18fb6f94d5bf3e2902478280f7339f-4fbe5.jpeg 240w,
+/static/asiana-ea18fb6f94d5bf3e2902478280f7339f-63875.jpeg 480w,
+/static/asiana-ea18fb6f94d5bf3e2902478280f7339f-52cb4.jpeg 591w&quot;
+        sizes=&quot;(max-width: 591px) 100vw, 591px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;[아시아나] 신종 바이러스 관련 중국노선 수수료 임시 면제 안내&lt;/h3&gt;
+&lt;p&gt;고객 여러분께 안내 드립니다.
+아시아나항공에서는 2020 년 1 월 24 일 이전에 발권하신 한국 ↔ 중국 노선이 포함된 여정(코드셰어 항공편 포함)에 대해 환불 혹은 변경하실 경우 수수료를 면제해 드립니다.&lt;/p&gt;
+&lt;p&gt;◎ 적용 대상&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;한국 ↔ 중국 출도착 확약 고객&lt;/li&gt;
+&lt;li&gt;한국 ↔ 중국 출도착이 포함된 이원구간 확약 고객&lt;/li&gt;
+&lt;li&gt;한국 ↔ 중국 노선 이외 타 노선 확약 고객 (단, 타 항공사 중국 ↔ 한국노선 항공권 소지 고객)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;◎ 지원 기간&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;출발일: 2020 년 1 월 24 일 ~ 3 월 31 일&lt;/li&gt;
+&lt;li&gt;발권일: 2020 년 1 월 24 일 이전 발권기준&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;◎ 수수료 면제 대상&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;항공권 환불 수수료&lt;/li&gt;
+&lt;li&gt;항공권 재 발행 수수료&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;◎ 항공권 처리 안내
+가. 아시아나항공 온라인 플랫폼(PC/모바일웹, APP) 및 예약센터 구매 고객&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;통합 예약 센터&lt;/p&gt;
+&lt;p&gt;한국 : +82-2-2669-8000 (1588-8000)&lt;/p&gt;
+&lt;p&gt;미주 : +1-800-227-4262&lt;/p&gt;
+&lt;p&gt;중국 : +86-10-8451-0101&lt;/p&gt;
+&lt;p&gt;일본 : +81-3-5812-6600&lt;/p&gt;
+&lt;p&gt;Other offices : &lt;a href=&quot;https://flyasiana.com/C/KR/KO/contents/domestic-overseas-branches&quot;&gt;바로가기&lt;/a&gt;&gt;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;※ 온라인 플랫폼에서 항공권 환불/변경을 하는 경우 수수료 면제가 되지 않으니 예약센터로 문의바랍니다.&lt;/p&gt;
+&lt;p&gt;나. 그외(여행사, 대리점, 그외 예약사이트) 구매 고객&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;해당 구매처 변경/환불 취소 가능&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;◎ 주의 사항&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;여정 사전 취소 필수&lt;/li&gt;
+&lt;li&gt;항공권 유효기간 이내에 변경, 운임 및 세금 차액은 지불 조건&lt;/li&gt;
+&lt;li&gt;타 항공사 한국 ↔ 중국 노선 항공권 소지 시 증빙 제출 필수&lt;/li&gt;
+&lt;li&gt;홍콩, 대만 노선 제외&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;감사합니다.&lt;/p&gt;
+&lt;p&gt;라고 작성되어 있다.&lt;/p&gt;
+&lt;h2&gt;환불 요약&lt;/h2&gt;
+&lt;h3&gt;대한항공, 아시아나항공 요약&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;공통점&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1/24 일 발권 이전 고객에 한해 환불 위약금 면제, 예약/여정 변경 허용 및 재발행 수수료 면제&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;차이점&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;출발일&lt;/li&gt;
+&lt;li&gt;대한항공 : 1/20~2/29&lt;/li&gt;
+&lt;li&gt;아시아나 : 1/24~3/31&lt;/li&gt;
+&lt;li&gt;환불 플랫폼&lt;/li&gt;
+&lt;li&gt;대한항공 : 안내된 정보 없음&lt;/li&gt;
+&lt;li&gt;아시아나 : 예약센터에서만 가능 (온라인 플랫폼에서 항공권 환불/변경을 하는 경우 수수료 면제가 되지 않으니 예약센터로 문의바랍니다.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;아시아나가 좀 더 명확하게 설명을 더 잘해준 거 같다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Storybook Vue 설치 (1)]]></title><description><![CDATA[Storybook Vue 설치 해보자. 윈도우 버전에서는 Automactic setup 시키는대로 하면 작동이 안됐는데. 일단 맥에서 해보자]]></description><link>https://ipadorusa.com/posts/Storybook-vue-step02</link><guid isPermaLink="false">https://ipadorusa.com/posts/Storybook-vue-step02</guid><pubDate>Thu, 23 Jan 2020 14:38:30 GMT</pubDate><content:encoded>&lt;h1&gt;Storybook Vue 버전으로 설치 해보자&lt;/h1&gt;
 &lt;p&gt;vue 버전으로 설치 설명글은 &lt;a href=&quot;https://storybook.js.org/docs/guides/guide-vue/&quot;&gt;https://storybook.js.org/docs/guides/guide-vue/&lt;/a&gt;에 나와있다.&lt;/p&gt;
 &lt;p&gt;두가지 방법이 있다.
 참고로 윈도우에서는 Automactic setup 으로 하면 모듈이 부족했는데… Mac 에서는 어떤가 모 같겠지만… 기억으로 dependencies 부족으로…&lt;/p&gt;
@@ -7,32 +396,47 @@
 &lt;li&gt;Manual setup &lt;a href=&quot;https://storybook.js.org/docs/guides/guide-vue/#manual-setup&quot;&gt;공식문서 link&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;Automactic setup 으로 설치&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt; npx -p @storybook/cli sb init --type vue&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt; npx -p @storybook/cli sb init --type vue&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;짜짠…설치후 yarn storybook…&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;ERR! Error: Cannot find module &amp;#39;vue-loader/lib/plugin&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;ERR&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; Error: Cannot &lt;span class=&quot;token function&quot;&gt;find&lt;/span&gt; module &lt;span class=&quot;token string&quot;&gt;&apos;vue-loader/lib/plugin&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;vue-loader 를 찾을수 없다며…
 vue-loader 를 npm 으로 설치하면 될듯하나.. 몬가 첫 시작부터 찜찜하니.. package.json 을 까봤다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;quot;dependencies&amp;quot;: {},
-&amp;quot;devDependencies&amp;quot;: {
-  &amp;quot;@babel/core&amp;quot;: &amp;quot;^7.8.3&amp;quot;,
-  &amp;quot;@storybook/addon-actions&amp;quot;: &amp;quot;^5.3.8&amp;quot;,
-  &amp;quot;@storybook/addon-links&amp;quot;: &amp;quot;^5.3.8&amp;quot;,
-  &amp;quot;@storybook/addons&amp;quot;: &amp;quot;^5.3.8&amp;quot;,
-  &amp;quot;@storybook/vue&amp;quot;: &amp;quot;^5.3.8&amp;quot;,
-  &amp;quot;babel-loader&amp;quot;: &amp;quot;^8.0.6&amp;quot;,
-  &amp;quot;babel-preset-vue&amp;quot;: &amp;quot;^2.0.2&amp;quot;
-}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token property&quot;&gt;&quot;dependencies&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token property&quot;&gt;&quot;devDependencies&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;@babel/core&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;^7.8.3&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;@storybook/addon-actions&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;^5.3.8&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;@storybook/addon-links&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;^5.3.8&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;@storybook/addons&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;^5.3.8&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;@storybook/vue&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;^5.3.8&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;babel-loader&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;^8.0.6&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;babel-preset-vue&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;^2.0.2&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;많이 부족하다. vue 도 dependencies 에도 설치가 안되어 있고. 기분이 찜찜하다.
 3 년전에도 Storybook 은 vue 를 편하게 지원하지 않았다.
 vue-loader 만 설치한다고 해결 되지가 않을꺼 같아 Manual setup(수동 설치)는 어떻게 하나 살펴 봤다.&lt;/p&gt;
 &lt;h2&gt;Manual setup&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install @storybook/vue --save-dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; @storybook/vue --save-dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;추가적으로 vue, vue-loader, vue-template-compiler, @babel/core, babel-loader and babel-preset-vue 를 설치하라고 나왔있다.
 그래서 Automactic setup 이 설치한 폴더에서 아래처럼 추가 설치를 하였다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install vue --save
-npm install vue-loader vue-template-compiler @babel/core babel-loader babel-preset-vue --save-dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; vue --save
+&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; vue-loader vue-template-compiler @babel/core babel-loader babel-preset-vue --save-dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3&gt;실행&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm run storybook&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; run storybook&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;package.json 내용&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token property&quot;&gt;&quot;dependencies&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;vue&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;^2.6.11&quot;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token property&quot;&gt;&quot;devDependencies&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;@babel/core&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;^7.8.3&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;@storybook/addon-actions&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;^5.3.8&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;@storybook/addon-links&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;^5.3.8&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;@storybook/addons&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;^5.3.8&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;@storybook/vue&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;^5.3.9&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;babel-loader&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;^8.0.6&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;babel-preset-vue&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;^2.0.2&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;vue-loader&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;^15.8.3&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;vue-template-compiler&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;^2.6.11&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;짜짠 설치 완료.
 왜 그럴까;;; 내가 무엇을 놓친걸까…
 이렇게 하는게 맞는걸까?&lt;/p&gt;</content:encoded></item><item><title><![CDATA[경제관련 공부하면서 읽은 블로그나 괜찮은 링크 저장 및 요약]]></title><description><![CDATA[경제관련 공부하면서 읽은 블로그나 괜찮은 링크 저장 및 요약]]></description><link>https://ipadorusa.com/posts/20200123-경제공부</link><guid isPermaLink="false">https://ipadorusa.com/posts/20200123-경제공부</guid><pubDate>Wed, 22 Jan 2020 22:10:00 GMT</pubDate><content:encoded>&lt;h1&gt;네이버 경제 탭에 선정된 내용 공부하기&lt;/h1&gt;
@@ -119,12 +523,12 @@ npm install vue-loader vue-template-compiler @babel/core babel-loader babel-pres
 웹팩 설정에
 plugins: [‘@babel/plugin-syntax-dynamic-import’, ‘transform-remove-console’]
 transform-remove-console 넣어 해결&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Storybook(Vue) 도입해 보자 - 1]]></title><description><![CDATA[Storybook(Vue) 도입해 보자 - 1]]></description><link>https://ipadorusa.com/posts/Storybook-vue-step01</link><guid isPermaLink="false">https://ipadorusa.com/posts/Storybook-vue-step01</guid><pubDate>Fri, 17 Jan 2020 04:23:12 GMT</pubDate><content:encoded>&lt;h1&gt;Storybook 을 도입해보자 - Vue.js&lt;/h1&gt;
-&lt;p&gt;3년전쯤 회사에 도입할려고 생각하고 준비 했었으나 많은 일(?)과 다른 사정으로 인해 준비를 못했었다.&lt;/p&gt;
-&lt;h2&gt;Storybook이란?&lt;/h2&gt;
-&lt;p&gt;Storybook은 UI컴포넌트를 직접 보면서 개발을 할 수 있는 환경을 제공하는 툴이다. 실제 프로젝트 내에서 실행 되는 것이 아니라 독립된 환경으로 실행한다.&lt;/p&gt;
-&lt;p&gt;순수 UI개발에 집중할 수 있게 해준다. Storybook을 잘 활용하면 UI개발 포함 (기획,디자인,개발)과의 협업 구조에서 원활하게 커뮤케이션과 빠른 이터레이션(iteration)을 통해 개발 생산성 효과 누릴수 있다.&lt;/p&gt;
+&lt;p&gt;3 년전쯤 회사에 도입할려고 생각하고 준비 했었으나 많은 일(?)과 다른 사정으로 인해 준비를 못했었다.&lt;/p&gt;
+&lt;h2&gt;Storybook 이란?&lt;/h2&gt;
+&lt;p&gt;Storybook 은 UI 컴포넌트를 직접 보면서 개발을 할 수 있는 환경을 제공하는 툴이다. 실제 프로젝트 내에서 실행 되는 것이 아니라 독립된 환경으로 실행한다.&lt;/p&gt;
+&lt;p&gt;순수 UI 개발에 집중할 수 있게 해준다. Storybook 을 잘 활용하면 UI 개발 포함 (기획,디자인,개발)과의 협업 구조에서 원활하게 커뮤케이션과 빠른 이터레이션(iteration)을 통해 개발 생산성 효과 누릴수 있다.&lt;/p&gt;
 &lt;p&gt;UI 개발을 하다 보면 빈번하게 일어나는 디자인 스펙 오류, 기획 프로세스 오류 등을 빠르게 확인 하여 수정 할 수 있으며, 개발자는 컴포넌트를 더욱 유연하고, 재사용 가능한 컴포넌트 개발을 할 수 있도록 도와준다.&lt;/p&gt;
-&lt;p&gt;Storybook의 경우 현재 많은 회사에서 사용 하고 있는데, Airbnb, Slack, Coursera 등과 많은 리액트 오픈소스 프로젝트에서 사용 되고 있다. &lt;/p&gt;
+&lt;p&gt;Storybook 의 경우 현재 많은 회사에서 사용 하고 있는데, Airbnb, Slack, Coursera 등과 많은 리액트 오픈소스 프로젝트에서 사용 되고 있다.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://storybook.js.org/docs/examples/&quot;&gt;Storybook 예시 사이트&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Storybook Addon 기능&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;https://storybook.js.org/addons/&quot;&gt;Storybook Addons&lt;/a&gt;&lt;/p&gt;
@@ -132,7 +536,7 @@ transform-remove-console 넣어 해결&lt;/p&gt;</content:encoded></item><item><
 그외 기능들은 &lt;a href=&quot;https://github.com/storybookjs/storybook/blob/next/ADDONS_SUPPORT.md&quot;&gt;Addon / Framework Support Table&lt;/a&gt; 을 보면 되겠다.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Knobs : 동적으로 Props를 통해 변화를 줄수 있는 기능
+&lt;p&gt;Knobs : 동적으로 Props 를 통해 변화를 줄수 있는 기능
 &lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/master/addons/knobs/docs/storybook-knobs-example.png&quot; alt=&quot;Knobs&quot;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -160,7 +564,7 @@ transform-remove-console 넣어 해결&lt;/p&gt;</content:encoded></item><item><
 &lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/master/docs/static/img/addon-backgrounds.gif&quot; alt=&quot;Backgrounds&quot;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Accesibility : UI의 구성요소의 접근성 테스트 기능.
+&lt;p&gt;Accesibility : UI 의 구성요소의 접근성 테스트 기능.
 &lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/HEAD/addons/a11y/docs/screenshot.png&quot; alt=&quot;Backgrounds&quot;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -184,8 +588,8 @@ transform-remove-console 넣어 해결&lt;/p&gt;</content:encoded></item><item><
 &lt;/blockquote&gt;
 &lt;p&gt;앞으로는&lt;/p&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;window.pageYOffset || document.documentElement.scrollTop&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;이렇게 사용하는걸 권장해야겠다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[와인에 관심을 갖다.]]></title><description><![CDATA[와인,만화로 배우는 와인의 역사]]></description><link>https://ipadorusa.com/posts/와인의 역사</link><guid isPermaLink="false">https://ipadorusa.com/posts/와인의 역사</guid><pubDate>Tue, 14 Jan 2020 13:23:05 GMT</pubDate><content:encoded>&lt;h1&gt;와인에 빠지다.&lt;/h1&gt;
-&lt;p&gt;원래는 와인을 좋아 하지 않았다. 기본적으로 위스키에 대한 허세(?)가 있었기 때문이다. 신혼 여행을 하면서 분위기에 취해 와인을 먹어보자며 포르투(porto)에서 포트와인을 먹었다. 처음 먹어보는 포트와인 매력에 빠져 포트와인 와이너리 투어도 신청을 했었다.&lt;/p&gt;
+&lt;p&gt;이렇게 사용하는걸 권장해야겠다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[와인에 관심을 갖다.]]></title><description><![CDATA[와인,만화로 배우는 와인의 역사, 그라함 와이너리 투어후 와인의 세계에 빠지게 된 나!]]></description><link>https://ipadorusa.com/posts/만화로 배우는 와인의 역사</link><guid isPermaLink="false">https://ipadorusa.com/posts/만화로 배우는 와인의 역사</guid><pubDate>Tue, 14 Jan 2020 13:23:05 GMT</pubDate><content:encoded>&lt;h1&gt;와인에 관심을 가지게 된 계기.&lt;/h1&gt;
+&lt;p&gt;나는 원래는 와인을 좋아 하지 않았다. 기본적으로 위스키에 대한 허세(?)가 있었기 때문이다. 신혼 여행을 하면서 분위기에 취해 와인을 먹어보자며 포르투(porto)에서 포트와인을 먹었다. 처음 먹어보는 포트와인 매력에 빠져 포트와인 와이너리 투어도 신청을 했었다.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.grahams-port.com/&quot;&gt;그라함 와이너리&lt;/a&gt; 투어에서 영어 듣기 평가의 시간은 힘들었지만 마지막에 다양한 제품을 먹어보고 맛있어서 아직 신혼여행의 여정이 남아 있음에도 구매를 해서 여행기간에 힘들게 가지고 다녔다. 그 후 나는 와인에 푹 빠졌다.&lt;/p&gt;
 &lt;p&gt;2019 년 10 월부터 2019 년 12 월 31 일까지 먹은 와인 이다.&lt;/p&gt;
 &lt;p&gt;
