@@ -25,20 +25,20 @@ vue 버전으로 설치 설명글은 [https://storybook.js.org/docs/guides/guide
 
 ## Automactic setup 으로 설치
 
-```
+```bash
  npx -p @storybook/cli sb init --type vue
 ```
 
 짜짠...설치후 yarn storybook...
 
-```
+```bash
 ERR! Error: Cannot find module 'vue-loader/lib/plugin'
 ```
 
 vue-loader 를 찾을수 없다며....
 vue-loader 를 npm 으로 설치하면 될듯하나.. 몬가 첫 시작부터 찜찜하니.. package.json 을 까봤다.
 
-```
+```json
 "dependencies": {},
 "devDependencies": {
   "@babel/core": "^7.8.3",
@@ -57,27 +57,27 @@ vue-loader 만 설치한다고 해결 되지가 않을꺼 같아 Manual setup(�
 
 ## Manual setup
 
-```
+```bash
 npm install @storybook/vue --save-dev
 ```
 
 추가적으로 vue, vue-loader, vue-template-compiler, @babel/core, babel-loader and babel-preset-vue 를 설치하라고 나왔있다.
 그래서 Automactic setup 이 설치한 폴더에서 아래처럼 추가 설치를 하였다.
 
-```
+```bash
 npm install vue --save
 npm install vue-loader vue-template-compiler @babel/core babel-loader babel-preset-vue --save-dev
 ```
 
 ### 실행
 
-```
+```bash
 npm run storybook
 ```
 
 #### package.json 내용
 
-```
+```json
 "dependencies": {
     "vue": "^2.6.11"
   },
