@@ -172,5 +172,11 @@ module.exports = {
         precision: 8,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: `ca-pub-6536819024671226`,
+      },
+    },
   ],
 }
