@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Sun, 26 Jan 2020 08:56:06 GMT</lastBuildDate><item><title><![CDATA[Storybook Vue 설치 (2)]]></title><description><![CDATA[Storybook Vue 설치후 폴더 구조 파악하기]]></description><link>https://ipadorusa.com/posts/Storybook-vue-step03</link><guid isPermaLink="false">https://ipadorusa.com/posts/Storybook-vue-step03</guid><pubDate>Sun, 26 Jan 2020 04:30:33 GMT</pubDate><content:encoded>&lt;h1&gt;Storybook Vue 폴더 구조 보기&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Sun, 26 Jan 2020 14:02:15 GMT</lastBuildDate><item><title><![CDATA[Storybook Vue 설치 (2)]]></title><description><![CDATA[Storybook Vue 설치후 폴더 구조 파악하기]]></description><link>https://ipadorusa.com/posts/Storybook-vue-step03</link><guid isPermaLink="false">https://ipadorusa.com/posts/Storybook-vue-step03</guid><pubDate>Sun, 26 Jan 2020 12:25:06 GMT</pubDate><content:encoded>&lt;h1&gt;Storybook Vue 폴더 구조 보기&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;/posts/Storybook-vue-step02&quot;&gt;Storybook Vue 설치 (1)&lt;/a&gt;에서 문제 없이 설치가 됐다면 아래 이미지처럼 폴더가 구성이 되어 있을 것이다.
 
   &lt;span
@@ -247,9 +247,9 @@ Welcome 이라는 이름으로 ./Welcome 스크립트를 import 시켰다.
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3&gt;Welcome.js 내용해석&lt;/h3&gt;
 &lt;p&gt;Props 의 showApp 에는 타입과 디폴트에 로그가 찍히게 해놨다. &lt;a href=&quot;https://kr.vuejs.org/v2/guide/components-props.html&quot;&gt;vue-props 설명&lt;/a&gt;에서 보면 된다.&lt;/p&gt;
-&lt;p&gt;data 에는 스타일을 적용하기위해 넣었는데 logo 는 없는데 아마도 리액트에는 있지 않을까 한다.&lt;/p&gt;
+&lt;p&gt;data 에는 정의된 내용을 보니 css 스타일을 넣어놨다 그중에 logo 는 없는데 정의된 걸 보니 아마도 리액트에는 있지 않을까 한다.&lt;/p&gt;
 &lt;p&gt;그리고 methods 에는 onClick 이벤트 함수명을 넣었고&lt;/p&gt;
-&lt;p&gt;@click=“onClick” 를 찾아보면 this.showApp() 이라는걸 실행하게 했는데 이건 0-Welcome.stories.js 에 { action: linkTo(‘Button’) } 과 props 로 연결이 된다&lt;/p&gt;
+&lt;p&gt;@click=“onClick” 를 찾아보면 this.showApp() 이라는걸 실행하게 했는데 이건 0-Welcome.stories.js 에 { action: linkTo(‘Button’) } 과 props 로 연결이 된다.&lt;/p&gt;
 &lt;h4&gt;요약&lt;/h4&gt;
 &lt;p&gt;스토리북은 참 가이드가… 불친절한거 같다. 아니면 내가 실력이 부족해서 그런거 일지도..&lt;/p&gt;</content:encoded></item><item><title><![CDATA[우한 폐렴으로 대한항공,아시아나 환불규정에 대해 알아보자]]></title><description><![CDATA[대한항공 사이트에 들어가니 우한 폐렴 관련 환불에 대해 공지가 나와 아시아나 항공는 어떤가 확인해 보았다.]]></description><link>https://ipadorusa.com/posts/travel-refund</link><guid isPermaLink="false">https://ipadorusa.com/posts/travel-refund</guid><pubDate>Sun, 26 Jan 2020 02:01:53 GMT</pubDate><content:encoded>&lt;h1&gt;우한 폐렴 비행기 환불 어떻게 되나? 대한항공과 아시아나 비교해보자&lt;/h1&gt;
 &lt;h2&gt;대한항공 모바일에서 안내되는 팝업&lt;/h2&gt;
