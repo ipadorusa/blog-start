@@ -178,5 +178,11 @@ module.exports = {
         publisherId: 'ca-pub-6536819024671226',
       },
     },
+    {
+      resolve: 'gatsby-plugin-netlify',
+      options: {
+        cachePublic: false,
+      },
+    },
   ],
 }
