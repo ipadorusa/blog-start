@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Tue, 28 Jan 2020 01:23:02 GMT</lastBuildDate><item><title><![CDATA[경제공부, 주식 용어 정리를 해보자]]></title><description><![CDATA[경제공부, 주식 용어 정리를 해보자]]></description><link>https://ipadorusa.com/posts/stock-word</link><guid isPermaLink="false">https://ipadorusa.com/posts/stock-word</guid><pubDate>Mon, 27 Jan 2020 00:34:59 GMT</pubDate><content:encoded>&lt;h1&gt;주식용어 정리&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Tue, 28 Jan 2020 12:16:36 GMT</lastBuildDate><item><title><![CDATA[주식 테마주란?]]></title><description><![CDATA[문맹보다 무서운 금융문맹을 벗어나기 위해 스스로 공부한다. 테마주]]></description><link>https://ipadorusa.com/posts/stock-theme</link><guid isPermaLink="false">https://ipadorusa.com/posts/stock-theme</guid><pubDate>Mon, 27 Jan 2020 14:35:21 GMT</pubDate><content:encoded>&lt;h1&gt;주식 테마주란?&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;테마주는 주식시장에 상장된 주식으로서, 하나의 주제를 가진 사건에 의해 같은 방향으로 주가가 움직이는 종목군을 말한다. 정치, 연예, 레저, 과학기술, 부동산, 질병, 자원개발 등 다양한 종류의 테마주가 있다.
+18 세기 영국을 휩쓴 투자광풍인 남해회사거품 사건을 묘사한 그림(Edward Matthew Ward 作)
+일반적으로 같은 테마에 속한 종목들은 주가가 동반 상승하거나 동반 하락하는 유사한 움직임을 보인다. 예를 들면, 정부가 특정 분야의 과학기술을 지원할 계획을 발표하면 관련 기업의 주가가 오르고, 특정 질병이 유행하면 그 질병의 백신을 개발하는 기업의 주가가 오르는 식이다. 다만, 환율이나 유가와 같이 매우 광범위한 종목에 영향을 끼치는 것은 일반적으로 테마라 부르지 않는다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%ED%85%8C%EB%A7%88%EC%A3%BC&quot;&gt;자료출처&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;이라고 한다.&lt;/p&gt;
+&lt;h2&gt;현시점(2020-01-28) 테마주는 ?&lt;/h2&gt;
+&lt;p&gt;우한 폐렴 테마주가 있지 않을까? 라는 궁금증을 가지고 검색 해봄&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;항생제 및 치료제 관련주&lt;/li&gt;
+&lt;li&gt;마스크, 세정제 관련주&lt;/li&gt;
+&lt;li&gt;진단 키드 관련주&lt;/li&gt;
+&lt;li&gt;동물 약품 관련주&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;이런게 있다고 한다.&lt;/p&gt;
+&lt;h3&gt;재미난 테마주의 세계&lt;/h3&gt;
+&lt;p&gt;이슈만 있으면 오르는 주식.&lt;/p&gt;
+&lt;p&gt;슈카월드에서 소개된 파루(043200): 태양광이 주사업인데 플루관련… 왜 ? 오름…&lt;/p&gt;
+&lt;p&gt;관련 기사 : 사실 파루가 실체 없는 기대감에 잠깐 반짝하는 것은 이번 한 번만 있는 일은 아닙니다. 파루는 신재생에너지주 뿐 아니라 AI(조류독감)주, 슈퍼박테리아주, 신종플루주, 장마철 관련주 등 테마주로 묶여있습니다.&lt;a href=&quot;https://biz.chosun.com/site/data/html_dir/2017/08/02/2017080201652.html&quot;&gt;관련링크&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;관련 글들&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/DHzcUOAYpSs&quot;&gt;슈카월드 - 파루&lt;/a&gt;
+&lt;a href=&quot;https://www.opinionnews.co.kr/news/articleView.html?idxno=28559&quot;&gt;[이번주 증시태그] ‘우한 폐렴’ 테마주 주의보…실적 시즌 본격화&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[경제공부, 주식 용어 정리를 해보자]]></title><description><![CDATA[경제공부, 주식 용어 정리를 해보자]]></description><link>https://ipadorusa.com/posts/stock-word</link><guid isPermaLink="false">https://ipadorusa.com/posts/stock-word</guid><pubDate>Mon, 27 Jan 2020 00:34:59 GMT</pubDate><content:encoded>&lt;h1&gt;주식용어 정리&lt;/h1&gt;
 &lt;p&gt;중간중간 업데이트(2020-01-27 09:34:52)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;시가총액 비중 상한제도(30% 룰) : 코스피 200, 코스피 100, 코스피 50, KRX300 등 시장을 대표하는 지수에서 특정 종목의 시가총액 비중을 30%로 제한하는 제도다. (최근 삼성전자 주식이 이 룰에 적용 문제가 있었다. &lt;a href=&quot;https://www.mk.co.kr/news/stock/view/2020/01/70804/&quot;&gt;관련기사&lt;/a&gt; )&lt;/li&gt;
@@ -297,7 +320,7 @@ Welcome 이라는 이름으로 ./Welcome 스크립트를 import 시켰다.
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 167.10182767624022%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAhABQDASIAAhEBAxEB/8QAGQABAQADAQAAAAAAAAAAAAAAAAQBAgMG/8QAGAEAAwEBAAAAAAAAAAAAAAAAAAEDAgT/2gAMAwEAAhADEAAAAd88qqS0YGbKZqJ3icQq7hnmxbl//8QAIBAAAQQBBAMAAAAAAAAAAAAAAwABAhIEERMhMyIjMv/aAAgBAQABBQKzJn1XDKGNuoWJtuRqyFBq6In2HyHVEl7MTqR+7//EABgRAAMBAQAAAAAAAAAAAAAAAAABEhAx/9oACAEDAQE/AYRK1D6f/8QAGREAAgMBAAAAAAAAAAAAAAAAAAEQERIx/9oACAECAQE/AdFy+iP/xAAiEAABAgUEAwAAAAAAAAAAAAAAARACESExURIiQXFygaH/2gAIAQEABj8CuXmyxapVwLu+EsNwKe2iqlxfJWj7P//EAB4QAQACAgIDAQAAAAAAAAAAAAEAESExEEFRcZFh/9oACAEBAAE/IU+g+4Gh9Jf4SvUykXrOyo+JQGJtXcKaPqGV9unB+YIbi7PFDvhP/9oADAMBAAIAAwAAABDA2gOD/wD/xAAZEQEBAQEBAQAAAAAAAAAAAAABABExIUH/2gAIAQMBAT8QE+SDmSZ5IXF2v//EABkRAQEAAwEAAAAAAAAAAAAAAAEAEBExQf/aAAgBAgEBPxBR7DcG7pcF/8QAIBABAAICAgIDAQAAAAAAAAAAAQARITFBUaGxYXHR8P/aAAgBAQABPxBJPvD+x9GKyZeo0BXlmdHg5armzuIOddhXmYA2Cj3lmI9KrTLU0x/NrgNob5hbuhu9HUCjlTDtlQAEJ/S7nsnn5//Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 167.10182767624022%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAhABQDASIAAhEBAxEB/8QAGQABAQADAQAAAAAAAAAAAAAAAAQBAgMG/8QAGAEAAwEBAAAAAAAAAAAAAAAAAAEDAgT/2gAMAwEAAhADEAAAAd88qqS0YGbKZqJ3icQq7hnmxbl//8QAIBAAAQQBBAMAAAAAAAAAAAAAAwABAhIEERMhMyIjMv/aAAgBAQABBQKzJn1XDKGNuoWJtuRqyFBq6In2DyHVEl7MTqR+7//EABgRAAMBAQAAAAAAAAAAAAAAAAABEhAx/9oACAEDAQE/AYRK1D6f/8QAGREAAgMBAAAAAAAAAAAAAAAAAAEQERIx/9oACAECAQE/AdFy+iP/xAAiEAABAwMDBQAAAAAAAAAAAAAAARARAjFREiEiQXFygaH/2gAIAQEABj8CuXllq1RvgXl8Iw3QU9tVKpcXyVq+5//EAB4QAAICAgIDAAAAAAAAAAAAAAABETEhQRBxUWGR/9oACAEBAAE/IWvRPsRRehPoI8TKhOs5UDpKBDFW27FCl9ClK2nE/kSl4Wz4ot8J/9oADAMBAAIAAwAAABDD2gOD/wD/xAAZEQEBAQADAAAAAAAAAAAAAAABADERIUH/2gAIAQMBAT8QE8kHJOOpCxbX/8QAGREBAQADAQAAAAAAAAAAAAAAAQAQETFB/9oACAECAQE/EFHsPBu6XBf/xAAgEAEAAgICAgMBAAAAAAAAAAABABEhMUFRobFhcdHw/9oACAEBAAE/EEk+8P7H0YrJl6jQFeWYHHg5armzuKOddhXmYA2UHvLMR6VWmWprj+bXAbQ3zA3dDd6OoFHKmHZKgAIT+l3PZPPz/9k=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -332,7 +355,7 @@ Welcome 이라는 이름으로 ./Welcome 스크립트를 import 시켰다.
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 216.58206429780034%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAArABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECAwUE/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAABktpmKbQDUhEgrlVSdpWH/8QAHBAAAgEFAQAAAAAAAAAAAAAAAAIQAQMUIUER/9oACAEBAAEFAse4Y9wx3j2kbNx2OwwjtVj/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AV//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AV//xAAaEAACAgMAAAAAAAAAAAAAAAAAMQEREDCh/9oACAEBAAY/AkLotslXj//EAB8QAAIBBAIDAAAAAAAAAAAAAAABESExYZEQUUFxgf/aAAgBAQABPyGhZTKMTQfW2htTYwFOi4WCGejEo8sjgvuyB2lAQGoElLZ//9oADAMBAAIAAwAAABBgxTDQD//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QX//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QX//EACAQAQACAQQCAwAAAAAAAAAAAAEAESExQVFxgcGR0fD/2gAIAQEAAT8QWB0qvc/Xe4t1Ovug0Vc8wUN/ARdtPEaOhq+JgklclRKWG3KS1dnbEMcJc52YFp0MFN35ikqS2XgKOKOIpF2ucz//2Q==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 216.58206429780034%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAArABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECAwUE/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAABktpmKbQDUhEgrlVSdpWH/8QAHBAAAQQDAQAAAAAAAAAAAAAAAAIDEBQBIUER/9oACAEBAAEFAq7hXcK7ke4jZuOx2FCFqyo//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwFf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwFf/8QAGhAAAgIDAAAAAAAAAAAAAAAAADEBERAwof/aAAgBAQAGPwJC6LbJV4//xAAeEAACAQUAAwAAAAAAAAAAAAAAAREhMVFhkRBBcf/aAAgBAQABPyGhZTaNTgeJ1DamxoJWC4WiGfDEo9sjwVc9IHaUBAagSUs//9oADAMBAAIAAwAAABBgxTDwD//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QX//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QX//EACEQAQACAgEDBQAAAAAAAAAAAAEAESFRQTFhcYGRwdHw/9oACAEBAAE/EFgeFV8zX+7vFPU8fdBoq53Ck56CPDT0jR0YvUwSSuSolLDblJauzyxDHCXOeGBo9DBTl947KkFl4KjijUUrdrnLqf/Z&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -662,7 +685,7 @@ transform-remove-console 넣어 해결&lt;/p&gt;</content:encoded></item><item><
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 54.21875000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAQUA/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAEKzmzNTx//xAAZEAADAAMAAAAAAAAAAAAAAAABAhIDEBH/2gAIAQEAAQUCa7YZKLwQOb//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAdEAABAgcAAAAAAAAAAAAAAAABABECEiAhInGB/9oACAEBAAY/Asbpgx4mmhGxR//EABoQAAIDAQEAAAAAAAAAAAAAAAERACExEGH/2gAIAQEAAT8hCpAe7AyCz1UqKOgmwAUF3//aAAwDAQACAAMAAAAQiC//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPxBH/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGxABAQEBAQADAAAAAAAAAAAAAREAIUExUZH/2gAIAQEAAT8QOWCaz6D5nY8Mgh5X8wIuB2HHXRhg8DAWwuQvwb//2Q==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 54.21875000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAQUA/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAEKzmzNTx//xAAZEAADAAMAAAAAAAAAAAAAAAABAhIDEBH/2gAIAQEAAQUCa7YZKLwQOb//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAdEAABAgcAAAAAAAAAAAAAAAABABECEiAhInGB/9oACAEBAAY/Asbpgx4mmhGxR//EABoQAAIDAQEAAAAAAAAAAAAAAAERACExEGH/2gAIAQEAAT8hCpAe7AyCz1UqKOgmwAUF3//aAAwDAQACAAMAAAAQiC//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPxBH/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGhABAQEBAQEBAAAAAAAAAAAAAREAIUFRkf/aAAgBAQABPxA5YJrPgfM7DhkEPK/mBFwOw466MMHgYC2FyC9Df//Z&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
