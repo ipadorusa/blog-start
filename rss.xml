@@ -1,4 +1,131 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Tue, 28 Jan 2020 12:16:36 GMT</lastBuildDate><item><title><![CDATA[주식 테마주란?]]></title><description><![CDATA[문맹보다 무서운 금융문맹을 벗어나기 위해 스스로 공부한다. 테마주]]></description><link>https://ipadorusa.com/posts/stock-theme</link><guid isPermaLink="false">https://ipadorusa.com/posts/stock-theme</guid><pubDate>Mon, 27 Jan 2020 14:35:21 GMT</pubDate><content:encoded>&lt;h1&gt;주식 테마주란?&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Tue, 28 Jan 2020 13:30:23 GMT</lastBuildDate><item><title><![CDATA[미국 파이어(fire)족 조기은퇴족~!]]></title><description><![CDATA[Youtube TVN 영상을 보다가 알게 된 미국 파이어(FIRE)족 조기은퇴족이 궁금하여 찾아보았다.]]></description><link>https://ipadorusa.com/posts/Financial-Independence-Retire-Early</link><guid isPermaLink="false">https://ipadorusa.com/posts/Financial-Independence-Retire-Early</guid><pubDate>Tue, 28 Jan 2020 12:26:39 GMT</pubDate><content:encoded>&lt;h1&gt;미국 파이어(FIRE)족 조기은퇴족&lt;/h1&gt;
+&lt;p&gt;어제 Youtube 에 올라온 &lt;a href=&quot;https://www.youtube.com/watch?v=F4qzwYLJxYc&quot;&gt;30 살에 경제적 자유를 얻으면 펼쳐지는 삶 #FIRE 운동 | tvN Shift 2020 tvN Shift EP.4&lt;/a&gt;을 보고 대체 어떤 사람들일까 어떤 삶을 살았을까? 그들의 삶은 내용은 어떤가? 궁금해 졌다.&lt;/p&gt;
+&lt;h2&gt;FIRE 족이란?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Financial Independence Retire Early&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;재정적 독립과 이른 퇴직&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;궁금해졌다. 그래서 나는 구글과 네이버 그리고 책은 어떤 책이 있는지 알아보기로 했다.&lt;/p&gt;
+&lt;h3&gt;구글에 검색 결과&lt;/h3&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/google_fire-f1583a587bc24282cd4bda33dc0c0d3f-4a475.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 108.99854862119011%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAABYlAAAWJQFJUiTwAAADEklEQVQ4y5WUiXKcMAyG9/0fr2lmk7bsxWWwAR+Yc3f/SibQzaSZtJ4RPpEl+ZN29/sdaZqiqWtw4/m/CLdxHFHVDbp+RtvfcLvdsePNruswDGM4eL1eaeO2yTpfet5fflzP9n2PaZwwTrROazvcbzDdFU0H+LYl5T3a1tPBAd53aBod1rifJrKEzrCi1Uq+zHtP1g5hbce3XUqLuNTwXQvXWrTeYRh7LO3+Jvg0JKx0He/4kNMjVNGjyBcpRY9K0lo5QZYDrJ0pxiPqasRXLSi8FBL7U4qXU4b9McELyf5I8yhHllvohi5QHaT0mOd5E3b9cRwUspmqVpB1CSFz5EWKJI9DLyuBUgrUtG+dhjY1tNZBmqYhyy3t1aiqCs65Pwo7P6C1Hka3sKZF6zy5yJZZGOPogcbwsvO8vPCXLmd5i+jY4FekcTxZ4rLD+eSRxBTPYsT+2dBlMy60Zs38QcnjAwWFCbl1KhLqc5yymFytArDOtWShJdfaN1dNcNMYE9DiMXO4Kt0sNEbDWRNEygJKlRQXiaIoUJaLcDZJKQOHzB0rYuEHebRyUdgQHoSNIkSMnkhGwqfb+Foz419aUHhMSzz9irE/ZDgk9LLKkXXduxg9puJnsllYa4qZVoSPREoxzEWGulHIc+IwSzdEnLPvcOExx1MpFcabQt92Gy6MT13RT4SLUhXFT4bCwW5P01IgbtdbKBJ/q0BBYZo5vPyocDwTNmeD6EDoCIfLxSNNBhRiQBp3iM+eUnFEnvZ43VsqGrcP+CwcViUViJwkQ5SeERcZTiKBUDKAzR4wJiyMElvP0FvrQunjEHBt3Cy0hA2nl27IxSKHyDPKlApxfIEoBLnc04/+DZlFeL7iw2k3DMMDh4RJSdjUaiClE6Ui1UeqLPN8fVe6vmrBZf5c8hrffiZ4PQm8nilb8gLPUYJxnvE/bYkhfUadodcpnCcsqKIYqix+aDHNU2BvmqbgGseJe3ZvFV5bZXNZZPQIhyPO5wu+P33HIToQf/RAURRECBFymYPPvPGY+eP5wqcL8eX2G1ilpFypQS2lAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;구글에 검색 결과&quot;
+        title=&quot;&quot;
+        src=&quot;/static/google_fire-f1583a587bc24282cd4bda33dc0c0d3f-c83f1.png&quot;
+        srcset=&quot;/static/google_fire-f1583a587bc24282cd4bda33dc0c0d3f-569e3.png 240w,
+/static/google_fire-f1583a587bc24282cd4bda33dc0c0d3f-93400.png 480w,
+/static/google_fire-f1583a587bc24282cd4bda33dc0c0d3f-c83f1.png 960w,
+/static/google_fire-f1583a587bc24282cd4bda33dc0c0d3f-4a475.png 1378w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;관련 검색어로는&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;파이어족 한국&lt;/li&gt;
+&lt;li&gt;fire 족이 온다&lt;/li&gt;
+&lt;li&gt;파이어족이란&lt;/li&gt;
+&lt;li&gt;미국 파이어족&lt;/li&gt;
+&lt;li&gt;파이어족이 온다&lt;/li&gt;
+&lt;li&gt;조기은퇴 방법&lt;/li&gt;
+&lt;li&gt;파이어 운동&lt;/li&gt;
+&lt;li&gt;파이어족 특징&lt;/li&gt;
+&lt;li&gt;화이어 족&lt;/li&gt;
+&lt;li&gt;파이어족 나무위키&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;네이버 검색 결과&lt;/h3&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/naver_fire-6b8e39fb605f1c377e90c181b208fc05-34732.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 110.21021021021022%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAABYlAAAWJQFJUiTwAAADr0lEQVQ4y4VUS27jRhTUPXKArHOC2eYKWeUWvkRW2TlIdgmyCbzxaoIEwSCADXjgryR/ZIn6yxI/Itlskt38VqpbtsdwJk4Dxe5HkK9fVb3ujm5KbCuJuMoQchac3TTEVgnIRiGp8zeg7H95XeC9uML33u/oTLWHX/2/cRh+xC/+B9xkC/SHt5i7KxSokdXa/pA3j6hfgMVEWqKtanw720fn7Bt08GpUaKD4zFDaCtJW78DEaaM/xYRhkHJb835TC8zKAJ00y7BYLJDlOXzfg1I53PUaqUxQao1ECCRRtEumc4goRkxIkUArjcAPbCFJKFCmGh2lFB4eHmzCLCcNVUEIxXVJVEhkwaQF4iKHIs2qrFCUJcqqRFXXKIoCZU1GLMS875gXy+USORNyiSSpEcU1k9aQac2ENWLGVdHaStoX8rTtLsoqjaIu7bpjE5FaWRYWb42nBG/FnaZpWJXENoxYVcJ1CsHYIGZs5ixXpFi/Au1rWiSFxCZfQ1VqV6F5RDGFpvjGICkldTT0NZRW0I/VN22DmppVL6B1gUD6eEhWSFW6S2g+jJPYalhSVCEypClFpyTFI7RumbxlRU/cdvRkKiHJQGfcXL2o0HEcHBwcoCKVySTFyMlwdycwneYWztjAVF+8suXfGtuEh4eH2Nvbs24bOM6ICe8wHA4xvL+38WIxx+BuAGfiYPH43WQysT08n8/Zw/6uwienjo6OsNlsMB6P0O934bprtkvED12EoU8pImy3PqJoa+G6G6x5AFzXtf/F9OE5odlpvlgiy3KsHkp4HnsxamlWy2Qtgi0RNFwDrtdw/QZlkST4+t1XePflF/hp/0e6XZLiGqPRCqtVhNncI72Qla85B1i6ATfI7ObGCIMnQ22FiUzx8/53eP/bD/jjz78wmzm4ujpHr3eJ6+sukw+tDMPhgJsYTQd2fU9tR6ORZWdM9Tzvk8svh+fFpCQt4jih86aBm8+ejP90WWv2ngyheCLmi5wVJWwTSdFDXhwrK7xx0fd8BFEAkQl7AAwSSiZ4KMyd8FxhGLhYTAa8kkL06HC3e8G2ucbt7Y2lNh6PLS27dsbszSkGg4GlbGbTYs+UTZlNu2vXmtdQEMSWdlG2aNv/vxA+S3nmhfhw7VCvBtNZxp0l7ocCk6nRM2C7hJZyFJteNH0YIRABj2hqXc54BxjKzwn9YIsbngJjfb/Xw+XlBWl36XQXx8fHOD8/x8XFBeMem75v59PTU5ydndn45OTEnhwz/gHLYYMEkfJGbwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;네이버 검색 결과&quot;
+        title=&quot;&quot;
+        src=&quot;/static/naver_fire-6b8e39fb605f1c377e90c181b208fc05-c83f1.png&quot;
+        srcset=&quot;/static/naver_fire-6b8e39fb605f1c377e90c181b208fc05-569e3.png 240w,
+/static/naver_fire-6b8e39fb605f1c377e90c181b208fc05-93400.png 480w,
+/static/naver_fire-6b8e39fb605f1c377e90c181b208fc05-c83f1.png 960w,
+/static/naver_fire-6b8e39fb605f1c377e90c181b208fc05-34732.png 1332w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;관련 검색어로는&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;fire&lt;/li&gt;
+&lt;li&gt;financial freedom&lt;/li&gt;
+&lt;li&gt;조기은퇴&lt;/li&gt;
+&lt;li&gt;파이어족&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;네이버는 뉴스로 검색했다.&lt;/p&gt;
+&lt;h3&gt;교보문고 검색 결과&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&amp;#x26;mallGb=KOR&amp;#x26;barcode=9791187481638&amp;#x26;orderClick=LEA&amp;#x26;Kc=&quot;&gt;파이어족이 온다 금융위기 후 전 세계 젊은이들을 사로잡은 라이프스타일 혁명&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&amp;#x26;mallGb=KOR&amp;#x26;barcode=9791196765866&amp;#x26;orderClick=LAG&amp;#x26;Kc=&quot;&gt;파이낸셜 프리덤 경제적 자유를 이루는 부의 공식&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&amp;#x26;mallGb=KOR&amp;#x26;barcode=9791189093792&amp;#x26;orderClick=LAG&amp;#x26;Kc=&quot;&gt;조기은퇴, 할 수 있을까&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;3 개의 책이 있었다. 그중 파이낸셜 프리덤 경제적 자유를 이루는 부의 공식은 내가 봤던 TVN YOUTUBE 에 나온 사람이 쓴 책이였다.&lt;/p&gt;
+&lt;h4&gt;요약&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;특정한 기준으로 주식(배당주)을 통해 경제적 자유를…&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;악착같이 모아서 투자하라.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;책의 내용인듯&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;투자계좌에 자동으로 입금되는 급여비율을 높여라.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;모든 가욋돈을 최대한 빨리 수동 투자하라.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;기회가 된다면 책을 읽어 보고 싶다.&lt;/p&gt;
+&lt;p&gt;그런데 FIRE 를 하고 난 후의 삶은?????? 80 프로 이상을 투자했는데… 그후는 어떻게 살아야하나라는 궁금증이 생긴다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[주식 테마주란?]]></title><description><![CDATA[문맹보다 무서운 금융문맹을 벗어나기 위해 스스로 공부한다. 테마주]]></description><link>https://ipadorusa.com/posts/stock-theme</link><guid isPermaLink="false">https://ipadorusa.com/posts/stock-theme</guid><pubDate>Mon, 27 Jan 2020 14:35:21 GMT</pubDate><content:encoded>&lt;h1&gt;주식 테마주란?&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;테마주는 주식시장에 상장된 주식으로서, 하나의 주제를 가진 사건에 의해 같은 방향으로 주가가 움직이는 종목군을 말한다. 정치, 연예, 레저, 과학기술, 부동산, 질병, 자원개발 등 다양한 종류의 테마주가 있다.
 18 세기 영국을 휩쓴 투자광풍인 남해회사거품 사건을 묘사한 그림(Edward Matthew Ward 作)
