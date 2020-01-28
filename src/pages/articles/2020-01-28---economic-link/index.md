@@ -1,6 +1,6 @@
 ---
 title: 경제관련 Link(2020-01-28)
-date: '2020-01-23 12:00:00'
+date: '2020-01-28 07:00:00'
 layout: post
 draft: false
 path: '/posts/20200128-경제공부'
