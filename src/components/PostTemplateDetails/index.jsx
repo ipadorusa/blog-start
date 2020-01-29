@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import moment from 'moment'
 import Disqus from '../Disqus/Disqus'
 import './style.scss'
-import Adsense from '../adsense'
+import AdSense from 'react-adsense'
 
 class PostTemplateDetails extends React.Component {
   render() {
@@ -59,7 +59,13 @@ class PostTemplateDetails extends React.Component {
                 Published {moment(post.frontmatter.date).format('D MMM YYYY')}
               </em>
             </div>
-            <Adsense />
+            <AdSense.Google
+              client="ca-pub-6536819024671226"
+              slot="4449812832"
+              style={{ display: 'block' }}
+              layout="in-article"
+              format="fluid"
+            />
           </div>
 
           <div className="post-single__footer">

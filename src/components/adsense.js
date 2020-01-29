@@ -23,7 +23,7 @@ function Adsense() {
   return (
     <div style={{ padding: 8 }}>
       <ins
-        class="adsbygoogle"
+        className="adsbygoogle"
         style={{ display: 'block' }}
         data-ad-client={site.siteMetadata.adsense.adClient}
         data-ad-slot={site.siteMetadata.adsense.adSlot}
