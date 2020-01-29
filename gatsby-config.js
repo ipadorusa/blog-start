@@ -168,6 +168,7 @@ module.exports = {
       resolve: 'gatsby-plugin-google-adsense',
       options: {
         publisherId: 'ca-pub-6536819024671226',
+        adSlot: '4449812832',
       },
     },
     {
