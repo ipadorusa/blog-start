@@ -64,8 +64,8 @@ class PostTemplateDetails extends React.Component {
                 client="ca-pub-6536819024671226"
                 slot="4449812832"
                 style={{ display: 'block' }}
-                format="auto"
-                responsive="true"
+                layout="in-article"
+                format="fluid"
               />
             </div>
           </div>
