@@ -64,7 +64,7 @@ class PostTemplateDetails extends React.Component {
               slot="4449812832"
               style={{ display: 'block' }}
               layout="in-article"
-              format="fluid"
+              format="auto"
             />
           </div>
 
