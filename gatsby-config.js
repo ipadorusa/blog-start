@@ -174,7 +174,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-netlify',
       options: {
-        cachePublic: true,
+        cachePublic: false,
       },
     },
   ],
