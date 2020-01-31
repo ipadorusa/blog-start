@@ -25,7 +25,7 @@ description: 'WHO에서 신종 코로나, 비상사태 선포 하였다.'
 
 ## 존스홉킨스 대학에서 만든 코로나 바이러스 맵 안들어가짐.
 [우한폐렴 맵](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR3eKUPo-GlJCspMkKxWZ6p0pfuw2rJgUTCThvoF4rK4vYc3JchAnwb7U8Q#/bda7594740fd40299423467b48e9ecf6)
-중간중간 들어가서 보던 사이트인데.. 사이트가 무한 로딩중이네요.
+![현재상황 - 20200131 13:22](./now.png)
 
 ## 고민중
 4월달 태국 여행이 계획되어 있는데... 아... 취소를 해야하나 말아야하나.
