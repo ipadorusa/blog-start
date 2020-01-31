@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Thu, 30 Jan 2020 23:23:45 GMT</lastBuildDate><item><title><![CDATA[WHO "신종코로나, 비상사태 선포]]></title><description><![CDATA[WHO에서 신종 코로나, 비상사태 선포 하였다.]]></description><link>https://ipadorusa.com/posts/WHO 신종코로나, 비상사태 선포</link><guid isPermaLink="false">https://ipadorusa.com/posts/WHO 신종코로나, 비상사태 선포</guid><pubDate>Thu, 30 Jan 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;WHO 비상사태를 선언&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Fri, 31 Jan 2020 04:24:28 GMT</lastBuildDate><item><title><![CDATA[WHO "신종코로나, 비상사태 선포]]></title><description><![CDATA[WHO에서 신종 코로나, 비상사태 선포 하였다.]]></description><link>https://ipadorusa.com/posts/WHO 신종코로나, 비상사태 선포</link><guid isPermaLink="false">https://ipadorusa.com/posts/WHO 신종코로나, 비상사태 선포</guid><pubDate>Thu, 30 Jan 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;WHO 비상사태를 선언&lt;/h1&gt;
 &lt;p&gt;아침에 급상승 검색어로 WHO 비상사태가 검색어 1위이다.
 &lt;a href=&quot;https://search.naver.com/search.naver?where=nexearch&amp;#x26;query=who%20%EB%B9%84%EC%83%81%EC%82%AC%ED%83%9C&amp;#x26;sm=top_lve.agallgrpmamsi0en0sp0&amp;#x26;ie=utf8&quot;&gt;검색어 결과&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -9,7 +9,31 @@ WHO에서 비상상태가 선언되는 경우는 ‘국제공중보건 위기상
 &lt;/blockquote&gt;
 &lt;h2&gt;존스홉킨스 대학에서 만든 코로나 바이러스 맵 안들어가짐.&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR3eKUPo-GlJCspMkKxWZ6p0pfuw2rJgUTCThvoF4rK4vYc3JchAnwb7U8Q#/bda7594740fd40299423467b48e9ecf6&quot;&gt;우한폐렴 맵&lt;/a&gt;
-중간중간 들어가서 보던 사이트인데.. 사이트가 무한 로딩중이네요.&lt;/p&gt;
+
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 48.826291079812215%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsSAAALEgHS3X78AAABv0lEQVQozzVR24oTQRAdBJ+W4LoZ10lmJtPd1fd790zCboyC5CGCCiuCi6/+gv8PloRtiqbgcKhzaZz3WmvgIKUU+DgHYPiRaRp3426aCKWcc0IIYwzxcRwmuqV8WK/vmsvl8uPpiQuujbLOGKtx0Ua7EEqtPuVUqg2x7YbTh+P5fB6H0dXBzcPd23UTYrTW4kXnjA/OBR9C8CnFXD8/HEGGeyK32pPV+msINmUUIf1IgXTdprHWMAZaK1xwjLMx51xqzvV0eLQmvrrtV8zVd9vnWl1dtGFuJkJylNAopbgQSkkUbJ313h1ijHX5O02/fTil5faeNG/6ud38KtmWWUpqIsFQ+n5oMCfMAzMLyPMe2Usuh+XwR8hvMX+M5WY9NjfvYdX+POx9nYUgaAIAyT1e1piyVMr55NC0MSlEn+s+l8eyEBVXW/56I3I/fa8lzItU1BYiBHRdh57ttSSK1oEzyrAVysAAKMoGykpKJpcHBl9yxgL+k/ML+douOhccBGdSAAJSsusYxQRWzogZh0/zgmEyIMB3WH7bto3SGsnogXOmJMdxhkUnUpIGEQkYKEIgVd4flcvGBQYKBSL5H99RXMTe4B0kAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;현재상황 - 20200131 13:22&quot;
+        title=&quot;&quot;
+        src=&quot;/static/now-f0a6320d4fdf184032712c53c3a61975-c83f1.png&quot;
+        srcset=&quot;/static/now-f0a6320d4fdf184032712c53c3a61975-569e3.png 240w,
+/static/now-f0a6320d4fdf184032712c53c3a61975-93400.png 480w,
+/static/now-f0a6320d4fdf184032712c53c3a61975-c83f1.png 960w,
+/static/now-f0a6320d4fdf184032712c53c3a61975-23e13.png 1440w,
+/static/now-f0a6320d4fdf184032712c53c3a61975-2f5c5.png 1917w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/p&gt;
 &lt;h2&gt;고민중&lt;/h2&gt;
 &lt;p&gt;4월달 태국 여행이 계획되어 있는데… 아… 취소를 해야하나 말아야하나.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[inline-block div 간격 0으로 만들기]]></title><description><![CDATA[inline-block요소가 두개가 있으면 간격이 생긴다. 간격이 생기면 0으로 만들어주고 디자인 시안을 보고 여백을 줘야하는데]]></description><link>https://ipadorusa.com/posts/inline-block간격 없애기</link><guid isPermaLink="false">https://ipadorusa.com/posts/inline-block간격 없애기</guid><pubDate>Thu, 30 Jan 2020 08:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;inline-block div 간격 없애기&lt;/h1&gt;
 &lt;p&gt;인라인 블록 요소 연속으로 있으면 이렇게 약간의 4px정도가 생긴다. 이걸 해결하는 방법은 몇가지 방법이 있다.&lt;/p&gt;

@@ -40,13 +40,12 @@
 <url> <loc>https://ipadorusa.com/tags/테마주/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ipadorusa.com/posts/Storybook-vue-step03</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ipadorusa.com/posts/20200128-경제공부</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://ipadorusa.com/posts/WHO 신종코로나, 비상사태 선포</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ipadorusa.com/posts/20200129-경제공부</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ipadorusa.com/posts/wuhancoronavirus</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ipadorusa.com/tags/우한폐렴/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ipadorusa.com/tags/wuhancoronavirus/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ipadorusa.com/tags/존스홉킨스-코로나-바이러스-맵/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ipadorusa.com/categories/virus/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://ipadorusa.com/posts/20200129-경제공부</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://ipadorusa.com/posts/wuhancoronavirus</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ipadorusa.com/posts/inline-block간격 없애기</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ipadorusa.com/tags/html/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ipadorusa.com/tags/css/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -74,6 +73,7 @@
 <url> <loc>https://ipadorusa.com/tags/조기은퇴족/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ipadorusa.com/tags/fire-운동/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ipadorusa.com/tags/financial-independence-retire-early/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://ipadorusa.com/posts/WHO 신종코로나, 비상사태 선포</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ipadorusa.com/categories/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ipadorusa.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://ipadorusa.com/tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
