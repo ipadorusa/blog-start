@@ -1,9 +1,8 @@
 import React from 'react'
-import AdSense from 'react-adsense'
 import { Link } from 'gatsby'
 import moment from 'moment'
 import Disqus from '../Disqus/Disqus'
-
+import AdSense from 'react-adsense'
 import './style.scss'
 
 class PostTemplateDetails extends React.Component {
