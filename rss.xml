@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Fri, 31 Jan 2020 04:24:28 GMT</lastBuildDate><item><title><![CDATA[WHO "신종코로나, 비상사태 선포]]></title><description><![CDATA[WHO에서 신종 코로나, 비상사태 선포 하였다.]]></description><link>https://ipadorusa.com/posts/WHO 신종코로나, 비상사태 선포</link><guid isPermaLink="false">https://ipadorusa.com/posts/WHO 신종코로나, 비상사태 선포</guid><pubDate>Thu, 30 Jan 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;WHO 비상사태를 선언&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 01 Feb 2020 01:44:44 GMT</lastBuildDate><item><title><![CDATA[WHO "신종코로나, 비상사태 선포]]></title><description><![CDATA[WHO에서 신종 코로나, 비상사태 선포 하였다.]]></description><link>https://ipadorusa.com/posts/WHO 신종코로나, 비상사태 선포</link><guid isPermaLink="false">https://ipadorusa.com/posts/WHO 신종코로나, 비상사태 선포</guid><pubDate>Thu, 30 Jan 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;WHO 비상사태를 선언&lt;/h1&gt;
 &lt;p&gt;아침에 급상승 검색어로 WHO 비상사태가 검색어 1위이다.
 &lt;a href=&quot;https://search.naver.com/search.naver?where=nexearch&amp;#x26;query=who%20%EB%B9%84%EC%83%81%EC%82%AC%ED%83%9C&amp;#x26;sm=top_lve.agallgrpmamsi0en0sp0&amp;#x26;ie=utf8&quot;&gt;검색어 결과&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -16,19 +16,19 @@ WHO에서 비상상태가 선언되는 경우는 ‘국제공중보건 위기상
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 48.826291079812215%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsSAAALEgHS3X78AAABv0lEQVQozzVR24oTQRAdBJ+W4LoZ10lmJtPd1fd790zCboyC5CGCCiuCi6/+gv8PloRtiqbgcKhzaZz3WmvgIKUU+DgHYPiRaRp3426aCKWcc0IIYwzxcRwmuqV8WK/vmsvl8uPpiQuujbLOGKtx0Ua7EEqtPuVUqg2x7YbTh+P5fB6H0dXBzcPd23UTYrTW4kXnjA/OBR9C8CnFXD8/HEGGeyK32pPV+msINmUUIf1IgXTdprHWMAZaK1xwjLMx51xqzvV0eLQmvrrtV8zVd9vnWl1dtGFuJkJylNAopbgQSkkUbJ313h1ijHX5O02/fTil5faeNG/6ud38KtmWWUpqIsFQ+n5oMCfMAzMLyPMe2Usuh+XwR8hvMX+M5WY9NjfvYdX+POx9nYUgaAIAyT1e1piyVMr55NC0MSlEn+s+l8eyEBVXW/56I3I/fa8lzItU1BYiBHRdh57ttSSK1oEzyrAVysAAKMoGykpKJpcHBl9yxgL+k/ML+douOhccBGdSAAJSsusYxQRWzogZh0/zgmEyIMB3WH7bto3SGsnogXOmJMdxhkUnUpIGEQkYKEIgVd4flcvGBQYKBSL5H99RXMTe4B0kAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 48.826291079812215%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsSAAALEgHS3X78AAABvUlEQVQozy1RSYsTQRRuPHjR6DhptZPuTte+vdq7E2ZiFCSXwHgJguLN/+D/B98YH0UtFB/f1oD3xhguuFJK4gjBOcONTNO4G3fTRCgVQuCTMYb/wzhMdEvFsF7fN5fL5Xq9CimM1c456yxejDUQQqnVp5Lr7EJsu+H06Xg+n8dhhDrAPNy/WzcxRcQgI4D1ASD4ELxPKeb69eHIVPhI9NYEslo/heBSRhEKRspJ120aJGOMG6OfWZ214GIuqdSc6+nw6Gx8cdevGNT325+1Ql2s5VCJVAIlNFprdKK1cs44cN7DAcXU5c9Efvn4OS13H6bmbT+3mx8luzIrRW0kGErfDw3mhHlgZt57hDqAJZf9cvgt1VPMp1hercfmdcfftN8P+1BnKYnxhHME98hsMGWlNfgEaNrYFCPkus/lsSzExNVWvNzI3E/fagnzojR1GWXzrusacO5WEkXrTDDKCA7llgtN2UBZydnl8sD4JedY6n+w/Ae+tfvsXHApmJIcP5Rit+U0k1g5JXYYvswLhsk44WKH5bdt22hjEIwehGBaCaMFWBa9TElZI5XiSmM6DI+0P2rIFgLjGgUi+C/1W1zREp/rtQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;현재상황 - 20200131 13:22&quot;
         title=&quot;&quot;
-        src=&quot;/static/now-f0a6320d4fdf184032712c53c3a61975-c83f1.png&quot;
-        srcset=&quot;/static/now-f0a6320d4fdf184032712c53c3a61975-569e3.png 240w,
-/static/now-f0a6320d4fdf184032712c53c3a61975-93400.png 480w,
-/static/now-f0a6320d4fdf184032712c53c3a61975-c83f1.png 960w,
-/static/now-f0a6320d4fdf184032712c53c3a61975-23e13.png 1440w,
-/static/now-f0a6320d4fdf184032712c53c3a61975-2f5c5.png 1917w&quot;
+        src=&quot;/static/f0a6320d4fdf184032712c53c3a61975/d9199/now.png&quot;
+        srcset=&quot;/static/f0a6320d4fdf184032712c53c3a61975/8ff5a/now.png 240w,
+/static/f0a6320d4fdf184032712c53c3a61975/e85cb/now.png 480w,
+/static/f0a6320d4fdf184032712c53c3a61975/d9199/now.png 960w,
+/static/f0a6320d4fdf184032712c53c3a61975/07a9c/now.png 1440w,
+/static/f0a6320d4fdf184032712c53c3a61975/5068c/now.png 1917w&quot;
         sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
       /&gt;
     &lt;/span&gt;
@@ -38,7 +38,7 @@ WHO에서 비상상태가 선언되는 경우는 ‘국제공중보건 위기상
 &lt;p&gt;4월달 태국 여행이 계획되어 있는데… 아… 취소를 해야하나 말아야하나.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[inline-block div 간격 0으로 만들기]]></title><description><![CDATA[inline-block요소가 두개가 있으면 간격이 생긴다. 간격이 생기면 0으로 만들어주고 디자인 시안을 보고 여백을 줘야하는데]]></description><link>https://ipadorusa.com/posts/inline-block간격 없애기</link><guid isPermaLink="false">https://ipadorusa.com/posts/inline-block간격 없애기</guid><pubDate>Thu, 30 Jan 2020 08:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;inline-block div 간격 없애기&lt;/h1&gt;
 &lt;p&gt;인라인 블록 요소 연속으로 있으면 이렇게 약간의 4px정도가 생긴다. 이걸 해결하는 방법은 몇가지 방법이 있다.&lt;/p&gt;
 &lt;h2&gt;현상&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/inline-block-gap-59e1c5531ba2d66a5aa430a0d29a335a.gif&quot; alt=&quot;현상&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/59e1c5531ba2d66a5aa430a0d29a335a/inline-block-gap.gif&quot; alt=&quot;현상&quot;&gt;&lt;/p&gt;
 &lt;h2&gt;방법&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -134,7 +134,7 @@ WHO에서 비상상태가 선언되는 경우는 ‘국제공중보건 위기상
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/google_fire-f1583a587bc24282cd4bda33dc0c0d3f-4a475.png&quot;
+    href=&quot;/static/f1583a587bc24282cd4bda33dc0c0d3f/e40ed/google_fire.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -153,11 +153,11 @@ WHO에서 비상상태가 선언되는 경우는 ‘국제공중보건 위기상
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;구글에 검색 결과&quot;
         title=&quot;&quot;
-        src=&quot;/static/google_fire-f1583a587bc24282cd4bda33dc0c0d3f-c83f1.png&quot;
-        srcset=&quot;/static/google_fire-f1583a587bc24282cd4bda33dc0c0d3f-569e3.png 240w,
-/static/google_fire-f1583a587bc24282cd4bda33dc0c0d3f-93400.png 480w,
-/static/google_fire-f1583a587bc24282cd4bda33dc0c0d3f-c83f1.png 960w,
-/static/google_fire-f1583a587bc24282cd4bda33dc0c0d3f-4a475.png 1378w&quot;
+        src=&quot;/static/f1583a587bc24282cd4bda33dc0c0d3f/d9199/google_fire.png&quot;
+        srcset=&quot;/static/f1583a587bc24282cd4bda33dc0c0d3f/8ff5a/google_fire.png 240w,
+/static/f1583a587bc24282cd4bda33dc0c0d3f/e85cb/google_fire.png 480w,
+/static/f1583a587bc24282cd4bda33dc0c0d3f/d9199/google_fire.png 960w,
+/static/f1583a587bc24282cd4bda33dc0c0d3f/e40ed/google_fire.png 1378w&quot;
         sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
       /&gt;
     &lt;/span&gt;
@@ -182,7 +182,7 @@ WHO에서 비상상태가 선언되는 경우는 ‘국제공중보건 위기상
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/naver_fire-6b8e39fb605f1c377e90c181b208fc05-34732.png&quot;
+    href=&quot;/static/6b8e39fb605f1c377e90c181b208fc05/e5ca1/naver_fire.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -201,11 +201,11 @@ WHO에서 비상상태가 선언되는 경우는 ‘국제공중보건 위기상
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;네이버 검색 결과&quot;
         title=&quot;&quot;
-        src=&quot;/static/naver_fire-6b8e39fb605f1c377e90c181b208fc05-c83f1.png&quot;
-        srcset=&quot;/static/naver_fire-6b8e39fb605f1c377e90c181b208fc05-569e3.png 240w,
-/static/naver_fire-6b8e39fb605f1c377e90c181b208fc05-93400.png 480w,
-/static/naver_fire-6b8e39fb605f1c377e90c181b208fc05-c83f1.png 960w,
-/static/naver_fire-6b8e39fb605f1c377e90c181b208fc05-34732.png 1332w&quot;
+        src=&quot;/static/6b8e39fb605f1c377e90c181b208fc05/d9199/naver_fire.png&quot;
+        srcset=&quot;/static/6b8e39fb605f1c377e90c181b208fc05/8ff5a/naver_fire.png 240w,
+/static/6b8e39fb605f1c377e90c181b208fc05/e85cb/naver_fire.png 480w,
+/static/6b8e39fb605f1c377e90c181b208fc05/d9199/naver_fire.png 960w,
+/static/6b8e39fb605f1c377e90c181b208fc05/e5ca1/naver_fire.png 1332w&quot;
         sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
       /&gt;
     &lt;/span&gt;
@@ -230,21 +230,13 @@ WHO에서 비상상태가 선언되는 경우는 ‘국제공중보건 위기상
 &lt;p&gt;3 개의 책이 있었다. 그중 파이낸셜 프리덤 경제적 자유를 이루는 부의 공식은 내가 봤던 TVN YOUTUBE 에 나온 사람이 쓴 책이였다.&lt;/p&gt;
 &lt;h4&gt;요약&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;특정한 기준으로 주식(배당주)을 통해 경제적 자유를…&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;악착같이 모아서 투자하라.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;특정한 기준으로 주식(배당주)을 통해 경제적 자유를…&lt;/li&gt;
+&lt;li&gt;악착같이 모아서 투자하라.&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;책의 내용인듯&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;투자계좌에 자동으로 입금되는 급여비율을 높여라.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;모든 가욋돈을 최대한 빨리 수동 투자하라.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;투자계좌에 자동으로 입금되는 급여비율을 높여라.&lt;/li&gt;
+&lt;li&gt;모든 가욋돈을 최대한 빨리 수동 투자하라.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -343,10 +335,10 @@ WHO에서 비상상태가 선언되는 경우는 ‘국제공중보건 위기상
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;스토리북폴더구조&quot;
         title=&quot;&quot;
-        src=&quot;/static/storybook_structure_01-d6fbc2598394efefc91a0f793771f46e-2d8cd.png&quot;
-        srcset=&quot;/static/storybook_structure_01-d6fbc2598394efefc91a0f793771f46e-5bdce.png 240w,
-/static/storybook_structure_01-d6fbc2598394efefc91a0f793771f46e-af669.png 480w,
-/static/storybook_structure_01-d6fbc2598394efefc91a0f793771f46e-2d8cd.png 588w&quot;
+        src=&quot;/static/d6fbc2598394efefc91a0f793771f46e/9bbaf/storybook_structure_01.png&quot;
+        srcset=&quot;/static/d6fbc2598394efefc91a0f793771f46e/8ff5a/storybook_structure_01.png 240w,
+/static/d6fbc2598394efefc91a0f793771f46e/e85cb/storybook_structure_01.png 480w,
+/static/d6fbc2598394efefc91a0f793771f46e/9bbaf/storybook_structure_01.png 588w&quot;
         sizes=&quot;(max-width: 588px) 100vw, 588px&quot;
       /&gt;
     &lt;/span&gt;
@@ -354,8 +346,8 @@ WHO에서 비상상태가 선언되는 경우는 ‘국제공중보건 위기상
   &lt;/p&gt;
 &lt;h3&gt;.storybook 폴더(main.js)&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  stories&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;../stories/**/*.stories.js&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-  addons&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;@storybook/addon-actions&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;@storybook/addon-links&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  stories&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;../stories/**/*.stories.js&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  addons&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;@storybook/addon-actions&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;@storybook/addon-links&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;main.js 내용을 보자 stories Key 에는 [’../stories/*&lt;em&gt;/&lt;/em&gt;.stories.js’] stories.js 를 넣고 있고 addons Key 에는 에드온들을 넣고 있다.
 그럼 stories.js 라는 확장자명을 가진 파일들을 활용한다고 볼수 있고 에드온도 main.js 에서 선언을 해야한다는걸 추측할수 있다.&lt;/p&gt;
@@ -363,7 +355,7 @@ WHO에서 비상상태가 선언되는 경우는 ‘국제공중보건 위기상
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/storybook_structure_02-4d8873107dff051551919a514ccbc778-55349.png&quot;
+    href=&quot;/static/4d8873107dff051551919a514ccbc778/0e0c3/storybook_structure_02.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -382,9 +374,9 @@ WHO에서 비상상태가 선언되는 경우는 ‘국제공중보건 위기상
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;스토리북폴더구조&quot;
         title=&quot;&quot;
-        src=&quot;/static/storybook_structure_02-4d8873107dff051551919a514ccbc778-55349.png&quot;
-        srcset=&quot;/static/storybook_structure_02-4d8873107dff051551919a514ccbc778-606d3.png 240w,
-/static/storybook_structure_02-4d8873107dff051551919a514ccbc778-55349.png 432w&quot;
+        src=&quot;/static/4d8873107dff051551919a514ccbc778/0e0c3/storybook_structure_02.png&quot;
+        srcset=&quot;/static/4d8873107dff051551919a514ccbc778/8ff5a/storybook_structure_02.png 240w,
+/static/4d8873107dff051551919a514ccbc778/0e0c3/storybook_structure_02.png 432w&quot;
         sizes=&quot;(max-width: 432px) 100vw, 432px&quot;
       /&gt;
     &lt;/span&gt;
@@ -399,18 +391,18 @@ WHO에서 비상상태가 선언되는 경우는 ‘국제공중보건 위기상
 &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Welcome &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;./Welcome&apos;&lt;/span&gt;
 
 &lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  title&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Welcome&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-  component&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Welcome&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  title&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Welcome&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  component&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; Welcome&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
 &lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;ToStorybook&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  components&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Welcome &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-  template&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&amp;lt;welcome :showApp=&quot;action&quot; /&gt;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-  methods&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; action&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;linkTo&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Button&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  components&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Welcome &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  template&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&amp;lt;welcome :showApp=&quot;action&quot; /&gt;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  methods&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; action&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;linkTo&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Button&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 
 ToStorybook&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;story &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;to Storybook&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  name&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;to Storybook&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;0-Welcome.stories.js 내용해석&lt;/h2&gt;
 &lt;p&gt;첫줄은 @storybook/addon-links 로 스토리북내에 링크를 걸기 위해 불렀고 ToStorybook 함수내 methods 에 action 에 걸린걸 알수 있다.
@@ -422,7 +414,7 @@ Welcome 이라는 이름으로 ./Welcome 스크립트를 import 시켰다.
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/storybook_2depth-b8a1e060f7e90afbe39d68958b2218ff-07553.png&quot;
+    href=&quot;/static/b8a1e060f7e90afbe39d68958b2218ff/b910a/storybook_2depth.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -441,9 +433,9 @@ Welcome 이라는 이름으로 ./Welcome 스크립트를 import 시켰다.
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;2depth메뉴&quot;
         title=&quot;&quot;
-        src=&quot;/static/storybook_2depth-b8a1e060f7e90afbe39d68958b2218ff-07553.png&quot;
-        srcset=&quot;/static/storybook_2depth-b8a1e060f7e90afbe39d68958b2218ff-b70ff.png 240w,
-/static/storybook_2depth-b8a1e060f7e90afbe39d68958b2218ff-07553.png 414w&quot;
+        src=&quot;/static/b8a1e060f7e90afbe39d68958b2218ff/b910a/storybook_2depth.png&quot;
+        srcset=&quot;/static/b8a1e060f7e90afbe39d68958b2218ff/8ff5a/storybook_2depth.png 240w,
+/static/b8a1e060f7e90afbe39d68958b2218ff/b910a/storybook_2depth.png 414w&quot;
         sizes=&quot;(max-width: 414px) 100vw, 414px&quot;
       /&gt;
     &lt;/span&gt;
@@ -456,53 +448,53 @@ Welcome 이라는 이름으로 ./Welcome 스크립트를 import 시켰다.
 &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;log&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Welcome to storybook!&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 
 &lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;welcome&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  name&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;welcome&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
 
-  props&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    showApp&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-      type&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Function&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-      &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; log&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  props&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    showApp&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      type&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; Function&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; log&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
   &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
 
   &lt;span class=&quot;token function&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-      main&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        padding&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;15&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-        lineHeight&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1.4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-        fontFamily&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      main&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        padding&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;15&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        lineHeight&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1.4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        fontFamily&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;
           &lt;span class=&quot;token string&quot;&gt;&apos;&quot;Helvetica Neue&quot;, Helvetica, &quot;Segoe UI&quot;, Arial, freesans, sans-serif&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-        backgroundColor&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;#ffffff&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        backgroundColor&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;#ffffff&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
       &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
 
-      logo&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        width&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      logo&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        width&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
       &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
 
-      link&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        color&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;#1474f3&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-        textDecoration&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;none&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-        borderBottom&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;1px solid #1474f3&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-        paddingBottom&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      link&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        color&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;#1474f3&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        textDecoration&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;none&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        borderBottom&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;1px solid #1474f3&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        paddingBottom&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
       &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
 
-      code&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        fontSize&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;15&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-        fontWeight&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;600&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-        padding&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;2px 5px&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-        border&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;1px solid #eae9e9&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-        borderRadius&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-        backgroundColor&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;#f3f2f2&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-        color&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;#3a3a3a&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      code&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        fontSize&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;15&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        fontWeight&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;600&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        padding&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;2px 5px&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        border&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;1px solid #eae9e9&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        borderRadius&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        backgroundColor&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;#f3f2f2&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        color&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;#3a3a3a&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
       &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
 
-      note&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        opacity&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      note&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        opacity&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
       &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
   &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
 
-  template&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`
+  template&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;
     &amp;lt;div :style=&quot;main&quot;&gt;
       &amp;lt;h1&gt;Welcome to STORYBOOK&amp;lt;/h1&gt;
       &amp;lt;p&gt;
@@ -565,10 +557,10 @@ Welcome 이라는 이름으로 ./Welcome 스크립트를 import 시켰다.
         loaders and plugins you are using in this project.
       &amp;lt;/p&gt;
     &amp;lt;/div&gt;
-  `&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
 
-  methods&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token function&quot;&gt;onClick&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;event&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  methods&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;onClick&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
       event&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;preventDefault&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
       &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;showApp&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
@@ -585,7 +577,7 @@ Welcome 이라는 이름으로 ./Welcome 스크립트를 import 시켰다.
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/koreaair-5068fbadf5485b24df45c39f9954a9f5-85293.jpeg&quot;
+    href=&quot;/static/5068fbadf5485b24df45c39f9954a9f5/d8ebd/koreaair.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -597,17 +589,17 @@ Welcome 이라는 이름으로 ./Welcome 스크립트를 import 시켰다.
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 167.10182767624022%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAhABQDASIAAhEBAxEB/8QAGQABAQADAQAAAAAAAAAAAAAAAAQBAgMG/8QAGAEAAwEBAAAAAAAAAAAAAAAAAAEDAgT/2gAMAwEAAhADEAAAAd88qqS0YGbKZqJ3icQq7hnmxbl//8QAIBAAAQQBBAMAAAAAAAAAAAAAAwABAhIEERMhMyIjMv/aAAgBAQABBQKzJn1XDKGNuoWJtuRqyFBq6In2HyHVEl7MTqR+7//EABgRAAMBAQAAAAAAAAAAAAAAAAABEhAx/9oACAEDAQE/AYRK1D6f/8QAGREAAgMBAAAAAAAAAAAAAAAAAAEQERIx/9oACAECAQE/AdFy+iP/xAAiEAABAgUEAwAAAAAAAAAAAAAAARACESExURIiQXFygaH/2gAIAQEABj8CuXmyxapVwLu+EsNwKe2iqlxfJWj7P//EAB4QAQACAgIDAQAAAAAAAAAAAAEAESExEEFRcZFh/9oACAEBAAE/IU+g+4Gh9Jf4SvUykXrOyo+JQGJtXcKaPqGV9unB+YIbi7PFDvhP/9oADAMBAAIAAwAAABDA2gOD/wD/xAAZEQEBAQEBAQAAAAAAAAAAAAABABExIUH/2gAIAQMBAT8QE+SDmSZ5IXF2v//EABkRAQEAAwEAAAAAAAAAAAAAAAEAEBExQf/aAAgBAgEBPxBR7DcG7pcF/8QAIBABAAICAgIDAQAAAAAAAAAAAQARITFBUaGxYXHR8P/aAAgBAQABPxBJPvD+x9GKyZeo0BXlmdHg5armzuIOddhXmYA2Cj3lmI9KrTLU0x/NrgNob5hbuhu9HUCjlTDtlQAEJ/S7nsnn5//Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 167.10182767624022%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAhABQDASIAAhEBAxEB/8QAGQABAQADAQAAAAAAAAAAAAAAAAQBAgMG/8QAGAEAAwEBAAAAAAAAAAAAAAAAAAEDAgT/2gAMAwEAAhADEAAAAd88qqS0ZJVUzUYtG4AruGvOC3L/AP/EACAQAAAGAgIDAAAAAAAAAAAAAAABAgMEEhETEDMiIzL/2gAIAQEAAQUCsQI88IjbQ1E1qWVTaQVcBz7Y8m6h1ftidQkd/wD/xAAYEQADAQEAAAAAAAAAAAAAAAAAARIQMf/aAAgBAwEBPwGEStQ+n//EABgRAAIDAAAAAAAAAAAAAAAAAAABEBES/9oACAECAQE/AdFuWI//xAAhEAABAgYCAwAAAAAAAAAAAAAAARACERIhMVFBcXKBof/aAAgBAQAGPwLJmbLFVK+hVq+EtNwKe2iumRfJWj7P/8QAHRABAAIBBQEAAAAAAAAAAAAAAQARMRAhQVFxkf/aAAgBAQABPyFPgPsDA+JsSvU3SM4bKjteEBtMq5hTB9aK2XDg+5QKVcnShzoH/9oADAMBAAIAAwAAABDD+gCAH//EABoRAQEAAgMAAAAAAAAAAAAAAAEAETEhQVH/2gAIAQMBAT8QE6knUmOJD20t1//EABkRAQEAAwEAAAAAAAAAAAAAAAEAECExQf/aAAgBAgEBPxBR7GLd23Bf/8QAIBABAAICAQQDAAAAAAAAAAAAAQARITFRYXGh8EGx0f/aAAgBAQABPxBJO+H9j9MVrJ8S8bZOCwctV82cxQDrsK8zDWgo6mI9KrTLU0x9bXCNob7wN3Q3ejiBbypgY1AAKwT2XSfZPU6E/9k=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;대한항공&quot;
         title=&quot;&quot;
-        src=&quot;/static/koreaair-5068fbadf5485b24df45c39f9954a9f5-85293.jpeg&quot;
-        srcset=&quot;/static/koreaair-5068fbadf5485b24df45c39f9954a9f5-c81cf.jpeg 240w,
-/static/koreaair-5068fbadf5485b24df45c39f9954a9f5-87598.jpeg 480w,
-/static/koreaair-5068fbadf5485b24df45c39f9954a9f5-85293.jpeg 766w&quot;
+        src=&quot;/static/5068fbadf5485b24df45c39f9954a9f5/d8ebd/koreaair.jpg&quot;
+        srcset=&quot;/static/5068fbadf5485b24df45c39f9954a9f5/09b79/koreaair.jpg 240w,
+/static/5068fbadf5485b24df45c39f9954a9f5/7cc5e/koreaair.jpg 480w,
+/static/5068fbadf5485b24df45c39f9954a9f5/d8ebd/koreaair.jpg 766w&quot;
         sizes=&quot;(max-width: 766px) 100vw, 766px&quot;
       /&gt;
     &lt;/span&gt;
@@ -620,7 +612,7 @@ Welcome 이라는 이름으로 ./Welcome 스크립트를 import 시켰다.
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/asiana-ea18fb6f94d5bf3e2902478280f7339f-52cb4.jpeg&quot;
+    href=&quot;/static/ea18fb6f94d5bf3e2902478280f7339f/5608a/asiana.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -632,17 +624,17 @@ Welcome 이라는 이름으로 ./Welcome 스크립트를 import 시켰다.
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 216.58206429780034%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAArABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECAwUE/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAABktpmKbQDUhEgrlVSdpWH/8QAHBAAAgEFAQAAAAAAAAAAAAAAAAIQAQMUIUER/9oACAEBAAEFAse4Y9wx3j2kbNx2OwwjtVj/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AV//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AV//xAAaEAACAgMAAAAAAAAAAAAAAAAAMQEREDCh/9oACAEBAAY/AkLotslXj//EAB8QAAIBBAIDAAAAAAAAAAAAAAABESExYZEQUUFxgf/aAAgBAQABPyGhZTKMTQfW2htTYwFOi4WCGejEo8sjgvuyB2lAQGoElLZ//9oADAMBAAIAAwAAABBgxTDQD//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QX//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QX//EACAQAQACAQQCAwAAAAAAAAAAAAEAESExQVFxgcGR0fD/2gAIAQEAAT8QWB0qvc/Xe4t1Ovug0Vc8wUN/ARdtPEaOhq+JgklclRKWG3KS1dnbEMcJc52YFp0MFN35ikqS2XgKOKOIpF2ucz//2Q==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 216.58206429780034%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAArABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECAwUE/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAABktpmKbYJqQDCuVVJ2lIf/8QAHBAAAQQDAQAAAAAAAAAAAAAAAAIDEBQBESFB/9oACAEBAAEFAq7hXcK7kbxHTsex7ChC1ZVo/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwFf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwFf/8QAGhAAAgIDAAAAAAAAAAAAAAAAADEBERAwof/aAAgBAQAGPwJC6LbJV4//xAAgEAACAQMEAwAAAAAAAAAAAAAAAREhMWFBUXGREIGh/9oACAEBAAE/IaFlMoxOhNo7Q2psYCVt8LhYI9HBiUavyVd+yB2lASGo4GjbbP/aAAwDAQACAAMAAAAQYwU84M//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/EF//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/EF//xAAhEAEAAgIBAwUAAAAAAAAAAAABABEhUUExYXGBkcHR8P/aAAgBAQABPxBYHhVfM1/u7x5h4+6DRVzuFZz0EOyho6MXqYJW809YlLDblJauzyyo4S5zwwNHoYpt94hKktlhCjimpYwq7Z//2Q==&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;아시아나항공&quot;
         title=&quot;&quot;
-        src=&quot;/static/asiana-ea18fb6f94d5bf3e2902478280f7339f-52cb4.jpeg&quot;
-        srcset=&quot;/static/asiana-ea18fb6f94d5bf3e2902478280f7339f-4fbe5.jpeg 240w,
-/static/asiana-ea18fb6f94d5bf3e2902478280f7339f-63875.jpeg 480w,
-/static/asiana-ea18fb6f94d5bf3e2902478280f7339f-52cb4.jpeg 591w&quot;
+        src=&quot;/static/ea18fb6f94d5bf3e2902478280f7339f/5608a/asiana.jpg&quot;
+        srcset=&quot;/static/ea18fb6f94d5bf3e2902478280f7339f/09b79/asiana.jpg 240w,
+/static/ea18fb6f94d5bf3e2902478280f7339f/7cc5e/asiana.jpg 480w,
+/static/ea18fb6f94d5bf3e2902478280f7339f/5608a/asiana.jpg 591w&quot;
         sizes=&quot;(max-width: 591px) 100vw, 591px&quot;
       /&gt;
     &lt;/span&gt;
@@ -797,48 +789,20 @@ vue-loader 만 설치한다고 해결 되지가 않을꺼 같아 Manual setup(�
 &lt;h2&gt;경제공부 링크&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.etoland.co.kr/bbs/board.php?bo_table=hit&amp;#x26;wr_id=2064393&quot;&gt;펌주소&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCsJ6RuBiTVWRX156FVbeaGg&quot;&gt;슈카월드&lt;/a&gt; : 썰 푸는 내공이 압도적인 전직 증권맨의 경제/시사상식 유튜브&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://soonsal.com/&quot;&gt;순살브리핑&lt;/a&gt; : 미국 투자은행 모건스탠리 출신이 운영하는 글로벌 경제/산업 뉴스레터. 구독신청하면 매일 오전 이메일로 옴&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://insidestory.kr/&quot;&gt;생각노트&lt;/a&gt; : 브랜드, 산업 등의 주제로 다양한 콘텐츠가 올라오는 블로그 ‘생각노트’에서 운영하는 뉴스레터&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCaJdckl6MBdDPDf75Ec_bJA&quot;&gt;신사임당&lt;/a&gt; : 부동산/경제/산업 전반 유튜브. 한국경제 tv 출신&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/channel/UChlv4GSd7OQl3js-jkLOnFA&quot;&gt;삼프로 TV&lt;/a&gt; : 경제 각 분야의 전문가 초대해서 인터뷰하는 형식의 유튜브&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;http://glance.media/&quot;&gt;스타트업위클리&lt;/a&gt; : 매주 월요일 아침, 전 주의 스타트업 관련 뉴스 링크를 모두 모아 보내 주는 뉴스레터&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.globalmonitor.co.kr/&quot;&gt;globalmonitor&lt;/a&gt; : 실시간 글로벌 경제/금융 뉴스와 분석 및 코멘터리 전문 미디어&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;http://kimdongjo.com/&quot;&gt;김동조블로그&lt;/a&gt; : 이자율 트레이더 출신의 경제 금융에 관한 정보 제공 블로그. 유료이지만 그만큼 양질 컨텐츠 보유&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/channel/UC8tYgnrcFXk7OCY_uoBmh-A&quot;&gt;효기심&lt;/a&gt; : 국제정치에 대해 쉽게 썰 풀어주는 유튜브. 이런 역사 선생님 있었음 역사가가 될 뻔&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCgOhfdnrfpoorDYufNv_Vfw&quot;&gt;더나은삶&lt;/a&gt; : 경제/재테크/자기계발 영역이 조금씩 다 섞여있는 유튜브&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.roadaily.co.kr/&quot;&gt;ROA daily&lt;/a&gt; : 주요 디지털 기술 및 플랫폼 관련 최신정보와 트렌드 분석&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://newneek.co/&quot;&gt;뉴닉&lt;/a&gt; : 밀레니얼 대상, 시사상식 쉽게 풀어 설명해주는 이메일 뉴스레터&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://uppity.co.kr/&quot;&gt;어피티&lt;/a&gt; : 사회초년생들 경제, 재테크 팁을 초보자의 관점에서 설명하는 뉴스레터&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;http://now.rememberapp.co.kr/&quot;&gt;리멤버 나우&lt;/a&gt; : 명함관리앱 리멤버에서 운영하는 경제 관련 뉴스레터&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCsJ6RuBiTVWRX156FVbeaGg&quot;&gt;슈카월드&lt;/a&gt; : 썰 푸는 내공이 압도적인 전직 증권맨의 경제/시사상식 유튜브&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://soonsal.com/&quot;&gt;순살브리핑&lt;/a&gt; : 미국 투자은행 모건스탠리 출신이 운영하는 글로벌 경제/산업 뉴스레터. 구독신청하면 매일 오전 이메일로 옴&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://insidestory.kr/&quot;&gt;생각노트&lt;/a&gt; : 브랜드, 산업 등의 주제로 다양한 콘텐츠가 올라오는 블로그 ‘생각노트’에서 운영하는 뉴스레터&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCaJdckl6MBdDPDf75Ec_bJA&quot;&gt;신사임당&lt;/a&gt; : 부동산/경제/산업 전반 유튜브. 한국경제 tv 출신&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UChlv4GSd7OQl3js-jkLOnFA&quot;&gt;삼프로 TV&lt;/a&gt; : 경제 각 분야의 전문가 초대해서 인터뷰하는 형식의 유튜브&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://glance.media/&quot;&gt;스타트업위클리&lt;/a&gt; : 매주 월요일 아침, 전 주의 스타트업 관련 뉴스 링크를 모두 모아 보내 주는 뉴스레터&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.globalmonitor.co.kr/&quot;&gt;globalmonitor&lt;/a&gt; : 실시간 글로벌 경제/금융 뉴스와 분석 및 코멘터리 전문 미디어&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://kimdongjo.com/&quot;&gt;김동조블로그&lt;/a&gt; : 이자율 트레이더 출신의 경제 금융에 관한 정보 제공 블로그. 유료이지만 그만큼 양질 컨텐츠 보유&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UC8tYgnrcFXk7OCY_uoBmh-A&quot;&gt;효기심&lt;/a&gt; : 국제정치에 대해 쉽게 썰 풀어주는 유튜브. 이런 역사 선생님 있었음 역사가가 될 뻔&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCgOhfdnrfpoorDYufNv_Vfw&quot;&gt;더나은삶&lt;/a&gt; : 경제/재테크/자기계발 영역이 조금씩 다 섞여있는 유튜브&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.roadaily.co.kr/&quot;&gt;ROA daily&lt;/a&gt; : 주요 디지털 기술 및 플랫폼 관련 최신정보와 트렌드 분석&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://newneek.co/&quot;&gt;뉴닉&lt;/a&gt; : 밀레니얼 대상, 시사상식 쉽게 풀어 설명해주는 이메일 뉴스레터&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://uppity.co.kr/&quot;&gt;어피티&lt;/a&gt; : 사회초년생들 경제, 재테크 팁을 초보자의 관점에서 설명하는 뉴스레터&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://now.rememberapp.co.kr/&quot;&gt;리멤버 나우&lt;/a&gt; : 명함관리앱 리멤버에서 운영하는 경제 관련 뉴스레터&lt;/li&gt;
 &lt;/ol&gt;</content:encoded></item><item><title><![CDATA[IE9 D3 Chart 안나옴 // IE9 개발자 도구 연 상태에서 새로 고침하면 나옴]]></title><description><![CDATA[IE9 D3 차트 안나오는 현상 개발자 도구 연 상태에서 새로 고침하면 나옴. module,webpack 번들러의 문제]]></description><link>https://ipadorusa.com/posts/IE9_D3_notworking</link><guid isPermaLink="false">https://ipadorusa.com/posts/IE9_D3_notworking</guid><pubDate>Tue, 21 Jan 2020 13:22:03 GMT</pubDate><content:encoded>&lt;h1&gt;IE9 D3 차트 안나오는 현상 개발자 도구 연 상태에서 새로 고침하면 나옴&lt;/h1&gt;
 &lt;p&gt;IE9 에서 그래프가 안나오는 현상 =&gt; 익스 개발자 도구 연 상태에서 새로고침하면 화면에 표현, 그 뒤 새로고침하면 나옴 에러 메시지 없음..;;&lt;/p&gt;
 &lt;p&gt;몰까; 익스에서만 개발자도구 열었을때 작동하는거면 console 문제로 생각되서 console 이 들어간 부분을 찾았으나 만든 그래프 만든 소스상에서는 콘솔이 들어간 부분이 없어서 다른쪽 문제라고 판단 하였다.&lt;/p&gt;
@@ -864,45 +828,25 @@ transform-remove-console 넣어 해결&lt;/p&gt;</content:encoded></item><item><
 &lt;p&gt;Official addons 기능으로는 &lt;a href=&quot;https://github.com/storybookjs/storybook/tree/master/addons/knobs&quot;&gt;Knobs&lt;/a&gt;, &lt;a href=&quot;https://github.com/storybookjs/storybook/blob/master/addons/actions/README.md&quot;&gt;Actions&lt;/a&gt;, &lt;a href=&quot;https://github.com/storybookjs/storybook/tree/master/addons/storysource&quot;&gt;Source&lt;/a&gt;, &lt;a href=&quot;https://github.com/storybookjs/storybook/tree/master/addons/docs&quot;&gt;Docs&lt;/a&gt;, &lt;a href=&quot;https://github.com/storybookjs/storybook/tree/master/addons/viewport&quot;&gt;Viewport&lt;/a&gt;, &lt;a href=&quot;https://github.com/storybookjs/storybook/tree/master/addons/storyshots&quot;&gt;Storyshots&lt;/a&gt;, &lt;a href=&quot;Backgrounds&quot;&gt;Backgrounds&lt;/a&gt;, &lt;a href=&quot;https://github.com/storybookjs/storybook/tree/master/addons/a11y&quot;&gt;Accesibility&lt;/a&gt;, &lt;a href=&quot;https://github.com/storybookjs/storybook-addon-console&quot;&gt;Console&lt;/a&gt;, &lt;a href=&quot;https://github.com/storybookjs/storybook/tree/master/addons/links&quot;&gt;Links&lt;/a&gt;. 있다.
 그외 기능들은 &lt;a href=&quot;https://github.com/storybookjs/storybook/blob/next/ADDONS_SUPPORT.md&quot;&gt;Addon / Framework Support Table&lt;/a&gt; 을 보면 되겠다.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Knobs : 동적으로 Props 를 통해 변화를 줄수 있는 기능
-&lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/master/addons/knobs/docs/storybook-knobs-example.png&quot; alt=&quot;Knobs&quot;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Actions : 이벤트 핸드러를 통해 수신한 내용을 화면에 표시하는 기능
-&lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/HEAD/addons/actions/docs/screenshot.png&quot; alt=&quot;Actions&quot;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Source : 소스 코드를 보고 작동방법을 확인거나 긁을수 있게 해주는 기능
-&lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/master/addons/storysource/docs/demo.gif&quot; alt=&quot;Source&quot;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Docs : 기능 문서를 편하게 만들수 있게 하는 기능 &lt;a href=&quot;https://github.com/storybookjs/storybook/blob/master/addons/docs/docs/docspage.md&quot;&gt;참고링크&lt;/a&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/master/addons/docs/docs/media/docs-tab.png&quot; alt=&quot;Docs&quot;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Viewport : 뷰포트 크기와 방향을 조정하여 반응형 구성 요소를 체크 기능
-&lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/master/addons/viewport/docs/viewport.png&quot; alt=&quot;Viewport&quot;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Storyshots : Jest, Puppeteer 를 이용하여 테스트(기능,디바이스별) 해볼수 있음.
-&lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/HEAD/addons/storyshots/storyshots-core/docs/storyshots-fail.png&quot; alt=&quot;Storyshots-Jest&quot;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Backgrounds : 미리보기 패널에 배경색을 변경할수 있음.
-&lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/master/docs/static/img/addon-backgrounds.gif&quot; alt=&quot;Backgrounds&quot;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Accesibility : UI 의 구성요소의 접근성 테스트 기능.
-&lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/HEAD/addons/a11y/docs/screenshot.png&quot; alt=&quot;Backgrounds&quot;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Console : 콘솔창 기능.
-&lt;img src=&quot;https://raw.githubusercontent.com/storybooks/storybook-addon-console/master/docs/storybook-addon-console.png&quot; alt=&quot;Console&quot;&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Links : 스토리북간의 링크(router 네비게이트 같은기능)&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Knobs : 동적으로 Props 를 통해 변화를 줄수 있는 기능
+&lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/master/addons/knobs/docs/storybook-knobs-example.png&quot; alt=&quot;Knobs&quot;&gt;&lt;/li&gt;
+&lt;li&gt;Actions : 이벤트 핸드러를 통해 수신한 내용을 화면에 표시하는 기능
+&lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/HEAD/addons/actions/docs/screenshot.png&quot; alt=&quot;Actions&quot;&gt;&lt;/li&gt;
+&lt;li&gt;Source : 소스 코드를 보고 작동방법을 확인거나 긁을수 있게 해주는 기능
+&lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/master/addons/storysource/docs/demo.gif&quot; alt=&quot;Source&quot;&gt;&lt;/li&gt;
+&lt;li&gt;Docs : 기능 문서를 편하게 만들수 있게 하는 기능 &lt;a href=&quot;https://github.com/storybookjs/storybook/blob/master/addons/docs/docs/docspage.md&quot;&gt;참고링크&lt;/a&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/master/addons/docs/docs/media/docs-tab.png&quot; alt=&quot;Docs&quot;&gt;&lt;/li&gt;
+&lt;li&gt;Viewport : 뷰포트 크기와 방향을 조정하여 반응형 구성 요소를 체크 기능
+&lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/master/addons/viewport/docs/viewport.png&quot; alt=&quot;Viewport&quot;&gt;&lt;/li&gt;
+&lt;li&gt;Storyshots : Jest, Puppeteer 를 이용하여 테스트(기능,디바이스별) 해볼수 있음.
+&lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/HEAD/addons/storyshots/storyshots-core/docs/storyshots-fail.png&quot; alt=&quot;Storyshots-Jest&quot;&gt;&lt;/li&gt;
+&lt;li&gt;Backgrounds : 미리보기 패널에 배경색을 변경할수 있음.
+&lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/master/docs/static/img/addon-backgrounds.gif&quot; alt=&quot;Backgrounds&quot;&gt;&lt;/li&gt;
+&lt;li&gt;Accesibility : UI 의 구성요소의 접근성 테스트 기능.
+&lt;img src=&quot;https://raw.githubusercontent.com/storybookjs/storybook/HEAD/addons/a11y/docs/screenshot.png&quot; alt=&quot;Backgrounds&quot;&gt;&lt;/li&gt;
+&lt;li&gt;Console : 콘솔창 기능.
+&lt;img src=&quot;https://raw.githubusercontent.com/storybooks/storybook-addon-console/master/docs/storybook-addon-console.png&quot; alt=&quot;Console&quot;&gt;&lt;/li&gt;
+&lt;li&gt;Links : 스토리북간의 링크(router 네비게이트 같은기능)&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[window.scrollY vs window.pageYOffset]]></title><description><![CDATA[어떤게 표준일까? window.scrollX, window.scrollY, pageXOffset,pageYOffset]]></description><link>https://ipadorusa.com/posts/scrollY, pageYOffset</link><guid isPermaLink="false">https://ipadorusa.com/posts/scrollY, pageYOffset</guid><pubDate>Wed, 15 Jan 2020 13:04:12 GMT</pubDate><content:encoded>&lt;h1&gt;window.scrollY vs window.pageYOffset ?&lt;/h1&gt;
 &lt;p&gt;어떤게 표준일까?&lt;/p&gt;
 &lt;h1&gt;window.scrollX vs window.pageXOffset ?&lt;/h1&gt;
@@ -924,7 +868,7 @@ transform-remove-console 넣어 해결&lt;/p&gt;</content:encoded></item><item><
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/2019_wine-9d4543b5d570f10da2de117e57f4295b-93005.jpg&quot;
+    href=&quot;/static/9d4543b5d570f10da2de117e57f4295b/c08c5/2019_wine.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -936,17 +880,17 @@ transform-remove-console 넣어 해결&lt;/p&gt;</content:encoded></item><item><
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 54.21875000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAQUA/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAEKzmzNTx//xAAZEAADAAMAAAAAAAAAAAAAAAABAhIDEBH/2gAIAQEAAQUCa7YZKLwQOb//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAdEAABAgcAAAAAAAAAAAAAAAABABECEiAhInGB/9oACAEBAAY/Asbpgx4mmhGxR//EABoQAAIDAQEAAAAAAAAAAAAAAAERACExEGH/2gAIAQEAAT8hCpAe7AyCz1UqKOgmwAUF3//aAAwDAQACAAMAAAAQiC//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPxBH/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGxABAQEBAQADAAAAAAAAAAAAAREAIUExUZH/2gAIAQEAAT8QOWCaz6D5nY8Mgh5X8wIuB2HHXRhg8DAWwuQvwb//2Q==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 54.21875000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEFAv/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABWazyzSiR/8QAGhAAAgIDAAAAAAAAAAAAAAAAAQIAEhARE//aAAgBAQABBQJrh26Br1gAGNCf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxAAAgIDAQAAAAAAAAAAAAAAAAERIQIQMXH/2gAIAQEABj8ChWUkyE8F6Vrh/8QAHBABAAMAAgMAAAAAAAAAAAAAAQARITFBYXGB/9oACAEBAAE/IcwNcsKCy9xt80FtzFFQNvuLOh+T/9oADAMBAAIAAwAAABAb/wD/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPxBH/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGhABAQADAQEAAAAAAAAAAAAAAREAITFhUf/aAAgBAQABPxCSAmh4LzKJUSAS6qTXMtrgLZo3h0I8wOBRLN5bPfULn//Z&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;2019 wine&quot;
         title=&quot;&quot;
-        src=&quot;/static/2019_wine-9d4543b5d570f10da2de117e57f4295b-93005.jpg&quot;
-        srcset=&quot;/static/2019_wine-9d4543b5d570f10da2de117e57f4295b-875e2.jpg 240w,
-/static/2019_wine-9d4543b5d570f10da2de117e57f4295b-decfc.jpg 480w,
-/static/2019_wine-9d4543b5d570f10da2de117e57f4295b-93005.jpg 640w&quot;
+        src=&quot;/static/9d4543b5d570f10da2de117e57f4295b/c08c5/2019_wine.jpg&quot;
+        srcset=&quot;/static/9d4543b5d570f10da2de117e57f4295b/09b79/2019_wine.jpg 240w,
+/static/9d4543b5d570f10da2de117e57f4295b/7cc5e/2019_wine.jpg 480w,
+/static/9d4543b5d570f10da2de117e57f4295b/c08c5/2019_wine.jpg 640w&quot;
         sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
       /&gt;
     &lt;/span&gt;
