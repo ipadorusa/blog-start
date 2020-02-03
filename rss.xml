@@ -1,9 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 03 Feb 2020 13:24:22 GMT</lastBuildDate><item><title><![CDATA[개발관련 좋은 글 (2020-02-01)]]></title><description><![CDATA[웹 개발 좋은 글들. 웹 서칭하다가 찾은 글들]]></description><link>https://ipadorusa.com/posts/개발관련-좋은-글</link><guid isPermaLink="false">https://ipadorusa.com/posts/개발관련-좋은-글</guid><pubDate>Sat, 01 Feb 2020 13:43:23 GMT</pubDate><content:encoded>&lt;h1&gt;개발 관련 좋은 글&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 03 Feb 2020 15:06:42 GMT</lastBuildDate><item><title><![CDATA[개발관련 좋은 글 (2020-02-01)]]></title><description><![CDATA[웹 개발 좋은 글들. 웹 서칭하다가 찾은 글들]]></description><link>https://ipadorusa.com/posts/개발관련-좋은-글</link><guid isPermaLink="false">https://ipadorusa.com/posts/개발관련-좋은-글</guid><pubDate>Sat, 01 Feb 2020 13:43:23 GMT</pubDate><content:encoded>&lt;h2&gt;개발 관련 좋은 글&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://subicura.com/2020/01/07/2019-dev-summary.html&quot;&gt;subicura님 - 알아두면 유익한 2019 개발이야기&lt;/a&gt; : subicura님이 2019년에 개발하면서 typescript, Prettier, Jest &amp;#x26; Enzyme, Component, …등 많은 기술들에 대해서 쓴글.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://ui.toast.com/weekly-pick/ko_20200102/&quot;&gt;자바스크립트 데코레이터 이해하기&lt;/a&gt; : 박정환님의 글로 자바스크립트에 데코레이터는 아직 자바스크립트의 정식 기능 아니지만 원글 Mike Green - Understanding JavaScript Decorators 글과 박정환님이 생각하는 내용을 담은 글.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html&quot;&gt;subicura - 초보를 위한 도커 안내서 - 도커란 무엇인가?&lt;/a&gt;: 예전에 읽었던거 같으네 초보를 위한 도커 안내서.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[WHO "신종코로나, 비상사태 선포]]></title><description><![CDATA[WHO에서 신종 코로나, 비상사태 선포 하였다.]]></description><link>https://ipadorusa.com/posts/WHO 신종코로나, 비상사태 선포</link><guid isPermaLink="false">https://ipadorusa.com/posts/WHO 신종코로나, 비상사태 선포</guid><pubDate>Thu, 30 Jan 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;WHO 비상사태를 선언&lt;/h1&gt;
+&lt;li&gt;&lt;a href=&quot;https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html&quot;&gt;subicura - 초보를 위한 도커 안내서 - 도커란 무엇인가?&lt;/a&gt;: 예전에 읽었던거 같은데 초보를 위한 도커 안내서.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://neok.netlify.com/Gatsby-Helmet/&quot;&gt;gatsby-helmet으로 검색 엔진 최적화하기&lt;/a&gt;: 최근 gatsby로 블로그를 만들고 나서 SEO관련 최적화를 하기 위한 찾은 글&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.org/docs/seo/&quot;&gt;SEO with Gatsby&lt;/a&gt; : 공식홈에 있는 SEO문서&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://velog.io/@city7310/%EB%82%B4%EA%B0%80-%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94-%EB%B0%A9%EC%8B%9D&quot;&gt;내게 실용적이었던 프로그래밍 공부 방법들&lt;/a&gt; : velog에 PlanB님의 좋은 글. 한번쯤 읽어보면 좋을듯.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[WHO "신종코로나, 비상사태 선포]]></title><description><![CDATA[WHO에서 신종 코로나, 비상사태 선포 하였다.]]></description><link>https://ipadorusa.com/posts/WHO 신종코로나, 비상사태 선포</link><guid isPermaLink="false">https://ipadorusa.com/posts/WHO 신종코로나, 비상사태 선포</guid><pubDate>Thu, 30 Jan 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;WHO 비상사태를 선언&lt;/h2&gt;
 &lt;p&gt;아침에 급상승 검색어로 WHO 비상사태가 검색어 1위이다.
 &lt;a href=&quot;https://search.naver.com/search.naver?where=nexearch&amp;#x26;query=who%20%EB%B9%84%EC%83%81%EC%82%AC%ED%83%9C&amp;#x26;sm=top_lve.agallgrpmamsi0en0sp0&amp;#x26;ie=utf8&quot;&gt;검색어 결과&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -40,58 +43,77 @@ WHO에서 비상상태가 선언되는 경우는 ‘국제공중보건 위기상
   &lt;/span&gt;
   &lt;/p&gt;
 &lt;h2&gt;고민중&lt;/h2&gt;
-&lt;p&gt;4월달 태국 여행이 계획되어 있는데… 아… 취소를 해야하나 말아야하나.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[inline-block div 간격 0으로 만들기]]></title><description><![CDATA[inline-block요소가 두개가 있으면 간격이 생긴다. 간격이 생기면 0으로 만들어주고 디자인 시안을 보고 여백을 줘야하는데]]></description><link>https://ipadorusa.com/posts/inline-block간격 없애기</link><guid isPermaLink="false">https://ipadorusa.com/posts/inline-block간격 없애기</guid><pubDate>Thu, 30 Jan 2020 08:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;inline-block div 간격 없애기&lt;/h1&gt;
+&lt;p&gt;4월달 태국 여행이 계획되어 있는데… 아… 취소를 해야하나 말아야하나.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[inline-block div 간격 0으로 만들기]]></title><description><![CDATA[inline-block요소가 두개가 있으면 간격이 생긴다. 간격이 생기면 0으로 만들어주고 디자인 시안을 보고 여백을 줘야하는데]]></description><link>https://ipadorusa.com/posts/inline-block간격 없애기</link><guid isPermaLink="false">https://ipadorusa.com/posts/inline-block간격 없애기</guid><pubDate>Thu, 30 Jan 2020 08:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;inline-block div 간격 없애기&lt;/h2&gt;
 &lt;p&gt;인라인 블록 요소 연속으로 있으면 이렇게 약간의 4px정도가 생긴다. 이걸 해결하는 방법은 몇가지 방법이 있다.&lt;/p&gt;
 &lt;h2&gt;현상&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/59e1c5531ba2d66a5aa430a0d29a335a/inline-block-gap.gif&quot; alt=&quot;현상&quot;&gt;&lt;/p&gt;
 &lt;h2&gt;방법&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;마크업으로 처리&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;&amp;lt;!--
---&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;&amp;lt;!--
---&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;&amp;lt;!--
---&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;&amp;lt;!--
---&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;&amp;lt;!--
---&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;마크업으로 처리&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;마크업으로 처리&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;마크업으로 처리&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef
-&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef
-&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef
-&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef
-&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef
-&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;CSS로 처리&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;#parent&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token property&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;0&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token selector&quot;&gt;#child&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token property&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;16px&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;CSS로 처리&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;#parent&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token property&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;flex&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token selector&quot;&gt;#child&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token property&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;inline-block&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[경제관련 Link(2020-01-30)]]></title><description><![CDATA[경제관련 공부하면서 읽은 블로그나 괜찮은 링크 저장 및 요약 경제관련 Link(2020-01-30)]]></description><link>https://ipadorusa.com/posts/20200130-경제공부</link><guid isPermaLink="false">https://ipadorusa.com/posts/20200130-경제공부</guid><pubDate>Wed, 29 Jan 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;네이버 경제 탭에 선정된 내용 공부하기&lt;/h1&gt;
+&lt;li&gt;마크업으로 처리&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;&amp;lt;!--
+--&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;&amp;lt;!--
+--&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;&amp;lt;!--
+--&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;&amp;lt;!--
+--&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;&amp;lt;!--
+--&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;마크업으로 처리&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;마크업으로 처리&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;마크업으로 처리&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;abcdabcdef&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li&gt;CSS로 처리&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;#parent&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 0&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token selector&quot;&gt;#child&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 16px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;6&quot;&gt;
+&lt;li&gt;CSS로 처리&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;#parent&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; flex&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token selector&quot;&gt;#child&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; inline-block&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[경제관련 Link(2020-01-30)]]></title><description><![CDATA[경제관련 공부하면서 읽은 블로그나 괜찮은 링크 저장 및 요약 경제관련 Link(2020-01-30)]]></description><link>https://ipadorusa.com/posts/20200130-경제공부</link><guid isPermaLink="false">https://ipadorusa.com/posts/20200130-경제공부</guid><pubDate>Wed, 29 Jan 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;네이버 경제 탭에 선정된 내용 공부하기&lt;/h2&gt;
 &lt;h2&gt;2020년, 저축을 늘리는 2가지 방법 - &lt;a href=&quot;https://post.naver.com/viewer/postView.nhn?volumeNo=27319344&amp;#x26;memberNo=1954108&quot;&gt;링크&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;직장인들이 저축액을 늘릴 수 있는 현실적인 방법 (신용카드 끊자, 커피 값을 줄이자) 두 가지 주제로 쓴 글&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;시리즈경제 이야기 신종 코로나, 세계 경제에 퍼펙트스톰 만드나  - &lt;a href=&quot;https://post.naver.com/viewer/postView.nhn?volumeNo=27368710&amp;#x26;memberNo=6309856&quot;&gt;링크&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;시리즈경제 이야기 신종 코로나, 세계 경제에 퍼펙트스톰 만드나 - &lt;a href=&quot;https://post.naver.com/viewer/postView.nhn?volumeNo=27368710&amp;#x26;memberNo=6309856&quot;&gt;링크&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;우한 폐렴이 미치는 세계 경제 영향 관광산업 및 사스와 메르스의 전례를 예를 들며 설명한 글&lt;/li&gt;
 &lt;/ul&gt;
@@ -101,7 +123,7 @@ WHO에서 비상상태가 선언되는 경우는 ‘국제공중보건 위기상
 &lt;/ul&gt;
 &lt;h2&gt;현대차 “2030년 ‘엔진 신차’ 출시 중단”…미래차 청사진 공개 - &lt;a href=&quot;https://news.naver.com/main/ranking/read.nhn?mid=etc&amp;#x26;sid1=111&amp;#x26;rankingType=popular_day&amp;#x26;oid=015&amp;#x26;aid=0004280731&amp;#x26;date=20200129&amp;#x26;type=1&amp;#x26;rankingSeq=6&amp;#x26;rankingSectionId=101&quot;&gt;링크&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;한국경제 기사로 2030년까지 현대차는 전기 수소차로 재편한다고 함. &lt;/li&gt;
+&lt;li&gt;한국경제 기사로 2030년까지 현대차는 전기 수소차로 재편한다고 함.&lt;/li&gt;
 &lt;li&gt;울산 1공장 전기차 라인으로 연내 교체 공사 추진 10년간 최소 1만명 인력 줄여야&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;신종코로나 스미싱 문자 유포 - &lt;a href=&quot;https://news.naver.com/main/ranking/read.nhn?mid=etc&amp;#x26;sid1=111&amp;#x26;rankingType=popular_day&amp;#x26;oid=001&amp;#x26;aid=0011364888&amp;#x26;date=20200130&amp;#x26;type=1&amp;#x26;rankingSeq=4&amp;#x26;rankingSectionId=105&quot;&gt;링크&lt;/a&gt;&lt;/h2&gt;
@@ -111,7 +133,7 @@ WHO에서 비상상태가 선언되는 경우는 ‘국제공중보건 위기상
 &lt;h2&gt;미 연준, 기준금리 1.50~1.75% 유지 - &lt;a href=&quot;https://search.naver.com/search.naver?where=nexearch&amp;#x26;query=%EA%B8%B0%EC%A4%80%EA%B8%88%EB%A6%AC+1.50&amp;#x26;ie=utf8&amp;#x26;sm=nws_htk.nws&quot;&gt;링크&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;미 연준 기준금리가 지난해 7월말 이후 세 차례 연속 기준금리를 내렸다가 지난달 인하 행진을 멈춘 연준이 동결 모드를 이어간 감&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[경제관련 Link(2020-01-29)]]></title><description><![CDATA[경제관련 공부하면서 읽은 블로그나 괜찮은 링크 저장 및 요약]]></description><link>https://ipadorusa.com/posts/20200129-경제공부</link><guid isPermaLink="false">https://ipadorusa.com/posts/20200129-경제공부</guid><pubDate>Tue, 28 Jan 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;네이버 경제 탭에 선정된 내용 공부하기&lt;/h1&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[경제관련 Link(2020-01-29)]]></title><description><![CDATA[경제관련 공부하면서 읽은 블로그나 괜찮은 링크 저장 및 요약]]></description><link>https://ipadorusa.com/posts/20200129-경제공부</link><guid isPermaLink="false">https://ipadorusa.com/posts/20200129-경제공부</guid><pubDate>Tue, 28 Jan 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;네이버 경제 탭에 선정된 내용 공부하기&lt;/h2&gt;
 &lt;h2&gt;코로나 바이러스 (우한 폐렴) 등장과 함께 주목해 볼 것들 - &lt;a href=&quot;https://post.naver.com/viewer/postView.nhn?volumeNo=27355497&amp;#x26;memberNo=45786969&quot;&gt;링크&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;우한 폐렴 소개, 인플레이션으로 인한 증시 충격 가능성에 관련 하여 자세히 설명한 글.&lt;/li&gt;
@@ -124,10 +146,10 @@ WHO에서 비상상태가 선언되는 경우는 ‘국제공중보건 위기상
 &lt;ul&gt;
 &lt;li&gt;은행을 사용하는 사람이라면 최근 가장 많이 들었을 단어 오픈뱅킹에 대해 전반적인 내용의 글&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;삼성 “R&amp;#x26;D로 승부”… 부동산 3兆 팔아 미래에 투자 - &lt;a href=&quot;https://post.naver.com/viewer/postView.nhn?volumeNo=27338262&amp;#x26;memberNo=11312812&quot;&gt;링크&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;삼성 “R&amp;#x26;D로 승부”… 부동산 3 兆 팔아 미래에 투자 - &lt;a href=&quot;https://post.naver.com/viewer/postView.nhn?volumeNo=27338262&amp;#x26;memberNo=11312812&quot;&gt;링크&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;많은 내용은 없지만 삼성이 부동산을 팔아 미래에 투자를 위해 현금자산을 보유했다는 내용의 글&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[미국 파이어(fire)족 조기은퇴족~!]]></title><description><![CDATA[Youtube TVN 영상을 보다가 알게 된 미국 파이어(FIRE)족 조기은퇴족이 궁금하여 찾아보았다.]]></description><link>https://ipadorusa.com/posts/Financial-Independence-Retire-Early</link><guid isPermaLink="false">https://ipadorusa.com/posts/Financial-Independence-Retire-Early</guid><pubDate>Tue, 28 Jan 2020 12:26:39 GMT</pubDate><content:encoded>&lt;h1&gt;미국 파이어(FIRE)족 조기은퇴족&lt;/h1&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[미국 파이어(fire)족 조기은퇴족~!]]></title><description><![CDATA[Youtube TVN 영상을 보다가 알게 된 미국 파이어(FIRE)족 조기은퇴족이 궁금하여 찾아보았다.]]></description><link>https://ipadorusa.com/posts/Financial-Independence-Retire-Early</link><guid isPermaLink="false">https://ipadorusa.com/posts/Financial-Independence-Retire-Early</guid><pubDate>Tue, 28 Jan 2020 12:26:39 GMT</pubDate><content:encoded>&lt;h2&gt;미국 파이어(FIRE)족 조기은퇴족&lt;/h2&gt;
 &lt;p&gt;어제 Youtube 에 올라온 &lt;a href=&quot;https://www.youtube.com/watch?v=F4qzwYLJxYc&quot;&gt;30 살에 경제적 자유를 얻으면 펼쳐지는 삶 #FIRE 운동 | tvN Shift 2020 tvN Shift EP.4&lt;/a&gt;을 보고 대체 어떤 사람들일까 어떤 삶을 살았을까? 그들의 삶은 내용은 어떤가? 궁금해 졌다.&lt;/p&gt;
 &lt;h2&gt;FIRE 족이란?&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -246,7 +268,7 @@ WHO에서 비상상태가 선언되는 경우는 ‘국제공중보건 위기상
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;기회가 된다면 책을 읽어 보고 싶다.&lt;/p&gt;
-&lt;p&gt;그런데 FIRE 를 하고 난 후의 삶은?????? 80 프로 이상을 투자했는데… 그후는 어떻게 살아야하나라는 궁금증이 생긴다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[경제관련 Link(2020-01-28)]]></title><description><![CDATA[경제관련 공부하면서 읽은 블로그나 괜찮은 링크 저장 및 요약]]></description><link>https://ipadorusa.com/posts/20200128-경제공부</link><guid isPermaLink="false">https://ipadorusa.com/posts/20200128-경제공부</guid><pubDate>Mon, 27 Jan 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;네이버 경제 탭에 선정된 내용 공부하기&lt;/h1&gt;
+&lt;p&gt;그런데 FIRE 를 하고 난 후의 삶은?????? 80 프로 이상을 투자했는데… 그후는 어떻게 살아야하나라는 궁금증이 생긴다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[경제관련 Link(2020-01-28)]]></title><description><![CDATA[경제관련 공부하면서 읽은 블로그나 괜찮은 링크 저장 및 요약]]></description><link>https://ipadorusa.com/posts/20200128-경제공부</link><guid isPermaLink="false">https://ipadorusa.com/posts/20200128-경제공부</guid><pubDate>Mon, 27 Jan 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;네이버 경제 탭에 선정된 내용 공부하기&lt;/h2&gt;
 &lt;h2&gt;1. &lt;a href=&quot;https://post.naver.com/viewer/postView.nhn?volumeNo=27324161&amp;#x26;memberNo=31243367&quot;&gt;연말정산 청약저축 혜택 누가 받을까?&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;청약저축 가입 시 무조건 연말 정산 혜택을 받는지 여부?&lt;/li&gt;
@@ -258,21 +280,21 @@ WHO에서 비상상태가 선언되는 경우는 ‘국제공중보건 위기상
 &lt;h2&gt;2. &lt;a href=&quot;https://post.naver.com/viewer/postView.nhn?volumeNo=27241097&amp;#x26;memberNo=11166748&quot;&gt;‘아파트 투유’ 2월 2일로 종료…’청약홈’ 이용하세요&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;아파트 청약 사이트 ‘아파트 투유’ 2월 2일로 종료…‘청약홈’에서 이용해야함&lt;/li&gt;
-&lt;li&gt;국토부는 이번 청약업무 이관을 계기로 대국민·사업주체 서비스 확대, 청약 부적격 당첨자 및 불법청약 방지, 청약정보의 실시간 정책 활용 등 청약업무의 공적 기능을 강화한단 계획이다. &lt;/li&gt;
+&lt;li&gt;국토부는 이번 청약업무 이관을 계기로 대국민·사업주체 서비스 확대, 청약 부적격 당첨자 및 불법청약 방지, 청약정보의 실시간 정책 활용 등 청약업무의 공적 기능을 강화한단 계획이다.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;3. [돈 못 모으는 사람들의 공통적 특징] (&lt;a href=&quot;https://post.naver.com/viewer/postView.nhn?volumeNo=25252787&amp;#x26;memberNo=15460571&quot;&gt;https://post.naver.com/viewer/postView.nhn?volumeNo=25252787&amp;#x26;memberNo=15460571&lt;/a&gt;)&lt;/h2&gt;
+&lt;h2&gt;3. &lt;a href=&quot;https://post.naver.com/viewer/postView.nhn?volumeNo=25252787&amp;#x26;memberNo=15460571&quot;&gt;돈 못 모으는 사람들의 공통적 특징&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;택시를 자주 탄다&lt;/li&gt;
 &lt;li&gt;신용카드 할부를 밥 먹듯이 한다&lt;/li&gt;
 &lt;li&gt;항상 물욕이 넘친다&lt;/li&gt;
 &lt;li&gt;먹고 싶은 건 먹고, 사고 싶은 건 반드시 사야 한다&lt;/li&gt;
-&lt;li&gt;작은 돈은 무시한다 &lt;/li&gt;
+&lt;li&gt;작은 돈은 무시한다&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;4. &lt;a href=&quot;https://blog.naver.com/f0725/221782231883&quot;&gt;2019년 연말정산 의료비공제, 실비보험 조회하기(연말정산 실비보험 국세청 홈택스 조회방법)&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;2019년 연말정산부터는 의료비공제 금액에서 실비보험, 즉 실손보험금 수령액을 빼줘야 합니다. &lt;a href=&quot;https://news.naver.com/main/read.nhn?mode=LSD&amp;#x26;mid=sec&amp;#x26;oid=023&amp;#x26;aid=0003502961&amp;#x26;sid1=001&quot;&gt;관련기사&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;방법 국세청홈택스 =&gt; 조회/발급 =&gt; 기타조회 하단에 실손의료보험금 조회 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[주식 테마주란?]]></title><description><![CDATA[문맹보다 무서운 금융문맹을 벗어나기 위해 스스로 공부한다. 테마주]]></description><link>https://ipadorusa.com/posts/stock-theme</link><guid isPermaLink="false">https://ipadorusa.com/posts/stock-theme</guid><pubDate>Mon, 27 Jan 2020 14:35:21 GMT</pubDate><content:encoded>&lt;h1&gt;주식 테마주란?&lt;/h1&gt;
+&lt;li&gt;방법 국세청홈택스 =&gt; 조회/발급 =&gt; 기타조회 하단에 실손의료보험금 조회&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[주식 테마주란?]]></title><description><![CDATA[문맹보다 무서운 금융문맹을 벗어나기 위해 스스로 공부한다. 테마주]]></description><link>https://ipadorusa.com/posts/stock-theme</link><guid isPermaLink="false">https://ipadorusa.com/posts/stock-theme</guid><pubDate>Mon, 27 Jan 2020 14:35:21 GMT</pubDate><content:encoded>&lt;h2&gt;주식 테마주란?&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;테마주는 주식시장에 상장된 주식으로서, 하나의 주제를 가진 사건에 의해 같은 방향으로 주가가 움직이는 종목군을 말한다. 정치, 연예, 레저, 과학기술, 부동산, 질병, 자원개발 등 다양한 종류의 테마주가 있다.
 18 세기 영국을 휩쓴 투자광풍인 남해회사거품 사건을 묘사한 그림(Edward Matthew Ward 作)
@@ -295,13 +317,13 @@ WHO에서 비상상태가 선언되는 경우는 ‘국제공중보건 위기상
 &lt;p&gt;관련 기사 : 사실 파루가 실체 없는 기대감에 잠깐 반짝하는 것은 이번 한 번만 있는 일은 아닙니다. 파루는 신재생에너지주 뿐 아니라 AI(조류독감)주, 슈퍼박테리아주, 신종플루주, 장마철 관련주 등 테마주로 묶여있습니다.&lt;a href=&quot;https://biz.chosun.com/site/data/html_dir/2017/08/02/2017080201652.html&quot;&gt;관련링크&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;관련 글들&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;https://youtu.be/DHzcUOAYpSs&quot;&gt;슈카월드 - 파루&lt;/a&gt;
-&lt;a href=&quot;https://www.opinionnews.co.kr/news/articleView.html?idxno=28559&quot;&gt;[이번주 증시태그] ‘우한 폐렴’ 테마주 주의보…실적 시즌 본격화&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[경제공부, 주식 용어 정리를 해보자]]></title><description><![CDATA[경제공부, 주식 용어 정리를 해보자]]></description><link>https://ipadorusa.com/posts/stock-word</link><guid isPermaLink="false">https://ipadorusa.com/posts/stock-word</guid><pubDate>Mon, 27 Jan 2020 00:34:59 GMT</pubDate><content:encoded>&lt;h1&gt;주식용어 정리&lt;/h1&gt;
+&lt;a href=&quot;https://www.opinionnews.co.kr/news/articleView.html?idxno=28559&quot;&gt;[이번주 증시태그] ‘우한 폐렴’ 테마주 주의보…실적 시즌 본격화&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[경제공부, 주식 용어 정리를 해보자]]></title><description><![CDATA[경제공부, 주식 용어 정리를 해보자]]></description><link>https://ipadorusa.com/posts/stock-word</link><guid isPermaLink="false">https://ipadorusa.com/posts/stock-word</guid><pubDate>Mon, 27 Jan 2020 00:34:59 GMT</pubDate><content:encoded>&lt;h2&gt;주식용어 정리&lt;/h2&gt;
 &lt;p&gt;중간중간 업데이트(2020-01-27 09:34:52)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;시가총액 비중 상한제도(30% 룰) : 코스피 200, 코스피 100, 코스피 50, KRX300 등 시장을 대표하는 지수에서 특정 종목의 시가총액 비중을 30%로 제한하는 제도다. (최근 삼성전자 주식이 이 룰에 적용 문제가 있었다. &lt;a href=&quot;https://www.mk.co.kr/news/stock/view/2020/01/70804/&quot;&gt;관련기사&lt;/a&gt; )&lt;/li&gt;
 &lt;li&gt;EPS(Earning Per Share) : 주당 순이익 (당기순이익 / 발행주식수). A 기업이 올해 2 억의 순이익을 기록했다. A 기업이 10,000 주의 주식을 발행했었다면, 이 기업의 EPS 는 아래와 같이 계산될 것입니다. (200,000,000 / 10,000) = 20,000 이 될 것 이다.&lt;/li&gt;
 &lt;li&gt;PER(Price Earning Ratio) : 주가 수익 비율. 주가를 주당이익으로 나눈것(PER = (현재주가) / (현재 EPS)). 주가가 1 주당 수익의 몇 배가 되는가를 나타내는데 쉽게 예시를 들어보겠습니다. PER 이 10 인기업은 즉 주가가 10, 이익이 1 이라는 의미로 10 년을 현재 이익을 유지한다면 현재 주가만큼의 금액을 벌게 된다는 것입니다. 낮을수록 좋을것같으나, 낮은 PER 은 그만한 이유가 있을 수 있고, 높은 PER 은 그만큼 많은 투자자들의 관심을 가지고 있는 성장주식이기 떄문에 확답은 없다.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[문맹보다 무서운 금융문맹 (주식,재테크)]]></title><description><![CDATA[문맹보다 무서운 금융문맹을 벗어나기 위해 스스로 공부한다. 경제공부, 주식 용어 정리]]></description><link>https://ipadorusa.com/posts/economy-study</link><guid isPermaLink="false">https://ipadorusa.com/posts/economy-study</guid><pubDate>Sun, 26 Jan 2020 23:54:53 GMT</pubDate><content:encoded>&lt;h1&gt;문맹보다 무서운 금융문맹&lt;/h1&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[문맹보다 무서운 금융문맹 (주식,재테크)]]></title><description><![CDATA[문맹보다 무서운 금융문맹을 벗어나기 위해 스스로 공부한다. 경제공부, 주식 용어 정리]]></description><link>https://ipadorusa.com/posts/economy-study</link><guid isPermaLink="false">https://ipadorusa.com/posts/economy-study</guid><pubDate>Sun, 26 Jan 2020 23:54:53 GMT</pubDate><content:encoded>&lt;h2&gt;문맹보다 무서운 금융문맹&lt;/h2&gt;
 &lt;p&gt;최근 어떻게 하면 돈을 벌수 있을까? 다른 사람들은 어떻게 관리하나 ? 이런 관심이 많아졌다. 메인 수입 월급 이외에 추가적인 머니를 발생 시켜야 노후에 안정적으로 살지 않을까라는 고민이… 이런말이 있다.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;h1&gt;문맹은 생활을 불편하게 하지만 금융문맹은 생존을 못하게 한다&lt;/h1&gt;
@@ -309,7 +331,7 @@ WHO에서 비상상태가 선언되는 경우는 ‘국제공중보건 위기상
 &lt;p&gt;미국의 경제 학자 앨런 그리스펀이 한말이다.&lt;/p&gt;
 &lt;p&gt;최근 즐겨 보는 경제 유튜브 채널이 있는데 &lt;a href=&quot;https://www.youtube.com/channel/UCaJdckl6MBdDPDf75Ec_bJA&quot;&gt;심사임당&lt;/a&gt;에 나오는 여러 사람들의 주제 내용을 보면 주식을 해야하고 물론 투기가 아닌 투자로 차는 사지 말아야하며 집은 사지 말고 그 돈으로 다른 곳은 투자 하라는 내용이다. 100 프로 내것으로 만들수는 없지만 그래도 계속 관심있게 경제 관련 내용을 보다보면 나도 관심을 가지고 나만의 살길을 찾지 않을까 한다.&lt;/p&gt;
 &lt;p&gt;그 일환으로 주식 용어에 대해 공부 해보기로 했다.
-&lt;a href=&quot;/posts/stock-word&quot;&gt;주식용어&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[존스홉킨스 대학에서 만든 코로나 바이러스 맵(Wuhan Coronavirus (2019-nCoV) Global Cases (by JHU CSSE))]]></title><description><![CDATA[존스홉킨스에서 코로나 바이러스(우한폐렴) 맵을 만들어서 공유합니다.]]></description><link>https://ipadorusa.com/posts/wuhancoronavirus</link><guid isPermaLink="false">https://ipadorusa.com/posts/wuhancoronavirus</guid><pubDate>Sun, 26 Jan 2020 16:32:17 GMT</pubDate><content:encoded>&lt;h1&gt;존스홉킨스 대학에서 만든 코로나 바이러스 맵(Wuhan Coronavirus (2019-nCoV) Global Cases (by JHU CSSE))&lt;/h1&gt;
+&lt;a href=&quot;/posts/stock-word&quot;&gt;주식용어&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[존스홉킨스 대학에서 만든 코로나 바이러스 맵(Wuhan Coronavirus (2019-nCoV) Global Cases (by JHU CSSE))]]></title><description><![CDATA[존스홉킨스에서 코로나 바이러스(우한폐렴) 맵을 만들어서 공유합니다.]]></description><link>https://ipadorusa.com/posts/wuhancoronavirus</link><guid isPermaLink="false">https://ipadorusa.com/posts/wuhancoronavirus</guid><pubDate>Sun, 26 Jan 2020 16:32:17 GMT</pubDate><content:encoded>&lt;h2&gt;존스홉킨스 대학에서 만든 코로나 바이러스 맵(Wuhan Coronavirus (2019-nCoV) Global Cases (by JHU CSSE))&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR3eKUPo-GlJCspMkKxWZ6p0pfuw2rJgUTCThvoF4rK4vYc3JchAnwb7U8Q#/bda7594740fd40299423467b48e9ecf6&quot;&gt;우한폐렴 맵&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;우한폐렴 확진자 기준 (2020-01-27 00:41:11)&lt;/h2&gt;
 &lt;p&gt;확진자 2019 명 이네요. 너무 많네요.&lt;/p&gt;
@@ -374,7 +396,7 @@ WHO에서 비상상태가 선언되는 경우는 ‘국제공중보건 위기상
     &lt;/span&gt;
   &lt;/span&gt;
   
-원래 주소 : &lt;a href=&quot;http://www.%ED%95%B4%EC%99%B8%EA%B0%90%EC%97%BC%EB%B3%91now.kr/upload/contents/img/56b6579927ce458683e75414ebeb2ab1.png&quot;&gt;http://www.해외감염병now.kr/upload/contents/img/56b6579927ce458683e75414ebeb2ab1.png&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Storybook Vue 설치 (2)]]></title><description><![CDATA[Storybook Vue 설치후 폴더 구조 파악하기]]></description><link>https://ipadorusa.com/posts/Storybook-vue-step03</link><guid isPermaLink="false">https://ipadorusa.com/posts/Storybook-vue-step03</guid><pubDate>Sun, 26 Jan 2020 12:25:06 GMT</pubDate><content:encoded>&lt;h1&gt;Storybook Vue 폴더 구조 보기&lt;/h1&gt;
+원래 주소 : &lt;a href=&quot;http://www.%ED%95%B4%EC%99%B8%EA%B0%90%EC%97%BC%EB%B3%91now.kr/upload/contents/img/56b6579927ce458683e75414ebeb2ab1.png&quot;&gt;http://www.해외감염병now.kr/upload/contents/img/56b6579927ce458683e75414ebeb2ab1.png&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Storybook Vue 설치 (2)]]></title><description><![CDATA[Storybook Vue 설치후 폴더 구조 파악하기]]></description><link>https://ipadorusa.com/posts/Storybook-vue-step03</link><guid isPermaLink="false">https://ipadorusa.com/posts/Storybook-vue-step03</guid><pubDate>Sun, 26 Jan 2020 12:25:06 GMT</pubDate><content:encoded>&lt;h2&gt;Storybook Vue 폴더 구조 보기&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;/posts/Storybook-vue-step02&quot;&gt;Storybook Vue 설치 (1)&lt;/a&gt;에서 문제 없이 설치가 됐다면 아래 이미지처럼 폴더가 구성이 되어 있을 것이다.
 
   &lt;span
@@ -627,7 +649,7 @@ Welcome 이라는 이름으로 ./Welcome 스크립트를 import 시켰다.
 &lt;p&gt;그리고 methods 에는 onClick 이벤트 함수명을 넣었고&lt;/p&gt;
 &lt;p&gt;@click=“onClick” 를 찾아보면 this.showApp() 이라는걸 실행하게 했는데 이건 0-Welcome.stories.js 에 { action: linkTo(‘Button’) } 과 props 로 연결이 된다.&lt;/p&gt;
 &lt;h4&gt;요약&lt;/h4&gt;
-&lt;p&gt;스토리북은 참 가이드가… 불친절한거 같다. 아니면 내가 실력이 부족해서 그런거 일지도..&lt;/p&gt;</content:encoded></item><item><title><![CDATA[우한 폐렴으로 대한항공,아시아나 환불규정에 대해 알아보자]]></title><description><![CDATA[대한항공 사이트에 들어가니 우한 폐렴 관련 환불에 대해 공지가 나와 아시아나 항공는 어떤가 확인해 보았다.]]></description><link>https://ipadorusa.com/posts/travel-refund</link><guid isPermaLink="false">https://ipadorusa.com/posts/travel-refund</guid><pubDate>Sun, 26 Jan 2020 02:01:53 GMT</pubDate><content:encoded>&lt;h1&gt;우한 폐렴 비행기 환불 어떻게 되나? 대한항공과 아시아나 비교해보자&lt;/h1&gt;
+&lt;p&gt;스토리북은 참 가이드가… 불친절한거 같다. 아니면 내가 실력이 부족해서 그런거 일지도..&lt;/p&gt;</content:encoded></item><item><title><![CDATA[우한 폐렴으로 대한항공,아시아나 환불규정에 대해 알아보자]]></title><description><![CDATA[대한항공 사이트에 들어가니 우한 폐렴 관련 환불에 대해 공지가 나와 아시아나 항공는 어떤가 확인해 보았다.]]></description><link>https://ipadorusa.com/posts/travel-refund</link><guid isPermaLink="false">https://ipadorusa.com/posts/travel-refund</guid><pubDate>Sun, 26 Jan 2020 02:01:53 GMT</pubDate><content:encoded>&lt;h2&gt;우한 폐렴 비행기 환불 어떻게 되나? 대한항공과 아시아나 비교해보자&lt;/h2&gt;
 &lt;h2&gt;대한항공 모바일에서 안내되는 팝업&lt;/h2&gt;
 &lt;p&gt;
   &lt;a
@@ -763,7 +785,7 @@ Welcome 이라는 이름으로 ./Welcome 스크립트를 import 시켰다.
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;아시아나가 좀 더 명확하게 설명을 더 잘해준 거 같다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Storybook Vue 설치 (1)]]></title><description><![CDATA[Storybook Vue 설치 해보자. 윈도우 버전에서는 Automactic setup 시키는대로 하면 작동이 안됐는데. 일단 맥에서 해보자]]></description><link>https://ipadorusa.com/posts/Storybook-vue-step02</link><guid isPermaLink="false">https://ipadorusa.com/posts/Storybook-vue-step02</guid><pubDate>Thu, 23 Jan 2020 14:38:30 GMT</pubDate><content:encoded>&lt;h1&gt;Storybook Vue 버전으로 설치 해보자&lt;/h1&gt;
+&lt;p&gt;아시아나가 좀 더 명확하게 설명을 더 잘해준 거 같다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Storybook Vue 설치 (1)]]></title><description><![CDATA[Storybook Vue 설치 해보자. 윈도우 버전에서는 Automactic setup 시키는대로 하면 작동이 안됐는데. 일단 맥에서 해보자]]></description><link>https://ipadorusa.com/posts/Storybook-vue-step02</link><guid isPermaLink="false">https://ipadorusa.com/posts/Storybook-vue-step02</guid><pubDate>Thu, 23 Jan 2020 14:38:30 GMT</pubDate><content:encoded>&lt;h2&gt;Storybook Vue 버전으로 설치 해보자&lt;/h2&gt;
 &lt;p&gt;vue 버전으로 설치 설명글은 &lt;a href=&quot;https://storybook.js.org/docs/guides/guide-vue/&quot;&gt;https://storybook.js.org/docs/guides/guide-vue/&lt;/a&gt;에 나와있다.&lt;/p&gt;
 &lt;p&gt;두가지 방법이 있다.
 참고로 윈도우에서는 Automactic setup 으로 하면 모듈이 부족했는데… Mac 에서는 어떤가 모 같겠지만… 기억으로 dependencies 부족으로…&lt;/p&gt;
@@ -815,20 +837,20 @@ vue-loader 만 설치한다고 해결 되지가 않을꺼 같아 Manual setup(�
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;짜짠 설치 완료.
 왜 그럴까;;; 내가 무엇을 놓친걸까…
-이렇게 하는게 맞는걸까?&lt;/p&gt;</content:encoded></item><item><title><![CDATA[경제관련 공부하면서 읽은 블로그나 괜찮은 링크 저장 및 요약]]></title><description><![CDATA[경제관련 공부하면서 읽은 블로그나 괜찮은 링크 저장 및 요약]]></description><link>https://ipadorusa.com/posts/20200123-경제공부</link><guid isPermaLink="false">https://ipadorusa.com/posts/20200123-경제공부</guid><pubDate>Wed, 22 Jan 2020 22:10:00 GMT</pubDate><content:encoded>&lt;h1&gt;네이버 경제 탭에 선정된 내용 공부하기&lt;/h1&gt;
+이렇게 하는게 맞는걸까?&lt;/p&gt;</content:encoded></item><item><title><![CDATA[경제관련 공부하면서 읽은 블로그나 괜찮은 링크 저장 및 요약]]></title><description><![CDATA[경제관련 공부하면서 읽은 블로그나 괜찮은 링크 저장 및 요약]]></description><link>https://ipadorusa.com/posts/20200123-경제공부</link><guid isPermaLink="false">https://ipadorusa.com/posts/20200123-경제공부</guid><pubDate>Wed, 22 Jan 2020 22:10:00 GMT</pubDate><content:encoded>&lt;h2&gt;네이버 경제 탭에 선정된 내용 공부하기&lt;/h2&gt;
 &lt;h2&gt;1. &lt;a href=&quot;https://post.naver.com/viewer/postView.nhn?volumeNo=27331272&amp;#x26;memberNo=15470144&quot;&gt;강남 아파트값 뛸때 삼성전자 주식은 날았다.. 주식 vs 부동산 투자수익률 분석&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;강남 A아파트와 삼성전자 주식 비교를 장기투자로 볼경우 주식이 부동산 투자보다 괜찮은 자산이다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;2. &lt;a href=&quot;https://post.naver.com/viewer/postView.nhn?volumeNo=27241097&amp;#x26;memberNo=11166748&quot;&gt;초저금리 시대, 자투리 시간 투자해 푼돈 모이는 ‘앱테크’인기&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;잔돈,푼돈으로 어떻게 투자로 사용이 되는가에 대한 다양한 방법을 소개  (정확하게 어떤 취지로 쓴글인지는…)&lt;/li&gt;
+&lt;li&gt;잔돈,푼돈으로 어떻게 투자로 사용이 되는가에 대한 다양한 방법을 소개 (정확하게 어떤 취지로 쓴글인지는…)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;3. [13월의 월급 VS 세금 폭탄, 달라진 2020 연말정산의 모든 것] (&lt;a href=&quot;https://post.naver.com/viewer/postView.nhn?volumeNo=27309434&amp;#x26;memberNo=24109238&quot;&gt;https://post.naver.com/viewer/postView.nhn?volumeNo=27309434&amp;#x26;memberNo=24109238&lt;/a&gt;)&lt;/h2&gt;
+&lt;h2&gt;3. &lt;a href=&quot;https://post.naver.com/viewer/postView.nhn?volumeNo=27309434&amp;#x26;memberNo=24109238&quot;&gt;13월의 월급 VS 세금 폭탄, 달라진 2020 연말정산의 모든 것&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;2020년 연말정산 바뀐점(박물관과 미술관 입장료에 대해 30% 소득공제, 산후조리원 지출 비용 최대 200만원, 고액 기부금 세액공제 기준 변경)&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;똑똑한 연말정산 체크리스트 5 &lt;/p&gt;
+&lt;p&gt;똑똑한 연말정산 체크리스트 5&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;소득이 비슷한 맞벌이 부부라면 소득이 적은 사람에게 카드 사용 몰아주기&lt;/li&gt;
 &lt;li&gt;부부의 연봉 차이가 크다면 소득이 ㅁ낳은 배우자의 카드 집중적으로 사용하기&lt;/li&gt;
@@ -836,7 +858,7 @@ vue-loader 만 설치한다고 해결 되지가 않을꺼 같아 Manual setup(�
 &lt;li&gt;공제 신고서에 잘몬된 부분은 없는지 사전에 꼼꼼히 살피기&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[경제 관련 꿀팁 정보]]></title><description><![CDATA[[펌]경제 관련 꿀팁 정보, 앞으로의 10 년을 생각해야하는 나로써는 경제공부를 안할수가 없다. 주식 및 추가 소득을 위한 공부]]></description><link>https://ipadorusa.com/posts/경제관련꿀팁정보</link><guid isPermaLink="false">https://ipadorusa.com/posts/경제관련꿀팁정보</guid><pubDate>Tue, 21 Jan 2020 13:45:05 GMT</pubDate><content:encoded>&lt;h1&gt;경제공부 무료로 하는 꿀팁&lt;/h1&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[경제 관련 꿀팁 정보]]></title><description><![CDATA[[펌]경제 관련 꿀팁 정보, 앞으로의 10 년을 생각해야하는 나로써는 경제공부를 안할수가 없다. 주식 및 추가 소득을 위한 공부]]></description><link>https://ipadorusa.com/posts/경제관련꿀팁정보</link><guid isPermaLink="false">https://ipadorusa.com/posts/경제관련꿀팁정보</guid><pubDate>Tue, 21 Jan 2020 13:45:05 GMT</pubDate><content:encoded>&lt;h2&gt;경제공부 무료로 하는 꿀팁&lt;/h2&gt;
 &lt;p&gt;앞으로의 10 년을 생각해야하는 나로써는 경제공부를 안할수가 없다.
 주 관심사는 주소득외 추가 소득을 어떻게 만드느냐..
 자주 가는 사이트에 경제공부 관련 사이트와 YOUTUBE 채널 정리된게 있어 퍼온다.
@@ -858,7 +880,7 @@ vue-loader 만 설치한다고 해결 되지가 않을꺼 같아 Manual setup(�
 &lt;li&gt;&lt;a href=&quot;https://newneek.co/&quot;&gt;뉴닉&lt;/a&gt; : 밀레니얼 대상, 시사상식 쉽게 풀어 설명해주는 이메일 뉴스레터&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://uppity.co.kr/&quot;&gt;어피티&lt;/a&gt; : 사회초년생들 경제, 재테크 팁을 초보자의 관점에서 설명하는 뉴스레터&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://now.rememberapp.co.kr/&quot;&gt;리멤버 나우&lt;/a&gt; : 명함관리앱 리멤버에서 운영하는 경제 관련 뉴스레터&lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[IE9 D3 Chart 안나옴 // IE9 개발자 도구 연 상태에서 새로 고침하면 나옴]]></title><description><![CDATA[IE9 D3 차트 안나오는 현상 개발자 도구 연 상태에서 새로 고침하면 나옴. module,webpack 번들러의 문제]]></description><link>https://ipadorusa.com/posts/IE9_D3_notworking</link><guid isPermaLink="false">https://ipadorusa.com/posts/IE9_D3_notworking</guid><pubDate>Tue, 21 Jan 2020 13:22:03 GMT</pubDate><content:encoded>&lt;h1&gt;IE9 D3 차트 안나오는 현상 개발자 도구 연 상태에서 새로 고침하면 나옴&lt;/h1&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[IE9 D3 Chart 안나옴 // IE9 개발자 도구 연 상태에서 새로 고침하면 나옴]]></title><description><![CDATA[IE9 D3 차트 안나오는 현상 개발자 도구 연 상태에서 새로 고침하면 나옴. module,webpack 번들러의 문제]]></description><link>https://ipadorusa.com/posts/IE9_D3_notworking</link><guid isPermaLink="false">https://ipadorusa.com/posts/IE9_D3_notworking</guid><pubDate>Tue, 21 Jan 2020 13:22:03 GMT</pubDate><content:encoded>&lt;h2&gt;IE9 D3 차트 안나오는 현상 개발자 도구 연 상태에서 새로 고침하면 나옴&lt;/h2&gt;
 &lt;p&gt;IE9 에서 그래프가 안나오는 현상 =&gt; 익스 개발자 도구 연 상태에서 새로고침하면 화면에 표현, 그 뒤 새로고침하면 나옴 에러 메시지 없음..;;&lt;/p&gt;
 &lt;p&gt;몰까; 익스에서만 개발자도구 열었을때 작동하는거면 console 문제로 생각되서 console 이 들어간 부분을 찾았으나 만든 그래프 만든 소스상에서는 콘솔이 들어간 부분이 없어서 다른쪽 문제라고 판단 하였다.&lt;/p&gt;
 &lt;p&gt;5 시간동안. 이것저것 다해봄, 차트나 그외 같이 묶은거 하나하나 열어서..
@@ -870,7 +892,7 @@ vue-loader 만 설치한다고 해결 되지가 않을꺼 같아 Manual setup(�
 &lt;p&gt;&lt;a href=&quot;https://www.npmjs.com/package/babel-plugin-transform-remove-console&quot;&gt;babel-plugin-transform-remove-console&lt;/a&gt; 모듈 설치후
 웹팩 설정에
 plugins: [‘@babel/plugin-syntax-dynamic-import’, ‘transform-remove-console’]
-transform-remove-console 넣어 해결&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Storybook(Vue) 도입해 보자 - 1]]></title><description><![CDATA[Storybook(Vue) 도입해 보자 - 1]]></description><link>https://ipadorusa.com/posts/Storybook-vue-step01</link><guid isPermaLink="false">https://ipadorusa.com/posts/Storybook-vue-step01</guid><pubDate>Fri, 17 Jan 2020 04:23:12 GMT</pubDate><content:encoded>&lt;h1&gt;Storybook 을 도입해보자 - Vue.js&lt;/h1&gt;
+transform-remove-console 넣어 해결&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Storybook(Vue) 도입해 보자 - 1]]></title><description><![CDATA[Storybook(Vue) 도입해 보자 - 1]]></description><link>https://ipadorusa.com/posts/Storybook-vue-step01</link><guid isPermaLink="false">https://ipadorusa.com/posts/Storybook-vue-step01</guid><pubDate>Fri, 17 Jan 2020 04:23:12 GMT</pubDate><content:encoded>&lt;h2&gt;Storybook 을 도입해보자 - Vue.js&lt;/h2&gt;
 &lt;p&gt;3 년전쯤 회사에 도입할려고 생각하고 준비 했었으나 많은 일(?)과 다른 사정으로 인해 준비를 못했었다.&lt;/p&gt;
 &lt;h2&gt;Storybook 이란?&lt;/h2&gt;
 &lt;p&gt;Storybook 은 UI 컴포넌트를 직접 보면서 개발을 할 수 있는 환경을 제공하는 툴이다. 실제 프로젝트 내에서 실행 되는 것이 아니라 독립된 환경으로 실행한다.&lt;/p&gt;
@@ -902,9 +924,9 @@ transform-remove-console 넣어 해결&lt;/p&gt;</content:encoded></item><item><
 &lt;li&gt;Console : 콘솔창 기능.
 &lt;img src=&quot;https://raw.githubusercontent.com/storybooks/storybook-addon-console/master/docs/storybook-addon-console.png&quot; alt=&quot;Console&quot;&gt;&lt;/li&gt;
 &lt;li&gt;Links : 스토리북간의 링크(router 네비게이트 같은기능)&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[window.scrollY vs window.pageYOffset]]></title><description><![CDATA[어떤게 표준일까? window.scrollX, window.scrollY, pageXOffset,pageYOffset]]></description><link>https://ipadorusa.com/posts/scrollY, pageYOffset</link><guid isPermaLink="false">https://ipadorusa.com/posts/scrollY, pageYOffset</guid><pubDate>Wed, 15 Jan 2020 13:04:12 GMT</pubDate><content:encoded>&lt;h1&gt;window.scrollY vs window.pageYOffset ?&lt;/h1&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[window.scrollY vs window.pageYOffset]]></title><description><![CDATA[어떤게 표준일까? window.scrollX, window.scrollY, pageXOffset,pageYOffset]]></description><link>https://ipadorusa.com/posts/scrollY, pageYOffset</link><guid isPermaLink="false">https://ipadorusa.com/posts/scrollY, pageYOffset</guid><pubDate>Wed, 15 Jan 2020 13:04:12 GMT</pubDate><content:encoded>&lt;h2&gt;window.scrollY vs window.pageYOffset ?&lt;/h2&gt;
 &lt;p&gt;어떤게 표준일까?&lt;/p&gt;
-&lt;h1&gt;window.scrollX vs window.pageXOffset ?&lt;/h1&gt;
+&lt;h2&gt;window.scrollX vs window.pageXOffset ?&lt;/h2&gt;
 &lt;p&gt;어떤게 표준일까?&lt;/p&gt;
 &lt;p&gt;어떤걸 써야할까? 나는 항상 헛 갈렸다. D3 차트를 만들때 툴팁의 위치를 정할때나, 스크롤 이벤트로 인한 어떤 값이 필요로 할때 기존 소스를 활용하거나 검색하여 찾아서 넣었었다.&lt;/p&gt;
 &lt;p&gt;보통 이렇게 사용했었다. ie8 부터 맞췄기에 지금 회사에서는 ie9 로 올리기는 했지만..&lt;/p&gt;
@@ -916,7 +938,7 @@ transform-remove-console 넣어 해결&lt;/p&gt;</content:encoded></item><item><
 &lt;/blockquote&gt;
 &lt;p&gt;앞으로는&lt;/p&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;window.pageYOffset || document.documentElement.scrollTop&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;이렇게 사용하는걸 권장해야겠다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[와인에 관심을 갖다.]]></title><description><![CDATA[와인,만화로 배우는 와인의 역사, 그라함 와이너리 투어후 와인의 세계에 빠지게 된 나!]]></description><link>https://ipadorusa.com/posts/만화로 배우는 와인의 역사</link><guid isPermaLink="false">https://ipadorusa.com/posts/만화로 배우는 와인의 역사</guid><pubDate>Tue, 14 Jan 2020 13:23:05 GMT</pubDate><content:encoded>&lt;h1&gt;와인에 관심을 가지게 된 계기.&lt;/h1&gt;
+&lt;p&gt;이렇게 사용하는걸 권장해야겠다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[와인에 관심을 갖다.]]></title><description><![CDATA[와인,만화로 배우는 와인의 역사, 그라함 와이너리 투어후 와인의 세계에 빠지게 된 나!]]></description><link>https://ipadorusa.com/posts/만화로 배우는 와인의 역사</link><guid isPermaLink="false">https://ipadorusa.com/posts/만화로 배우는 와인의 역사</guid><pubDate>Tue, 14 Jan 2020 13:23:05 GMT</pubDate><content:encoded>&lt;h2&gt;와인에 관심을 가지게 된 계기.&lt;/h2&gt;
 &lt;p&gt;나는 원래는 와인을 좋아 하지 않았다. 기본적으로 위스키에 대한 허세(?)가 있었기 때문이다. 신혼 여행을 하면서 분위기에 취해 와인을 먹어보자며 포르투(porto)에서 포트와인을 먹었다. 처음 먹어보는 포트와인 매력에 빠져 포트와인 와이너리 투어도 신청을 했었다.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.grahams-port.com/&quot;&gt;그라함 와이너리&lt;/a&gt; 투어에서 영어 듣기 평가의 시간은 힘들었지만 마지막에 다양한 제품을 먹어보고 맛있어서 아직 신혼여행의 여정이 남아 있음에도 구매를 해서 여행기간에 힘들게 가지고 다녔다. 그 후 나는 와인에 푹 빠졌다.&lt;/p&gt;
 &lt;p&gt;2019 년 10 월부터 2019 년 12 월 31 일까지 먹은 와인 이다.&lt;/p&gt;
@@ -957,7 +979,7 @@ transform-remove-console 넣어 해결&lt;/p&gt;</content:encoded></item><item><
 &lt;h2&gt;책을 읽다. 만화로 배우는 와인의 역사&lt;/h2&gt;
 &lt;p&gt;그러던 와중에 만화로 배우는 와인의 역사 책을 알게 되었고 구매해서 읽게 되었다. 관심 있으면 네이버에서 검색하면 &lt;a href=&quot;https://book.naver.com/bookdb/book_detail.nhn?bid=15874822&quot;&gt;만화로 배우는 와인의 역사&lt;/a&gt; 를 찾아서 보면 잼있을것이다. 모 대충 내용은 고대부터 먹기 시작했고 가톨릭교회와 수도원을 통해 와인 양조 기법이 명맥을 이었고, 17 세기에 유리병이 발명되면서 와인 보존법이 혁명적으로 개선 되었고, 코르크 마개를 통해 더욱 보존법이… 암튼 잼남..&lt;/p&gt;
 &lt;p&gt;앞으로 독서 관련 기록도 남기고 와인 마시고 나서 내 나름대로의 맛 표현을 기록에 남길까 한다.&lt;/p&gt;
-&lt;p&gt;맛있는 와인은 계속.. 비싼 와인은 못 사먹지만..ㅎㅎ 급 마무리..&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Git 관련 유용한 자료]]></title><description><![CDATA[Git, Github Flow 관련 유용한 자료]]></description><link>https://ipadorusa.com/posts/Git 관련 유용한 자료</link><guid isPermaLink="false">https://ipadorusa.com/posts/Git 관련 유용한 자료</guid><pubDate>Sat, 11 Jan 2020 08:08:35 GMT</pubDate><content:encoded>&lt;h1&gt;Git, Github Flow 관련 유용한 자료&lt;/h1&gt;
+&lt;p&gt;맛있는 와인은 계속.. 비싼 와인은 못 사먹지만..ㅎㅎ 급 마무리..&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Git 관련 유용한 자료]]></title><description><![CDATA[Git, Github Flow 관련 유용한 자료]]></description><link>https://ipadorusa.com/posts/Git 관련 유용한 자료</link><guid isPermaLink="false">https://ipadorusa.com/posts/Git 관련 유용한 자료</guid><pubDate>Sat, 11 Jan 2020 08:08:35 GMT</pubDate><content:encoded>&lt;h2&gt;Git, Github Flow 관련 유용한 자료&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Github Flow 에 관련된 설명&lt;/p&gt;
@@ -967,7 +989,7 @@ transform-remove-console 넣어 해결&lt;/p&gt;</content:encoded></item><item><
 &lt;p&gt;Git cheat sheet&lt;/p&gt;
 &lt;p&gt;[Git cheat sheet]: &lt;a href=&quot;https://about.gitlab.com/images/press/git-cheat-sheet.pdf&quot;&gt;https://about.gitlab.com/images/press/git-cheat-sheet.pdf&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Gatsby로 블로그 시작해보기(1)]]></title><description><![CDATA[Gatsby로 블로그 시작해보기, Gatsby + typescript + netlify]]></description><link>https://ipadorusa.com/posts/Gatsby로 블로그 시작해보기(1)/</link><guid isPermaLink="false">https://ipadorusa.com/posts/Gatsby로 블로그 시작해보기(1)/</guid><pubDate>Fri, 10 Jan 2020 13:46:30 GMT</pubDate><content:encoded>&lt;h1&gt;블로그 만들기(1)&lt;/h1&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Gatsby로 블로그 시작해보기(1)]]></title><description><![CDATA[Gatsby로 블로그 시작해보기, Gatsby + typescript + netlify]]></description><link>https://ipadorusa.com/posts/Gatsby로 블로그 시작해보기(1)/</link><guid isPermaLink="false">https://ipadorusa.com/posts/Gatsby로 블로그 시작해보기(1)/</guid><pubDate>Fri, 10 Jan 2020 13:46:30 GMT</pubDate><content:encoded>&lt;h2&gt;블로그 만들기(1)&lt;/h2&gt;
 &lt;p&gt;신기술이나 공부하기 위해 마이크로 사이트 겸 블로그를 해보고 싶어졌다.
 작년에는 AMP 와 허접한 PHP 로 만들었지만 생각보다 관리나 컨텐츠 생산성이 너무 떨어졌다. 그리고 검색도 잘 안됐다. 망할(amp)… google ㅜㅜ.&lt;/p&gt;
 &lt;p&gt;어떻게 좀 더 편하게 기록하거나 해보지 못한 신기술(Front-end)를 해볼수 있을까 고민 끝에 몇가지 초점을 두고 만들어보자고
