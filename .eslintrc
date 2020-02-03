@@ -23,5 +23,10 @@
     "react/jsx-filename-extension": "off",
     "react/prefer-stateless-function": "off",
     "react/prop-types": "off"
+  },
+  "eslintConfig": {
+    "globals": {
+      "window": true
+    }
   }
 }
