@@ -13,7 +13,7 @@ tags:
 description: 'Storybook Vue 설치 해보자. 윈도우 버전에서는 Automactic setup 시키는대로 하면 작동이 안됐는데. 일단 맥에서 해보자'
 ---
 
-#Storybook Vue 버전으로 설치 해보자
+## Storybook Vue 버전으로 설치 해보자
 
 vue 버전으로 설치 설명글은 [https://storybook.js.org/docs/guides/guide-vue/](https://storybook.js.org/docs/guides/guide-vue/)에 나와있다.
 

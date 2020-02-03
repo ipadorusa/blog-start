@@ -13,7 +13,7 @@ tags:
 description: '존스홉킨스에서 코로나 바이러스(우한폐렴) 맵을 만들어서 공유합니다.'
 ---
 
-# 존스홉킨스 대학에서 만든 코로나 바이러스 맵(Wuhan Coronavirus (2019-nCoV) Global Cases (by JHU CSSE))
+## 존스홉킨스 대학에서 만든 코로나 바이러스 맵(Wuhan Coronavirus (2019-nCoV) Global Cases (by JHU CSSE))
 
 [우한폐렴 맵](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR3eKUPo-GlJCspMkKxWZ6p0pfuw2rJgUTCThvoF4rK4vYc3JchAnwb7U8Q#/bda7594740fd40299423467b48e9ecf6)
 

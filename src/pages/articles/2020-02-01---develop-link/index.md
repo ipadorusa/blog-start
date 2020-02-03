@@ -13,7 +13,7 @@ tags:
 description: '웹 개발 좋은 글들. 웹 서칭하다가 찾은 글들'
 ---
 
-# 개발 관련 좋은 글
+## 개발 관련 좋은 글
 
 - [subicura님 - 알아두면 유익한 2019 개발이야기](https://subicura.com/2020/01/07/2019-dev-summary.html) : subicura님이 2019년에 개발하면서 typescript, Prettier, Jest & Enzyme, Component, ...등 많은 기술들에 대해서 쓴글.
 

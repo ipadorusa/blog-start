@@ -14,11 +14,11 @@ tags:
 description: '어떤게 표준일까? window.scrollX, window.scrollY, pageXOffset,pageYOffset'
 ---
 
-# window.scrollY vs window.pageYOffset ?
+## window.scrollY vs window.pageYOffset ?
 
 어떤게 표준일까?
 
-# window.scrollX vs window.pageXOffset ?
+## window.scrollX vs window.pageXOffset ?
 
 어떤게 표준일까?
 

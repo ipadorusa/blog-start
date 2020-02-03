@@ -12,7 +12,7 @@ tags:
 description: 'Storybook(Vue) 도입해 보자 - 1'
 ---
 
-# Storybook 을 도입해보자 - Vue.js
+## Storybook 을 도입해보자 - Vue.js
 
 3 년전쯤 회사에 도입할려고 생각하고 준비 했었으나 많은 일(?)과 다른 사정으로 인해 준비를 못했었다.
 

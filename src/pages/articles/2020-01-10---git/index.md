@@ -11,7 +11,7 @@ tags:
 description: 'Git, Github Flow 관련 유용한 자료'
 ---
 
-#Git, Github Flow 관련 유용한 자료
+## Git, Github Flow 관련 유용한 자료
 
 - Github Flow 에 관련된 설명
 
