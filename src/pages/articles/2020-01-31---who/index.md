@@ -6,11 +6,13 @@ draft: false
 path: '/posts/WHO 신종코로나, 비상사태 선포'
 category: 'virus'
 tags:
+  - '존스홉킨스 바이러스 맵'
   - '우한폐렴'
   - 'wuhancoronavirus'
   - '존스홉킨스 코로나 바이러스 맵'
+  - '신종코로나'
 
-description: 'WHO에서 신종 코로나, 비상사태 선포 하였다.'
+description: 'WHO에서 신종 코로나, 비상사태 선포 하였다. 아침에 급상승 검색어로 WHO 비상사태가 검색어 1위이다. 존스홉킨스 대학에서 만든 코로나 바이러스 맵'
 ---
 
 ## WHO 비상사태를 선언
@@ -25,7 +27,7 @@ description: 'WHO에서 신종 코로나, 비상사태 선포 하였다.'
 
 ## 존스홉킨스 대학에서 만든 코로나 바이러스 맵 안들어가짐.
 
-[우한폐렴 맵](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR3eKUPo-GlJCspMkKxWZ6p0pfuw2rJgUTCThvoF4rK4vYc3JchAnwb7U8Q#/bda7594740fd40299423467b48e9ecf6)
+[우한폐렴 맵, 신종플루 맵](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR3eKUPo-GlJCspMkKxWZ6p0pfuw2rJgUTCThvoF4rK4vYc3JchAnwb7U8Q#/bda7594740fd40299423467b48e9ecf6)
 ![현재상황 - 20200131 13:22](./now.png)
 
 ## 고민중
