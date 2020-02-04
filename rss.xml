@@ -1,4 +1,231 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 03 Feb 2020 15:15:12 GMT</lastBuildDate><item><title><![CDATA[경제관련 Link(2020-02-04)]]></title><description><![CDATA[워런 버핏에게 배울 7가지 비밀, 테슬라 웃을 때 함께 웃는 회사, 오프라인 매장 없는 카카오 뱅크가 고속 성장한 이유는 등등에 대해서 링크]]></description><link>https://ipadorusa.com/posts/20200204-경제공부-좋은글</link><guid isPermaLink="false">https://ipadorusa.com/posts/20200204-경제공부-좋은글</guid><pubDate>Mon, 03 Feb 2020 15:06:05 GMT</pubDate><content:encoded>&lt;h2&gt;경제 링크(2020-02-04)&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 04 Feb 2020 15:46:17 GMT</lastBuildDate><item><title><![CDATA[미국 배당주 도전?]]></title><description><![CDATA[미국 배당주 좋은게 모가 있을까? 다른 사람들이 말하는 미국 추천 배당주]]></description><link>https://ipadorusa.com/posts/미국배당주</link><guid isPermaLink="false">https://ipadorusa.com/posts/미국배당주</guid><pubDate>Tue, 04 Feb 2020 15:45:21 GMT</pubDate><content:encoded>&lt;h2&gt;미국 배당주 좋은게 모가 있을까?&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;주식명: 알트리아(MO) 배당시기: 1월, 4월, 7월, 10월&lt;/li&gt;
+&lt;li&gt;주식명: P&amp;#x26;G(PG) 배당시기: 2월, 5월, 8월, 11월&lt;/li&gt;
+&lt;li&gt;주식명: 라스베가스샌즈(LVS) 배당시기: 3월, 6월, 9월, 12월&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;다른 사람들이 말하는 미국 추천 배당주&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;리얼티 인컴&lt;/li&gt;
+&lt;li&gt;인텔&lt;/li&gt;
+&lt;li&gt;애플&lt;/li&gt;
+&lt;li&gt;AT&amp;#x26;T&lt;/li&gt;
+&lt;li&gt;JP모건 체이스&lt;/li&gt;
+&lt;li&gt;보잉&lt;/li&gt;
+&lt;li&gt;3M&lt;/li&gt;
+&lt;li&gt;비자&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;미국 배당주의 장점&lt;/h4&gt;
+&lt;p&gt;원화 가치보다 달러가 위기에 강하다.
+4차 산업 주도 국가이다. 예를 들면 애플, 구글, 페이스북, 아마존, 넷플릭스 등등 너무나 공룡 기업들이 있다.&lt;/p&gt;
+&lt;h4&gt;해외 주식 거래시 알아야 할점&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;양도소득세&lt;/li&gt;
+&lt;li&gt;주식 매도시 적용(보유기간 무관)&lt;/li&gt;
+&lt;li&gt;세율: 22%(양도소득세 20%+지방소득세2%)&lt;/li&gt;
+&lt;li&gt;※ 1년간 매매수익 총 250만원까지 공제: 300만원 수익일 경우 50만원에 대해 22% 양도소득세 부과&lt;/li&gt;
+&lt;li&gt;배당소득세&lt;/li&gt;
+&lt;li&gt;배당금 받을 경우 적용하며 세율 15%(지방세 1.5% 없음)&lt;/li&gt;
+&lt;li&gt;금융소득 종합과세&lt;/li&gt;
+&lt;li&gt;(근로소득, 사업소득, 연금소득, 기타소득) + (이자소득+배당소득: 2,000만원 초과분부터)&lt;/li&gt;
+&lt;li&gt;양도소득세는 분류과세대상이라 수익금액과 상관없이 미포함되며 배당소득은 금융소득 종합과세에 포함&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;증권사에서 대행 해줌. 많이 벌었으면 많이 내면 됩니다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Storybook Vue 설치 (3)]]></title><description><![CDATA[Storybook Vue 이것저것 해보기 저번 블로그 글에서는 설치해보고 이것저것 만져 가면서 요소요소들이 어떻게 작동하는지 대충 파악 했다면 이번에는 누군가 훌륭하게 튜토리얼을 찾아 봤다.]]></description><link>https://ipadorusa.com/posts/Storybook-vue-step04</link><guid isPermaLink="false">https://ipadorusa.com/posts/Storybook-vue-step04</guid><pubDate>Tue, 04 Feb 2020 15:45:14 GMT</pubDate><content:encoded>&lt;h2&gt;storybook + vue 이거저것 해보기&lt;/h2&gt;
+&lt;p&gt;저번 블로그 글에서는 설치해보고 이것저것 만져 가면서 요소요소들이 어떻게 작동하는지 대충 파악 했다면 이번에는 누군가 훌륭하게 튜토리얼을 만들었을거라 생각해서
+검색해 했다.&lt;/p&gt;
+&lt;h3&gt;Learn Storybook을 따라 해보다.&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Storybook 폴더정리
+기존 스토리북 폴더구조
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d6fbc2598394efefc91a0f793771f46e/9bbaf/storybook_structure_01.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 588px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 43.53741496598639%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABEElEQVQoz42Q646CMBBGfRJhy60FEVpUQJc7roj6/o/zbZmExI1u5MdJmrZz5ptZhbsMMi9QD3eiuT7QDA8ESQoe7yDkfjFWnGMVBAFUkqCqa6KuG1RVhW0UQfg+uBCLYYHEinMOKRW6rkdRlDidvnEdR4yasqxgWTZsx4VtOx8xeaSFHodSCRVP6eJYwnU9eFzA1W+Oli1iFgru0cjH40mPWiMMt2DMok9z508y+1l4ODCk6R7n8w/atsPlMlDaaQXT3e12p9Rzk3eyP0KlLD2yov3NpGmGLMux2YQQwqcV/Jf0RShjpotTStP3PSVsmpbScr3HKdkseyd9ETJmU9F6bcAwTJjmFzGdn0VLE/4CVoYSEFjda/8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;기존 스토리북 폴더구조&quot;
+        title=&quot;&quot;
+        src=&quot;/static/d6fbc2598394efefc91a0f793771f46e/9bbaf/storybook_structure_01.png&quot;
+        srcset=&quot;/static/d6fbc2598394efefc91a0f793771f46e/8ff5a/storybook_structure_01.png 240w,
+/static/d6fbc2598394efefc91a0f793771f46e/e85cb/storybook_structure_01.png 480w,
+/static/d6fbc2598394efefc91a0f793771f46e/9bbaf/storybook_structure_01.png 588w&quot;
+        sizes=&quot;(max-width: 588px) 100vw, 588px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+변경 스토리북 폴더구조
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1aa5e850d77e77f46c28c2397ef7c157/a76f4/storybook_structure_01.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 586px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 76.45051194539249%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAACCklEQVQ4y41Ty27TQBT1klIosGUD8WvGdhInsZPYjh/xKyENqsSitCo07a4EJISQkJAQEn9+uDPC0IgmzeLoStd3ju/jHIUxBs4tDAZD1PUMZVlhPn+FqqpgGCZ03ZBxF5oaERXDYLBtBt+3MRoFSJIE43GAdrvz34O9CR2HwfNNRFGMLJtSjKBpOlRVk/E+0g1C0xQj2+j3fRqzRhwnknS5fI3F4hjD4UgS792hIGSMw/M8OWqn05XjNtGy7H8PtmGDkMhMZmE0HtMOx2i1VNlRA42K9F1ktyBqFW5oEHBo7JCOUpcFimmGKp9iVpWUp7HUl2CaClNrbQUjGGoLyrPJWzyOV3hxfIrO+Rru2Td0z75CPfkE881nPM2ucDh5h0fx+3twiaPgFMqT6TUeFms8P1mBX3yBf/0Lvcsf4Off0Vv9xFH9EQ/yG6r5gIOtuMFBucZhegXFFst3XbiDAGkxQ71YYpLlUE0OVeyXjsJsBxYdSNTuAnfatEPLAqP9eb6DJI1QkFPSLMPA8xGEEYZ0KCGddoeE/kcR5h0QefFdykaI2+2pJJs+OSUjYU8QEpkgTtOMcilctyev3sjkLggTKJbFqQsdQRCSl+fSy0VRSlIh8DzPZU78eB8LKpxzcolOXvZkJ01HQuTiJ92u+9fX2wg3hN0QhmEgrddAdClsKIrkqLce7SL8DWJNzyXcaGORAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;변경 스토리북 폴더구조&quot;
+        title=&quot;&quot;
+        src=&quot;/static/1aa5e850d77e77f46c28c2397ef7c157/a76f4/storybook_structure_01.png&quot;
+        srcset=&quot;/static/1aa5e850d77e77f46c28c2397ef7c157/8ff5a/storybook_structure_01.png 240w,
+/static/1aa5e850d77e77f46c28c2397ef7c157/e85cb/storybook_structure_01.png 480w,
+/static/1aa5e850d77e77f46c28c2397ef7c157/a76f4/storybook_structure_01.png 586w&quot;
+        sizes=&quot;(max-width: 586px) 100vw, 586px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;/src/components/  // components 넣을 폴더
+/src/stories/     // stories 넣을 폴더&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;그리고 ./storybook/main.js 수정&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascirpt&quot;&gt;&lt;pre class=&quot;language-javascirpt&quot;&gt;&lt;code class=&quot;language-javascirpt&quot;&gt;module.exports = {
+  stories: [&amp;quot;../src/stories/**/*.stories.js&amp;quot;],
+  addons: [&amp;quot;@storybook/addon-actions&amp;quot;, &amp;quot;@storybook/addon-links&amp;quot;]
+};&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;Button.vue 컴포넌트 작성&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;vue&quot;&gt;&lt;pre class=&quot;language-vue&quot;&gt;&lt;code class=&quot;language-vue&quot;&gt;&amp;lt;template&amp;gt;
+  &amp;lt;button class=&amp;quot;button&amp;quot; :class=&amp;quot;`${classed}`&amp;quot;&amp;gt;
+    &amp;lt;slot&amp;gt;&amp;lt;/slot&amp;gt;
+  &amp;lt;/button&amp;gt;
+&amp;lt;/template&amp;gt;
+
+&amp;lt;script&amp;gt;
+export default {
+  name: &amp;#39;Button&amp;#39;,
+  props: {
+    classed: {
+      type: String,
+      default: &amp;#39;normal&amp;#39;, // &amp;#39;normal&amp;#39; or &amp;#39;primary&amp;#39;
+    },
+  },
+}
+&amp;lt;/script&amp;gt;
+&amp;lt;style scoped&amp;gt;
+.button {
+  appearance: none;
+  border: none;
+  font-family: sans-serif;
+  padding: 8px 16px;
+  border-radius: 2px;
+}
+
+.button.normal {
+  background-color: #eee;
+  color: #222;
+}
+
+.button.normal:hover,
+.button.normal:focus {
+  background-color: #e0e0e0;
+}
+
+.button.normal:active {
+  background-color: #bdbdbd;
+}
+
+.button.primary {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.button.primary:hover,
+.button.primary:focus {
+  background-color: #1e88e5;
+}
+
+.button.primary:active {
+  background-color: #1976d2;
+}
+&amp;lt;/style&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;Button.stories.js 작성&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Button &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;../components/Button&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  title&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Button&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;normalButton&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  components&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Button &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  template&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&amp;lt;Button&gt;Normal Button&amp;lt;/Button&gt;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;primaryButton&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  components&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Button &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  template&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&amp;lt;Button classed=&quot;primary&quot;&gt;Normal Button&amp;lt;/Button&gt;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;storybook 화면
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/11bb78dfd2cd3f1f908e577ccb9a782e/769f8/storybook.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 62.99376299376299%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA5UlEQVQ4y+2TwUrEMBCG+/ZefYbFZxG89iAqgqIeymplW5tu0kzyOYnWhYgY9+zAnxwyfDOZ/Gnu7x556p4ZjWOYF7rB0htPjJEQKqR5IoJzDus8zbDbMY4TeMvlduHk3LJpHRCzErhGuuAl0LQPr9xsDde952UOpEhV+UTWxJqXgZurhTPVaStcdAfgWrW6wxUYvOQZRNG5BeGDs8L4Sv6xuxI4Wc9khbe9xyq8TPr1uiXQKHB2QtrdPzAe88olMNu51oBFfAP63GE8ssN4ABq1zV7/YT8Lt4MehL+ZOslaq3954R3y1QGBKWXTEQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;storybook 화면&quot;
+        title=&quot;&quot;
+        src=&quot;/static/11bb78dfd2cd3f1f908e577ccb9a782e/d9199/storybook.png&quot;
+        srcset=&quot;/static/11bb78dfd2cd3f1f908e577ccb9a782e/8ff5a/storybook.png 240w,
+/static/11bb78dfd2cd3f1f908e577ccb9a782e/e85cb/storybook.png 480w,
+/static/11bb78dfd2cd3f1f908e577ccb9a782e/d9199/storybook.png 960w,
+/static/11bb78dfd2cd3f1f908e577ccb9a782e/07a9c/storybook.png 1440w,
+/static/11bb78dfd2cd3f1f908e577ccb9a782e/29114/storybook.png 1920w,
+/static/11bb78dfd2cd3f1f908e577ccb9a782e/769f8/storybook.png 1924w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[경제관련 Link(2020-02-04)]]></title><description><![CDATA[워런 버핏에게 배울 7가지 비밀, 테슬라 웃을 때 함께 웃는 회사, 오프라인 매장 없는 카카오 뱅크가 고속 성장한 이유는 등등에 대해서 링크]]></description><link>https://ipadorusa.com/posts/20200204-경제공부-좋은글</link><guid isPermaLink="false">https://ipadorusa.com/posts/20200204-경제공부-좋은글</guid><pubDate>Mon, 03 Feb 2020 15:06:05 GMT</pubDate><content:encoded>&lt;h2&gt;경제 링크(2020-02-04)&lt;/h2&gt;
 &lt;p&gt;인터넷에서 찾아본 글들.&lt;/p&gt;
 &lt;h3&gt;&lt;a href=&quot;https://ppss.kr/archives/210631&quot;&gt;워런 버핏에게 배울 7가지 비밀&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
@@ -31,7 +258,7 @@
 &lt;h3&gt;&lt;a href=&quot;https://post.naver.com/viewer/postView.nhn?volumeNo=27377770&amp;#x26;memberNo=22213349&quot;&gt;‘데이터3법 통과’ 우리 삶이 이렇게 바뀐다고?&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;데이터 3법이 어떻게 진행이 될것이며 앞으로 풀어야 할 내용들은 무엇이 있는가에 대한 글.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[개발관련 좋은 글 (2020-02-01)]]></title><description><![CDATA[웹 개발 좋은 글들. 웹 서칭하다가 찾은 글들]]></description><link>https://ipadorusa.com/posts/개발관련-좋은-글</link><guid isPermaLink="false">https://ipadorusa.com/posts/개발관련-좋은-글</guid><pubDate>Sat, 01 Feb 2020 13:43:23 GMT</pubDate><content:encoded>&lt;h2&gt;개발 관련 좋은 글&lt;/h2&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[개발관련 좋은 글 (2020-02-01)]]></title><description><![CDATA[웹 개발 좋은 글들. subicura님 - 알아두면 유익한 2019 개발이야기, 자바스크립트 데코레이터 이해하기, subicura - 초보를 위한 도커 안내서 - 도커란 무엇인가? 등 좋은 글들 링크]]></description><link>https://ipadorusa.com/posts/개발관련-좋은-글</link><guid isPermaLink="false">https://ipadorusa.com/posts/개발관련-좋은-글</guid><pubDate>Sat, 01 Feb 2020 13:43:23 GMT</pubDate><content:encoded>&lt;h2&gt;개발 관련 좋은 글&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://subicura.com/2020/01/07/2019-dev-summary.html&quot;&gt;subicura님 - 알아두면 유익한 2019 개발이야기&lt;/a&gt; : subicura님이 2019년에 개발하면서 typescript, Prettier, Jest &amp;#x26; Enzyme, Component, …등 많은 기술들에 대해서 쓴글.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://ui.toast.com/weekly-pick/ko_20200102/&quot;&gt;자바스크립트 데코레이터 이해하기&lt;/a&gt; : 박정환님의 글로 자바스크립트에 데코레이터는 아직 자바스크립트의 정식 기능 아니지만 원글 Mike Green - Understanding JavaScript Decorators 글과 박정환님이 생각하는 내용을 담은 글.&lt;/li&gt;
@@ -39,7 +266,7 @@
 &lt;li&gt;&lt;a href=&quot;http://neok.netlify.com/Gatsby-Helmet/&quot;&gt;gatsby-helmet으로 검색 엔진 최적화하기&lt;/a&gt;: 최근 gatsby로 블로그를 만들고 나서 SEO관련 최적화를 하기 위한 찾은 글&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.gatsbyjs.org/docs/seo/&quot;&gt;SEO with Gatsby&lt;/a&gt; : 공식홈에 있는 SEO문서&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://velog.io/@city7310/%EB%82%B4%EA%B0%80-%EA%B3%B5%EB%B6%80%ED%95%98%EB%8A%94-%EB%B0%A9%EC%8B%9D&quot;&gt;내게 실용적이었던 프로그래밍 공부 방법들&lt;/a&gt; : velog에 PlanB님의 좋은 글. 한번쯤 읽어보면 좋을듯.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[WHO "신종코로나, 비상사태 선포]]></title><description><![CDATA[WHO에서 신종 코로나, 비상사태 선포 하였다.]]></description><link>https://ipadorusa.com/posts/WHO 신종코로나, 비상사태 선포</link><guid isPermaLink="false">https://ipadorusa.com/posts/WHO 신종코로나, 비상사태 선포</guid><pubDate>Thu, 30 Jan 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;WHO 비상사태를 선언&lt;/h2&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[WHO "신종코로나, 비상사태 선포]]></title><description><![CDATA[WHO에서 신종 코로나, 비상사태 선포 하였다. 아침에 급상승 검색어로 WHO 비상사태가 검색어 1위이다. 존스홉킨스 대학에서 만든 코로나 바이러스 맵]]></description><link>https://ipadorusa.com/posts/WHO 신종코로나, 비상사태 선포</link><guid isPermaLink="false">https://ipadorusa.com/posts/WHO 신종코로나, 비상사태 선포</guid><pubDate>Thu, 30 Jan 2020 22:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;WHO 비상사태를 선언&lt;/h2&gt;
 &lt;p&gt;아침에 급상승 검색어로 WHO 비상사태가 검색어 1위이다.
 &lt;a href=&quot;https://search.naver.com/search.naver?where=nexearch&amp;#x26;query=who%20%EB%B9%84%EC%83%81%EC%82%AC%ED%83%9C&amp;#x26;sm=top_lve.agallgrpmamsi0en0sp0&amp;#x26;ie=utf8&quot;&gt;검색어 결과&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -49,7 +276,7 @@ WHO에서 비상상태가 선언되는 경우는 ‘국제공중보건 위기상
 &lt;a href=&quot;https://imnews.imbc.com/replay/2020/nwtoday/article/5655840_32531.html&quot;&gt;기사 출처&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;존스홉킨스 대학에서 만든 코로나 바이러스 맵 안들어가짐.&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR3eKUPo-GlJCspMkKxWZ6p0pfuw2rJgUTCThvoF4rK4vYc3JchAnwb7U8Q#/bda7594740fd40299423467b48e9ecf6&quot;&gt;우한폐렴 맵&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR3eKUPo-GlJCspMkKxWZ6p0pfuw2rJgUTCThvoF4rK4vYc3JchAnwb7U8Q#/bda7594740fd40299423467b48e9ecf6&quot;&gt;우한폐렴 맵, 신종플루 맵&lt;/a&gt;
 
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
