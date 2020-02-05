@@ -1,5 +1,5 @@
 ---
-title: Storybook(Vue) 도입해 보자 - 1
+title: Storybook(Vue)이란?
 date: '2020-01-17 13:23:12'
 layout: post
 draft: false
@@ -8,8 +8,9 @@ category: 'Storybook'
 tags:
   - 'Storybook'
   - 'Vue.js'
+  - 'storybook + vue.js 설치'
 
-description: 'Storybook(Vue) 도입해 보자 - 1'
+description: 'Storybook 을 도입해보자 - Vue.js, storybook에 대한 전반적인 기능 파악'
 ---
 
 ## Storybook 을 도입해보자 - Vue.js
