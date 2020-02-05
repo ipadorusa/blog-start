@@ -14,7 +14,7 @@ tags:
 description: 'Youtube TVN 영상을 보다가 알게 된 미국 파이어(FIRE)족 조기은퇴족이 궁금하여 찾아보았다.'
 ---
 
-# 미국 파이어(FIRE)족 조기은퇴족
+## 미국 파이어(FIRE)족 조기은퇴족
 
 어제 Youtube 에 올라온 [30 살에 경제적 자유를 얻으면 펼쳐지는 삶 #FIRE 운동 | tvN Shift 2020 tvN Shift EP.4](https://www.youtube.com/watch?v=F4qzwYLJxYc)을 보고 대체 어떤 사람들일까 어떤 삶을 살았을까? 그들의 삶은 내용은 어떤가? 궁금해 졌다.
 

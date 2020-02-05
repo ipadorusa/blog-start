@@ -13,7 +13,8 @@ tags:
 description: 'Storybook Vue 설치후 폴더 구조 파악하기'
 ---
 
-#Storybook Vue 폴더 구조 보기
+## Storybook Vue 폴더 구조 보기
+
 [Storybook Vue 설치 (1)](/posts/Storybook-vue-step02)에서 문제 없이 설치가 됐다면 아래 이미지처럼 폴더가 구성이 되어 있을 것이다.
 ![스토리북폴더구조](./storybook_structure_01.png)
 

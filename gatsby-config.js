@@ -12,6 +12,7 @@ module.exports = {
     subtitle: '웹프론트엔드를 꿈꾼다',
     copyright: '© All rights reserved.',
     disqusShortname: 'ipadorusa-com',
+    image: './photo.jpg',
     menu: [
       {
         label: 'Articles',
@@ -22,7 +23,7 @@ module.exports = {
       name: 'IPADORUSA',
       email: 'ipadorusa@gmail.com',
       telegram: '#',
-      twitter: '//twitter.com/kedokedobookedo',
+      twitter: '@kedokedobookedo',
       github: '//github.com/ipadorusa',
       rss: '#',
       vk: '#',
@@ -128,6 +129,12 @@ module.exports = {
     'gatsby-plugin-offline',
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-plugin-react-helmet-canonical-urls',
+      options: {
+        siteUrl: 'https://ipadorusa.com',
+      },
+    },
     {
       resolve: 'gatsby-plugin-sass',
       options: {

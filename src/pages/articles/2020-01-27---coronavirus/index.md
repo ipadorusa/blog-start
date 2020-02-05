@@ -13,7 +13,7 @@ tags:
 description: '존스홉킨스에서 코로나 바이러스(우한폐렴) 맵을 만들어서 공유합니다.'
 ---
 
-# 존스홉킨스 대학에서 만든 코로나 바이러스 맵(Wuhan Coronavirus (2019-nCoV) Global Cases (by JHU CSSE))
+## 존스홉킨스 대학에서 만든 코로나 바이러스 맵(Wuhan Coronavirus (2019-nCoV) Global Cases (by JHU CSSE))
 
 [우한폐렴 맵](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR3eKUPo-GlJCspMkKxWZ6p0pfuw2rJgUTCThvoF4rK4vYc3JchAnwb7U8Q#/bda7594740fd40299423467b48e9ecf6)
 
@@ -34,10 +34,12 @@ description: '존스홉킨스에서 코로나 바이러스(우한폐렴) 맵을 
 #### 중국 우한시 출국자용 안내문(한)
 
 [중국 우한시 출국자용 안내문](http://www.xn--now-po7lf48dlsm0ya109f.kr/contents/info.do?contents_no=co_202001200002&type=&pageIndex=&category_no=&contents_nm=)
-![중국 우한시 출국자용](http://www.해외감염병now.kr/upload/contents/img/c2ee37970cb64be4bcc923845f4d7663.png)
+![중국 우한시 출국자용](./중국으로출국시.png)
+원래 주소 : http://www.해외감염병now.kr/upload/contents/img/c2ee37970cb64be4bcc923845f4d7663.png
 
 #### 우한시 입국자용(한글)
 
 [우한시 입국자용](http://www.xn--now-po7lf48dlsm0ya109f.kr/contents/info.do?contents_no=co_202001200001&type=&pageIndex=&category_no=&contents_nm=)
 
-![우한시 입국자용](http://www.해외감염병now.kr/upload/contents/img/56b6579927ce458683e75414ebeb2ab1.png)
+![우한시 입국자용](./중국에서입국시.png)
+원래 주소 : http://www.해외감염병now.kr/upload/contents/img/56b6579927ce458683e75414ebeb2ab1.png

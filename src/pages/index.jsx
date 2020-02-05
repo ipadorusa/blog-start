@@ -8,7 +8,7 @@ import Sidebar from '../components/Sidebar'
 class IndexRoute extends React.Component {
   render() {
     const items = []
-    const { title, subtitle } = this.props.data.site.siteMetadata
+    const { title, subtitle, image } = this.props.data.site.siteMetadata
     const posts = this.props.data.allMarkdownRemark.edges
     posts.forEach(post => {
       items.push(<Post data={post} key={post.node.fields.slug} />)
@@ -20,6 +20,11 @@ class IndexRoute extends React.Component {
           <Helmet>
             <title>{title}</title>
             <meta name="description" content={subtitle} />
+            <meta name="keywords" content={subtitle} />
+            <meta name="image" content={image} />
+            <meta property="og:type" content="article" />
+            <meta property="og:title" content={title} />
+            <meta property="og:description" content={subtitle} />
           </Helmet>
           <Sidebar {...this.props} />
           <div className="content">
