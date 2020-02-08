@@ -9,6 +9,7 @@ tags:
   - 'Storybook'
   - 'Vue.js'
   - '스토리북'
+  - 'Storybook for Vue'
 
 description: 'Storybook Vue 설치 해보자. 윈도우 버전에서는 Automactic setup 시키는대로 하면 작동이 안됐는데. 일단 맥에서 해보자'
 ---

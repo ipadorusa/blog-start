@@ -9,6 +9,7 @@ tags:
   - 'Storybook'
   - 'Vue.js'
   - '스토리북'
+  - 'Storybook for Vue'
 
 description: 'Storybook Vue 이것저것 해보기 저번 블로그 글에서는 설치해보고 이것저것 만져 가면서 요소요소들이 어떻게 작동하는지 대충 파악 했다면 이번에는 누군가 훌륭하게 튜토리얼을 찾아 봤다.'
 ---

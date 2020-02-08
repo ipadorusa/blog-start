@@ -9,6 +9,7 @@ tags:
   - 'Storybook'
   - 'Vue.js'
   - '스토리북'
+  - 'Storybook for Vue'
 
 description: 'Storybook Vue 설치후 폴더 구조 파악하기'
 ---

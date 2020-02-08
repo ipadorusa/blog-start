@@ -9,8 +9,10 @@ tags:
   - 'Storybook'
   - 'Vue.js'
   - 'storybook + vue.js 설치'
+  - 'Storybook for Vue'
+  - 'Storybook소개'
 
-description: 'Storybook 을 도입해보자 - Vue.js, storybook에 대한 전반적인 기능 파악'
+description: 'Storybook 소개, Storybook 을 도입해보자 - Vue.js, storybook에 대한 전반적인 기능 파악'
 ---
 
 ## Storybook 을 도입해보자 - Vue.js
