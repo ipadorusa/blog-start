@@ -3,7 +3,7 @@ title: window.scrollY vs window.pageYOffset
 date: '2020-01-15 22:04:12'
 layout: post
 draft: false
-path: '/posts/scrollY, pageYOffset'
+path: '/posts/scrollY-pageYOffset'
 category: 'Javascript'
 tags:
   - 'window.scrollY'

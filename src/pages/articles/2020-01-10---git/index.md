@@ -3,7 +3,7 @@ title: Git 관련 유용한 자료
 date: '2020-01-11 17:08:35'
 layout: post
 draft: false
-path: '/posts/Git 관련 유용한 자료'
+path: '/posts/Git-관련-유용한-자료'
 category: 'Git'
 tags:
   - 'Git'

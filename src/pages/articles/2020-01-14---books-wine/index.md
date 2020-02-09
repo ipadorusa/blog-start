@@ -3,12 +3,13 @@ title: 와인에 관심을 갖다.
 date: '2020-01-14 22:23:05'
 layout: post
 draft: false
-path: '/posts/만화로 배우는 와인의 역사'
+path: '/posts/만화로-배우는-와인의-역사'
 category: 'Books'
 tags:
   - '와인의 역사'
   - 'wine'
   - '만화로 배우는 와인의 역사'
+
 description: '와인,만화로 배우는 와인의 역사, 그라함 와이너리 투어후 와인의 세계에 빠지게 된 나!'
 ---
 

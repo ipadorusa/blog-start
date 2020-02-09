@@ -10,7 +10,7 @@ tags:
   - 'wuhancoronavirus'
   - '존스홉킨스 코로나 바이러스 맵'
 
-description: '존스홉킨스에서 코로나 바이러스(우한폐렴) 맵을 만들어서 공유합니다.'
+description: '존스홉킨스 대학에서 만든 코로나 바이러스 맵, 존스홉킨스에서 코로나 바이러스(우한폐렴) 맵을 만들어서 공유합니다. 세계 각국 Coronavirus outbreak'
 ---
 
 ## 존스홉킨스 대학에서 만든 코로나 바이러스 맵(Wuhan Coronavirus (2019-nCoV) Global Cases (by JHU CSSE))

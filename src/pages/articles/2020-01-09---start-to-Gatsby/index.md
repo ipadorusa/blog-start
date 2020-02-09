@@ -3,16 +3,17 @@ title: Gatsby로 블로그 시작해보기(1)
 date: '2020-01-10 22:46:30'
 layout: post
 draft: false
-path: '/posts/Gatsby로 블로그 시작해보기(1)/'
+path: '/posts/Gatsby-블로그-시작해보기(1)/'
 category: 'Gatsby'
 tags:
   - 'Gatsby'
   - 'Blog'
   - 'React'
-description: 'Gatsby로 블로그 시작해보기, Gatsby + typescript + netlify'
+  - 'Gatsby블로그'
+description: 'Gatsby 블로그 만들기, 블로그 고려 사항 , Gatsby + typescript + netlify'
 ---
 
-## 블로그 만들기(1)
+## Gatsby 블로그 만들기
 
 신기술이나 공부하기 위해 마이크로 사이트 겸 블로그를 해보고 싶어졌다.
 작년에는 AMP 와 허접한 PHP 로 만들었지만 생각보다 관리나 컨텐츠 생산성이 너무 떨어졌다. 그리고 검색도 잘 안됐다. 망할(amp)... google ㅜㅜ.
