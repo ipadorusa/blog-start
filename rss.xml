@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 09 Feb 2020 06:26:48 GMT</lastBuildDate><item><title><![CDATA[Storybook Addon Vue Example]]></title><description><![CDATA[Storybook Addon Vue Example addon 설치하면서 문제점 기록하기.]]></description><link>https://ipadorusa.com/posts/Storybook-vue-step05</link><guid isPermaLink="false">https://ipadorusa.com/posts/Storybook-vue-step05</guid><pubDate>Sun, 09 Feb 2020 04:56:50 GMT</pubDate><content:encoded>&lt;h2&gt;Storybook Addon Vue Example&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 09 Feb 2020 08:14:23 GMT</lastBuildDate><item><title><![CDATA[Storybook Addon Vue Example]]></title><description><![CDATA[Storybook Addon Vue Example addon 설치하면서 문제점 기록하기.]]></description><link>https://ipadorusa.com/posts/Storybook-vue-step05</link><guid isPermaLink="false">https://ipadorusa.com/posts/Storybook-vue-step05</guid><pubDate>Sun, 09 Feb 2020 04:56:50 GMT</pubDate><content:encoded>&lt;h2&gt;Storybook Addon Vue Example&lt;/h2&gt;
 &lt;p&gt;이 페이지에서는 3가지 storybook Add-on 설치를 위한 기록이다.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Storybook Knobs &lt;a href=&quot;https://github.com/storybookjs/storybook/tree/master/addons/knobs&quot;&gt;링크&lt;/a&gt;&lt;/li&gt;
@@ -1554,7 +1554,7 @@ vue-loader 만 설치한다고 해결 되지가 않을꺼 같아 Manual setup(�
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;짜짠 설치 완료.
 왜 그럴까;;; 내가 무엇을 놓친걸까…
-이렇게 하는게 맞는걸까?&lt;/p&gt;</content:encoded></item><item><title><![CDATA[경제관련 공부하면서 읽은 블로그나 괜찮은 링크 저장 및 요약]]></title><description><![CDATA[경제관련 공부하면서 읽은 블로그나 괜찮은 링크 저장 및 요약]]></description><link>https://ipadorusa.com/posts/20200123-경제공부</link><guid isPermaLink="false">https://ipadorusa.com/posts/20200123-경제공부</guid><pubDate>Wed, 22 Jan 2020 22:10:00 GMT</pubDate><content:encoded>&lt;h2&gt;네이버 경제 탭에 선정된 내용 공부하기&lt;/h2&gt;
+이렇게 하는게 맞는걸까?&lt;/p&gt;</content:encoded></item><item><title><![CDATA[경제관련 공부하면서 읽은 블로그나 괜찮은 링크 저장 및 요약]]></title><description><![CDATA[강남 아파트값 뛸때 삼성전자 주식은 날았다.. 주식 vs 부동산 투자수익률 분석,초저금리 시대, 자투리 시간 투자해 푼돈 모이는 ‘앱테크’인기 , 경제관련 공부하면서 읽은 블로그나 괜찮은 링크 저장 및 요약]]></description><link>https://ipadorusa.com/posts/20200123-경제공부</link><guid isPermaLink="false">https://ipadorusa.com/posts/20200123-경제공부</guid><pubDate>Wed, 22 Jan 2020 22:10:00 GMT</pubDate><content:encoded>&lt;h2&gt;네이버 경제 탭에 선정된 내용 공부하기&lt;/h2&gt;
 &lt;h2&gt;1. &lt;a href=&quot;https://post.naver.com/viewer/postView.nhn?volumeNo=27331272&amp;#x26;memberNo=15470144&quot;&gt;강남 아파트값 뛸때 삼성전자 주식은 날았다.. 주식 vs 부동산 투자수익률 분석&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;강남 A아파트와 삼성전자 주식 비교를 장기투자로 볼경우 주식이 부동산 투자보다 괜찮은 자산이다.&lt;/li&gt;
@@ -1570,7 +1570,7 @@ vue-loader 만 설치한다고 해결 되지가 않을꺼 같아 Manual setup(�
 &lt;p&gt;똑똑한 연말정산 체크리스트 5&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;소득이 비슷한 맞벌이 부부라면 소득이 적은 사람에게 카드 사용 몰아주기&lt;/li&gt;
-&lt;li&gt;부부의 연봉 차이가 크다면 소득이 ㅁ낳은 배우자의 카드 집중적으로 사용하기&lt;/li&gt;
+&lt;li&gt;부부의 연봉 차이가 크다면 소득이 많은 배우자의 카드 집중적으로 사용하기&lt;/li&gt;
 &lt;li&gt;모든 공제는 급여의 25% 이상을 사용한 구간부터 공제 적용&lt;/li&gt;
 &lt;li&gt;공제 신고서에 잘몬된 부분은 없는지 사전에 꼼꼼히 살피기&lt;/li&gt;
 &lt;/ul&gt;
