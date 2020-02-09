@@ -23,7 +23,7 @@ module.exports = {
       name: 'IPADORUSA',
       email: 'ipadorusa@gmail.com',
       telegram: '#',
-      twitter: '@kedokedobookedo',
+      twitter: 'https://twitter.com/kedokedobookedo',
       github: '//github.com/ipadorusa',
       rss: '#',
       vk: '#',
