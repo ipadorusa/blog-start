@@ -47,7 +47,7 @@ module.exports = {
 
 #### Storybook Knobs
 
-\*\*Button.stories.js
+**Button.stories.js**
 
 ```javascript
 import { withKnobs, text, select, boolean } from '@storybook/addon-knobs'
@@ -104,7 +104,7 @@ export const Default = () => ({
 })
 ```
 
-Button.vue
+**Button.vue**
 
 ```vue
 <template>
@@ -228,7 +228,7 @@ Default.story = {
 }
 ```
 
-Button.vue
+**Button.vue**
 
 ```vue
 <template>
@@ -271,7 +271,7 @@ export default {
 </script>
 ```
 
-Storybook Viewport
+#### Storybook Viewport
 
 ```javascript
 import { action } from '@storybook/addon-actions'
