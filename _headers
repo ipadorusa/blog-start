@@ -693,6 +693,20 @@
   Link: </styles-f1ee06006906b16bc139.js>; rel=preload; as=script
   Link: </commons-0efd8285340a8063ff5d.js>; rel=preload; as=script
   Link: </component---src-templates-category-template-jsx-8d55d33337f6e3f03592.js>; rel=preload; as=script
+/posts/20200123-경제공부
+  Link: </webpack-runtime-3e5bc85c7ca696d34942.js>; rel=preload; as=script
+  Link: </commons-0efd8285340a8063ff5d.js>; rel=preload; as=script
+  Link: </app-64cbb432b42c88e509f0.js>; rel=preload; as=script
+  Link: </styles-f1ee06006906b16bc139.js>; rel=preload; as=script
+  Link: </commons-0efd8285340a8063ff5d.js>; rel=preload; as=script
+  Link: </component---src-templates-post-template-jsx-7e1517be62f9355bde36.js>; rel=preload; as=script
+/tags/economic/
+  Link: </webpack-runtime-3e5bc85c7ca696d34942.js>; rel=preload; as=script
+  Link: </commons-0efd8285340a8063ff5d.js>; rel=preload; as=script
+  Link: </app-64cbb432b42c88e509f0.js>; rel=preload; as=script
+  Link: </styles-f1ee06006906b16bc139.js>; rel=preload; as=script
+  Link: </commons-0efd8285340a8063ff5d.js>; rel=preload; as=script
+  Link: </component---src-templates-tag-template-jsx-928a728d04e758df79a9.js>; rel=preload; as=script
 /posts/Storybook-vue-step05
   Link: </webpack-runtime-3e5bc85c7ca696d34942.js>; rel=preload; as=script
   Link: </commons-0efd8285340a8063ff5d.js>; rel=preload; as=script
@@ -708,20 +722,6 @@
   Link: </commons-0efd8285340a8063ff5d.js>; rel=preload; as=script
   Link: </component---src-templates-tag-template-jsx-928a728d04e758df79a9.js>; rel=preload; as=script
 /tags/storybook-addon-vue-info/
-  Link: </webpack-runtime-3e5bc85c7ca696d34942.js>; rel=preload; as=script
-  Link: </commons-0efd8285340a8063ff5d.js>; rel=preload; as=script
-  Link: </app-64cbb432b42c88e509f0.js>; rel=preload; as=script
-  Link: </styles-f1ee06006906b16bc139.js>; rel=preload; as=script
-  Link: </commons-0efd8285340a8063ff5d.js>; rel=preload; as=script
-  Link: </component---src-templates-tag-template-jsx-928a728d04e758df79a9.js>; rel=preload; as=script
-/posts/20200123-경제공부
-  Link: </webpack-runtime-3e5bc85c7ca696d34942.js>; rel=preload; as=script
-  Link: </commons-0efd8285340a8063ff5d.js>; rel=preload; as=script
-  Link: </app-64cbb432b42c88e509f0.js>; rel=preload; as=script
-  Link: </styles-f1ee06006906b16bc139.js>; rel=preload; as=script
-  Link: </commons-0efd8285340a8063ff5d.js>; rel=preload; as=script
-  Link: </component---src-templates-post-template-jsx-7e1517be62f9355bde36.js>; rel=preload; as=script
-/tags/economic/
   Link: </webpack-runtime-3e5bc85c7ca696d34942.js>; rel=preload; as=script
   Link: </commons-0efd8285340a8063ff5d.js>; rel=preload; as=script
   Link: </app-64cbb432b42c88e509f0.js>; rel=preload; as=script

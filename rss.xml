@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 09 Feb 2020 08:14:23 GMT</lastBuildDate><item><title><![CDATA[Storybook Addon Vue Example]]></title><description><![CDATA[Storybook Addon Vue Example addon 설치하면서 문제점 기록하기.]]></description><link>https://ipadorusa.com/posts/Storybook-vue-step05</link><guid isPermaLink="false">https://ipadorusa.com/posts/Storybook-vue-step05</guid><pubDate>Sun, 09 Feb 2020 04:56:50 GMT</pubDate><content:encoded>&lt;h2&gt;Storybook Addon Vue Example&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 09 Feb 2020 08:25:58 GMT</lastBuildDate><item><title><![CDATA[Storybook Addon Vue Example]]></title><description><![CDATA[Storybook Addon Vue Example addon 설치하면서 문제점 기록하기.]]></description><link>https://ipadorusa.com/posts/Storybook-vue-step05</link><guid isPermaLink="false">https://ipadorusa.com/posts/Storybook-vue-step05</guid><pubDate>Sun, 09 Feb 2020 04:56:50 GMT</pubDate><content:encoded>&lt;h2&gt;Storybook Addon Vue Example&lt;/h2&gt;
 &lt;p&gt;이 페이지에서는 3가지 storybook Add-on 설치를 위한 기록이다.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Storybook Knobs &lt;a href=&quot;https://github.com/storybookjs/storybook/tree/master/addons/knobs&quot;&gt;링크&lt;/a&gt;&lt;/li&gt;
@@ -19,7 +19,7 @@
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3&gt;&lt;/h3&gt;
 &lt;h4&gt;Storybook Knobs&lt;/h4&gt;
-&lt;p&gt;**Button.stories.js&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Button.stories.js&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; withKnobs&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; text&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; select&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; boolean &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;@storybook/addon-knobs&apos;&lt;/span&gt;
 
 &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Button &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;./Button&apos;&lt;/span&gt;
@@ -72,7 +72,7 @@
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
   &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Button.vue&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Button.vue&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;vue&quot;&gt;&lt;pre class=&quot;language-vue&quot;&gt;&lt;code class=&quot;language-vue&quot;&gt;&amp;lt;template&amp;gt;
   &amp;lt;button
     type=&amp;quot;button&amp;quot;
@@ -181,7 +181,7 @@ Default&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;story &lt;s
     viewport&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; viewports&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; newViewports&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; defaultViewport&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;iphone5&apos;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
   &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Button.vue&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Button.vue&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;vue&quot;&gt;&lt;pre class=&quot;language-vue&quot;&gt;&lt;code class=&quot;language-vue&quot;&gt;&amp;lt;template&amp;gt;
   &amp;lt;button
     type=&amp;quot;button&amp;quot;
@@ -220,7 +220,7 @@ export default {
   },
 }
 &amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Storybook Viewport&lt;/p&gt;
+&lt;h4&gt;Storybook Viewport&lt;/h4&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; action &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;@storybook/addon-actions&apos;&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; withKnobs&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; text&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; select&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; boolean &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;@storybook/addon-knobs&apos;&lt;/span&gt;
 
