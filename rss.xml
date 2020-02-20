@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 13 Feb 2020 00:37:00 GMT</lastBuildDate><item><title><![CDATA[테크(전자기기) 관련 찾아본 링크]]></title><description><![CDATA[새로운 아이패드 라인업 기종별 특징은?, 8인치+S펜 탑재! 갤럭시탭A 8.0, 2020년 삼성 ‘갤럭시S’ 시리즈 대해부, 한전은 왜 전기차 충전기에 기본요금 부과하려 하나]]></description><link>https://ipadorusa.com/posts/websurfing(2020-02-11)</link><guid isPermaLink="false">https://ipadorusa.com/posts/websurfing(2020-02-11)</guid><pubDate>Tue, 11 Feb 2020 15:11:14 GMT</pubDate><content:encoded>&lt;h2&gt;새로운 아이패드 라인업 기종별 특징은?&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 20 Feb 2020 01:09:44 GMT</lastBuildDate><item><title><![CDATA[결정세액 0원 만들기]]></title><description><![CDATA[연말정산 환급 금액 - 증가 시켜보자, 결정세액 0원 만들기, 세액 공제]]></description><link>https://ipadorusa.com/posts/결정세액-0원-만들기</link><guid isPermaLink="false">https://ipadorusa.com/posts/결정세액-0원-만들기</guid><pubDate>Sat, 15 Feb 2020 14:16:45 GMT</pubDate><content:encoded>&lt;h2&gt;연말정산 환급 금액 - 증가 시켜보자&lt;/h2&gt;
+&lt;p&gt;2019년 연말정산은 큰 기대를 했었다. 결혼을 하면서 돈도 지출을 많이 사용했고, 신용카드도 체크카드도 현금도 많이 써서 기대를 했었다.
+어머니의 보험료도 내가 지불하고 있었고 보험료로도 어느정도 비중을 차지하고 있었기 때문이다.&lt;/p&gt;
+&lt;p&gt;하지만 …결과는 -31만원… 슬푸다.&lt;/p&gt;
+&lt;p&gt;알아야 한다… 어떻게… 더 받을수 있는지.. 어떻게 해야지 + 000 원을 안 만들어야 하는지…&lt;/p&gt;
+&lt;h3&gt;결정세액 0원을 만들수 있나?&lt;/h3&gt;
+&lt;p&gt;어떻게 하면 받을수 있을까 공부 해보기로 함.. 구글신 등장~~&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.google.com/search?sxsrf=ACYBGNSkR4sosznZ0XhwelzBmzrYWDypxw%3A1581775291666&amp;#x26;ei=u_lHXseoKKK9mAWPw6uADQ&amp;#x26;q=%EA%B2%B0%EC%A0%95%EC%84%B8%EC%95%A1+0%EC%9B%90+%EB%A7%8C%EB%93%A4%EA%B8%B0&amp;#x26;oq=%EA%B2%B0%EC%A0%95%EC%84%B8%EC%95%A1+0%EC%9B%90+%EB%A7%88&amp;#x26;gs_l=psy-ab.3.0.0.10381.11357..12324...0.2..0.127.367.0j3......0....1..gws-wiz.......0i71j35i39j0i5i30.sfQkKgkMoTA&quot;&gt;구글검색- 결정세액 0원 만들기&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://search.naver.com/search.naver?sm=top_hty&amp;#x26;fbm=0&amp;#x26;ie=utf8&amp;#x26;query=%EA%B2%B0%EC%A0%95%EC%84%B8%EC%95%A1+0%EC%9B%90+%EB%A7%8C%EB%93%A4%EA%B8%B0&quot;&gt;네이버검색 - 결정세액 0원 만들기&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://search.daum.net/search?w=tot&amp;#x26;DA=YZR&amp;#x26;t__nil_searchbox=btn&amp;#x26;sug=&amp;#x26;sugo=&amp;#x26;q=%EA%B2%B0%EC%A0%95%EC%84%B8%EC%95%A1+0%EC%9B%90+%EB%A7%8C%EB%93%A4%EA%B8%B0&quot;&gt;다음검색 - 결정세액 0원 만들기&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;이 글 쓰면서 “이태원 클라쓰”를 보고 있는데 박새로이 한테 재태크 투자를 받아야하나… 암튼 헛소리…&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://search.kyobobook.co.kr/web/search?vPstrKeyWord=%25EC%2597%25B0%25EB%25A7%2590%25EC%25A0%2595%25EC%2582%25B0&amp;#x26;orderClick=LAG&quot;&gt;교보문고 검색 - 연말정산&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;많고 복잡하고 음… 어떤식으로 공부해야할지 좀 더 찾아봐야겠다.&lt;/p&gt;
+&lt;h3&gt;찾아보자. 결정세액, 연말정산&lt;/h3&gt;
+&lt;p&gt;기사중에 &lt;a href=&quot;https://www.yna.co.kr/view/AKR20200104043000002&quot;&gt;근로소득자 3명 중 2명, 연말정산으로 평균 58만원 ‘돌려받았다’&lt;/a&gt; 읽어 보니, 평균 나보다 많이 - 금액으로 받았고 그 중 연봉이 1억원을 넘는 근로자의 환급액은 평균 276만원이며 이들 가운데 1천123명은 결정세액이 없어 근로소득세를 물지 않았다고 한다.
+역시 똑똑해..&lt;/p&gt;
+&lt;p&gt;결정세액을 줄일수 있는게 기부금, 의료비, 인적공제, 문화비, 전통시장, 모 등등이 있었던거 같은데. 차근차근 찾아봐야겠다.&lt;/p&gt;
+&lt;p&gt;어떤거 부터 공부를 해야할까.&lt;/p&gt;
+&lt;h4&gt;어렵지만 용어부터 시작&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;총급여 = 총소득 - 비과세소득&lt;/li&gt;
+&lt;li&gt;근로소득금액 = 총급여 - 근로소득공제&lt;/li&gt;
+&lt;li&gt;근로소득 과세표준 = 근로소득금액 - 소득공제&lt;/li&gt;
+&lt;li&gt;근로소득세 산출세액 = 근로소득 과세표준 x 기본 세율&lt;/li&gt;
+&lt;li&gt;근로소득세 결정세액 = 근로소득세 산출세액 - 세액 공제&lt;/li&gt;
+&lt;li&gt;연말정산 결과(환급 or 납부) = 근로소득세 결정세액 - 기납부세액&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;아 짱 어렵다… 좀 더 정신차리고 다음기회를 위해…이만&lt;/p&gt;</content:encoded></item><item><title><![CDATA[테크(전자기기) 관련 찾아본 링크]]></title><description><![CDATA[새로운 아이패드 라인업 기종별 특징은?, 8인치+S펜 탑재! 갤럭시탭A 8.0, 2020년 삼성 ‘갤럭시S’ 시리즈 대해부, 한전은 왜 전기차 충전기에 기본요금 부과하려 하나]]></description><link>https://ipadorusa.com/posts/websurfing(2020-02-11)</link><guid isPermaLink="false">https://ipadorusa.com/posts/websurfing(2020-02-11)</guid><pubDate>Tue, 11 Feb 2020 15:11:14 GMT</pubDate><content:encoded>&lt;h2&gt;새로운 아이패드 라인업 기종별 특징은?&lt;/h2&gt;
 &lt;p&gt;연초 보너스와 연말정산의 힘으로 뽐뿌가 와서 찾아본 태블릿 공홈보다 정리가 잘되어 있다. 언젠가 내무부 장관님께서 허락을 해주는 날이..
 아래 주소로 들어가면 정말 정리가 완벽해서 사고 싶어질것이다.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://plan.danawa.com/info/index.php?nPlanSeq=1559&quot;&gt;다나와-새로운 아이패드 라인업 기종별 특징은?&lt;/a&gt;&lt;/p&gt;
