@@ -64,7 +64,7 @@ class PostTemplateDetails extends React.Component {
               <AdSense.Google
                 client="ca-pub-6536819024671226"
                 slot="8065627786"
-                style={{ display: 'block' }}
+                style={{ display: 'block', textAlign: 'center' }}
                 layout="in-article"
                 format="fluid"
               />
