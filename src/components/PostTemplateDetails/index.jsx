@@ -63,7 +63,7 @@ class PostTemplateDetails extends React.Component {
             <div className="wrap_ad">
               <AdSense.Google
                 client="ca-pub-6536819024671226"
-                slot="4449812832"
+                slot="8065627786"
                 style={{ display: 'block' }}
                 layout="in-article"
                 format="fluid"
