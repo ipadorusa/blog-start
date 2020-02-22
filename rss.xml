@@ -1,4 +1,123 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 21 Feb 2020 12:33:09 GMT</lastBuildDate><item><title><![CDATA[결정세액 0원 만들기]]></title><description><![CDATA[연말정산 환급 금액 - 증가 시켜보자, 결정세액 0원 만들기, 세액 공제]]></description><link>https://ipadorusa.com/posts/결정세액-0원-만들기</link><guid isPermaLink="false">https://ipadorusa.com/posts/결정세액-0원-만들기</guid><pubDate>Sat, 15 Feb 2020 14:16:45 GMT</pubDate><content:encoded>&lt;h2&gt;연말정산 환급 금액 - 증가 시켜보자&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 22 Feb 2020 14:53:14 GMT</lastBuildDate><item><title><![CDATA[코로나-19로 여행취소 ㅠㅠ]]></title><description><![CDATA[코로나19 여행 취소. 4월,7월달 태국,대만 여행이 없어지다.]]></description><link>https://ipadorusa.com/posts/코로나-19로-여행취소</link><guid isPermaLink="false">https://ipadorusa.com/posts/코로나-19로-여행취소</guid><pubDate>Sat, 22 Feb 2020 14:01:31 GMT</pubDate><content:encoded>&lt;h2&gt;코로나-19가 나에게 미치는 영향.&lt;/h2&gt;
+&lt;p&gt;새해 계획이 틀어졌다. 우리 부부의 해외 여행은 4월달,7월,9달에 계획이 되어 있었다.
+이중 4월달 7월달이 취소가 되버렸다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;인천 =&gt; 방콕 (4월)&lt;/li&gt;
+&lt;li&gt;방콕 =&gt; 인천 =&gt; 대만 (4월 귀국, 7월 출발)&lt;/li&gt;
+&lt;li&gt;대만 =&gt; 인천 (7월)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;총 3편의 항공을 취소를 했다. 취소를 하게 된 이유는 코로나-19 때문이다.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b6b622f7b1ab79579a3896a310a32ae8/fd561/200222covid-19.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 53.03558967201675%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAACYUlEQVQoz02TSXLTQBiFlQCh4gy2Y0eW1Bpas1qzLNuxyw4BCsKCrRfcgaOw4kCc7fEkNixedUv69fU/vNbiooCfpkizDEkcI0mS/xQj5bcgCGDbAq7rwPclHMeBEGJcLcsa954nsVwuoX0n5JsfIJEScToAYiiVocwLZFnCZ4prFEeQUYxIldBtidPphPP5zJgMRefh8DmBkAtohyhC73oIeHpR5CiZscozZCplcApVKOTc3xg+bg0J7d7E1dwi8Ii2bccDN4cc3baA49rQ1tstiqaBK33kzKquajR5jqqqkHD/mit8YWaa7uFiao3A66XA8/NpjImZ+fHDDrvdBsIisF+vkbJffshSM4W6qbEjpC1z/AxC/DIcfF15MJmVNgCnAtcLC4fDnhWViKIQ+2OPftPCsR1o26cnhGGILEmRsx9VWaLpe7yWDf4sDPyerWDPBWb3BrS5g8uFPwKHHg4ZDsDjyxpP+56DI1CxZxGBATVZ+Vg6IWw/5jQVfjgBgqkJbfav1FF35ghs6hohYcPU275E1VQwTcalStEuEXThjcFvZoJlmXj/MFghxpXu4pKljv0bdGfg7VQnyKdtJGwqokuaLICh0zbF0Fie9GC60G5W4w+DLpiNYUoOwME7wm8IHif8KPFo02ZJiLr1sN/ZeHkW+PjJhSUIbDj6oWRDOLhbubhdSa4eAR4mj8M7GtmPsBSSzy7U+oCsqCA9F+s2RNfFaLqIJSsYhg5taOxgzjAM0HMYVbdF2faouw26dU8fVlRNc+eIODiP9rIs3hKPt8cxxltirHRMp3NMrif4C1lFNTQcVCweAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;200222코로나19&quot;
+        title=&quot;&quot;
+        src=&quot;/static/b6b622f7b1ab79579a3896a310a32ae8/d9199/200222covid-19.png&quot;
+        srcset=&quot;/static/b6b622f7b1ab79579a3896a310a32ae8/8ff5a/200222covid-19.png 240w,
+/static/b6b622f7b1ab79579a3896a310a32ae8/e85cb/200222covid-19.png 480w,
+/static/b6b622f7b1ab79579a3896a310a32ae8/d9199/200222covid-19.png 960w,
+/static/b6b622f7b1ab79579a3896a310a32ae8/07a9c/200222covid-19.png 1440w,
+/static/b6b622f7b1ab79579a3896a310a32ae8/29114/200222covid-19.png 1920w,
+/static/b6b622f7b1ab79579a3896a310a32ae8/fd561/200222covid-19.png 2866w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;태국도 위험하고 우리나라 위험하다 이러면 해외여행을 가는것도 위험하고 다녀와도 주변사람한테도 피해를 입힐수 있다. 여행을 가고 싶어 혹시나 본의 아니게 다른 사람들한테 피해를 준다면 이 또한 얼마나 안타까운 일인가 그래서 포기했다.&lt;/p&gt;
+&lt;p&gt;나는 항공권만 예약을 했기에 취소 수수료 또한 저렇게만 나왔을텐데 다른 분들은 호텔까지 예약했다면 더 많은 수수료를 … 다행이다.&lt;/p&gt;
+&lt;h2&gt;추후 여행 계획.&lt;/h2&gt;
+&lt;p&gt;일단 4월 7월달은 코로나19 때문에 힘들다고 판단 9월달은 아이슬란드이기에 문제가 없다고 판단. 그럼 중간에 여행지를 선택해야하는데 과연…한국도 다 위험하고 어디를 갈수 있을지는 모르겠다. 조속히 코로나19가 더이상 확산이 안되길 바란다.&lt;/p&gt;
+&lt;p&gt;아… 여행 갈 곳이 없다.&lt;/p&gt;
+&lt;h3&gt;취소 수수료&lt;/h3&gt;
+&lt;p&gt;취소 수수료는 항공사 마다 다른데 정리 해볼려고 한다.
+TWAY &lt;a href=&quot;https://www.twayair.com/app/serviceInfo/feeInfo#none&quot;&gt;취소수수료&lt;/a&gt;
+
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 108.89570552147238%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAABYlAAAWJQFJUiTwAAACrUlEQVQ4y4WUb2+iQBDG/f7fp+2buzfX9NVVkzbRnKc98ayKiIAg/oFdnptnylKoJkeyWXaZmf3tzDP0rDUYjjzc3/fx7fsQd3c/Zf6Fh4dX/Hic4+lpiNV6BT5VVaHC51PVw1qrQwzQkyXyFAh8YPVeIVgDizngL4G/XoU0poeBKQrAWHrDyruuGUSePMtwSRKYNEUvz3P8efsNz5sgPyQ4ZBG8maxnE6xXHtJ9hESMkziWvZnYvmG32yET5+lkgv7zMwb9vo5Y9nun8wm+v0EQbJFlB+T5EdttiDDcIY4TXWeHg3zLEIpDGIZIJdhB9sbjMUajESYSeDAYINhu0bM1NupcxEJCJ85bMSBdZduZ+7S99WhATbYMvl8uF5zPZ51Pp5POzsYlv/1ujdFhOMu6Q1hKon3fRxRFOpgrEmoQfperFpIGV1nORg4txLaqVaABCwnEwVNYJJIdj0cdpHVURmgZwBHqXJYwYlfVaw1IEuaslI8ubxzc3+/3nzRSiDLpElo5RAnbAd3TJnSUbUJ7i5A3I2Fdh6YomkMhDIJAaeM4Upn8j7DJoSN0wZoqC9Fi8Y7pdKoFIqUxdQ7F2cgNvhKWclDnym0ZpEI0m3mYz+dYr9dK21SZhPJd7SU9eogAFE4J7Ry6oCyGEzbn5spVdSXsr3s3A7IwFDNl5Oa2oNtN0Oy1/K+EvVwulYySYU+7K6sKpJ8L+dZuPctu2gTdopimdYzKxbWemzsSkXWnKPQVOwa0bWGTitdzsmHrca/TepLPIoqvZSP+1a2ikJK/JUqFAncib1pPSJyIO2KnlG51ykfrffzvOEjKuaERR5XNV0Kx63RKR9hyIgU9k78zg3NNcud8RUhh3yJ0J8SSu5eXVwyHQ/0TbzabRm+sMltP7V2VJQ2lEKKWzz8x2a0aK5RA8wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;TWAY취소수수료&quot;
+        title=&quot;&quot;
+        src=&quot;/static/6d5a72138fdde367cde9f1a080bfd2ea/d9199/200222feeInfo.png&quot;
+        srcset=&quot;/static/6d5a72138fdde367cde9f1a080bfd2ea/8ff5a/200222feeInfo.png 240w,
+/static/6d5a72138fdde367cde9f1a080bfd2ea/e85cb/200222feeInfo.png 480w,
+/static/6d5a72138fdde367cde9f1a080bfd2ea/d9199/200222feeInfo.png 960w,
+/static/6d5a72138fdde367cde9f1a080bfd2ea/71e8d/200222feeInfo.png 1304w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/p&gt;
+&lt;p&gt;대한항공 &lt;a href=&quot;https://www.koreanair.com/content/koreanair/korea/ko/ticket-information/ticket-services/refund-penalty.html&quot;&gt;취소수수료&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/22ab55c672fc5c88f192866895720c24/9d6a9/200222koreanair.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 63.91843971631206%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAACUUlEQVQ4y52TW2vUUBDH85VEpVQR8UX0za/ii3itD4qIIlVb14LiDUFQ+6D1ghcsra0K6uJDdZt12d26270kOUk2181t/86cbKAPPhQDfyaZOfM7M3NOlI2uhkrjD8pqHY12B8I0oRsCPU2Tttvro9vvw7RsJFmGJC2U/kMZlND3EDg2QlJgm4i9AdLAReQSwHfgW0L6stDDdh7lwXIZF58tYfbNZ9IXXH21muv1J0y/XBnbVVwn+5DWPlr5gbuLX3FlYRnTLz5K8fvl50soEUM5em8Be6fmsOv4DCZP3cCOY9ewf+omJk/Oyu8DZ+cwQe/7zpRw6Pxt7DldwuELdzBBsd3k33liRuYePHcLRy7dhxJFEYRlYTgcQqO5sQ18H0HgI00SCMNARrNzXQemEPCTFGpPoG17WPzdwnx5HVYYYUCz5zyFk5I4luKEKBrC8zz4FIzJp9MmGQ3ctm0ZDwm4tqkR0MW79SaefK/ADIYQui7zFK7IdV2EYQidnPm3R8EcyFWnBBwMBrC4CgL+7OjoOD7eEvApVchAUxhURJC3zDC2BZB3YjGwT1eGgY6TtxzS1Vjb1GXL79UNPP6WV2hRzOOWuTWTdw4CCE4geNFysUlCY2EgV+jHCX51DdkyA7ll4YcUGwMZsBXIEAbyGIqDSscz5APKZ6ijRcAPBJwvV2BRhYau5TPkhFqthkajgWq1ClVV0W63JYDFMD7lrSr+ipCqDaIYKfvH6xRuiSEMY9XrdXkAo9EI//MoPJtWq4VmsynFFcsTpbtZQNluV38BZe+1wM2gKMEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;대한항공취소수수료&quot;
+        title=&quot;&quot;
+        src=&quot;/static/22ab55c672fc5c88f192866895720c24/d9199/200222koreanair.png&quot;
+        srcset=&quot;/static/22ab55c672fc5c88f192866895720c24/8ff5a/200222koreanair.png 240w,
+/static/22ab55c672fc5c88f192866895720c24/e85cb/200222koreanair.png 480w,
+/static/22ab55c672fc5c88f192866895720c24/d9199/200222koreanair.png 960w,
+/static/22ab55c672fc5c88f192866895720c24/07a9c/200222koreanair.png 1440w,
+/static/22ab55c672fc5c88f192866895720c24/29114/200222koreanair.png 1920w,
+/static/22ab55c672fc5c88f192866895720c24/9d6a9/200222koreanair.png 2256w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h4&gt;코로나19 관련 앱들&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;신종 코로나 접촉 검사&lt;/li&gt;
+&lt;li&gt;코로나19 바이러스&lt;/li&gt;
+&lt;li&gt;코로나 알리미&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[결정세액 0원 만들기]]></title><description><![CDATA[연말정산 환급 금액 - 증가 시켜보자, 결정세액 0원 만들기, 세액 공제]]></description><link>https://ipadorusa.com/posts/결정세액-0원-만들기</link><guid isPermaLink="false">https://ipadorusa.com/posts/결정세액-0원-만들기</guid><pubDate>Sat, 15 Feb 2020 14:16:45 GMT</pubDate><content:encoded>&lt;h2&gt;연말정산 환급 금액 - 증가 시켜보자&lt;/h2&gt;
 &lt;p&gt;2019년 연말정산은 큰 기대를 했었다. 결혼을 하면서 돈도 지출을 많이 사용했고, 신용카드도 체크카드도 현금도 많이 써서 기대를 했었다.
 어머니의 보험료도 내가 지불하고 있었고 보험료로도 어느정도 비중을 차지하고 있었기 때문이다.&lt;/p&gt;
 &lt;p&gt;하지만 …결과는 -31만원… 슬푸다.&lt;/p&gt;
