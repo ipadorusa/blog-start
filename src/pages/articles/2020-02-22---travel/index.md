@@ -1,20 +1,21 @@
 ---
-title: 코로나-19로 여행취소 ㅠㅠ
+title: 코로나19로 여행취소 ㅠㅠ
 date: '2020-02-22 23:01:31'
 layout: post
 draft: false
-path: '/posts/코로나-19로-여행취소'
+path: '/posts/코로나19로-여행취소'
 category: '여행'
 tags:
-  - '코로나-19'
+  - '코로나19'
   - '여행취소'
   - '200222코로나19'
   - 'TWAY 취소수수료'
+  - 'Airasia 일부 항공편 취소'
 
 description: '코로나19 여행 취소. 4월,7월달 태국,대만 여행이 없어지다.'
 ---
 
-## 코로나-19가 나에게 미치는 영향.
+## 코로나19가 나에게 미치는 영향.
 
 새해 계획이 틀어졌다. 우리 부부의 해외 여행은 4월달,7월,9달에 계획이 되어 있었다.
 이중 4월달 7월달이 취소가 되버렸다.
@@ -46,6 +47,13 @@ TWAY [취소수수료](https://www.twayair.com/app/serviceInfo/feeInfo#none)
 대한항공 [취소수수료](https://www.koreanair.com/content/koreanair/korea/ko/ticket-information/ticket-services/refund-penalty.html)
 
 ![대한항공취소수수료](./200222koreanair.png)
+
+### 추가 정보들 (2020-02-23 14:12:57)
+
+이제 역으로 한국으로의 여행 제한이 시작되고 있음. ㅠㅠ
+
+방콕 한국간 일부항공편 취소 - airasia
+[Travel Advisory: Thai AirAsia X Cancels Some Flights to and from South Korea due to the impact from the public health situation](https://newsroom.airasia.com/news/2020/2/20/travel-advisory-thai-airasia-x-cancels-some-flights-to-and-from-south-korea-due-to-the-impact-from-the-public-health-situation)
 
 #### 코로나19 관련 앱들
 
