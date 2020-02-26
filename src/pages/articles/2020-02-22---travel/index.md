@@ -57,6 +57,7 @@ TWAY [취소수수료](https://www.twayair.com/app/serviceInfo/feeInfo#none)
 
 #### 코로나19 관련 앱들
 
-- 신종 코로나 접촉 검사
-- 코로나19 바이러스
-- 코로나 알리미
+- 코로나맵 [http://coronamap.site/](http://coronamap.site/)
+- 코로나알리미 [https://corona-nearby.com/](https://corona-nearby.com/)
+- 코로나있다 [https://www.coronaita.com/](https://www.coronaita.com/)
+- 코로나나우 [https://coronanow.kr/](https://coronanow.kr/)
