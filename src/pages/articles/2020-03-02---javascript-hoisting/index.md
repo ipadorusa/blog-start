@@ -107,3 +107,8 @@ sum2 = function(a, b) {return a + b}
 3
 undefined
 ```
+
+#### 정리
+
+Javascript 핵심 개념 알아보기 - JS Flow를 다시 들으면서 정리하니 예전에 헛갈렸던게 다시 보임.
+계속 계속 공부하자
