@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 08 Mar 2020 02:14:51 GMT</lastBuildDate><item><title><![CDATA[공적 마스크 구매하다 (마스크 5부제) - 공적마스크 재고 지도 추가]]></title><description><![CDATA[공적 마스크를 구매해보다. 마스크5부제로 마스크를 구매 할수 있을까? 마스크 공적판매처 약국는 어디에 있나? 휴일지킴이약국에서 찾아봐야하나?]]></description><link>https://ipadorusa.com/posts/mask</link><guid isPermaLink="false">https://ipadorusa.com/posts/mask</guid><pubDate>Sat, 07 Mar 2020 09:21:19 GMT</pubDate><content:encoded>&lt;h2&gt;공적 마스크 줄을 보다.&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 08 Mar 2020 03:09:30 GMT</lastBuildDate><item><title><![CDATA[공적 마스크 구매하다 (마스크 5부제) - 공적마스크 재고 지도 추가]]></title><description><![CDATA[공적 마스크를 구매해보다. 마스크5부제로 마스크를 구매 할수 있을까? 마스크 공적판매처 약국는 어디에 있나? 휴일지킴이약국에서 찾아봐야하나?]]></description><link>https://ipadorusa.com/posts/mask</link><guid isPermaLink="false">https://ipadorusa.com/posts/mask</guid><pubDate>Sat, 07 Mar 2020 09:21:19 GMT</pubDate><content:encoded>&lt;h2&gt;공적 마스크 줄을 보다.&lt;/h2&gt;
 &lt;p&gt;아침 일찍은 아니지만 11시쯤 동네에 볼일이 있어서 운전하면서 목적지를 향해 가고 있었다. 운전해서 가던 도중 약국에 줄 서서 마스크를 구매할려고 하는 사람들의 모습을 보였고 또다른 약국 앞에는 문앞에 문구를 읽는 행인을 볼수 있었다. 어제 어머니가 토,일요일에 마스크 살수 있으니 살수 있으면 사라고 한게 기억이 나서 나도 구매를 해야겠다고 생각을 했다.&lt;/p&gt;
 &lt;h2&gt;집근처 약국에 가보다.&lt;/h2&gt;
 &lt;p&gt;방송에서 공적마스크를 토,일요일날은 구매할수 있다고 이야기를 들어서 나도 마스크 구매했던 갯수가 많이 줄어 들어 구매하고자 집근처에 약국을 돌아 다녔다.&lt;/p&gt;
@@ -14,8 +14,8 @@
 나는 그 글을 읽으면서 짜증이 났지만 한편으로 이해가 되었다.
 아 정말 공적 마스크 구매가 어렵구나 하면서 나는 집으로 가기 위해 다시 차를 탔다. 아이스크림도 못 산채…&lt;/p&gt;
 &lt;h3&gt;네번째 약국(공적마스크 구매 네번째 시도)&lt;/h3&gt;
-&lt;p&gt;집으로 들어가는 아파트 정문 앞 길에 다소 짧은 줄을 선 사람들이 보였고 아 약국있구나하면서 속으로 도오전&lt;del&gt;을 외치고 아파트 주차장에 주차.
-상가를 통해 들어가니 팔고 있었다… 오&lt;/del&gt;&lt;del&gt;오&lt;/del&gt; 들어가니 어떤 아주머니가 불만 섞인 목소리를 말을 하고 있었다. 좀 이야기를 들어보니 신분증을 안가지고 그냥 돈만 가지고 오신분이였다. “이번주에 한번도 못샀어요. 여기 주민이에요. 여기도 자주사러 오는데 주민등록 번호를 댈테니 사고 싶다.” 안됩니다. 신분증이 있어야지 구매할수 있어요. 이런 내용으로 계속 소모적인 대화가… 약사님께서는 어쩔수 없었는지 주민번호 부르라고 하면서 판매… ㅠㅠ 힘들겠다.. 약사님..
+&lt;p&gt;집으로 들어가는 아파트 정문 앞 길에 다소 짧은 줄을 선 사람들이 보였고 아 약국있구나하면서 속으로 도오전을 외치고 아파트 주차장에 주차.
+상가를 통해 들어가니 팔고 있었다… 오&lt;del&gt;&lt;/del&gt;오~~ 들어가니 어떤 아주머니가 불만 섞인 목소리를 말을 하고 있었다. 좀 이야기를 들어보니 신분증을 안가지고 그냥 돈만 가지고 오신분이였다. “이번주에 한번도 못샀어요. 여기 주민이에요. 여기도 자주사러 오는데 주민등록 번호를 댈테니 사고 싶다.” 안됩니다. 신분증이 있어야지 구매할수 있어요. 이런 내용으로 계속 소모적인 대화가… 약사님께서는 어쩔수 없었는지 주민번호 부르라고 하면서 판매… ㅠㅠ 힘들겠다.. 약사님..
 어렵다.. 공적 마스크 5부제.. 판매점이 약국 말고 다른곳 아니면 다른 아이디어가 필요할꺼 같다.&lt;/p&gt;
 &lt;p&gt;아마 약국에서 판매하는것도 뉴스에서 봤었는데 청와대 게시판인지 어디 게시판인지 이렇게 판매하면 좋을꺼 같다고 해서 적용된거 같은데.. 좀 더 더 더 더 좋은 아이디어가 필요할 꺼 같다.&lt;/p&gt;
 &lt;p&gt;앞으로 진행하면서 문제가 많이 생기겠지만 생기기전에 좀 더 정부쪽에서 이런 저런 아이디어를 생각해보고 나은 방향이 되기를 희망한다.&lt;/p&gt;
@@ -32,8 +32,10 @@
 &lt;li&gt;공적마스크를 구매하기 위해 4번의 시도에 마스크 두장을 장당 1,500원에 구매 할수 있었다.&lt;/li&gt;
 &lt;li&gt;약국보다 더 많은 판매점이 필요하고 더 나은 방향을 위한 아이디어가 필요하다.&lt;/li&gt;
 &lt;li&gt;약국이 생각보다 많은 스트레스를 받고 있다. 이러다가 공적 판매를 거부하는 약국이 생길수도 있을듯 하다.&lt;/li&gt;
-&lt;li&gt;(공적마스크 재고 지도)&lt;a href=&quot;2020-03-08%2008:41:16&quot;&gt;https://masksaja.com/&lt;/a&gt; 만드신분 감사합니다.
-&lt;img src=&quot;./%EA%B3%B5%EC%A0%81%EB%A7%88%EC%8A%A4%ED%81%AC%EA%B5%AC%EB%A7%A4%EC%84%B1%EA%B3%B5.jpeg&quot; alt=&quot;공적마스크구매성공&quot;&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;(공적마스크 재고 지도)&lt;a href=&quot;2020-03-08%2008:41:16&quot;&gt;https://masksaja.com/&lt;/a&gt; 만드신분 감사합니다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./%EA%B3%B5%EC%A0%81%EB%A7%88%EC%8A%A4%ED%81%AC%EA%B5%AC%EB%A7%A4%EC%84%B1%EA%B3%B5.jpeg&quot; alt=&quot;공적마스크구매성공&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[javascript hoisting]]></title><description><![CDATA[자바스크립트 hoisting에 대해서 다시 공부하기 lexicalEnvironment와 variableEnvironment]]></description><link>https://ipadorusa.com/posts/javascript-hoisting</link><guid isPermaLink="false">https://ipadorusa.com/posts/javascript-hoisting</guid><pubDate>Mon, 02 Mar 2020 14:04:23 GMT</pubDate><content:encoded>&lt;h2&gt;자바스크립트 hoisting&lt;/h2&gt;
 &lt;p&gt;매개변수와 변수에 대한 호이스팅 예제&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
