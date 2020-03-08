@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 08 Mar 2020 03:09:30 GMT</lastBuildDate><item><title><![CDATA[공적 마스크 구매하다 (마스크 5부제) - 공적마스크 재고 지도 추가]]></title><description><![CDATA[공적 마스크를 구매해보다. 마스크5부제로 마스크를 구매 할수 있을까? 마스크 공적판매처 약국는 어디에 있나? 휴일지킴이약국에서 찾아봐야하나?]]></description><link>https://ipadorusa.com/posts/mask</link><guid isPermaLink="false">https://ipadorusa.com/posts/mask</guid><pubDate>Sat, 07 Mar 2020 09:21:19 GMT</pubDate><content:encoded>&lt;h2&gt;공적 마스크 줄을 보다.&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 08 Mar 2020 07:19:47 GMT</lastBuildDate><item><title><![CDATA[공적 마스크 구매하다 (마스크 5부제) - 공적마스크 재고 지도 추가]]></title><description><![CDATA[공적 마스크를 구매해보다. 마스크5부제로 마스크를 구매 할수 있을까? 마스크 공적판매처 약국는 어디에 있나? 휴일지킴이약국에서 찾아봐야하나?]]></description><link>https://ipadorusa.com/posts/mask</link><guid isPermaLink="false">https://ipadorusa.com/posts/mask</guid><pubDate>Sat, 07 Mar 2020 09:21:19 GMT</pubDate><content:encoded>&lt;h2&gt;공적 마스크 줄을 보다.&lt;/h2&gt;
 &lt;p&gt;아침 일찍은 아니지만 11시쯤 동네에 볼일이 있어서 운전하면서 목적지를 향해 가고 있었다. 운전해서 가던 도중 약국에 줄 서서 마스크를 구매할려고 하는 사람들의 모습을 보였고 또다른 약국 앞에는 문앞에 문구를 읽는 행인을 볼수 있었다. 어제 어머니가 토,일요일에 마스크 살수 있으니 살수 있으면 사라고 한게 기억이 나서 나도 구매를 해야겠다고 생각을 했다.&lt;/p&gt;
 &lt;h2&gt;집근처 약국에 가보다.&lt;/h2&gt;
 &lt;p&gt;방송에서 공적마스크를 토,일요일날은 구매할수 있다고 이야기를 들어서 나도 마스크 구매했던 갯수가 많이 줄어 들어 구매하고자 집근처에 약국을 돌아 다녔다.&lt;/p&gt;
@@ -21,19 +21,20 @@
 &lt;p&gt;앞으로 진행하면서 문제가 많이 생기겠지만 생기기전에 좀 더 정부쪽에서 이런 저런 아이디어를 생각해보고 나은 방향이 되기를 희망한다.&lt;/p&gt;
 &lt;h4&gt;공적마스크 판매 약국 리스트&lt;/h4&gt;
 &lt;p&gt;대체 어디서 찾아야하나. 포탈에서 검색해도 제대로 된 정보가 안나옴. 몇군데 블로그에서는 정리가 되어 있어서 찾을수 있으나 정부 사이트에서 찾고 싶었는데 검색이 잘 안됨.. 내 키워드가 문제인가…&lt;/p&gt;
-&lt;p&gt;좀 더 찾아 보니 식품의약품안전처 공식 블로그에 있는듯 하다.(식품의약품안전처 공적마스크 안내3월7일)[http://blog.naver.com/kfdazzang/221841958654]
-에 들어가니…
-&lt;img src=&quot;./3%EC%9B%947%EC%9D%BC%EA%B3%B5%EC%A0%81%EB%A7%88%EC%8A%A4%ED%81%AC%ED%8C%90%EB%A7%A4%EC%95%88%EB%82%B4%EA%B8%80.png&quot; alt=&quot;식품의약품안전처3월7일안내글&quot;&gt;
+&lt;p&gt;좀 더 찾아 보니 식품의약품안전처 공식 블로그에 있는듯 하다.
+&lt;a href=&quot;http://blog.naver.com/kfdazzang/221841958654&quot;&gt;식품의약품안전처 공적마스크 안내3월7일&lt;/a&gt;
+에 들어가니…&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./3%EC%9B%947%EC%9D%BC%EA%B3%B5%EC%A0%81%EB%A7%88%EC%8A%A4%ED%81%AC%ED%8C%90%EB%A7%A4%EC%95%88%EB%82%B4%EA%B8%80.png&quot; alt=&quot;식품의약품안전처3월7일안내글&quot;&gt;
 아 어디서 파는데.. 안파는 약국도 발견했는데…아오…&lt;/p&gt;
 &lt;p&gt;일단 주말에 구매하실분은 주말 휴일지킴이약국을 검색하셔서 돌아 다녀야할듯 함.
-(휴일지킴이약국)[https://www.pharm114.or.kr/]&lt;/p&gt;
+&lt;a href=&quot;https://www.pharm114.or.kr&quot;&gt;휴일지킴이약국 - pharm114&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;결론&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;공적마스크를 구매하기 위해 4번의 시도에 마스크 두장을 장당 1,500원에 구매 할수 있었다.&lt;/li&gt;
 &lt;li&gt;약국보다 더 많은 판매점이 필요하고 더 나은 방향을 위한 아이디어가 필요하다.&lt;/li&gt;
 &lt;li&gt;약국이 생각보다 많은 스트레스를 받고 있다. 이러다가 공적 판매를 거부하는 약국이 생길수도 있을듯 하다.&lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;(공적마스크 재고 지도)&lt;a href=&quot;2020-03-08%2008:41:16&quot;&gt;https://masksaja.com/&lt;/a&gt; 만드신분 감사합니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://masksaja.com/&quot;&gt;공적마스크 재고 지도&lt;/a&gt;(2020-03-08 08:41:16) 만드신분 감사합니다.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;./%EA%B3%B5%EC%A0%81%EB%A7%88%EC%8A%A4%ED%81%AC%EA%B5%AC%EB%A7%A4%EC%84%B1%EA%B3%B5.jpeg&quot; alt=&quot;공적마스크구매성공&quot;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[javascript hoisting]]></title><description><![CDATA[자바스크립트 hoisting에 대해서 다시 공부하기 lexicalEnvironment와 variableEnvironment]]></description><link>https://ipadorusa.com/posts/javascript-hoisting</link><guid isPermaLink="false">https://ipadorusa.com/posts/javascript-hoisting</guid><pubDate>Mon, 02 Mar 2020 14:04:23 GMT</pubDate><content:encoded>&lt;h2&gt;자바스크립트 hoisting&lt;/h2&gt;
