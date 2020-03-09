@@ -9,6 +9,7 @@ tags:
   - '우한폐렴'
   - 'wuhancoronavirus'
   - '존스홉킨스 코로나 바이러스 맵'
+  - 'Coronavirus COVID-19 Global Cases by Johns Hopkins CSSE'
 
 description: '존스홉킨스 대학에서 만든 코로나 바이러스 맵, 존스홉킨스에서 코로나 바이러스(우한폐렴) 맵을 만들어서 공유합니다. 세계 각국 Coronavirus outbreak'
 ---
