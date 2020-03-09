@@ -16,7 +16,7 @@ tags:
   - 'masksaja.com'
   - 'https://corona.goodoc.kr/'
 
-description: '공적 마스크를 구매해보다. 마스크5부제로 마스크를 구매 할수 있을까? 마스크 공적판매처 약국는 어디에 있나? 휴일지킴이약국에서 찾아봐야하나? 기대되는 사이트 https://corona.goodoc.kr/'
+description: '😷공적 마스크를 구매해보다. 마스크5부제로 마스크를 구매 할수 있을까? 마스크 공적판매처 약국는 어디에 있나? 휴일지킴이약국에서 찾아봐야하나? 기대되는 사이트 https://corona.goodoc.kr/'
 ---
 
 ## 공적 마스크 줄을 보다.
