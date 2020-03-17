@@ -1,6 +1,6 @@
 ---
 title: javascript generators(자바스크립트 제너레이터)
-date: '2020-03-17 23:10:54'
+date: '2020-03-18 01:08:34'
 layout: post
 draft: false
 path: '/posts/javascript-generators-01'
