@@ -1,4 +1,69 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 11 Mar 2020 14:08:29 GMT</lastBuildDate><item><title><![CDATA[코로나 확진자랑 동선 겹침]]></title><description><![CDATA[😷마스크를 쓰고 다니는 나. 코로나 확진자랑 내가 동선이 겹쳤다. 확진자와 동선이 겹치는 걸 알고 내가 한 행동]]></description><link>https://ipadorusa.com/posts/코로나바이러스-확진자랑-동선겹침</link><guid isPermaLink="false">https://ipadorusa.com/posts/코로나바이러스-확진자랑-동선겹침</guid><pubDate>Wed, 11 Mar 2020 13:18:33 GMT</pubDate><content:encoded>&lt;h2&gt;코로나 확진자와 동선이 겹침&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 17 Mar 2020 16:03:51 GMT</lastBuildDate><item><title><![CDATA[javascript generators(자바스크립트 제너레이터)]]></title><description><![CDATA[javascript generators(자바스크립트 제너레이터) 관련 글중 괜찮은게 있고 공부하고 기억에 남기위해 블로그에 글 쓴다. Generator는 이 제너레이터 함수의 반환으로 iterable 프로토콜과 iterator 프로토콜을 따르는 객체이다. 이 때, 제너레이터의 이터러블에서 반환하는 이터레이터는 자기 자신이다.]]></description><link>https://ipadorusa.com/posts/javascript-generators-01</link><guid isPermaLink="false">https://ipadorusa.com/posts/javascript-generators-01</guid><pubDate>Tue, 17 Mar 2020 14:10:54 GMT</pubDate><content:encoded>&lt;h2&gt;javascript generators 문법&lt;/h2&gt;
+&lt;p&gt;function*으로 문법으로 시작해서 최초 호출시에는 함수 내부에 코드를 실행하지 않고 제너레이터 객체만 생성을 하고 next가 호출되어야지만 실행 되면서 yeild를 만날때까지 동작한다.&lt;/p&gt;
+&lt;h2&gt;Generator(Iteration protocols)&lt;/h2&gt;
+&lt;p&gt;generator object 는 iterator 이면서 iterable 입니다.&lt;/p&gt;
+&lt;h3&gt;iterable&lt;/h3&gt;
+&lt;p&gt;객체 내부를 탐색 반복 순회할수 있는것.
+자바스크립트에 대표적인 것들로는 array, set, mar, string이 있다.
+Symbol.iterator 속성을 가지고 있으면 iterable한 객체이다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; arr &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;b&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;c&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;dir&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;arr&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;이렇게 하면 이속성이 있는걸 확인할수 있다.
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3d0c0274fc24b35087337e69c6647920/af590/symbol.iterator.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 626px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 5.111821086261981%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAYAAADeko4lAAAACXBIWXMAABYlAAAWJQFJUiTwAAAASUlEQVQI1x3DWwqAIBRAwfaihuUrupGl9iW5/x2doIGZjDHEEKmh/WURWngovpJsQtaD02Wyu9h8YrY7d2mM8dJ7R0RQSqG1/n/m7B96leaKYAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Symbol.iterator&quot;
+        title=&quot;&quot;
+        src=&quot;/static/3d0c0274fc24b35087337e69c6647920/af590/symbol.iterator.png&quot;
+        srcset=&quot;/static/3d0c0274fc24b35087337e69c6647920/8ff5a/symbol.iterator.png 240w,
+/static/3d0c0274fc24b35087337e69c6647920/e85cb/symbol.iterator.png 480w,
+/static/3d0c0274fc24b35087337e69c6647920/af590/symbol.iterator.png 626w&quot;
+        sizes=&quot;(max-width: 626px) 100vw, 626px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h3&gt;Iterable을 허용하는 내장 API들&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token function&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;iterable&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;WeakMap&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;iterable&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;Set&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;iterable&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; and &lt;span class=&quot;token function&quot;&gt;WeakSet&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;iterable&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Promise&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;all&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;iterable&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Promise&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;race&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;iterable&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Array&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;이 있다.&lt;/p&gt;
+&lt;h3&gt;iterator&lt;/h3&gt;
+&lt;p&gt;반복을 위해 특별한 인터페이스를 가진 객체.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;객체 내부에는 next() 메소드 존재.&lt;/li&gt;
+&lt;li&gt;이 메소드는 value와 done 프로퍼티를 지닌 객체를 반환한다.&lt;/li&gt;
+&lt;li&gt;done은 boolean값이다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;반복자(iterator)는 객체 지향적 프로그래밍에서 배열이나 그와 유사한 자료 구조의 내부의 요소를 순회(traversing)하는 객체이다. 위키문서 참고&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;나머지 예제는 다음시간에 정리를..&lt;/p&gt;
+&lt;h4&gt;참고&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.inflearn.com/course/es6-2&quot;&gt;인프런Javascript ES6+ 제대로 알아보기&lt;/a&gt;
+&lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Iteration_protocols&quot;&gt;MDN-Iteration_protocols&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[코로나 확진자랑 동선 겹침]]></title><description><![CDATA[😷마스크를 쓰고 다니는 나. 코로나 확진자랑 내가 동선이 겹쳤다. 확진자와 동선이 겹치는 걸 알고 내가 한 행동]]></description><link>https://ipadorusa.com/posts/코로나바이러스-확진자랑-동선겹침</link><guid isPermaLink="false">https://ipadorusa.com/posts/코로나바이러스-확진자랑-동선겹침</guid><pubDate>Wed, 11 Mar 2020 13:18:33 GMT</pubDate><content:encoded>&lt;h2&gt;코로나 확진자와 동선이 겹침&lt;/h2&gt;
 &lt;p&gt;2월초부터 목이 살짝살짝 간지럽다가 2월 중순쯤 감기가 심해져 약국 약을 먹다가 상태가 심해지면 나도 힘들어지고 주변에 피해를 줄 수있어 이비인후과를 방문하게 됐다. 2월 말에 갔고 한번 병원 약을 먹고 나니 기침도 많이 줄고 괜찮았지만. 코막힘과 가래가 있어서 3월 3일 날에도 병원을 방문했었다.&lt;/p&gt;
 &lt;h2&gt;3월10일 확진자 경로가 적혀진 내용의 사진을 보다.&lt;/h2&gt;
 &lt;p&gt;팀장님이 보내준 3월 10일 확진자 동선이 나온 사진을 메신저로 받았다. 확인해 보라면서 준 사진에는 익숙한 병원 이름이 나왔다.
