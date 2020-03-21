@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 17 Mar 2020 16:05:55 GMT</lastBuildDate><item><title><![CDATA[javascript generators(자바스크립트 제너레이터)]]></title><description><![CDATA[javascript generators(자바스크립트 제너레이터) 관련 글중 괜찮은게 있고 공부하고 기억에 남기위해 블로그에 글 쓴다. Generator는 이 제너레이터 함수의 반환으로 iterable 프로토콜과 iterator 프로토콜을 따르는 객체이다. 이 때, 제너레이터의 이터러블에서 반환하는 이터레이터는 자기 자신이다.]]></description><link>https://ipadorusa.com/posts/javascript-generators-01</link><guid isPermaLink="false">https://ipadorusa.com/posts/javascript-generators-01</guid><pubDate>Tue, 17 Mar 2020 14:10:54 GMT</pubDate><content:encoded>&lt;h2&gt;javascript generators 문법&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 21 Mar 2020 15:16:16 GMT</lastBuildDate><item><title><![CDATA[KN95,KF94,N95 마스크 종류?]]></title><description><![CDATA[마스크 살려고 찾아 볼려다가 궁금해서 숫자를 찾아봄. KN95? KF95? N95. 국내에는 KF80, KF94, KF99 세가지 등급이 있다.]]></description><link>https://ipadorusa.com/posts/maskfilter</link><guid isPermaLink="false">https://ipadorusa.com/posts/maskfilter</guid><pubDate>Sat, 21 Mar 2020 15:15:36 GMT</pubDate><content:encoded>&lt;h2&gt;KN95? KF95? N95 뜻이 궁금해서 찾아봄&lt;/h2&gt;
+&lt;p&gt;일단 국내법상 보건용 마스크는 KF80, KF94, KF99 세 가지 등급이 있다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;이 중 KF80은 황사용, KF94, KF99는 방역용으로 분류된다. KF80 인증은 평균 0.6μm 크기의 입자를 80% 이상 차단할 수 있는 마스크에 주어진다. KF94 인증은 평균 0.4μm 크기의 입자를 94% 이상, KF99 인증은 평균 0.4μm 크기의 입자를 99% 이상 걸러낼 수 있는 마스크에 주어진다. by wiki&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;KF 약자 뜻은?&lt;/h2&gt;
+&lt;p&gt;KF(Korea Filter) 등급은 한국 식품의약안전처가 인증한 등급입니다. 마스크의 누설률(마스크와 얼굴 틈으로 미세먼지가 새는 비율), 분진포집효율(마스크가 먼지를 걸러내는 비율), 흡기 저항(숨쉬기 어려운 정도) 등 세 가지를 시험해 합격한 제품에만 KF 마크를 붙일 수 있지요. 등급 뒤의 숫자가 같으면 사실상 N 등급과 같은 성능의 마스크라고 봐도 무방합니다. 숫자가 높아질수록 더 촘촘하게 미세먼지를 막아준답니다.&lt;/p&gt;
+&lt;p&gt;출처: &lt;a href=&quot;https://blog.kepco.co.kr/1209&quot;&gt;https://blog.kepco.co.kr/1209&lt;/a&gt; [한국전력 블로그 굿모닝 KEPCO!]&lt;/p&gt;
+&lt;h2&gt;KN 약자 뜻은?&lt;/h2&gt;
+&lt;p&gt;KN은 중국 인증 기준의 뜻으로
+KN과 KP는 중국에서 인증한 마스크 제품이다. K 다음 붙는 P와 N은 해당 마스크가 분진, 오일 미스트를 보호할 능력을 보유하고 있는지에 대한 것으로 KP가 분진 및 장시간 오일 미스트 보호 능력이 있고, KN은 분진 보호는 되지만 오일 미스트 보호능력이 없다는 의미다. KF 등급과 유사하게 KN(P)95는 0.075㎛ 이상의 미세먼지를 95% 이상 차단하고 KN(P)100은 99.97% 이상 차단한다.&lt;/p&gt;
+&lt;p&gt;출처: &lt;a href=&quot;https://www.mk.co.kr/news/it/view/2020/03/247404/&quot;&gt;https://www.mk.co.kr/news/it/view/2020/03/247404/&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;N95의 N 뜻은?&lt;/h2&gt;
+&lt;p&gt;N 등급은 미국 산업안전보건연구원(NIOSH)에서 제정한 마스크 등급입니다. N 뒤의 % 숫자만큼 공기 중에 떠다니는 미세먼지를 걸러 준다는 뜻이지요. 예를 들어 N 95 등급 마스크는 공기 중에 떠다니는 미세 과립을 95%의 확률로 막을 수 있습니다.&lt;/p&gt;
+&lt;p&gt;출처: &lt;a href=&quot;https://blog.kepco.co.kr/1209&quot;&gt;https://blog.kepco.co.kr/1209&lt;/a&gt; [한국전력 블로그 굿모닝 KEPCO!]&lt;/p&gt;
+&lt;h2&gt;그외 등급&lt;/h2&gt;
+&lt;p&gt;FFP는 유럽의 등급입니다
+FFP1이 독성이 없고 비섬유형인 0.6 μm 크기의 입자의 최소 80%를 여과하여 KF80수준의 등급입니다.
+FFP2가 유해하고 섬유형인 0.6 μm 크기의 입자의 최소 94%를 여과하여 KF94수준의 등급입니다.
+FFP3가 유독성의 먼지, 연기, 에어로졸 형태의 입자의 최소 99%를 여과할수 있다고 하며, 방사능입자도 여과가 가능하다고 합니다.&lt;/p&gt;
+&lt;p&gt;출처: &lt;a href=&quot;https://crossonesfinger.tistory.com/4&quot;&gt;https://crossonesfinger.tistory.com/4&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[javascript generators(자바스크립트 제너레이터)]]></title><description><![CDATA[javascript generators(자바스크립트 제너레이터) 관련 글중 괜찮은게 있고 공부하고 기억에 남기위해 블로그에 글 쓴다. Generator는 이 제너레이터 함수의 반환으로 iterable 프로토콜과 iterator 프로토콜을 따르는 객체이다. 이 때, 제너레이터의 이터러블에서 반환하는 이터레이터는 자기 자신이다.]]></description><link>https://ipadorusa.com/posts/javascript-generators-01</link><guid isPermaLink="false">https://ipadorusa.com/posts/javascript-generators-01</guid><pubDate>Tue, 17 Mar 2020 16:08:34 GMT</pubDate><content:encoded>&lt;h2&gt;javascript generators 문법&lt;/h2&gt;
 &lt;p&gt;function*으로 문법으로 시작해서 최초 호출시에는 함수 내부에 코드를 실행하지 않고 제너레이터 객체만 생성을 하고 next가 호출되어야지만 실행 되면서 yeild를 만날때까지 동작한다.&lt;/p&gt;
 &lt;h2&gt;Generator(Iteration protocols)&lt;/h2&gt;
 &lt;p&gt;generator object 는 iterator 이면서 iterable 입니다.&lt;/p&gt;
