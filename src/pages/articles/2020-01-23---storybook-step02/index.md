@@ -16,7 +16,7 @@ description: 'Storybook Vue 설치 해보자. 윈도우 버전에서는 Automact
 
 ## Storybook Vue 버전으로 설치 해보자
 
-vue 버전으로 설치 설명글은 [https://storybook.js.org/docs/guides/guide-vue/](https://storybook.js.org/docs/guides/guide-vue/)에 나와있다.
+Storybook vue 버전으로 설치 설명글은 [https://storybook.js.org/docs/guides/guide-vue/](https://storybook.js.org/docs/guides/guide-vue/)에 나와있다.
 
 두가지 방법이 있다.
 참고로 윈도우에서는 Automactic setup 으로 하면 모듈이 부족했는데... Mac 에서는 어떤가 모 같겠지만... 기억으로 dependencies 부족으로...
