@@ -4,7 +4,7 @@ date: '2020-04-04 16:55:37'
 layout: post
 draft: false
 path: '/posts/초보의주식투자'
-category: 'books'
+category: '주식,경제'
 tags:
   - '초보 주식투자'
   - '뉴스레터'

@@ -4,7 +4,7 @@ date: '2020-04-04 21:58:19'
 layout: post
 draft: false
 path: '/posts/신혼부부가계부'
-category: 'books'
+category: '주식,경제'
 tags:
   - '신혼부부 가계부'
   - '신혼부부 가계결산'
