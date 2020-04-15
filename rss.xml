@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 08 Apr 2020 14:51:44 GMT</lastBuildDate><item><title><![CDATA[신혼부부 가계부 구글 시트로 맞벌이 부부 자산 현황표 만들기]]></title><description><![CDATA[신혼부부가 결혼하면 미래를 위해 가계부를 작성하게 된다. 가계부를 어떤 플랫폼에 쓸까 고민중에 엑셀에 가계부를 쓸까? 구글 시트에 쓸까 고민중이다.]]></description><link>https://ipadorusa.com/posts/신혼부부가계부</link><guid isPermaLink="false">https://ipadorusa.com/posts/신혼부부가계부</guid><pubDate>Sat, 04 Apr 2020 12:58:19 GMT</pubDate><content:encoded>&lt;h2&gt;2020 우리만의 가계부를 작성 해보자.&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 15 Apr 2020 15:39:36 GMT</lastBuildDate><item><title><![CDATA[신혼부부 가계부 구글 시트로 맞벌이 부부 자산 현황표 만들기]]></title><description><![CDATA[신혼부부가 결혼하면 미래를 위해 가계부를 작성하게 된다. 가계부를 어떤 플랫폼에 쓸까 고민중에 엑셀에 가계부를 쓸까? 구글 시트에 쓸까 고민중이다.]]></description><link>https://ipadorusa.com/posts/신혼부부가계부</link><guid isPermaLink="false">https://ipadorusa.com/posts/신혼부부가계부</guid><pubDate>Sat, 04 Apr 2020 12:58:19 GMT</pubDate><content:encoded>&lt;h2&gt;2020 우리만의 가계부를 작성 해보자.&lt;/h2&gt;
 &lt;p&gt;드디어 2020년 1월이 끝났다.&lt;/p&gt;
 &lt;p&gt;1월이 끝남과 동시에 1월 가계부도 완성!&lt;/p&gt;
 &lt;p&gt;가계부를 쓰면서 우리 가정에 필요한 자산관리 형식을 파악해가며… 삭제와 추가를 반복했다.&lt;/p&gt;
@@ -1866,7 +1866,7 @@ WHO에서 비상상태가 선언되는 경우는 ‘국제공중보건 위기상
   &lt;/p&gt;
 &lt;h2&gt;고민중&lt;/h2&gt;
 &lt;p&gt;4월달 태국 여행이 계획되어 있는데… 아… 취소를 해야하나 말아야하나.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[inline-block div 간격 0으로 만들기]]></title><description><![CDATA[inline-block요소가 두개가 있으면 간격이 생긴다. 간격이 생기면 0으로 만들어주고 디자인 시안을 보고 여백을 줘야하는데]]></description><link>https://ipadorusa.com/posts/inline-block간격 없애기</link><guid isPermaLink="false">https://ipadorusa.com/posts/inline-block간격 없애기</guid><pubDate>Thu, 30 Jan 2020 08:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;inline-block div 간격 없애기&lt;/h2&gt;
-&lt;p&gt;인라인 블록 요소 연속으로 있으면 이렇게 약간의 4px정도가 생긴다. 이걸 해결하는 방법은 몇가지 방법이 있다.&lt;/p&gt;
+&lt;p&gt;inline-block 연속으로 있으면 이렇게 약간의 4px정도가 생긴다. 이걸 해결하는 방법은 몇가지 방법이 있다.&lt;/p&gt;
 &lt;h2&gt;현상&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/59e1c5531ba2d66a5aa430a0d29a335a/inline-block-gap.gif&quot; alt=&quot;현상&quot;&gt;&lt;/p&gt;
 &lt;h2&gt;방법&lt;/h2&gt;
