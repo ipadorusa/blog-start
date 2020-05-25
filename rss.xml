@@ -1,4 +1,153 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 19 May 2020 07:56:59 GMT</lastBuildDate><item><title><![CDATA[자바스크립트의 단축 논리 계산법]]></title><description><![CDATA[자바스크립트 단축 논리계산법 논리 AND연산자, OR연산자, 논리NOT에 대해서 정리 합니다.]]></description><link>https://ipadorusa.com/posts/자바스크립트단축논리계산법</link><guid isPermaLink="false">https://ipadorusa.com/posts/자바스크립트단축논리계산법</guid><pubDate>Wed, 22 Apr 2020 14:41:27 GMT</pubDate><content:encoded>&lt;h2&gt;자바스크립트의 단축 논리 계산법&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 25 May 2020 12:31:16 GMT</lastBuildDate><item><title><![CDATA[이쯤되면 가계부에 미친 사람?! (2020년 1/4분기 신혼부부 가계부 결산)]]></title><description><![CDATA[2020년 1/4분기 신혼부부 가계부 신차 구매로인한.. 재정립이 필요했다. 다시 만드는 가계부]]></description><link>https://ipadorusa.com/posts/가계부에-미친사람</link><guid isPermaLink="false">https://ipadorusa.com/posts/가계부에-미친사람</guid><pubDate>Mon, 25 May 2020 12:08:18 GMT</pubDate><content:encoded>&lt;h2&gt;1/4분기 수입 대비 지출 결산 (신차 구입으로 인한 출혈)&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6430d4b9c729958c890cb8c14d530d19/6d2da/1-4%EB%B6%84%EA%B8%B0-%EC%8B%A0%ED%98%BC%EB%B6%80%EB%B6%80-%EA%B0%80%EA%B3%84%EB%B6%80-%EA%B2%B0%EC%82%B0.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 936px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 28.205128205128204%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAAAvElEQVQY032QWwvDIAyF+///4GAddA976KotDlov8XKWCEIrbIGPozE5agatNfZ9rxRcI5eClDNSSsg5VS2lr7rG4L1HjBGJ4epqktlEGolzzhOO44D3tmo7+8VgncPMbGysWcW00YokmorhP6rhzXwwMndj8LYWylnMrLkz7s3b+vJC+da0arw2jUkteCwLnqvCqBTkMsdYNpfRtPVZW15UGGTQFAiRIohEqc5UNIRQc9Js+PWy76FTnfAFwF3WPx+nUOMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;1-4분기-신혼부부-가계부-결산&quot;
+        title=&quot;&quot;
+        src=&quot;/static/6430d4b9c729958c890cb8c14d530d19/6d2da/1-4%EB%B6%84%EA%B8%B0-%EC%8B%A0%ED%98%BC%EB%B6%80%EB%B6%80-%EA%B0%80%EA%B3%84%EB%B6%80-%EA%B2%B0%EC%82%B0.png&quot;
+        srcset=&quot;/static/6430d4b9c729958c890cb8c14d530d19/8ff5a/1-4%EB%B6%84%EA%B8%B0-%EC%8B%A0%ED%98%BC%EB%B6%80%EB%B6%80-%EA%B0%80%EA%B3%84%EB%B6%80-%EA%B2%B0%EC%82%B0.png 240w,
+/static/6430d4b9c729958c890cb8c14d530d19/e85cb/1-4%EB%B6%84%EA%B8%B0-%EC%8B%A0%ED%98%BC%EB%B6%80%EB%B6%80-%EA%B0%80%EA%B3%84%EB%B6%80-%EA%B2%B0%EC%82%B0.png 480w,
+/static/6430d4b9c729958c890cb8c14d530d19/6d2da/1-4%EB%B6%84%EA%B8%B0-%EC%8B%A0%ED%98%BC%EB%B6%80%EB%B6%80-%EA%B0%80%EA%B3%84%EB%B6%80-%EA%B2%B0%EC%82%B0.png 936w&quot;
+        sizes=&quot;(max-width: 936px) 100vw, 936px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+1/4분기가 지나고 우리가 지난 4개월간 얼마나 써댔는지 결산을 해보았다.&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;p&gt;1,2월 : 각자 성과급이 나오는 달이라 다른 달보다 수입이 2배. 하지만…비소비지출(적금)퍼센트가 낮은건 그 돈이 죄다 신차 구입으로 다 들어갔기때문이겠지요? 평소보다 많이 벌었어도 그만큼 쓴게 많아서 저축은 오히려 못했다. ㅋㅋㅋㅋㅋㅋㅋㅋ&lt;/p&gt;
+&lt;p&gt;3,4월 : 소비지출은 수입이 적든 많든 한결같다는 점…예산을 짜서 쓰기때문인지 그래프가 비교적 완만한 직선을 그리고있다.&lt;/p&gt;
+&lt;p&gt;비소비지출 그래프가 상승곡선을 타는것이 목표인데 4월엔 또 내려갔다…진짜 안된다 흑흑흑흑ㅠㅠ&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;p&gt;결론 : 신차 구입으로 출혈이 컸던 분기. 그럼에도 불구하고 수입의 50%는 반드시 저금하기를 지키긴 지켰다. (성과급 제외^,.^;;) 2/4분기는 노랑색은 상승, 파랑색은 하강을 만들어보자…&lt;/p&gt;
+&lt;h2&gt;1/4분기 비고정 소비지출 결산(노는거 아니면 먹는거)&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/079161834ff1ead622a09619ec258177/eb390/1-4%EB%B6%84%EA%B8%B0-%EC%8B%A0%ED%98%BC%EB%B6%80%EB%B6%80-%EA%B0%80%EA%B3%84%EB%B6%80-%EB%B9%84%EC%86%8C%EB%B9%84%EC%84%B1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 935px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 35.61497326203209%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAABGklEQVQoz4XPzUsCQRzG8f3/61i3oIiIMA/RwTSlMF/KhPKglRQlKhL4rmvrztu32dVd6JAOPDML8/DZ3ziz2Yz5dALaB7lATibohYsRPgYwxmxJUNIo30Nrg2MZ5P0x49Q+X6kzvqu3vNYKdLsfBEsrZYv63wSosj/v9zpI23UsSuv9gU4zw6iVodco0xi80fb6Iag2YDFoz8F4iBQSx7LUFkPK9RrFxAWnezc8Zq/pfb7EE257tlaS6WiwnlBDu/tMPlvgcDdP8uCOo500pXR9Da6m2LRCVK++nWCr5qrkzotcJSpkkhUuT0o8lZphwfvxEEKwXC7D+L4fn1GklDFsQYMvlI20FyJOgESQ67p/gAiJOso+NQJ/ATo4FhXD9biCAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;1/4분기-비고정-소비지출-결산&quot;
+        title=&quot;&quot;
+        src=&quot;/static/079161834ff1ead622a09619ec258177/eb390/1-4%EB%B6%84%EA%B8%B0-%EC%8B%A0%ED%98%BC%EB%B6%80%EB%B6%80-%EA%B0%80%EA%B3%84%EB%B6%80-%EB%B9%84%EC%86%8C%EB%B9%84%EC%84%B1.png&quot;
+        srcset=&quot;/static/079161834ff1ead622a09619ec258177/8ff5a/1-4%EB%B6%84%EA%B8%B0-%EC%8B%A0%ED%98%BC%EB%B6%80%EB%B6%80-%EA%B0%80%EA%B3%84%EB%B6%80-%EB%B9%84%EC%86%8C%EB%B9%84%EC%84%B1.png 240w,
+/static/079161834ff1ead622a09619ec258177/e85cb/1-4%EB%B6%84%EA%B8%B0-%EC%8B%A0%ED%98%BC%EB%B6%80%EB%B6%80-%EA%B0%80%EA%B3%84%EB%B6%80-%EB%B9%84%EC%86%8C%EB%B9%84%EC%84%B1.png 480w,
+/static/079161834ff1ead622a09619ec258177/eb390/1-4%EB%B6%84%EA%B8%B0-%EC%8B%A0%ED%98%BC%EB%B6%80%EB%B6%80-%EA%B0%80%EA%B3%84%EB%B6%80-%EB%B9%84%EC%86%8C%EB%B9%84%EC%84%B1.png 935w&quot;
+        sizes=&quot;(max-width: 935px) 100vw, 935px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;월급의 반의 반이 순수 소비지출인데…그걸 어디다가 썼는지 봤더니…&lt;/p&gt;
+&lt;p&gt;여가VS식비&lt;/p&gt;
+&lt;p&gt;ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ&lt;/p&gt;
+&lt;p&gt;2,3월은 무슨 먹는거에 미쳐있었나?ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ코로나19여파도 있고, 재택근무를 한달 넘게 해서 집에서 많이 해먹긴했는데…보라색만 높은거 왤케 웃기지^^…&lt;/p&gt;
+&lt;p&gt;우리 부부는 워낙 옷도 안사고 꾸미는거에 관심이 없어서 대부분 관심이 먹는거 아니면 여행이긴한데…그래프가 넘나 솔직해서 웃겼다.&lt;/p&gt;
+&lt;p&gt;1월은 상반기 여행 일정 세우고 항공권 결제하느라 여가 비율이 높았으나^^ 코로나19가 터질줄 누가 알았겠음? 결국 대부분 환불되긴했지만…흑…&lt;/p&gt;
+&lt;p&gt;2,3월은 여행 계획이 끝나서 돈쓸데가 없었는지 죄다 식비..식비..식비..진짜 웃긴건 우리는 또 배달은 잘 안한다 ㅋㅋㅋㅋㅋㅋㅋㅋ&lt;/p&gt;
+&lt;p&gt;집에서 해먹는게 겁나 많고 다양함.&lt;/p&gt;
+&lt;p&gt;그래서 이번달은 3월의 식비를 반성하고자 먹는걸 줄여보려노력했지만…다른걸 줄이면 다른데서 터지는게…인생인가?..&lt;/p&gt;
+&lt;p&gt;여행을 못가니까 별의별걸 다 사들이면서 예산이 터지는것으로 4월을 마무리ㅋㅋㅋㅋㅋ&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;p&gt;결론 : 코로나19로 인한 재택근무로 식비 고공행진 중. 2/4분기에는 조금 덜 먹어보자…&lt;/p&gt;
+&lt;h3&gt;결국 다시 만든 나만의 가계부(집착의 결과)&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;./%EA%B2%B0%EA%B5%AD-%EB%8B%A4%EC%8B%9C-%EB%A7%8C%EB%93%A0-%EB%82%98%EB%A7%8C%EC%9D%98-%EA%B0%80%EA%B3%84%EB%B6%80.png&quot; alt=&quot;결국-다시-만든-나만의-가계부&quot;&gt;&lt;/p&gt;
+&lt;p&gt;약 3개월간 가계부를 쓰면서 정말 나에게 필요한 데이터가 뭔지 깨닫게되었다. 가계부의 목적이 분명해졌다고 해야하나?&lt;/p&gt;
+&lt;p&gt;그래서 내가 원하는 데이터를 따로 보기에 그 전 가계부는 적합하지 않아서 결국 가계부를 새로 만들기에 이르렀다. (ㅋㅋㅋㅋㅋ)&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;p&gt;남편이 엑셀 전문가라서 ㅋㅋㅋㅋㅋ 내가 어떻게 하고싶다라고 말하면 남편이 만들어주는 방식으로 작업,&lt;/p&gt;
+&lt;p&gt;물론 퇴근하고 집에와서 남편이랑 정리하다보니 시간이 더 걸리기도했지만, 머리속에 엉켜있는 그림을 엑셀로 정리하기는 생각보다 쉽지 않았다.&lt;/p&gt;
+&lt;p&gt;필요한 정보와 구분 방식을 새로 정리하고, 거기에 맞는 포멧을 짜기까지 대략 한달의 시간이 걸린듯…&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;p&gt;내가 그전 포스팅에서 작성했던 자산현황 데이터는 그대로 유지하고 월별 지출내역표만 새롭게 업데이트하였는데…&lt;/p&gt;
+&lt;p&gt;내가 가계부에서 정말 보고싶었고, 중요하다고 생각한건 크게 세가지였다.&lt;/p&gt;
+&lt;h3&gt;1. 총 수입-지출=잔액&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;./1.%EC%B4%9D-%EC%88%98%EC%9E%85-%EC%A7%80%EC%B6%9C=%EC%9E%94%EC%95%A1.png&quot; alt=&quot;1.총-수입-지출=잔액&quot;&gt;&lt;/p&gt;
+&lt;p&gt;월별 지출내역표의 결산 영역. 한눈에 이번달 수입, 지출, 지출의 세부 계정을 확인하는 영역을 만들었다.&lt;/p&gt;
+&lt;p&gt;우리는 지출 방식이 신용카드아니면 현금, 복지포인트뿐이라서 체크카드는 아예 만들지 않았다.&lt;/p&gt;
+&lt;p&gt;수입-지출이 마이너스일 경우 해당 셀은 빨강색으로 표기되게했다^^ ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ&lt;/p&gt;
+&lt;h3&gt;2.전달 대비 지출 금액&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;./2.%EC%A0%84%EB%8B%AC-%EB%8C%80%EB%B9%84-%EC%A7%80%EC%B6%9C-%EA%B8%88%EC%95%A1.png&quot; alt=&quot;2.전달-대비-지출-금액&quot;&gt;
+고정지출은 줄일 수 없기도하고, 매달 고정금액이라 전달 지출과 비교할 필요가 없으나 비고정 지출은 전달과 비교할 필요가 있다고 느꼈다.&lt;/p&gt;
+&lt;p&gt;1월만해도 비고정지출의 세부 예산을 책정했으나 돈을 쓰다보니 그게 의미 없다고 여겨졌다. 그래서 비고정 지출의 큰 예산만 정해놓는것으로 변경.&lt;/p&gt;
+&lt;p&gt;살아보니..역시 비고정지출 계정마다 지출하는 금액이 매달 천차만별이었다.&lt;/p&gt;
+&lt;p&gt;그래서 전달대비 이달에 사용한 금액을 확인하고 싶어서 추가한 영역.&lt;/p&gt;
+&lt;h3&gt;3.예산 대비 현재 지출 상황&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;./3.%EC%98%88%EC%82%B0-%EB%8C%80%EB%B9%84-%ED%98%84%EC%9E%AC-%EC%A7%80%EC%B6%9C-%EC%83%81%ED%99%A9.png&quot; alt=&quot;3.예산-대비-현재-지출-상황&quot;&gt;&lt;/p&gt;
+&lt;p&gt;3개월동안 가계부를 쓰며 항상 주시했던 부분은 지금 우리가 예산의 얼만큼을 사용했는지였다.&lt;/p&gt;
+&lt;p&gt;그래서 그걸 바로 볼 수 있도록 만들었다.&lt;/p&gt;
+&lt;p&gt;정해진 예산을 넘게 사용하면 해당 셀의 글씨가 빨강색으로 바뀌했다 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 하지만 빨강색으로 바뀌든 말든…쓸건 쓴다는게 문제…^^앞서 말했듯 나는 비고정지출은 예산을 하나로 잡고 그 안의 세부지출은 별도 예산을 책정하지 않는것으로 예산 방식을 변경했다.그래서 대출, 고정, 비고정지출로 예산을 크게 나눠서 확인 중.&lt;/p&gt;
+&lt;p&gt;3개월 넘게 가계부를 쓰다보니 우리가 매달 어떤 부분에서 어느정도 쓰고있는지 대충 감이 잡히긴하지만 예산 책정에 대한 부분은 조금더 데이터가 필요한 영역.&lt;/p&gt;
+&lt;p&gt;아직도 비고정 지출 예산이 늘 부족하다 ㅠㅠㅠ&lt;/p&gt;
+&lt;h4&gt;1/4분기 결산(아껴쓰는것이 답)&lt;/h4&gt;
+&lt;p&gt;아직 4월이 끝나지 않았지만 굵직한 지출은 끝났기에 조금 빨리 결산을 해본다.&lt;/p&gt;
+&lt;p&gt;30년 넘에 혼자 돈을 써오다가 한 가정의 경제생활을(?)책임지는 역할을 하다보니 돈관리에 대한 고민이 깊은 시기였다.&lt;/p&gt;
+&lt;p&gt;선 적금 후 지출 방식을 사용하는것이 맞고 앞으로도 그렇게 할 예정이지만, 지난 4개월간 지출을 줄이지 못하다보니 예산이 부족한 경우가 무척 많았다. 예산이 부족할 경우 예비비나 비상금에서 사용하다보니 비상금은 늘 제자리 걸음 ㅋㅋㅋㅋㅋㅋㅋㅋ^^&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;p&gt;우리가 계획한 예산이 정말 맞는것인지 다시 점검해볼 필요가 있다고 느꼈고,&lt;/p&gt;
+&lt;p&gt;효율적으로 지출을 관리하는 것이 정말 중요한 과제라는 생각이 들었다 ㅠㅠ 물론 아직 그 방법은 찾지 못했고요…&lt;/p&gt;
+&lt;p&gt;아무리 수입을 늘려도 지출을 통제하지못하면 말짱 도루묵이라는것을 알기에..&lt;/p&gt;
+&lt;h4&gt;2/4분기 목표(부수입을 만들자)&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;예산 다시 점검&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;아직도 풀지 못한 숙제지만ㅋㅋㅋㅋㅋㅋㅋ비고정지출 예산을 늘리면 비소비지출(적금) 예산을 줄일수밖에 없는 상황이라 이게 맞는지 모르겠다. 지출을 줄이는게 답인데 그게 되지 않고있으니..&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;비고정 지출 줄여보기&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;우리가 가장 많이 사용하는 식비, 여가의 지출을 줄여보겠다^^ 하지만 줄여지지 않다는게 문제?ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ이건 남편이랑 얘기를 해보고 방법을 연구해볼 생각. 답이 나올랑가모르겠지만…&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;부수입 늘리기&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;나는 우리 가계 예산에는 회사에서 주는 돈 외에 생긴 부수입을 별도로 책정하지 않는다. 부수입은 말그래도 부수입이지… 그걸 가계 수입으로 넣으면 돈이 많은 줄 착각하고 ㅋㅋㅋㅋ 돈을 더 쓰기때문에^^ 그래서 중고거래, 투자수익 등의 부수입은 개인이 알아서 재투자를 하거나, 별도로 모아두기만 하고있다.1분기에 개인의 부수입으로 소액 투자를 실천하면서 꽤 많은 공부를 한것으로 만족. 2분기에는 실질적인 부수입을 통한 재투자로 투자수익을 얻는것을 목표로 하려한다.&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;p&gt;돈을 많이 쓴 달이면 정말 가계부가 쓰기 싫다 ㅋㅋ&lt;/p&gt;
+&lt;p&gt;그럼에도불구하고 열심히 써야한다.&lt;/p&gt;
+&lt;p&gt;가진거 없이 시작한 우리 부부가 자산가가 되기 위해서는…&lt;/p&gt;
+&lt;p&gt;조금 덜 쓰고 조금 더 많이 모으는 것이 답.&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;p&gt;열심히 살자!&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;p&gt;1/4분기 결산 끝.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[자바스크립트의 단축 논리 계산법]]></title><description><![CDATA[자바스크립트 단축 논리계산법 논리 AND연산자, OR연산자, 논리NOT에 대해서 정리 합니다.]]></description><link>https://ipadorusa.com/posts/자바스크립트단축논리계산법</link><guid isPermaLink="false">https://ipadorusa.com/posts/자바스크립트단축논리계산법</guid><pubDate>Wed, 22 Apr 2020 14:41:27 GMT</pubDate><content:encoded>&lt;h2&gt;자바스크립트의 단축 논리 계산법&lt;/h2&gt;
 &lt;p&gt;논리 AND연산자의 단축 계산법과 논리OR연산자에 대해서 정리 한다.&lt;/p&gt;
 &lt;h3&gt;논리 AND연산자의 단축 계산법&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;hello world&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
@@ -451,7 +600,39 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;p&gt;팔고나서야 내가 저 주식을 더 많이 샀었더라면…부질없는 후회를 했지만…인생은 선택이라고 했던가?…ㅋㅋㅋㅋ&lt;/p&gt;
 &lt;p&gt;그래도 첫 매수,매도 경험 치고 나쁘지않았던것으로 위안. 수익금은 당연히 다른 주식을 매수하는데 사용했다.&lt;/p&gt;
 &lt;h2&gt;네이버페이 투자통장 적립&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;./%EB%84%A4%EC%9D%B4%EB%B2%84%ED%8E%98%EC%9D%B4%ED%88%AC%EC%9E%90%ED%86%B5%EC%9E%A5%EC%A0%81%EB%A6%BD.png&quot; alt=&quot;네이버페이 투자통장 적립&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/078f38220fa7ef067e1cd585df6a72fd/3f3b9/%EB%84%A4%EC%9D%B4%EB%B2%84%ED%8E%98%EC%9D%B4%ED%88%AC%EC%9E%90%ED%86%B5%EC%9E%A5%EC%A0%81%EB%A6%BD.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 870px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 17.35632183908046%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsSAAALEgHS3X78AAAAY0lEQVQI14WO0QoDIQwE/f8/VU4ESchpjNNSuFKOlg4s+7AwbNp785k79/1XLpKtkzYbMyY5Z0op1FpprbHWeku/8VS9OnZwnAfqShox6N7xcFQUEaH3jpkREX9fXmIxZfjgAV+S7GY0OxhlAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;네이버페이 투자통장 적립&quot;
+        title=&quot;&quot;
+        src=&quot;/static/078f38220fa7ef067e1cd585df6a72fd/3f3b9/%EB%84%A4%EC%9D%B4%EB%B2%84%ED%8E%98%EC%9D%B4%ED%88%AC%EC%9E%90%ED%86%B5%EC%9E%A5%EC%A0%81%EB%A6%BD.png&quot;
+        srcset=&quot;/static/078f38220fa7ef067e1cd585df6a72fd/8ff5a/%EB%84%A4%EC%9D%B4%EB%B2%84%ED%8E%98%EC%9D%B4%ED%88%AC%EC%9E%90%ED%86%B5%EC%9E%A5%EC%A0%81%EB%A6%BD.png 240w,
+/static/078f38220fa7ef067e1cd585df6a72fd/e85cb/%EB%84%A4%EC%9D%B4%EB%B2%84%ED%8E%98%EC%9D%B4%ED%88%AC%EC%9E%90%ED%86%B5%EC%9E%A5%EC%A0%81%EB%A6%BD.png 480w,
+/static/078f38220fa7ef067e1cd585df6a72fd/3f3b9/%EB%84%A4%EC%9D%B4%EB%B2%84%ED%8E%98%EC%9D%B4%ED%88%AC%EC%9E%90%ED%86%B5%EC%9E%A5%EC%A0%81%EB%A6%BD.png 870w&quot;
+        sizes=&quot;(max-width: 870px) 100vw, 870px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;아침에 눈뜨면 코스피 지수를 확인하게 됨 (feat.주식앱 실행)&lt;/li&gt;
 &lt;/ol&gt;
@@ -713,7 +894,40 @@ staff&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span clas
 &lt;p&gt;마법의 돈 굴리기는 결혼하고 나서 돈, 주식, 미래의 나의 모습에 관심을 보이니 지인분께서 추천해 준 책이다.
 그리고 자바스크립트 코딩의 기술은 서점에서 읽었을 때 기본적이지만 그래도 예시와 설명이 적절하게 설명이 된 책이라 맘에 들어 구매했다.
 Do it! 타입스크립트 프로그래밍은 나의 미래를 위한 책으로 모 여전히 스크립트를 잘 모르지만 그래도… 암튼 필요에 의한 미래에 의한 책으로 구매했다.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./3%EC%9B%94%EA%B5%AC%EB%A7%A4%EC%B1%85%EB%A7%88%EB%B2%95%EC%9D%98%EB%8F%88%EA%B5%B4%EB%A6%AC%EA%B8%B0.jpeg&quot; alt=&quot;구매한책들 마법의돈굴리기 자바스크립트코딩의기술 타입스크립트프로그래밍&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/787b7f6d347abe1fbb0e3a810b1756a2/eea4a/3%EC%9B%94%EA%B5%AC%EB%A7%A4%EC%B1%85%EB%A7%88%EB%B2%95%EC%9D%98%EB%8F%88%EA%B5%B4%EB%A6%AC%EA%B8%B0.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 53.90625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwACBP/EABQBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAcsLj1wyf//EABwQAQACAQUAAAAAAAAAAAAAAAEAAhMDERIxMv/aAAgBAQABBQLItdJch1X0O05M/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8BSf/EABYRAQEBAAAAAAAAAAAAAAAAAAIQIf/aAAgBAgEBPwErJ//EABsQAAEEAwAAAAAAAAAAAAAAAAEAEBEhAhIy/9oACAEBAAY/AuzJKyG009N//8QAGxAAAgMAAwAAAAAAAAAAAAAAAREAITFBYXH/2gAIAQEAAT8hDkrCAOCMgh4OFhGquFSM4HgnbP/aAAwDAQACAAMAAAAQ78//xAAWEQEBAQAAAAAAAAAAAAAAAAAAESH/2gAIAQMBAT8QhiP/xAAXEQEBAQEAAAAAAAAAAAAAAAABABEh/9oACAECAQE/EDVp22//xAAeEAEBAAIBBQEAAAAAAAAAAAABEQAhQTFRcYGhwf/aAAgBAQABPxBoR3rVt9YcpqE3k/HJCmNlVxByavUvGMM3axL5wY38Gf/Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;구매한책들 마법의돈굴리기 자바스크립트코딩의기술 타입스크립트프로그래밍&quot;
+        title=&quot;&quot;
+        src=&quot;/static/787b7f6d347abe1fbb0e3a810b1756a2/6a068/3%EC%9B%94%EA%B5%AC%EB%A7%A4%EC%B1%85%EB%A7%88%EB%B2%95%EC%9D%98%EB%8F%88%EA%B5%B4%EB%A6%AC%EA%B8%B0.jpg&quot;
+        srcset=&quot;/static/787b7f6d347abe1fbb0e3a810b1756a2/09b79/3%EC%9B%94%EA%B5%AC%EB%A7%A4%EC%B1%85%EB%A7%88%EB%B2%95%EC%9D%98%EB%8F%88%EA%B5%B4%EB%A6%AC%EA%B8%B0.jpg 240w,
+/static/787b7f6d347abe1fbb0e3a810b1756a2/7cc5e/3%EC%9B%94%EA%B5%AC%EB%A7%A4%EC%B1%85%EB%A7%88%EB%B2%95%EC%9D%98%EB%8F%88%EA%B5%B4%EB%A6%AC%EA%B8%B0.jpg 480w,
+/static/787b7f6d347abe1fbb0e3a810b1756a2/6a068/3%EC%9B%94%EA%B5%AC%EB%A7%A4%EC%B1%85%EB%A7%88%EB%B2%95%EC%9D%98%EB%8F%88%EA%B5%B4%EB%A6%AC%EA%B8%B0.jpg 960w,
+/static/787b7f6d347abe1fbb0e3a810b1756a2/eea4a/3%EC%9B%94%EA%B5%AC%EB%A7%A4%EC%B1%85%EB%A7%88%EB%B2%95%EC%9D%98%EB%8F%88%EA%B5%B4%EB%A6%AC%EA%B8%B0.jpg 1280w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&amp;#x26;ejkGb=KOR&amp;#x26;barcode=9788998342296&quot;&gt;마법의 돈 굴리기&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&amp;#x26;mallGb=KOR&amp;#x26;barcode=9791165210205&amp;#x26;orderClick=LAG&amp;#x26;Kc=&quot;&gt;자바스크립트 코딩의 기술&lt;/a&gt;&lt;/li&gt;
@@ -724,12 +938,77 @@ Do it! 타입스크립트 프로그래밍은 나의 미래를 위한 책으로 �
 &lt;h3&gt;도미노 피자 행사(도미노 피자 방문포장 50%, SKT 5GX 요금 쓰는 사람은 60%)&lt;/h3&gt;
 &lt;p&gt;반값에 먹을수 있다고 하여 퇴근시간에 맞춰 7시 10분에 예약 .. 하지만 가게에 갈수록 아직도 대기중인 피자 상태.. ㅠㅠ 불길했다.
 도미노피자 방문포장 할인 크억…&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./%EB%8F%84%EB%AF%B8%EB%85%B8%ED%94%BC%EC%9E%90%EB%B0%A9%EB%AC%B8%ED%8F%AC%EC%9E%A5%ED%95%A0%EC%9D%B8.jpeg&quot; alt=&quot;도미노피자방문피자할인&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b7544bfba150f72aa1c7bc57ed8a3280/572c8/%EB%8F%84%EB%AF%B8%EB%85%B8%ED%94%BC%EC%9E%90%EB%B0%A9%EB%AC%B8%ED%8F%AC%EC%9E%A5%ED%95%A0%EC%9D%B8.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 74.92163009404389%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMBBP/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAAB4aamKpz/AP/EABwQAAEEAwEAAAAAAAAAAAAAAAIAAQMTERIhMf/aAAgBAQABBQL1Oqzdd1sycc4i3//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/AVf/xAAcEAADAAIDAQAAAAAAAAAAAAAAAREhQQIxgZH/2gAIAQEABj8CN/DCvhE90mXBrl3T/8QAHBAAAgICAwAAAAAAAAAAAAAAAAERQSExUWFx/9oACAEBAAE/IUru6UnuT0ZTb05CjgpyFt2xJODaR//aAAwDAQACAAMAAAAQw/8A/8QAGBEAAgMAAAAAAAAAAAAAAAAAACEBETH/2gAIAQMBAT8QVsnUf//EABcRAAMBAAAAAAAAAAAAAAAAAAABYRH/2gAIAQIBAT8Q2Cg//8QAGxABAQEBAQADAAAAAAAAAAAAAREhAFExYaH/2gAIAQEAAT8Q1UARrpaYcT5R9AH96MdZrwECGAiTOpUwtuRpv35yAWAg07//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;도미노피자방문피자할인&quot;
+        title=&quot;&quot;
+        src=&quot;/static/b7544bfba150f72aa1c7bc57ed8a3280/6a068/%EB%8F%84%EB%AF%B8%EB%85%B8%ED%94%BC%EC%9E%90%EB%B0%A9%EB%AC%B8%ED%8F%AC%EC%9E%A5%ED%95%A0%EC%9D%B8.jpg&quot;
+        srcset=&quot;/static/b7544bfba150f72aa1c7bc57ed8a3280/09b79/%EB%8F%84%EB%AF%B8%EB%85%B8%ED%94%BC%EC%9E%90%EB%B0%A9%EB%AC%B8%ED%8F%AC%EC%9E%A5%ED%95%A0%EC%9D%B8.jpg 240w,
+/static/b7544bfba150f72aa1c7bc57ed8a3280/7cc5e/%EB%8F%84%EB%AF%B8%EB%85%B8%ED%94%BC%EC%9E%90%EB%B0%A9%EB%AC%B8%ED%8F%AC%EC%9E%A5%ED%95%A0%EC%9D%B8.jpg 480w,
+/static/b7544bfba150f72aa1c7bc57ed8a3280/6a068/%EB%8F%84%EB%AF%B8%EB%85%B8%ED%94%BC%EC%9E%90%EB%B0%A9%EB%AC%B8%ED%8F%AC%EC%9E%A5%ED%95%A0%EC%9D%B8.jpg 960w,
+/static/b7544bfba150f72aa1c7bc57ed8a3280/572c8/%EB%8F%84%EB%AF%B8%EB%85%B8%ED%94%BC%EC%9E%90%EB%B0%A9%EB%AC%B8%ED%8F%AC%EC%9E%A5%ED%95%A0%EC%9D%B8.jpg 1276w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;p&gt;도미노 피자에서 일하시는분들 맨붕이 오셨다 매장 밖에서 찍은것보다 안에 들어가면 사람이 더 많다고 생각하면 된다. 한분은 계속 도우를 만들고 있고 다른분들은 피자위에 토핑을 올리고 있고 나머지 분들은 고객을 응대하시고 계시고.. 대략 19시10분에 받는걸로 주문을 했고 워낙 주문이 폭주하다 보니 19시 40분쯤 받은거 같다. 30분쯤일수도. 갑작스러운 주문 폭주에 짜증이 날법 한데 도미노피자 수내점 직원 분들은 친절했다.&lt;/p&gt;
 &lt;p&gt;도우 만드시는분 제일 고생하신거 같아요 ㅠㅠ&lt;/p&gt;
 &lt;p&gt;그래도 최선을 다해서 만들어 주셔서 포테이토 피자 맛있게 먹었습니다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[KN95,KF94,N95 마스크 종류?]]></title><description><![CDATA[마스크 살려고 찾아 볼려다가 궁금해서 숫자를 찾아봄. KN95? KF94? N95 뜻. 국내에는 KF80, KF94, KF99 세가지 등급이 있다. KN95,KF94,N95 마스크 차이에 대해 알아볼려고 한다.]]></description><link>https://ipadorusa.com/posts/maskfilter</link><guid isPermaLink="false">https://ipadorusa.com/posts/maskfilter</guid><pubDate>Sat, 21 Mar 2020 15:15:36 GMT</pubDate><content:encoded>&lt;h2&gt;KN95,KF94,N95 마스크 차이&lt;/h2&gt;
 &lt;p&gt;일단 국내법상 보건용 마스크는 KF80, KF94, KF99 세 가지 등급이 있다.
-&lt;img src=&quot;./%EB%A7%88%EC%8A%A4%ED%81%AC%EC%A2%85%EB%A5%98_kf80_kf94_kf99.jpg&quot; alt=&quot;마스크종류(kf80,kf94,kf99)&quot;&gt;&lt;/p&gt;
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3e8a309cb7b5df4c5f88fa7b1b08ebfe/f2e7e/%EB%A7%88%EC%8A%A4%ED%81%AC%EC%A2%85%EB%A5%98_kf80_kf94_kf99.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 695px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 73.38129496402878%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQX/xAAWAQEBAQAAAAAAAAAAAAAAAAACAQP/2gAMAwEAAhADEAAAAbV35Sw5gNf/xAAaEAACAwEBAAAAAAAAAAAAAAABAgAREhQk/9oACAEBAAEFAj0b9FB1IZCWyRKef//EABcRAQEBAQAAAAAAAAAAAAAAAAEAAhH/2gAIAQMBAT8BDs5v/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERAv/aAAgBAgEBPwF6hT//xAAaEAACAgMAAAAAAAAAAAAAAAAAAQIRITGB/9oACAEBAAY/Ap0RNosswl0//8QAHRAAAgICAwEAAAAAAAAAAAAAAAERITGBQVFh8P/aAAgBAQABPyHNKuOtHGbl/WTpO2MCRYsUq9JG56H/2gAMAwEAAgADAAAAEEfv/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxB0jyUcv//EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQIBAT8Q4sIKbf/EABwQAQACAwEBAQAAAAAAAAAAAAERIQAxQXFRof/aAAgBAQABPxCoiipxTnqMZlJFNSajxlUYwx1gqR+lnWbMoaPVfuLirgq6A4Z//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;마스크종류(kf80,kf94,kf99)&quot;
+        title=&quot;&quot;
+        src=&quot;/static/3e8a309cb7b5df4c5f88fa7b1b08ebfe/f2e7e/%EB%A7%88%EC%8A%A4%ED%81%AC%EC%A2%85%EB%A5%98_kf80_kf94_kf99.jpg&quot;
+        srcset=&quot;/static/3e8a309cb7b5df4c5f88fa7b1b08ebfe/09b79/%EB%A7%88%EC%8A%A4%ED%81%AC%EC%A2%85%EB%A5%98_kf80_kf94_kf99.jpg 240w,
+/static/3e8a309cb7b5df4c5f88fa7b1b08ebfe/7cc5e/%EB%A7%88%EC%8A%A4%ED%81%AC%EC%A2%85%EB%A5%98_kf80_kf94_kf99.jpg 480w,
+/static/3e8a309cb7b5df4c5f88fa7b1b08ebfe/f2e7e/%EB%A7%88%EC%8A%A4%ED%81%AC%EC%A2%85%EB%A5%98_kf80_kf94_kf99.jpg 695w&quot;
+        sizes=&quot;(max-width: 695px) 100vw, 695px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;이 중 KF80은 황사용, KF94, KF99는 방역용으로 분류된다. KF80 인증은 평균 0.6μm 크기의 입자를 80% 이상 차단할 수 있는 마스크에 주어진다. KF94 인증은 평균 0.4μm 크기의 입자를 94% 이상, KF99 인증은 평균 0.4μm 크기의 입자를 99% 이상 걸러낼 수 있는 마스크에 주어진다. by wiki&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -2407,11 +2686,59 @@ WHO에서 비상상태가 선언되는 경우는 ‘국제공중보건 위기상
 &lt;p&gt;&lt;a href=&quot;http://www.xn--now-po7lf48dlsm0ya109f.kr/infect/occurrence_list.do&quot;&gt;해외감염병 NOW - 신종코로나바이러스 현황&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;중국 우한시 출국자용 안내문(한)&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.xn--now-po7lf48dlsm0ya109f.kr/contents/info.do?contents_no=co_202001200002&amp;#x26;type=&amp;#x26;pageIndex=&amp;#x26;category_no=&amp;#x26;contents_nm=&quot;&gt;중국 우한시 출국자용 안내문&lt;/a&gt;
-&lt;img src=&quot;./%EC%A4%91%EA%B5%AD%EC%9C%BC%EB%A1%9C%EC%B6%9C%EA%B5%AD%EC%8B%9C.png&quot; alt=&quot;중국 우한시 출국자용&quot;&gt;
+
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 141.37931034482762%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAIAAADuuAg3AAAACXBIWXMAAAsSAAALEgHS3X78AAAEWklEQVQ4y51US28bVRSe7FggQYkRG9ggVahQVWKJBKJhw7YKoiDxG5CQUFAFNFUiFdosuqGkoW6ivGontmdsJzFxE8dOXDtxHvUjHo9n7Jmxx56Jx884CYlf8VyO3bhxSBfA0adPx9f3u+fcT2cuhp6HUvuXUOo1BGgGdqJFqH6WzydKE+3RFB+XEXUHhW8hqg/RfSjcYvjJtHKmyaH+ivdWyT+gVPca4sZhtd2DR6+6ezDulw73D5j3Z8zVg3luYFQ/tvI95uzBfDex+W+xrZ8w/k6H4ztMvP8GKgvKifi4mBl9y9r7unvgTWufaqG/09KrWurrXP210/yjav6m6ultlfGGynlb5b+nWui9EHv4DionWuKKnNR9IoeJesRUpwyINVcZQuZnpIhphyFEmoiHCYkxCJRhhyZEZo7Dr6Fi+EXbaXbyI5dVLa1rwwsPg9YhzjkmO4ZTjhFpZTTlHE3O/i7YHonLIz672vN0isW70d4LcUUW9Z+maHMhNpdiZ9Mxa1GylYUnleRiVVqsCNZq3ApJVVzcE+YP0m7J8nV9lzoV7xBd2ZB+n5w8Eiz1gus476zkneXcynMutZJKxlHOe5KzX50V41fTvJUNGDKcJR7ESc8kF9DHSYLfNiTDpixnYZ5NwXqWmy01xNfPiGVjl0CZyNVxv2sUQG9qI97poGci6psOrU+yft326njAPcb5p6Ftce5s5RTRBTbC8aENTZw0Rrw6qBkn8USICHlArIeysCJSxsPs6j8rQ9s5xrjPmYtRYzGCA5cyy6W0o5JtMKCcWQbAnSuF9ZdVDuozYRyOkEldmsLlyGyW/1MMm1KRGUgkxgwrCRJPx5Z44xdKsf3ORBe1pYNufa4xv3sisDruWVLTW9p1uxqcAxelMAzMTHxbL/M2nuhuG5KmmA3gQhAHhzi/LtL0ViAJsGqHMe+Li8XEkzw/XxTmc0mHMPOlctp2ueE2vTUNpcKbGok2xbYNaXYOZKCnNjRyFBom+IA+FtBHtmd4Y7fSXjlFXOWDBHgLO/Yl2187tsPU0mHKDlzNrTSsyi5XG0Nir+xuvMSwHWZOIHExbAROUkaRNoFbGXbuSLYDwHA4qyQvlXJryfPiWNAIV416p6FnqC/RZsh9rlE+0BgyuFFsG496tQnGGtFfa/swmneGSWB9UyKFx4N6cm2M800xW4+ZzUnWq+F82ngAXNQUBUs5t5aYva60V04aPksL9hRvT0YWExGbyNokfpmlFllqgadtCdaeiDritA3+LciexEz7V1XLpybeddz73DZwZeHupWf3L/kGL8fGr1BDF0NDF2n1e9zoZXb4fXLkA//wh0t/fEM+/hgdRpWTB7BWPNCofHdfk3/DMoPYvhrLDmK1MQxpMaRp4nEDNW3H0fgr6QcX9vRvo6NES6wco/wWKq6h3Q1U2ED5TVTYVHKb9WyDzwI2uBXYUK+evtuo9Syff5zbQ2njNjEU/084I/5f8TfpaWZ/enw75AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;중국 우한시 출국자용&quot;
+        title=&quot;&quot;
+        src=&quot;/static/5b021801ec086b0dbb116894c9e45b25/d9199/%EC%A4%91%EA%B5%AD%EC%9C%BC%EB%A1%9C%EC%B6%9C%EA%B5%AD%EC%8B%9C.png&quot;
+        srcset=&quot;/static/5b021801ec086b0dbb116894c9e45b25/8ff5a/%EC%A4%91%EA%B5%AD%EC%9C%BC%EB%A1%9C%EC%B6%9C%EA%B5%AD%EC%8B%9C.png 240w,
+/static/5b021801ec086b0dbb116894c9e45b25/e85cb/%EC%A4%91%EA%B5%AD%EC%9C%BC%EB%A1%9C%EC%B6%9C%EA%B5%AD%EC%8B%9C.png 480w,
+/static/5b021801ec086b0dbb116894c9e45b25/d9199/%EC%A4%91%EA%B5%AD%EC%9C%BC%EB%A1%9C%EC%B6%9C%EA%B5%AD%EC%8B%9C.png 960w,
+/static/5b021801ec086b0dbb116894c9e45b25/07a9c/%EC%A4%91%EA%B5%AD%EC%9C%BC%EB%A1%9C%EC%B6%9C%EA%B5%AD%EC%8B%9C.png 1440w,
+/static/5b021801ec086b0dbb116894c9e45b25/03bcf/%EC%A4%91%EA%B5%AD%EC%9C%BC%EB%A1%9C%EC%B6%9C%EA%B5%AD%EC%8B%9C.png 1653w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
 원래 주소 : &lt;a href=&quot;http://www.%ED%95%B4%EC%99%B8%EA%B0%90%EC%97%BC%EB%B3%91now.kr/upload/contents/img/c2ee37970cb64be4bcc923845f4d7663.png&quot;&gt;http://www.해외감염병now.kr/upload/contents/img/c2ee37970cb64be4bcc923845f4d7663.png&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;우한시 입국자용(한글)&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.xn--now-po7lf48dlsm0ya109f.kr/contents/info.do?contents_no=co_202001200001&amp;#x26;type=&amp;#x26;pageIndex=&amp;#x26;category_no=&amp;#x26;contents_nm=&quot;&gt;우한시 입국자용&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./%EC%A4%91%EA%B5%AD%EC%97%90%EC%84%9C%EC%9E%85%EA%B5%AD%EC%8B%9C.png&quot; alt=&quot;우한시 입국자용&quot;&gt;
+&lt;p&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 141.37931034482762%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAIAAADuuAg3AAAACXBIWXMAAAsSAAALEgHS3X78AAAD+ElEQVQ4y61UWU8bVxh1K/oSRcFYZrWxB29jG8+M96UGZJNApLAkUaWqD7TQtA/9C33oW4jVRWAbb2Mbe7xAYpYEVSo1IWoeUyU4EOcHUKJKNG1DEqkVVHFJj7FLwX3pktHR1TffzHfPt5x7eS8PnlLp9xcv/hFKpX1gf78cxXv5P55y8N5eye8vXL5858qVbyuAPT5+x+MpGxX/4Vevt8CyG9vbv1SDnz//jc+fEokiMllMJourVNM6HafRJNrbWYriYMvlcZMprVDEpdIoXk+c8K6t/VANfvZsj2HSbvdcf//CmTPzAwPXh4ZunDu32Ns7d/780vDwjb6++YsXl7C63bmBgcXOzuTGxuNq8JMnuz091wyGNLag6RTYKCql1Sb1+tTBa8pun2GYlE6XtFgy8Fit2QcPfqwG7+zsOp1X4TUa08jKaMwc2mZzBgaoaJoDkHZjYxCbFos/VYOfPt3DZgwz6XKNq1QTzc1RsTiCgiurSBSG0dYWlkpZiYRtbAwhi4cPjwRbLFmzOXT6dIAkQwQRR2/QNkCtTigUMTQPPUM5en2aIKIIPsq8a7HMGI0TLpdHrQ4SBCeTTUsk5d4iBiDJBMjr66cEggDW2rTBrFKFSDKoVPoYxqfV+nU6L0GEJZIoQcQQ39oabmgINDWFBIJgLbPVCmZfT4+3u3vKbp+w2bxO52cGQ0KpLCeMVOXyGPqHmqGIGuZdm21GLvfK5ZMKha+z8wuCmOLzoy0tYVABoG1uLq9CYRBp1zYM3dbr4Q1QVNDh8On1EYxHqYxj+BjbAW1So0lCZ+jisTlXaqZpjDfT1ZWz2a45HFd7e3OYMMSDv6FcsRiTYzs6Yi0tIfiPNQxiQCXYAruazemurllIArTQFhSGGEwLmqvMzGTKFIvHmUkS5wGSTAPYG79iyPgbtCgV2gDQBaEw9LdRWbMUzdnsM0ZTxmBMQ8M6irM7Zl3unMmcZfRpfDIhO0Maxw7pHKvZaskq5HGtJqkmExp1wgQ942AwKSMaRnFaTdlJU6l2MVt/qtzt4mG3cTAcb862StkOclqNY4ScmRShjOsQac6QOk4GP8VpaI7UJduIqMF8pOafH/969u0vRyPrY6G1Ef/ddwP33guuXYoUgA/YApwwPmTvvx8qjPjXR6PrQ6Nf3b+7/WfaO3tWZ2bwLW7ko5sXxpadg4vdw9etZ+ct/XPW/vkKLH0LtsHcO5eCQ2NLdN/C+r3tv66h+obJN+o+kUuibVDvKb+QH3id9zmP9+lRvFbnEQk+bjrpqTvpKxwG40K9/c2j/Mqjr/Ob+fzmys3vgNVbW7VY3VrOf7+8snVrdRN8r+LqrZD/K7yiS/8/P38A90beR4zO7sYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;우한시 입국자용&quot;
+        title=&quot;&quot;
+        src=&quot;/static/bd6d7fbc0b31457e6501018cd73c2c11/d9199/%EC%A4%91%EA%B5%AD%EC%97%90%EC%84%9C%EC%9E%85%EA%B5%AD%EC%8B%9C.png&quot;
+        srcset=&quot;/static/bd6d7fbc0b31457e6501018cd73c2c11/8ff5a/%EC%A4%91%EA%B5%AD%EC%97%90%EC%84%9C%EC%9E%85%EA%B5%AD%EC%8B%9C.png 240w,
+/static/bd6d7fbc0b31457e6501018cd73c2c11/e85cb/%EC%A4%91%EA%B5%AD%EC%97%90%EC%84%9C%EC%9E%85%EA%B5%AD%EC%8B%9C.png 480w,
+/static/bd6d7fbc0b31457e6501018cd73c2c11/d9199/%EC%A4%91%EA%B5%AD%EC%97%90%EC%84%9C%EC%9E%85%EA%B5%AD%EC%8B%9C.png 960w,
+/static/bd6d7fbc0b31457e6501018cd73c2c11/07a9c/%EC%A4%91%EA%B5%AD%EC%97%90%EC%84%9C%EC%9E%85%EA%B5%AD%EC%8B%9C.png 1440w,
+/static/bd6d7fbc0b31457e6501018cd73c2c11/03bcf/%EC%A4%91%EA%B5%AD%EC%97%90%EC%84%9C%EC%9E%85%EA%B5%AD%EC%8B%9C.png 1653w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
 원래 주소 : &lt;a href=&quot;http://www.%ED%95%B4%EC%99%B8%EA%B0%90%EC%97%BC%EB%B3%91now.kr/upload/contents/img/56b6579927ce458683e75414ebeb2ab1.png&quot;&gt;http://www.해외감염병now.kr/upload/contents/img/56b6579927ce458683e75414ebeb2ab1.png&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Storybook Vue 설치 (2)]]></title><description><![CDATA[Storybook Vue 설치후 폴더 구조 파악하기]]></description><link>https://ipadorusa.com/posts/Storybook-vue-step03</link><guid isPermaLink="false">https://ipadorusa.com/posts/Storybook-vue-step03</guid><pubDate>Sun, 26 Jan 2020 12:25:06 GMT</pubDate><content:encoded>&lt;h2&gt;Storybook Vue 폴더 구조 보기&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;/posts/Storybook-vue-step02&quot;&gt;Storybook Vue 설치 (1)&lt;/a&gt;에서 문제 없이 설치가 됐다면 아래 이미지처럼 폴더가 구성이 되어 있을 것이다.
 
