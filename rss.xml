@@ -1,4 +1,125 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 25 May 2020 12:34:40 GMT</lastBuildDate><item><title><![CDATA[이쯤되면 가계부에 미친 사람?! (2020년 1/4분기 신혼부부 가계부 결산)]]></title><description><![CDATA[2020년 1/4분기 신혼부부 가계부 신차 구매로인한.. 재정립이 필요했다. 다시 만드는 가계부]]></description><link>https://ipadorusa.com/posts/가계부에-미친사람</link><guid isPermaLink="false">https://ipadorusa.com/posts/가계부에-미친사람</guid><pubDate>Mon, 25 May 2020 12:08:18 GMT</pubDate><content:encoded>&lt;h2&gt;1/4분기 수입 대비 지출 결산 (신차 구입으로 인한 출혈)&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 19 Jul 2020 13:45:01 GMT</lastBuildDate><item><title><![CDATA[공부한 금융 용어(풀필먼트)]]></title><description><![CDATA[최근에 공부한 금융,주식 용어들 1PL,2PL,3PL,4PL,5PL,Fullfillment service(풀필 먼트), 관련 검색어(네이버 풀필먼트, 쿠팡 풀필먼트, 카카오 풀필먼트, 풀필먼트 시장규모)]]></description><link>https://ipadorusa.com/posts/최근에-공부한-금융용어</link><guid isPermaLink="false">https://ipadorusa.com/posts/최근에-공부한-금융용어</guid><pubDate>Sun, 19 Jul 2020 13:44:13 GMT</pubDate><content:encoded>&lt;h1&gt;최근에 공부한 금융&lt;/h1&gt;
+&lt;p&gt;최근에 알고 공부하게 된 단어(용어)들은 아래와 같다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;물류기업형태 - 1PL,2PL,3PL,4PL,5PL,Fullfillment Service(풀필 먼트)&lt;/li&gt;
+&lt;li&gt;PER&lt;/li&gt;
+&lt;li&gt;PBR&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;PER, PBR 어떻게 이해해야 하는가?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PER(Price Earning Ratio)
+주가/주당순이익(EPS)인데 그냥 간단하게 말하면 현재 그 기업의 주가가 10만원이면 PER 3이면 10만원 기준으로 3년이면 해당 순이익을 벌수 있다고 생각하면 된다. 보통 낮으면 좋은거라고 생각하면 된다고 함.&lt;/li&gt;
+&lt;li&gt;PBR(Price to Book Ratio)
+주가 순자산 비율. 주가가 주당 순자산의 몇배로 매매 되고 있는것인가. 낮으면 좋다. 보통 1부근이면 저평가로 평가 받았다고 생각한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;물류기업형태(1PL,2PL,3PL,4PL,5PL)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;1PL (First Party Logistics)
+회사에서 발생한 물류 업무를 자사 내부적으로 수행하는 개념의 물류서비스. 이 경우에는 외부 업체에 의탁하여 서비스를 받는 과정 없이 사내 부서를 통해 자체적으로 물류 업무를 해결한다.&lt;/li&gt;
+&lt;li&gt;2PL (Second Party Logistics)
+회사에서 발생한 물류 업무를 별도로 독립시킨 자회사 또는 계열사를 통해 수행하는 경우의 물류서비스를 말한다. 이 경우에는 기존에 사내에서 물류 업무를 담당하던 부서가 독립하여 자회사가 된 경우가 일반적이며 자회사를 둘 정도로 규모가 큰 대기업들이 채택하기 좋은 방식의 물류서비스이다.
+2PL은 자회사 물류 서비스가 아니라, 운송수단을 소유하고 있는 업체가 소유하고 있는 배, 트럭, 항공 등을 이용하여 서비스를 제공하는 것이다. 즉, Carrier 업체를 말합니다.&lt;/li&gt;
+&lt;li&gt;3PL (Third Party Logistics)
+회사에서 발생한 물류업무를 외부 물류 전문 업체에게 아웃소싱하여 물류 서비스를 제공받는 것을 의미한다. 원래 3PL은 외주물류라는 개념에서 부터 출발하였지만 외주물류가 물류업무의 외부업체로의 이전을 통한 원가절감에 초점을 맞추는데에 반해 3PL은 원가 절감 뿐만이 아닌 장기적 협력관계 구성, 넓은 범위의 종합 서비스 제공 등의 더 전략적이고 고차원적인 효과까지도 창출할 수 있다는 점에서 외주물류보다 더욱 발전된 개념의 서비스를 말한다.&lt;/li&gt;
+&lt;li&gt;4PL (Fourth Party Logistics)
+기존의 3PL에 IT와 컨설팅 분야까지도 포함한 통합 솔루션을 제공하는 물류 서비스로서 3PL보다 한 단계 더 발전된 개념. 4PL은 10년 정도의 장기계약이나 합작기업으로 설립된 별도의 조직을 통해 포괄적인 SCM을 제공하기 위하여 여러 부문의 서비스 제공자들과 주간조직의 자원, 능력 및 기술을 조합하고 관리하는 통합시스템으로 정의된다. 이는 전문화된 현대사회에 맞춰 물류서비스가 더 이상 수송, 보관, 하역, 포장 등의 물리적 업무에만 국한되지 않고 최신 정보통신 기술을 접목한 서비스의 제공과 광범위한 공급 사슬 조직의 관리를 위한 컨설팅 서비스의 제공 등을 포함하는 개념으로 발전된 결과이다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Fullfillment Service(풀필 먼트)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;풀필 먼트 서비스(Full Fillment Service)
+‘풀필먼트란 무엇인가. 쉽게 말해 물류센터에 상품이 입고, 보관, 출고되기까지의 과정을 관리하는 과정이라고 볼 수 있다. 국내에서 사용하는 비슷한 용어로 3PL(Third Parties Logistics)이 있는데, 그 용례는 조금 다르다. 3PL이 ‘오프라인’과 ‘B2B물류’ 운영에 초점이 맞춰져 있다면, 풀필먼트는 ‘온라인’과 ‘B2C물류’ 운영에 그 방점이 찍혀있다.’ – 바이라인네트워크 엄지용 기자&lt;/li&gt;
+&lt;li&gt;구글 트렌드 풀필먼트 (&lt;a href=&quot;https://trends.google.co.kr/trends/explore?geo=KR&amp;#x26;q=%ED%92%80%ED%95%84%20%EB%A8%BC%ED%8A%B8&quot;&gt;https://trends.google.co.kr/trends/explore?geo=KR&amp;#x26;q=%ED%92%80%ED%95%84%20%EB%A8%BC%ED%8A%B8&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;관련 검색어(네이버 풀필먼트, 쿠팡 풀필먼트, 카카오 풀필먼트, 풀필먼트 시장규모)
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/bf6bbddc93e793ea3309e6647d1cfd6a/d7ceb/fullfillment.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 53.52697095435685%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABx0lEQVQoz5VT27KiQAz0/z/MF31QS4WVixxRuSt3FBj7dMZi61Qd92GnKpVkCE3SHWav1wvDMKDve+2bpsHz+UTbtsjzHI/HQ991XadrJHddF5Zlw3EcHI9HHCwLtm2jqirMwON5HhaLBVarFbbbLQzDwG63w3w+x3q9xmazwXK5xH6/18DipUbA5F2LgGJFUbwB7/c7Ticfl8sFDTur2dE4jpi6H0elu5Y7yQVMAEzT1LHv+xq8rmvM5KX/OQKapgmSJHmPezggCAJtfwFl9jTNkGUZeStQlhU57KDU65dJ/b96kGcaME1aGPsMpnFDGNTwTxUcq4BtlYjCDp5b4curtaXpg3mN05eIpz4DKiWjgPy86N8mcd8reuFvZEz+mIvP80pbWdVa9ZIT1nXzE7AnyJMXA21kTiF4x29+GkyYpCktkGI3wusk4qzrehi7kONFcJ0bzn6B66Wk4jnHbZGlPa7nDsG1QxI/kd8HnUv86cweBHScBHFM3pyQSxtyB12qd+ZqXLiwZ8YBn8XkLebeRfhjBjiyLooT9Oxy4k93qNRIVXNaQbVLFIyjOEJ2y7ifN65HTA47PaLUCh0yssTy50xrN/lvGgBJBGpo0W4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;풀필먼트시장규모&quot;
+        title=&quot;&quot;
+        src=&quot;/static/bf6bbddc93e793ea3309e6647d1cfd6a/d9199/fullfillment.png&quot;
+        srcset=&quot;/static/bf6bbddc93e793ea3309e6647d1cfd6a/8ff5a/fullfillment.png 240w,
+/static/bf6bbddc93e793ea3309e6647d1cfd6a/e85cb/fullfillment.png 480w,
+/static/bf6bbddc93e793ea3309e6647d1cfd6a/d9199/fullfillment.png 960w,
+/static/bf6bbddc93e793ea3309e6647d1cfd6a/07a9c/fullfillment.png 1440w,
+/static/bf6bbddc93e793ea3309e6647d1cfd6a/d7ceb/fullfillment.png 1446w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a3daa1631ad8508ca6bba81d97780702/eadfb/fullfillment2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 34.28331936295054%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAAA90lEQVQoz5VR7U7EMAzb+78iEiAEHBLaXT9ubdMk8yXtDvEDJKgUyfMcz3MXIkLOGSEExBjBzNj3/V8jIui9o7WGxcH38xcDU7nwC995VcXiiUoplvCClJKRMoU/LN95FoWoGXg6nZxP48Ow1oa0VVBntC7jZeVpEKqCZGK2Zcefmw7ez1tSlO462+lmKNyRSXHKiucgeLow1qJ4jYJTEnxkGdhNzsY/nhnvxq/FZhM8rIIX24tVLO1I2EeqbnFjU1xpR2qWyH792iwxzy9vlsKTVLKKSECmz0PvCa0m5dmh37L35jflJqPD49mxyu+zH1rH7GP13QAhViYhG2TPMAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;구글트렌드풀필먼트&quot;
+        title=&quot;&quot;
+        src=&quot;/static/a3daa1631ad8508ca6bba81d97780702/d9199/fullfillment2.png&quot;
+        srcset=&quot;/static/a3daa1631ad8508ca6bba81d97780702/8ff5a/fullfillment2.png 240w,
+/static/a3daa1631ad8508ca6bba81d97780702/e85cb/fullfillment2.png 480w,
+/static/a3daa1631ad8508ca6bba81d97780702/d9199/fullfillment2.png 960w,
+/static/a3daa1631ad8508ca6bba81d97780702/07a9c/fullfillment2.png 1440w,
+/static/a3daa1631ad8508ca6bba81d97780702/29114/fullfillment2.png 1920w,
+/static/a3daa1631ad8508ca6bba81d97780702/eadfb/fullfillment2.png 2386w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/li&gt;
+&lt;li&gt;유진증권 레포트(&lt;a href=&quot;https://www.eugenefn.com/comm/msgList.do&quot;&gt;https://www.eugenefn.com/comm/msgList.do&lt;/a&gt;) 검색어 “풀필먼트” 로 검색하면 07.08일 레포트가 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;네이버 풀필먼트&lt;/h3&gt;
+&lt;p&gt;네이버 풀필먼트 관련 검색시 (&lt;a href=&quot;https://www.google.com/search?q=%EB%84%A4%EC%9D%B4%EB%B2%84+%ED%92%80%ED%95%84%EB%A8%BC%ED%8A%B8&amp;#x26;oq=%EB%84%A4%EC%9D%B4%EB%B2%84+%ED%92%80%ED%95%84&amp;#x26;aqs=chrome.1.69i57j0l3j69i60l3.2715j0j4&amp;#x26;sourceid=chrome&amp;#x26;ie=UTF-8&quot;&gt;https://www.google.com/search?q=%EB%84%A4%EC%9D%B4%EB%B2%84+%ED%92%80%ED%95%84%EB%A8%BC%ED%8A%B8&amp;#x26;oq=%EB%84%A4%EC%9D%B4%EB%B2%84+%ED%92%80%ED%95%84&amp;#x26;aqs=chrome.1.69i57j0l3j69i60l3.2715j0j4&amp;#x26;sourceid=chrome&amp;#x26;ie=UTF-8&lt;/a&gt;) 많은 내용의 글들이 있다.&lt;/p&gt;
+&lt;p&gt;네이버의 풀필먼트 투자가 계속되고 있다. 지난 3월부터 시작해서 벌써 네 번째다. 발표 순서대로 치면 3월 16일 위킵, 3월 20일 두손컴퍼니, 3월 27일 신상마켓, 5월 4일 FSS(에프에스에스) 순이다. 사실 FSS도 투자가 확정된 것은 3월 중순이라고 하니 순서는 큰 의미가 없다. 실질적으로 동시 다발적으로 여러 업체가 한데 묶여 투자가 진행됐다고 보는 것이 맞다. 이 외에도 네이버는 CJ대한통운 풀필먼트 서비스를 통해 LG생활건강 네이버 브랜드스토어 판매 물류를 연동하는 등 ‘연결’을 중심으로 자사 이커머스 물류를 고도화하는 움직임이 관측된다. - byline network&lt;/p&gt;
+&lt;h3&gt;쿠팡 풀필먼트&lt;/h3&gt;
+&lt;p&gt;쿠팡은 2016년부터 풀필먼트 서비스 가동을 준비해왔으며, 2020년 초반에 인력을 대거 채용하고 있다.
+채용정보(&lt;a href=&quot;http://www.saramin.co.kr/zf_user/company-info/view/csn/8378700664/company_nm/%EC%BF%A0%ED%8C%A1%ED%92%80%ED%95%84%EB%A8%BC%ED%8A%B8%EC%84%9C%EB%B9%84%EC%8A%A4(%EC%9C%A0)&quot;&gt;http://www.saramin.co.kr/zf_user/company-info/view/csn/8378700664/company_nm/%EC%BF%A0%ED%8C%A1%ED%92%80%ED%95%84%EB%A8%BC%ED%8A%B8%EC%84%9C%EB%B9%84%EC%8A%A4(%EC%9C%A0)&lt;/a&gt;)
+쿠팡, ‘상장 열쇠’ 풀필먼트서비스 개시 속도내나 - 관련 기사(&lt;a href=&quot;https://www.thebell.co.kr/free/Content/ArticleView.asp?key=202001281221164320104010&quot;&gt;https://www.thebell.co.kr/free/Content/ArticleView.asp?key=202001281221164320104010&lt;/a&gt;)&lt;/p&gt;
+&lt;h3&gt;카카오 풀필먼트&lt;/h3&gt;
+&lt;p&gt;카카오 풀필먼트 구글검색시(&lt;a href=&quot;https://www.google.com/search?q=%EC%B9%B4%EC%B9%B4%EC%98%A4+%ED%92%80%ED%95%84%EB%A8%BC%ED%8A%B8&amp;#x26;oq=%EC%B9%B4%EC%B9%B4%EC%98%A4+%ED%92%80&amp;#x26;aqs=chrome.1.69i57j0l7.2543j0j4&amp;#x26;sourceid=chrome&amp;#x26;ie=UTF-8&quot;&gt;https://www.google.com/search?q=%EC%B9%B4%EC%B9%B4%EC%98%A4+%ED%92%80%ED%95%84%EB%A8%BC%ED%8A%B8&amp;#x26;oq=%EC%B9%B4%EC%B9%B4%EC%98%A4+%ED%92%80&amp;#x26;aqs=chrome.1.69i57j0l7.2543j0j4&amp;#x26;sourceid=chrome&amp;#x26;ie=UTF-8&lt;/a&gt;)
+카카오는 IT 플랫폼을 중심으로 분절된 여러 물류업체들의 연결점을 만드는 방식으로 풀필먼트 사업을 구상하고 있다. 물류센터 입고(Inbound)부터 출고(Outbound)까지 현장 오퍼레이션 요소요소에는 카카오가 보유한 IT 기술들이 적용될 계획라고 한다.&lt;/p&gt;
+&lt;p&gt;자세한 내용은 기사 참고 - (&lt;a href=&quot;https://byline.network/2020/03/19-100/&quot;&gt;https://byline.network/2020/03/19-100/&lt;/a&gt;)&lt;/p&gt;
+&lt;h4&gt;참고 자료&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;wiki(&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EB%AC%BC%EB%A5%98_%EC%84%9C%EB%B9%84%EC%8A%A4&quot;&gt;https://ko.wikipedia.org/wiki/%EB%AC%BC%EB%A5%98_%EC%84%9C%EB%B9%84%EC%8A%A4&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;플필먼트 서비스(Fullfillment Service) 정의, 역사, 장점 그리고 아마존(FBA)과 국내 현황(&lt;a href=&quot;https://joyfulnakawon.tistory.com/m/256&quot;&gt;https://joyfulnakawon.tistory.com/m/256&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;byline network(&lt;a href=&quot;https://byline.network/2020/05/04-27/&quot;&gt;https://byline.network/2020/05/04-27/&lt;/a&gt;, &lt;a href=&quot;https://byline.network/2020/03/19-100/&quot;&gt;https://byline.network/2020/03/19-100/&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[이쯤되면 가계부에 미친 사람?! (2020년 1/4분기 신혼부부 가계부 결산)]]></title><description><![CDATA[2020년 1/4분기 신혼부부 가계부 신차 구매로인한.. 재정립이 필요했다. 다시 만드는 가계부]]></description><link>https://ipadorusa.com/posts/가계부에-미친사람</link><guid isPermaLink="false">https://ipadorusa.com/posts/가계부에-미친사람</guid><pubDate>Mon, 25 May 2020 12:08:18 GMT</pubDate><content:encoded>&lt;h2&gt;1/4분기 수입 대비 지출 결산 (신차 구입으로 인한 출혈)&lt;/h2&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
