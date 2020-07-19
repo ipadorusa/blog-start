@@ -56,25 +56,26 @@ description: '최근에 공부한 금융,주식 용어들 1PL,2PL,3PL,4PL,5PL,Fu
 
 ### 네이버 풀필먼트
 
-네이버 풀필먼트 관련 검색시 (https://www.google.com/search?q=%EB%84%A4%EC%9D%B4%EB%B2%84+%ED%92%80%ED%95%84%EB%A8%BC%ED%8A%B8&oq=%EB%84%A4%EC%9D%B4%EB%B2%84+%ED%92%80%ED%95%84&aqs=chrome.1.69i57j0l3j69i60l3.2715j0j4&sourceid=chrome&ie=UTF-8) 많은 내용의 글들이 있다.
+[네이버 풀필먼트 관련 검색시](https://www.google.com/search?q=%EB%84%A4%EC%9D%B4%EB%B2%84+%ED%92%80%ED%95%84%EB%A8%BC%ED%8A%B8&oq=%EB%84%A4%EC%9D%B4%EB%B2%84+%ED%92%80%ED%95%84&aqs=chrome.1.69i57j0l3j69i60l3.2715j0j4&sourceid=chrome&ie=UTF-8) 많은 내용의 글들이 있다.
 
 네이버의 풀필먼트 투자가 계속되고 있다. 지난 3월부터 시작해서 벌써 네 번째다. 발표 순서대로 치면 3월 16일 위킵, 3월 20일 두손컴퍼니, 3월 27일 신상마켓, 5월 4일 FSS(에프에스에스) 순이다. 사실 FSS도 투자가 확정된 것은 3월 중순이라고 하니 순서는 큰 의미가 없다. 실질적으로 동시 다발적으로 여러 업체가 한데 묶여 투자가 진행됐다고 보는 것이 맞다. 이 외에도 네이버는 CJ대한통운 풀필먼트 서비스를 통해 LG생활건강 네이버 브랜드스토어 판매 물류를 연동하는 등 ‘연결’을 중심으로 자사 이커머스 물류를 고도화하는 움직임이 관측된다. - byline network
 
 ### 쿠팡 풀필먼트
 
 쿠팡은 2016년부터 풀필먼트 서비스 가동을 준비해왔으며, 2020년 초반에 인력을 대거 채용하고 있다.
-채용정보(http://www.saramin.co.kr/zf_user/company-info/view/csn/8378700664/company_nm/%EC%BF%A0%ED%8C%A1%ED%92%80%ED%95%84%EB%A8%BC%ED%8A%B8%EC%84%9C%EB%B9%84%EC%8A%A4(%EC%9C%A0))
-쿠팡, ‘상장 열쇠’ 풀필먼트서비스 개시 속도내나 - 관련 기사(https://www.thebell.co.kr/free/Content/ArticleView.asp?key=202001281221164320104010)
+[채용정보](<http://www.saramin.co.kr/zf_user/company-info/view/csn/8378700664/company_nm/%EC%BF%A0%ED%8C%A1%ED%92%80%ED%95%84%EB%A8%BC%ED%8A%B8%EC%84%9C%EB%B9%84%EC%8A%A4(%EC%9C%A0)>)
+[쿠팡, ‘상장 열쇠’ 풀필먼트서비스 개시 속도내나 - 관련 기사](https://www.thebell.co.kr/free/Content/ArticleView.asp?key=202001281221164320104010)
 
 ### 카카오 풀필먼트
 
-카카오 풀필먼트 구글검색시(https://www.google.com/search?q=%EC%B9%B4%EC%B9%B4%EC%98%A4+%ED%92%80%ED%95%84%EB%A8%BC%ED%8A%B8&oq=%EC%B9%B4%EC%B9%B4%EC%98%A4+%ED%92%80&aqs=chrome.1.69i57j0l7.2543j0j4&sourceid=chrome&ie=UTF-8)
+[카카오 풀필먼트 구글검색시](https://www.google.com/search?q=%EC%B9%B4%EC%B9%B4%EC%98%A4+%ED%92%80%ED%95%84%EB%A8%BC%ED%8A%B8&oq=%EC%B9%B4%EC%B9%B4%EC%98%A4+%ED%92%80&aqs=chrome.1.69i57j0l7.2543j0j4&sourceid=chrome&ie=UTF-8)
 카카오는 IT 플랫폼을 중심으로 분절된 여러 물류업체들의 연결점을 만드는 방식으로 풀필먼트 사업을 구상하고 있다. 물류센터 입고(Inbound)부터 출고(Outbound)까지 현장 오퍼레이션 요소요소에는 카카오가 보유한 IT 기술들이 적용될 계획라고 한다.
 
-자세한 내용은 기사 참고 - (https://byline.network/2020/03/19-100/)
+[자세한 내용은 기사 참고](https://byline.network/2020/03/19-100/)
 
 #### 참고 자료
 
-- wiki(https://ko.wikipedia.org/wiki/%EB%AC%BC%EB%A5%98_%EC%84%9C%EB%B9%84%EC%8A%A4)
-- 플필먼트 서비스(Fullfillment Service) 정의, 역사, 장점 그리고 아마존(FBA)과 국내 현황(https://joyfulnakawon.tistory.com/m/256)
-- byline network(https://byline.network/2020/05/04-27/, https://byline.network/2020/03/19-100/)
+- [wiki](https://ko.wikipedia.org/wiki/%EB%AC%BC%EB%A5%98_%EC%84%9C%EB%B9%84%EC%8A%A4)
+- [플필먼트 서비스(Fullfillment Service) 정의, 역사, 장점 그리고 아마존(FBA)과 국내 현황](https://joyfulnakawon.tistory.com/m/256)
+- [byline network기사](https://byline.network/2020/05/04-27/)
+- [byline network기사](https://byline.network/2020/03/19-100/)
