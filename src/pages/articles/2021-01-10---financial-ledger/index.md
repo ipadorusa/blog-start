@@ -4,7 +4,7 @@ date: '2021-01-10 16:14:52'
 layout: post
 draft: false
 path: '/posts/2021년가계부양식-공유'
-category: '주식,경제,가계부'
+category: '경제,가계부'
 tags:
   - '신혼부부 가계부'
   - '신혼부부 가계결산'
