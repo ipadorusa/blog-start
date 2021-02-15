@@ -22,7 +22,7 @@ description: '미국주식을 하다보면 해외 사이트를 자주 들어가�
 
 
 
-## Yahoo-Finance
+## Yahoo-Finance에서 찾아본 영어
 
 야후 사이트에 들어가서 종목을 클릭하고서 봤을때 나오는 단어 들이다.
 
@@ -55,7 +55,7 @@ description: '미국주식을 하다보면 해외 사이트를 자주 들어가�
 
 - TTM은 Trailing Twelve Month라고 해서 파이낸스에서 사용되는 단어인데, 연초 연말 결산 기준이 아니고 최근 12개월 동안의 결과라는 뜻을 가지고 있습니다.
 
-## ETF.COM 용어
+## ETF.COM에서 찾아본 용어
 
 ![ETF](./etf.png)
 
