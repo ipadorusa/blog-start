@@ -57,7 +57,7 @@ description: '미국주식을 하다보면 해외 사이트를 자주 들어가�
 
 ## ETF.COM 용어
 
-![ETF](./eft.png)
+![ETF](./etf.png)
 
 - Ticker: 종목코드
 - Issuer: 운용사
