@@ -1,9 +1,9 @@
 ---
-title: 미국주식 필수 영단어
+title: 해외 주식투자 필수 영어단어 정리
 date: '2021-02-15 18:14:14'
 layout: post
 draft: false
-path: '/posts/미국주식필수영어단어'
+path: '/posts/해외주식투자필수영어단어정리'
 category: '주식,미국주식'
 tags:
   - 'Nasdaq'
@@ -14,7 +14,7 @@ tags:
   - 'Expense ratio'
   - 'Yahoo Finance'
 
-description: '미국주식을 하다보면 해외 사이트를 자주 들어가서 보게 되는데 자주 나오는 영단어를 기억하고자 한다. Ticker, Issuer 등등'
+description: '미국주식(해외 주식투자 필수 영어단어 정리)을 하다보면 해외 사이트를 자주 들어가서 보게 되는데 자주 나오는 영단어를 기억하고자 한다. Ticker, Issuer 등등'
 ---
 
 # 미국주식영어단어
