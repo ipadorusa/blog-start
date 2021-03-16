@@ -25,6 +25,7 @@ class IndexRoute extends React.Component {
             <meta property="og:type" content="article" />
             <meta property="og:title" content={title} />
             <meta property="og:description" content={subtitle} />
+            <meta name="naver-site-verification" content="aadac615cb1fd87c3bfd2b05414fd8fe61f68451" />
           </Helmet>
           <Sidebar {...this.props} />
           <div className="content">
