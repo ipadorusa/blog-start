@@ -1,4 +1,426 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 10 Jan 2021 14:05:33 GMT</lastBuildDate><item><title><![CDATA[JavaScript's indexOf()]]></title><description><![CDATA[javascript indexOf 사용시 Tip, 부정연산자(Bitwise_NOT), es6 이상부터는 includes 사용하면 된다.]]></description><link>https://ipadorusa.com/posts/javascript-indexOf-bitwise</link><guid isPermaLink="false">https://ipadorusa.com/posts/javascript-indexOf-bitwise</guid><pubDate>Sun, 10 Jan 2021 13:29:01 GMT</pubDate><content:encoded>&lt;h2&gt;javascript indexOf 구문 설명&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 30 May 2021 13:42:53 GMT</lastBuildDate><item><title><![CDATA[자바스크립트 할당 연산자]]></title><description><![CDATA[The logical AND assignment (x &&= y) operator only assigns if x is truthy. Logical nullish assignment (??=)]]></description><link>https://ipadorusa.com/posts/자바스크립트_할당_연산자</link><guid isPermaLink="false">https://ipadorusa.com/posts/자바스크립트_할당_연산자</guid><pubDate>Sun, 30 May 2021 13:40:52 GMT</pubDate><content:encoded>&lt;h2&gt;Logical AND assignment (&amp;#x26;&amp;#x26;=)&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The logical AND assignment (x &amp;#x26;&amp;#x26;= y) operator only assigns if x is truthy.&lt;/p&gt;
+&lt;p&gt;논리 AND할당 연산자는 X가 truthy([링트]: &lt;a href=&quot;https://developer.mozilla.org/ko/docs/Glossary/Truthy&quot;&gt;https://developer.mozilla.org/ko/docs/Glossary/Truthy&lt;/a&gt;)일 경우 할당할수 있습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; b &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+
+a &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// expected output: 2 a값이 truthy값이 여서 2가 대입&lt;/span&gt;
+
+b &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;b&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// expected output: 0  b값이 falsy값이 여서 b값 출력&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;x &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 좌측에서 우측으로 평가하며 대입&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; y &lt;span class=&quot;token comment&quot;&gt;// bad case 할당되지 않는다.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; y &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+
+x &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 0&lt;/span&gt;
+x &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 0&lt;/span&gt;
+y &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 1&lt;/span&gt;
+y &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 0&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;대응 불가 브라우저&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Internet Explorer, Opera, Opera Android, Samsung Internet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Logical nullish assignment (??=)&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The logical nullish assignment (&lt;code class=&quot;language-text&quot;&gt;x ??= y&lt;/code&gt;) operator only assigns if &lt;code class=&quot;language-text&quot;&gt;x&lt;/code&gt; is &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Glossary/Nullish&quot;&gt;nullish&lt;/a&gt; (&lt;code class=&quot;language-text&quot;&gt;null&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;undefined&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;논리적 null 할당연산자는 x가 null값(null or undefined) 일 y 값을 할당 합니다. x가 nullish값이면 y값이 대입되고 x가 nullish값이 아니면 x값이 대입됩니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; duration&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;50&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+a&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;duration &lt;span class=&quot;token operator&quot;&gt;??&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;duration&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// expected output: 50  a.duration값이 있는 값이여서 x인 a.duration값이 할당&lt;/span&gt;
+
+a&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;speed &lt;span class=&quot;token operator&quot;&gt;??&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;25&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;speed&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// expected output: 25 a.speed값이 nullish값이므로 25가 할당&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;활용예시&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  options&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;duration &lt;span class=&quot;token operator&quot;&gt;??&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;
+  options&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;speed &lt;span class=&quot;token operator&quot;&gt;??&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;25&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; options
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token function&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; duration&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;125&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// { duration: 125, speed: 25 }&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// { duration: 100, speed: 25 }&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;대응 불가 브라우저&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Internet Explorer, Opera, Opera Android, Samsung Internet&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[해외 주식투자 필수 영어단어 정리]]></title><description><![CDATA[미국주식(해외 주식투자 필수 영어단어 정리)을 하다보면 해외 사이트를 자주 들어가서 보게 되는데 자주 나오는 영단어를 기억하고자 한다. Ticker, Issuer 등등]]></description><link>https://ipadorusa.com/posts/해외주식투자필수영어단어정리</link><guid isPermaLink="false">https://ipadorusa.com/posts/해외주식투자필수영어단어정리</guid><pubDate>Mon, 15 Feb 2021 09:14:14 GMT</pubDate><content:encoded>&lt;h1&gt;미국주식영어단어&lt;/h1&gt;
+&lt;p&gt;미국 주식을 하다 보면 기본적으로 많이 들어가는 사이트들이 있다. 들어가서 많이 보는 단어를 체크 해서 기억하고자 한다.&lt;/p&gt;
+&lt;h2&gt;Yahoo-Finance에서 찾아본 영어&lt;/h2&gt;
+&lt;p&gt;야후 사이트에 들어가서 종목을 클릭하고서 봤을때 나오는 단어 들이다.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/44be10eba251f467a13b02f6cf2f4d22/332b4/Yahoo-Finance.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 51.91675794085433%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAACGElEQVQoz52SS2sUQRSF242IKxUEf4CCaxFUFBF1oSJuRX+DP0B3KvEBQSNuDO4FdyJk4S4Y0JjZJBOIMSQSZzoz6Z7urur3e+bzTo9xK3jhcKsuXafPOVXG2tp3lldWaLdXWRX8WN8gSzPcoGTHDujZPmGcU5YlRfFvGN+Wlvi8sECr1aIfu9ipx7bu4aaa/ylDK4UzGOCpQFSFBGlBWpUkRUVVjyhrqIaCeoK9fVnvzUZ/UVQjjL4b09n1ySpIsiGOXzZdRzVJPsJSOSrM8ZMhflzhyFrFhaBEReNeo5MaNxzhRUIYhDFBlIrYEWmaoJXHQBTHcdRYCHyN1oqsHJJnGdTNp5MSiXk+bJZOKM5EthFGk4Pj0G3bbjAYOCjtMxyJDZkrPcmz59nMLL5nbvMr7cEW684vum6PD2vzTM29ZXGzjZGN/yqVJAm9fh8lmcZxLEiaeV7kVJLr/flZTs7exXh8GmPqLMbT8xycvsKRmRscmL7Mp+UvxEGMoZTGDwI8z8M0TVzXaxT5fkBZVXS6XVKJ5eK7exgPTrDv2QWMJ+cmpFNnMB6dEuKrbDidyS2Pyca2wzBs7I4VWtItW3IU1eaOSRYl3Pn4kP3PL3Hs9S0Ov7jO0Vc3Gxx6eY3jb26zvrv959n4vlxG2mwsy2pIAyEfOK481ALHcUS1i84iOmoXO1Z0tYWpbbZsk5+CrmehRVgljn4DvFDNKvTCbNEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Yahoo-Finance&quot;
+        title=&quot;&quot;
+        src=&quot;/static/44be10eba251f467a13b02f6cf2f4d22/d9199/Yahoo-Finance.png&quot;
+        srcset=&quot;/static/44be10eba251f467a13b02f6cf2f4d22/8ff5a/Yahoo-Finance.png 240w,
+/static/44be10eba251f467a13b02f6cf2f4d22/e85cb/Yahoo-Finance.png 480w,
+/static/44be10eba251f467a13b02f6cf2f4d22/d9199/Yahoo-Finance.png 960w,
+/static/44be10eba251f467a13b02f6cf2f4d22/07a9c/Yahoo-Finance.png 1440w,
+/static/44be10eba251f467a13b02f6cf2f4d22/332b4/Yahoo-Finance.png 1826w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/60c63f0f9d9591d2eda2a01a33e68dd9/0faf1/%EC%A3%BC%EC%8B%9D%EC%98%81%EC%96%B4%EB%8B%A8%EC%96%B4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 34.86707566462168%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAAA1klEQVQoz21RWxKDMAjMpVq1aszDt9Xe/zSUjULV6UcGssDuhpgwvOnVtJRVnh6vJuXAnqVLB5j0IBdcju+Xo7bfjY0jNd2sA1kVyHFTXgclRD2OK1VhuJCh5rqFmnZSMVMzoRQRQWQPTAl5IDAh4t2hCMsxdRipsK0O5zZeFIUQDmUtd8IzKT8ZzRuVrtsJD4e4IwcG0TCsHAfd909sVjElhIOCnQHADj1/ApYtjiAQp23fo+9PhI53OFM3f9Ir0Zs+BaC4QQQhBuV5yFsm/PfTmEdd7l9VY/JRwN1+6gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;주식영어단어&quot;
+        title=&quot;&quot;
+        src=&quot;/static/60c63f0f9d9591d2eda2a01a33e68dd9/d9199/%EC%A3%BC%EC%8B%9D%EC%98%81%EC%96%B4%EB%8B%A8%EC%96%B4.png&quot;
+        srcset=&quot;/static/60c63f0f9d9591d2eda2a01a33e68dd9/8ff5a/%EC%A3%BC%EC%8B%9D%EC%98%81%EC%96%B4%EB%8B%A8%EC%96%B4.png 240w,
+/static/60c63f0f9d9591d2eda2a01a33e68dd9/e85cb/%EC%A3%BC%EC%8B%9D%EC%98%81%EC%96%B4%EB%8B%A8%EC%96%B4.png 480w,
+/static/60c63f0f9d9591d2eda2a01a33e68dd9/d9199/%EC%A3%BC%EC%8B%9D%EC%98%81%EC%96%B4%EB%8B%A8%EC%96%B4.png 960w,
+/static/60c63f0f9d9591d2eda2a01a33e68dd9/07a9c/%EC%A3%BC%EC%8B%9D%EC%98%81%EC%96%B4%EB%8B%A8%EC%96%B4.png 1440w,
+/static/60c63f0f9d9591d2eda2a01a33e68dd9/29114/%EC%A3%BC%EC%8B%9D%EC%98%81%EC%96%B4%EB%8B%A8%EC%96%B4.png 1920w,
+/static/60c63f0f9d9591d2eda2a01a33e68dd9/0faf1/%EC%A3%BC%EC%8B%9D%EC%98%81%EC%96%B4%EB%8B%A8%EC%96%B4.png 1956w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Previous Close: 이전종가&lt;/li&gt;
+&lt;li&gt;Market Cap: 시가총액&lt;/li&gt;
+&lt;li&gt;Open: 시작가&lt;/li&gt;
+&lt;li&gt;Beta (5Y Monthly): 베타계수&lt;/li&gt;
+&lt;li&gt;Bid: 매수가&lt;/li&gt;
+&lt;li&gt;PE Ratio:&lt;/li&gt;
+&lt;li&gt;Ask: 매도가&lt;/li&gt;
+&lt;li&gt;EPS(TTM):&lt;/li&gt;
+&lt;li&gt;Day’s Range: 당일 거래 금액 범위&lt;/li&gt;
+&lt;li&gt;Earnings Date: 실적 발표일&lt;/li&gt;
+&lt;li&gt;52 Week Range: 52주 가격변동폭&lt;/li&gt;
+&lt;li&gt;Forward Dividend &amp;#x26; Yield: 배당금 배당율&lt;/li&gt;
+&lt;li&gt;Volume: 하루 거래량&lt;/li&gt;
+&lt;li&gt;Ex-Dividend Date: 배당금 지급일&lt;/li&gt;
+&lt;li&gt;Avg. Volume: 평균 거래량&lt;/li&gt;
+&lt;li&gt;1y Target Est: 목표 주가&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;베타계수 : 베타계수는 주식시장에서 &lt;strong&gt;어떤 종목이 시장의 평균적인 움직임 대비해서 얼마나 민감하게 움직이는지를 수치로 표현한 값&lt;/strong&gt;을 의미합니다.&lt;/p&gt;
+&lt;p&gt;​				공격적 성향의 투자자들은 &lt;strong&gt;베타 계수&lt;/strong&gt;가 높은 종목을 선호하는 경향이 강하다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;TTM은 Trailing Twelve Month라고 해서 파이낸스에서 사용되는 단어인데, 연초 연말 결산 기준이 아니고 최근 12개월 동안의 결과라는 뜻을 가지고 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;ETF.COM에서 찾아본 용어&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/74c35670e0214173379f44fe4cc85c65/410b4/etf.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 73.26355851569933%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAACSElEQVQ4y3WT227TQBCG/QiI94uE4AZUJUXcVEWIx+CSS265qhqgCYIgQiJUAQIR7MaJ7Ti245wcH+Lzz+zGrnKqpV9ja7+d+Wd2LdxrjnC/qUGoK3j2S0FP76Ol9HFtjtAdK/jQbaPZaOBbp4vG1XvYvc8I1C4c+SvMP02KHazkNozfV5j9+wTh9MslnnYbOPvRwvn3Js7b7/DiZwvPrz/iZa+D2utXeFip4KR2isePKlDfPIB/8QRhvQr3oorJ2xMEl1Ws6zUeBcVL4cY58hzISPzZj1uPHADLFFjTWsD2FFhWSDBWPiZBhEWYwIkSJEkCpCnyNOFK6T3LsltZro95EGIexpiuY6xjYpLNPhYFZebA8EIYYYoJAaMghhEkXCa9p5QkJ/s5S0hxwHg/wjJKi4K7EnTHw3C6hLb0MA1Zohg2JbZIk+2EhRjXt5dgnSXkPinclRJ0TYXY+4skCou50SQyGlK2idleQsb3JRFpHHGcrbOxlBJM04SmjTCbzzE2DKxcl1eO45iLQdsJDYP40YY3iPc8jzMlL2iahuFwCFEUEUXRwSFsJ2PfjJdlGZIkbQ5ijyeHFlSCdF2Hbds8aVntmMNNRxt+Op3usNwhW7i5kWBZ1u087nLI1hgn0Qx93z9guUODKio0Q4Oc7lc7OkPOa5hQN6zlA4dqkEJ0Y37nUMzpLofsbyp5dmeP8cKYTm1MVU1qxXEcXrWcY3lI20kZz7phvLta7fDc4XAwwGIx53eKbeZXccfVrlRVhU9XpTz1ff4/Sx9up0uOjnYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;ETF&quot;
+        title=&quot;&quot;
+        src=&quot;/static/74c35670e0214173379f44fe4cc85c65/d9199/etf.png&quot;
+        srcset=&quot;/static/74c35670e0214173379f44fe4cc85c65/8ff5a/etf.png 240w,
+/static/74c35670e0214173379f44fe4cc85c65/e85cb/etf.png 480w,
+/static/74c35670e0214173379f44fe4cc85c65/d9199/etf.png 960w,
+/static/74c35670e0214173379f44fe4cc85c65/07a9c/etf.png 1440w,
+/static/74c35670e0214173379f44fe4cc85c65/29114/etf.png 1920w,
+/static/74c35670e0214173379f44fe4cc85c65/410b4/etf.png 2102w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ticker: 종목코드&lt;/li&gt;
+&lt;li&gt;Issuer: 운용사&lt;/li&gt;
+&lt;li&gt;Expense ratio: 운용보수&lt;/li&gt;
+&lt;li&gt;Assets under management: 운용 자산 규모&lt;/li&gt;
+&lt;li&gt;Average volume: 평균 거래 대금&lt;/li&gt;
+&lt;li&gt;Underlying index: 추종하는 벤치마크&lt;/li&gt;
+&lt;li&gt;Number of holdings: 구성 종목의 개수&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;관련 자료: &lt;/p&gt;</content:encoded></item><item><title><![CDATA[패널파워, 맘큐, 네이버페이 플러스 멤버십(앱테크)]]></title><description><![CDATA[패널파워, 맘큐, 네이버페이 플러스 멤버십 => 생활비 아끼기, 푼돈모아 투자하기, 패널파워적립금]]></description><link>https://ipadorusa.com/posts/naver플러스</link><guid isPermaLink="false">https://ipadorusa.com/posts/naver플러스</guid><pubDate>Thu, 14 Jan 2021 13:36:28 GMT</pubDate><content:encoded>&lt;h1&gt;패널파워, 맘큐, 네이버페이 플러스 멤버십 =&gt; 생활비 아끼기, 푼돈모아 투자하기&lt;/h1&gt;
+&lt;p&gt;요즘 하는 몇개의 푼돈모으기 결과를 공유합니다.&lt;/p&gt;
+&lt;h2&gt;1.패널파워&lt;/h2&gt;
+&lt;p&gt;이미 너무 많이 얘기한 패널파워 ㅋㅋㅋ&lt;/p&gt;
+&lt;p&gt;하지만 내게 너무 소중한 서비스라 얘기하지않을 수가 없다.&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;p&gt;내가 여러번 포스팅을 해서인지 지난 달 추천인 적립금이 꽤 쏠쏠하게 쌓여서 이번달에 모은 적립금을 출금했다.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f024c1abc6f774dd8d04fbfd8c109c5f/487bb/%ED%8C%A8%EB%84%90%ED%8C%8C%EC%9B%8C_01.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 698px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 59.02578796561605%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABHElEQVQoz5WSWW+DMBCE+f+/ry+BIg6JvFDKGWzAZspsRGPKEdXSyueOx+vPm+cZR+1s3TmxmzPF43CaJoRhiDRNkWUZ4jhGkiSy5vu+9EEQIIoi3G43VFUpEvcvhY+oQ3hXaHsjayJorUWe5yiKAmVZLgkV2raF1hpKKekZwzDInAbYhtFCDRbfZQOlh5cgn9c0jYh0XYe+7yXx8sFOSfrHQy4Twatace8snvtbYY5/HfLZa1wJHYW1r0u897/53unul7lhjNm45JyxT3w+dW10Z1yHLjZEhdgQD6LDNWKyFnxbv3nBRgs2n1l/jg2RqetafpsOeZkr4o6NoTssqNULFXqLDQVcZMjdGSZ/S6CX8+M4/g+bvcNjbH4AraytpoGLg2YAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;패널파워적립금&quot;
+        title=&quot;&quot;
+        src=&quot;/static/f024c1abc6f774dd8d04fbfd8c109c5f/487bb/%ED%8C%A8%EB%84%90%ED%8C%8C%EC%9B%8C_01.png&quot;
+        srcset=&quot;/static/f024c1abc6f774dd8d04fbfd8c109c5f/8ff5a/%ED%8C%A8%EB%84%90%ED%8C%8C%EC%9B%8C_01.png 240w,
+/static/f024c1abc6f774dd8d04fbfd8c109c5f/e85cb/%ED%8C%A8%EB%84%90%ED%8C%8C%EC%9B%8C_01.png 480w,
+/static/f024c1abc6f774dd8d04fbfd8c109c5f/487bb/%ED%8C%A8%EB%84%90%ED%8C%8C%EC%9B%8C_01.png 698w&quot;
+        sizes=&quot;(max-width: 698px) 100vw, 698px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;누군가는 고작 36,000원?이라고 하겠지만..&lt;/p&gt;
+&lt;p&gt;내겐 너무 소중한 36,000원 ㅋㅋㅋㅋㅋ&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/abef17c934e0fe6449e9786d4fae9dde/d6331/%ED%8C%A8%EB%84%90%ED%8C%8C%EC%9B%8C_02.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 702px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 20.227920227920226%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAAiUlEQVQY04VP0QrCMAzs//+W4BeU7kVQkQ7mnFbojNUmZzO06sNYIFxyR46LERFoKeacazNz5efqo7Hesky7iTEihAAiQtM4OOdgrYX3ft5QpPKHQFjvA1bbM/yVYDSJlKb0wKY9YdcNZU4LCb+Gt3tCP1zQdkfEcYT5jf8sJvlttPTun64oPOELBm85jBYZYF4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;패널파워적립금&quot;
+        title=&quot;&quot;
+        src=&quot;/static/abef17c934e0fe6449e9786d4fae9dde/d6331/%ED%8C%A8%EB%84%90%ED%8C%8C%EC%9B%8C_02.png&quot;
+        srcset=&quot;/static/abef17c934e0fe6449e9786d4fae9dde/8ff5a/%ED%8C%A8%EB%84%90%ED%8C%8C%EC%9B%8C_02.png 240w,
+/static/abef17c934e0fe6449e9786d4fae9dde/e85cb/%ED%8C%A8%EB%84%90%ED%8C%8C%EC%9B%8C_02.png 480w,
+/static/abef17c934e0fe6449e9786d4fae9dde/d6331/%ED%8C%A8%EB%84%90%ED%8C%8C%EC%9B%8C_02.png 702w&quot;
+        sizes=&quot;(max-width: 702px) 100vw, 702px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;추천인 적립금과 내가 모은 누적 적립금을 포함하여 60,000원이 입금됐다.&lt;/p&gt;
+&lt;p&gt;상세한 활용 방식은 아래 링크를 참고하시고…&lt;/p&gt;
+&lt;p&gt;소소하게 하기 좋은 앱태크로 추천합니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.naver.com/jovely55/222127907676&quot;&gt;https://blog.naver.com/jovely55/222127907676&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;혹시라도 아직 패널파워에 가입하지 않으셨다면 처음 추천인으로 저를 쓰시고&lt;/p&gt;
+&lt;p&gt;친구, 지인, 가족에게 여러분의 추천인으로 가입을 권유해보세요!ㅋㅋㅋ&lt;/p&gt;
+&lt;p&gt;추천인 아이디 : jovely55&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://bit.ly/3os0yiC&quot;&gt;https://bit.ly/3os0yiC&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;2. 맘큐&lt;/h2&gt;
+&lt;p&gt;두번째는 요즘 쏠쏠하게 이용하고 있는 맘큐&lt;/p&gt;
+&lt;p&gt;유한킴벌리에서 만든 쇼핑몰로 자녀가 있는 부모들 사이에선 이미 유명하지만…난 결혼을 하고 나서야 알게됐다.&lt;/p&gt;
+&lt;p&gt;애기가 없는 유부녀에게 맘큐는 두가지로 활용이 가능하다. &lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;h3&gt;1) 추천인 쓰고 가입 시 2,000원 + 2,000원 = 4,000원 즉시 적립&lt;/h3&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;p&gt;나는 첫 가입을 하자마자 바로 휴지를 샀다 ㅋㅋㅋ &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.yksso.co.kr/account/join/recommend?site_code=MOMQ&amp;#x26;user=DRkbpNJY7icaHSa1MTyYVg%253D%253D&amp;#x26;return_url=https%253A%252F%252Fwww.momq.co.kr&quot;&gt;https://www.yksso.co.kr/account/join/recommend?site_code=MOMQ&amp;#x26;user=DRkbpNJY7icaHSa1MTyYVg%253D%253D&amp;#x26;return_url=https%253A%252F%252Fwww.momq.co.kr&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;2) 매달 출석체크로 한달 6,000원 적립&lt;/h3&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;p&gt;정말 보기만해도 귀찮아보이지만^^&lt;/p&gt;
+&lt;p&gt;ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ&lt;/p&gt;
+&lt;p&gt;어차피 매일 만지는 핸드폰…1분만 투자하면 된다.&lt;/p&gt;
+&lt;p&gt;매일 데일리퍼즐로 들어가서 출석체크를 하면, 하루도 빠지지 않고 했을 경우 최대 6,000원이 적립된다.&lt;/p&gt;
+&lt;p&gt;한달마다 갱신되기때문에 매달 1일부터 마지막날까지 할 경우에만 해당. &lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/77c618ed16e0c55ee69345bce7bba6c7/5bf79/%EB%A7%98%ED%81%90_01.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 55.072463768115945%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAADC0lEQVQozyWS60/bVRyH+z8YX5v41iyZJlvYJo5FQRBLxmXqMhFJjBITovGSqMxIzJJtsM3LNsc6tWnULdBSer9tyKArHVhsCy2spQP6u6ylg7YMupZt+ng2Xzx5Tr4n+eSczzmaA7/NsffiFHv1EfYbBL/HODCSpsaq8JJVRevJ0OJWeNGiUuvIUO/MUG1R2C/26u0qjd4cDcZF6j4ZoOHbITTHbij031T5yq9yflqha1SlN5ChP5xHa0vT8IMX7XcO6i/PUt1zheZfguyzZTDO50itFplOyehtfmrfOsrLh78WgTN5/NkyZ2aLXFNKXIhvcHaugEcu8YHzFi98dInnu3UcvDjKc+0n2NFr41V3lm57nA8tUd4XdJoitJyy0maYQvP46N3+HB1/rnI6UuDz4Bp7RhQ6x3I0mZPU6YM0DVylZmCCnT1G9uhC1Iprtw7P87YjySFrkh19bnaf8dHokNDU2xXqbDINdll0IqN1/u9Gh8zrLpU2+22OWGK8Zpdo8mZ5xX6HGovEZ75FTt1Y5qR/iZPjKY4Lmqy30bSKwt/0yBxyS8IS7V6ZZqfEYbF+Q8xavXdo8WU56FKezBqdKrtNEo6oBKUNyK9DYZ3NWwmarUtoqsXrfTFd5PuFMv3xMicE/fNlfkw84GzyIadDOfomZX6OF2kfW6PKrFA9ImGOSDzMZdlYz/Nga4u8rNJiE4H7htNciBUwTMbRjUVxj8dwTSUxhpLYEjncwhaLk3BK4dPQFjuH0uwypTHHM5TW71IobrC9vU0gtoRrYQ3NM33XOB6QMExEuDQWRu8MMCQCTYk81qV7WIJhrht0BHwj9EY2xZ/M8J5XxZtY5d9/HlEqV9iuVEipdzk6uozmqS+NnJvJcnVlE59SISBqeUzkPkQrEFxcZH7wGCGLDnPqPh+7VjgyGMUzuwyPKpS3NinfKxAM+Kn6aQLN0z0mtPpJ3h38m46hMJ3GKO8Idxln6LzyFx2XhYcjdPlW2PXrHM+en6HNGOMbT/xJ6GBwgT/GI5xz36RqIMh/S+Kgr9mCK/EAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;맘큐&quot;
+        title=&quot;&quot;
+        src=&quot;/static/77c618ed16e0c55ee69345bce7bba6c7/d9199/%EB%A7%98%ED%81%90_01.png&quot;
+        srcset=&quot;/static/77c618ed16e0c55ee69345bce7bba6c7/8ff5a/%EB%A7%98%ED%81%90_01.png 240w,
+/static/77c618ed16e0c55ee69345bce7bba6c7/e85cb/%EB%A7%98%ED%81%90_01.png 480w,
+/static/77c618ed16e0c55ee69345bce7bba6c7/d9199/%EB%A7%98%ED%81%90_01.png 960w,
+/static/77c618ed16e0c55ee69345bce7bba6c7/5bf79/%EB%A7%98%ED%81%90_01.png 966w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;나는 지난 달 중순부터 이번달 중순까지 적립금을 모아서 소멸직전에 미용티슈를 구입했다.&lt;/p&gt;
+&lt;p&gt;몇달동안 재택근무를 하니 미친듯이 빠르게 소진되는 생필품들^^…&lt;/p&gt;
+&lt;p&gt;250매 6입에 5천원대라니…!!!&lt;/p&gt;
+&lt;p&gt;인터넷 최저가보다 훨씬 저렴한 가격에 구매 완료.&lt;/p&gt;
+&lt;p&gt;하루 1분 투자로 매달 6천원씩 모으면&lt;/p&gt;
+&lt;p&gt;생활에 필요한 휴지, 마스크, 물티슈 등을 구입할 수 있어서 가성비 뛰어난 앱테크라는 생각.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b782d05c3eba6f324647baae451d64a1/d6331/%EB%A7%98%ED%81%90_02.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 702px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 82.05128205128204%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsSAAALEgHS3X78AAAB8UlEQVQ4y5VTWY7TQBT0mfjmHEhwBcQXJ5jjjJBA4gCIP5hFmlGkEA3OJHbifbdjZ3VSvOqMLU8yCfCkcr/XdpffUq2VZYl+v49erwff80Db7XZojX43/otp6/UajhB5QYBCyHm03m5RC8khNnWNzWZzEls5p9XyUWnZKEZjFJ6PTPzUMJCaE1lNJL91JPKOfhHHKKsK5WwGVnYIkmp8VFmGKopR5TnmeYEySfZ7BP00FWRYCNlyucRisVCoSP4S4eNohMHDA8aSmT4cwnFdjMZjhUcB9wzTxFBWQtd1mBJHUfSMtCWMwhCukPh+gCAIEUtpYbhfG6SSZSLZEk1cFAXm87kCiRXh7sQE+YFlWfITH54MjT9kPJlM4DgOptMpVqtVq4oGGidDsy0DHz5e4OfVDxXHcaIOBzJ9Q1pBf1+Fr7LnSoUcEXLKtJurW7x6/Q6fLr+qOMtyVR6bz17lMrCXqmn2jgivr3/hzdv3+PzlW1sySUhm2zZmIhUaK+pm1CV+Knm/6aYVvt/JFN305C3oEh2SPushm1vLhGQb26fb0D1wmNU5KNlQW3f396o0lkoZsFwOgj08ut9nsleEPEw0AiUJs2ru579m1xJSU4PBQOmrESqFS2nwqp3r3xEhp8wJkoDZkYA9pcbo8/3/ZPgH9nzPfz6O8+EAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;맘큐&quot;
+        title=&quot;&quot;
+        src=&quot;/static/b782d05c3eba6f324647baae451d64a1/d6331/%EB%A7%98%ED%81%90_02.png&quot;
+        srcset=&quot;/static/b782d05c3eba6f324647baae451d64a1/8ff5a/%EB%A7%98%ED%81%90_02.png 240w,
+/static/b782d05c3eba6f324647baae451d64a1/e85cb/%EB%A7%98%ED%81%90_02.png 480w,
+/static/b782d05c3eba6f324647baae451d64a1/d6331/%EB%A7%98%ED%81%90_02.png 702w&quot;
+        sizes=&quot;(max-width: 702px) 100vw, 702px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;3. 네이버페이 플러스 멤버십&lt;/h2&gt;
+&lt;p&gt;이건 큰 기대없이 포스팅을 했는데 생각보다 많은 분들이 추천해주셔서 정말 놀랐다.&lt;/p&gt;
+&lt;p&gt;추천인 적립이 됐길래 다시 상세페이지를 읽어보니 추천인 이벤트가 상시이벤트로 변경되었다.&lt;/p&gt;
+&lt;p&gt;앞으로 누구나 추천인코드로 5,000원을 받고 시작할 수 있다는 점.&lt;/p&gt;
+&lt;p&gt;한달이 되기전에 해지하면되기때문에 가입하지 않을 이유가 없다.&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;p&gt;또한 앞으로 네이버페이 플러스 멤버십을 이용하면 티빙도 함께 볼 수 있다!!&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4418e4fa203cc4674d050c129665003c/5bf79/%EB%84%A4%EC%9D%B4%EB%B2%84%EB%A7%B4%EB%B2%84%EC%89%BD.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 68.32298136645963%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAAC9UlEQVQ4y42UyWsUQRTG+w+SHAwuMZJDRAmKuC8YgidNMCdvEUG9CCJeRPAQFBEEI+QUPBjEhEBUBhMwcTJb790zk5lJ793TPVvP56uKCoqCBR9TXd1V9b7fe2+EtuPB23HguB7CMEIUxaQm/CCC5wfodnvo98HV6/WRpn1aS8GGoum4f/cO3r54jJX5Wbx69hRCM0ygGzZ006YPLKi6jWrNQ0FsQFItWnehGQ6q2x7KVQ/bNZ+ebbqwg8zaOg7sHcStqQlMjO3HoaEhCI7rQtd1qKoGSZRQLBYhyzKXaZjI5/MolkSI9I6tqYoKSZJgWTa2slkM7DuM00dPYGRoGEdGhiGkPbKUpmQpJTs9stXl+jnvdnfn7D2bM/VoDxtR3MTmVhbZXBYb2Q0UxSKEdhJip9FAgzgybo4ToNlM4Psh/2V7u90+Op2Uc0x/8OSD+OYXVrA5t4jKQgaFd5+Z5Qhb+QokuQ5RbuBbrgpFbcAwdyArdZRozSjbkJQdUg0mzV03RI8iThouXs/cw8LMAyzdfoSlh08guI5DfErERYSmq7TBQLliEssC52caBkzT5NyYVEWBQkpaLWiygisXL2Ny/ComL5zHzckpshx3YJke3LKPumzBKnuwSX49hFf1EQQB6vU6ReUSBvbsw7JtwtHkLFniNJZUKiGdLhcYJ0lqoEalUqm4FKFPpRHA8xI0qSYdcsAOS5KE6jPiB4Uh4xvjb0NoUegxZYt92Gol+N/R/5WZPw7stakrPJushGi329xiksT8giRO+DOzxg74qTTd7RSLIn/zZRUv33/A7PN5zM0vQojJcq5Qg6w51BUeavUAle2AuoS1I9nqp/hHMMiLMkavT2Pw1DgGhs9g7NINCLbjUpZllKgbCgUR+VyBABs0L2Erl6cOUnknlc0ydE3jWltbI1celZSOY+euYc/B4xgcPYuTE9MQOp0OMYy5NQadwWfQoyjkbHcT0PxNDmWZ4QnpT+TT+lcsf8xgeTWDzPomvgPUN/DZQNHthAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;네이버맴버쉽&quot;
+        title=&quot;&quot;
+        src=&quot;/static/4418e4fa203cc4674d050c129665003c/d9199/%EB%84%A4%EC%9D%B4%EB%B2%84%EB%A7%B4%EB%B2%84%EC%89%BD.png&quot;
+        srcset=&quot;/static/4418e4fa203cc4674d050c129665003c/8ff5a/%EB%84%A4%EC%9D%B4%EB%B2%84%EB%A7%B4%EB%B2%84%EC%89%BD.png 240w,
+/static/4418e4fa203cc4674d050c129665003c/e85cb/%EB%84%A4%EC%9D%B4%EB%B2%84%EB%A7%B4%EB%B2%84%EC%89%BD.png 480w,
+/static/4418e4fa203cc4674d050c129665003c/d9199/%EB%84%A4%EC%9D%B4%EB%B2%84%EB%A7%B4%EB%B2%84%EC%89%BD.png 960w,
+/static/4418e4fa203cc4674d050c129665003c/5bf79/%EB%84%A4%EC%9D%B4%EB%B2%84%EB%A7%B4%EB%B2%84%EC%89%BD.png 966w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;아직 한달밖에 이용을 안해봐서 얼마나 쏠쏠한지는 모르겠으나..^^ㅋㅋㅋㅋ&lt;/p&gt;
+&lt;p&gt;통계를 보니 평소보단 많이 적립이 된듯하지만 아직은 소소함…(지난달에 돈을 안쓰긴함)&lt;/p&gt;
+&lt;p&gt;당분간은 네이버페이 플러스 멤버십을 유지할 생각이고..&lt;/p&gt;
+&lt;p&gt;혹시라도 아직 가입하지 않은 분들은 아래 링크를 통해 가입하신다면 5,000원이 바로 적립!&lt;/p&gt;
+&lt;p&gt;내 아이디로 지인, 가족, 친구에게 가입을 권유(ㅋㅋㅋㅋㅋㅋ)하면 한방에 10,000원!&lt;/p&gt;
+&lt;p&gt;되게 소소해보이지만 이렇게 모여서..큰돈이 되는것 아니겠습니까?&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://campaign.naver.com/plusmembershipevent/?code=1T91VJ%EB%84%88%EB%A7%8C%EC%82%B4%EC%A7%9D%EC%95%8C%EB%A0%A4%EC%A4%84%EA%B2%8C&quot;&gt;https://campaign.naver.com/plusmembershipevent/?code=1T91VJ%EB%84%88%EB%A7%8C%EC%82%B4%EC%A7%9D%EC%95%8C%EB%A0%A4%EC%A4%84%EA%B2%8C&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;정말 눈물나게 귀여운 금액들이지만..&lt;/p&gt;
+&lt;p&gt;전 이거 모아서 주식도 사고, 휴지도 사고 ㅋㅋㅋㅋㅋㅋㅋㅋ 햄버거도 사먹습니다..&lt;/p&gt;
+&lt;p&gt;추천인 링크를 통하지 않더라도 알찬 정보 많이 보고 가계 살림에 도움이 되시길 바랍니다!!&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;p&gt;다음엔 주식 얘길 해볼까…&lt;/p&gt;</content:encoded></item><item><title><![CDATA[JavaScript's indexOf()]]></title><description><![CDATA[javascript indexOf 사용시 Tip, 부정연산자(Bitwise_NOT), es6 이상부터는 includes 사용하면 된다.]]></description><link>https://ipadorusa.com/posts/javascript-indexOf-bitwise</link><guid isPermaLink="false">https://ipadorusa.com/posts/javascript-indexOf-bitwise</guid><pubDate>Sun, 10 Jan 2021 13:29:01 GMT</pubDate><content:encoded>&lt;h2&gt;javascript indexOf 구문 설명&lt;/h2&gt;
 &lt;p&gt;배열에서 지정된 요소를 찾을 때 indexOf를 사용한다.
 메서드는 배열에서 지정된 요소를 찾을 수 있는 첫 번째 인덱스를 반환하고 존재하지 않으면 -1을 반환합니다.&lt;/p&gt;
 &lt;p&gt;구문&lt;/p&gt;
@@ -134,7 +556,38 @@ console.log(arr.includes(&amp;quot;4&amp;quot;)); // false&lt;/code&gt;&lt;/pre&
 &lt;p&gt;빨간 테두리 부분만 입력하면 나머지는 자동 계산됩니다. &lt;/p&gt;
 &lt;p&gt;소비 고정지출의 합 부분은 저는 대출, 고정 지출, 용돈을 나눠서 보기위해서 저렇게 분류한것이고…원하는 대로 수정하시면될거같아요.&lt;/p&gt;
 &lt;p&gt;통계에서 적금과 모든 지출의 예산을 짜고난 뒤 남은 예비비 부분도 추가되었습니다. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8002.png&quot; alt=&quot;2021년가계부02&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a78e7c5c2c43374971f58050b0006652/9e32a/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8002.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 412px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 287.8640776699029%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,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&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;2021년가계부02&quot;
+        title=&quot;&quot;
+        src=&quot;/static/a78e7c5c2c43374971f58050b0006652/9e32a/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8002.png&quot;
+        srcset=&quot;/static/a78e7c5c2c43374971f58050b0006652/8ff5a/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8002.png 240w,
+/static/a78e7c5c2c43374971f58050b0006652/9e32a/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8002.png 412w&quot;
+        sizes=&quot;(max-width: 412px) 100vw, 412px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;h3&gt;C. 메인 (현금흐름표)&lt;/h3&gt;
 &lt;p&gt;현금 흐름표는 2020년과 마찬가지로 월별 지출페이지를 입력하면 자동으로 계산되어 들어갑니다.&lt;/p&gt;
 &lt;p&gt;따로 입력할 내용은 없습니다. &lt;/p&gt;
@@ -148,15 +601,112 @@ console.log(arr.includes(&amp;quot;4&amp;quot;)); // false&lt;/code&gt;&lt;/pre&
 &lt;p&gt;카드 별 사용금액을 볼 수 있도록 항목을 추가했기때문에 금융계정에 작성한 카드 항목대로 사용한 금액이 취합될거에요. &lt;/p&gt;
 &lt;p&gt;그리고 예산을 쉽게 짜기위해서 월 평균 항목도 추가했습니다.&lt;/p&gt;
 &lt;p&gt;현재 스프레드 시트는 1,2월 페이지만 있기때문에 3월 ~ 12월 페이지는 수식 오류로 뜹니다. 직접 페이지를 추가해서 사용하세요. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8003.png&quot; alt=&quot;2021년가계부03&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/53be4b0daf7f2dcb713204388b0beed6/5bf79/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8003.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 39.23395445134575%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAABdklEQVQoz2WQyU7CUBiF+8AmJg6JJu5cuvYNNG71CXAgMghE6O1EZ1qgDIUCLQhKjn9vC5G4OPnud86/aYVh8xbLURtfoYqFV8ByoCIZtpGMNCzHOsXIqfM77n+4yvdVmFGYVI+wCqqYmS8YtwtIzCIW+jMSp4jYes1ovyGh7J246w5CmzCtn2MZ1DBzShhbFRo+EHeqWI9ExG4JiZ869V6FWM69jNhLuyrv+ZaSNiFq3SDui0iCBiLjCQv/k5zRZ8t5LyEOWJadEw+c3jsKk8oxtus5vhcupvoDfuYWNvMOtqs+1lOTvzeRg83MwTqyyV1ym/v/uBDs4jUmAx9RoNE/fEToKRh3dUwCi6gh7BkIycOeTt7mnlHndynD3NMIF5dXKFdqUMUi/NYdWLMBVdVQq9WhKgpkWYYiKxQZEmPUqWCiCI1umMg4xRa5lrlwdnoCJqnQpXcE0j0820C324UkSei47kFsy4LvebBNk9PJ3TKMff8L8YBBTZlVgmEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;2021년가계부03&quot;
+        title=&quot;&quot;
+        src=&quot;/static/53be4b0daf7f2dcb713204388b0beed6/d9199/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8003.png&quot;
+        srcset=&quot;/static/53be4b0daf7f2dcb713204388b0beed6/8ff5a/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8003.png 240w,
+/static/53be4b0daf7f2dcb713204388b0beed6/e85cb/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8003.png 480w,
+/static/53be4b0daf7f2dcb713204388b0beed6/d9199/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8003.png 960w,
+/static/53be4b0daf7f2dcb713204388b0beed6/5bf79/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8003.png 966w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;h3&gt;D. 월별 지출표&lt;/h3&gt;
 &lt;p&gt;쓰는 방법은 모두 동일합니다. &lt;/p&gt;
 &lt;p&gt;앞서 작성한 계정, 예산 항목을 제대로 썼다면 모두 자동으로 입력되어 있기때문에 지출 금액만 쓰면됩니다. &lt;/p&gt;
 &lt;p&gt;빨간 테두리의 항목은 대부분 고정적인 내용으로 해당 영역에 직접 금액을 작성하고, &lt;/p&gt;
 &lt;p&gt;비고정 지출은 비고정 지출 세부 내역 영역에 지출 내용을 입력하면 자동으로 표기됩니다. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8004.png&quot; alt=&quot;2021년가계부04&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/07538bb4c0a2cffc400396f12b99285e/5bf79/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8004.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 76.70807453416148%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAAClElEQVQ4y5WUWXOaYBSG+ddtr9v+hqa5aZObNNNlpp1GjaJZjGAMuOASBCUgyubGoibTm7cHjCYzzbQNM2eA7zvn4T0vB5idnfd48fIVXr95C7mroN/XMDBNzGYzuu5DURToug5N02AYRnJWVRW9Xg8qRXyOcxRai/eZUrUGoSOjWBZQrIhI8RyKVyKkhgSO43B6coI8yybXPM9DEARcVi5RqVS2USqt90RRBGPNTIS/prBcDWFgw65zCNQ2xt4Yt7e3WCwWiIIQ8bFarfC34+7uDkw6m8aP1Hekskdg2QwKu7sofNpDJpdGOp1G6ugIx5kM8vk8LrgSzi+KyOZzOGazyGSPk8jlWWTZXLLPsHwTYrWBDkluCWlct2WwXAb7hXcoV3jI1TokaqXWqKMm1XEty+iSZ+1OG5IkQWpKdN8lP1VcqzKYy45BC324igynV4Ct6bhqc/gq7EPVuphaNjzLgjcew7ItrJarxIq4/U0sl8uk3ak/A+ORV/O5j4lnw+qXoMsKKvUzHJY/QOnL8AYmhrqBEcEMcwCfcoMggO/7VDffRhSGcCcemAk9+SFhhkW4REur4puwB1ntJMARjYPl2Gsg5YVUvKnZRBRF8KYEHBPw8dOW0QrtmwYOuI9odOqw1D4MmrEbQ08i8IPnAUNKNJwhvrTPcNESyT8HjuNgRD7qA+P5ChOgO8JnAp7WynBjoOvCtu3/AI6fAobQ7WECLEpXGJGHTyl8DPtDYXC/OPfXQMMhha1TnBPQpbFxSaF1/5ZjD+PiWOFWZeBjES3WCieTyUMLtBGFEQauhcPmCQpVHiaNjEVt2467BgZr4KZmE/EnugVuxyZuhxSaBPzZpR+B0kw8tC0dw6FCb1n7Z8u/AaOWP14cKQNqAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;2021년가계부04&quot;
+        title=&quot;&quot;
+        src=&quot;/static/07538bb4c0a2cffc400396f12b99285e/d9199/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8004.png&quot;
+        srcset=&quot;/static/07538bb4c0a2cffc400396f12b99285e/8ff5a/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8004.png 240w,
+/static/07538bb4c0a2cffc400396f12b99285e/e85cb/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8004.png 480w,
+/static/07538bb4c0a2cffc400396f12b99285e/d9199/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8004.png 960w,
+/static/07538bb4c0a2cffc400396f12b99285e/5bf79/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8004.png 966w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;p&gt;세부 지출 내역 날짜 항목을 더블 클릭하시면 캘린더 팝업이 뜹니다. 날짜를 더 편하게 입력하세요! ㅋㅋ &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8005.png&quot; alt=&quot;2021년가계부05&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/da7fe451294f61e3ed2d096a420d5bfb/e17e5/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8005.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 400px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 114.75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAACXBIWXMAAAsSAAALEgHS3X78AAAD/klEQVQ4y2VUW29bRRD2n0PihYuANKliNY0QvMAzAiqBEJX6xh+okHgmD/QFCd9i0rSN60vjS2onMT62Y/v4fjm+3z/mG5/jJrDSand2Z2e+mfl2XF6vF36/H4FAANz7fD4cHwfg8XiQTqeRSCQQfh1GNBJF6CyESDiC0+fPEQwGRe8Yfp+89Qd0DR4H4Tp4+BButxu7u3s4PDzEwcED7O3dx/6+G09/fYqff3mCz7/6At/8+B2+/ekRHj3+AZ/t7+C9D97Hx3uf4P7hPnYe7OJT9z18uPMRXFnxmojHcXr6ArFYTFC9xatXZ4hFY4gkYngReYk/nj3Dnx4vPN6/EI5EcHLyN7wSyVnoDOlMGueJOELhEI6OjuCqxBNo12potlowDAM12bdkXzWrSF6mUDArCF/3Eb7qIXqRx7BvYTab6ZyMJxgOhzo77TZMeeO6OU/ALBaRl3l1dY1CoYBi8QZGzkBKDF7mC/DFaghdtpAyWmKwJw7baLc5O+h0Oio3Gg2Mx2O4qqkLtKo1zJdLrFYrcKzXaywWi608nCxhjZdYisw7TkfPGZZlqRNXWUKulyt6WK3VkRNEWUHX6faQMwTtTQn/HTQ0GAx0Zbhc+yL3ej24CtE3W4NjyQkvBqI0F4QDzc/of2i4n8/n2/UOwkoypUWh+lLC5lit1ndCW9rp4KQjnq/s8J03/b6N0BCi1kplPSxXTFXgOplMUG80FfVIkj0WmbMpBaBOrd7YrFKMOwhvzuNomKYeDgZDVRqNxloUTspcGRr30+lU0bGiHKPRyEbYR7fbZVGSaFaremhKtWfyUJEJGscIC8Dkk3tEwjOi4ajX6zbCvlLIlbsVMr0wL/TKtWdtSEw0nNw3my1FSMN0SC5S5ls1WE4khYcbhEyqhiPonLzQyHQ601C5JyKHNkxFQ6JRgyJvQk68C7lcLksxpqrEqvELMlQqNptNMTjXM1aaP4oy3zAFRLgpyhspSsXcIqJXhkxELI6uEq416CsSJx104uTXITbfaw6r9m9g/yORK+KAhgwjrw/a9Tb6HUtzms/n1VE2+4/qZDKZTU4dhMYtg0yq/hA7P8zpcr7AyVUIgcxLLBfL7R1T4YTqEFsRlqTbsCj8E9fXWa1cOp3RkIiGXeTL37/Hvd++1hZXFWpxsECaJjF0h9i5s9fIS2gcDmn5S/j9KHPECimEjHPQK3mqOvbdyCY4Q940B0FRufVTlBISjtMsmAKwi62x+cu2wW7P2lDNsrYhKw+L0lhpkB5JGXKQvNO9eCeCoVR2OB6p/E5nqg6n+m6iTVZ5WCqVpHWbkpuq9D8DBduBKZWOv03i4jKtHZyELgnn2tqhW/Zsb7q1cJT3LNS/Zm2k44+fwHkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;2021년가계부05&quot;
+        title=&quot;&quot;
+        src=&quot;/static/da7fe451294f61e3ed2d096a420d5bfb/e17e5/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8005.png&quot;
+        srcset=&quot;/static/da7fe451294f61e3ed2d096a420d5bfb/8ff5a/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8005.png 240w,
+/static/da7fe451294f61e3ed2d096a420d5bfb/e17e5/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8005.png 400w&quot;
+        sizes=&quot;(max-width: 400px) 100vw, 400px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;h4&gt;+2020년 12월 항목과 전달대비 항목 연동하기&lt;/h4&gt;
 &lt;p&gt;​&lt;/p&gt;
 &lt;ol&gt;
@@ -164,15 +714,113 @@ console.log(arr.includes(&amp;quot;4&amp;quot;)); // false&lt;/code&gt;&lt;/pre&
 &lt;li&gt;전달 대비 영역을 선택합니다. &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;3)함수를 입력하는 영역에 “링크연결” 이라는 텍스트가 보입니다. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8006.png&quot; alt=&quot;2021년가계부06&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c19600c0183b92509d1f4ea53d4aacd3/5bf79/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8006.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 44.409937888198755%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsSAAALEgHS3X78AAACC0lEQVQoz52S208TURDG96/UN6/BP8L46oMxWCjSB2OFxGgQCBoIlmtLRIsC0pS2uxRaemG7Zbtb9tJud8uiP08rRp89J1++c2Ym35mZM5Ku6zSb5xi2id5tYfm2YIMw8Oj3+wKXBNf8+/7n/BcDv+f16ApIhmFyUiohywqFfIFCQSaXy1M+reAHAb2ePwz+l4OgP+SeL2y9nrB72I6LbbtI2WyWSOQZD0ZGuHP7Fvfv3eXmzRtD2/8sSVYUJp7HeDoaYTQyfo0oY9FJXrycEnh1zVNExiZYXFrGF5nNzs6ysLBAPB4nFosxER0XPIlUOCoSm37NUmqbL1mZ5G6G9Z09wQespXdJbO+Q+Jxm49s+8Zl5PnxcxXUcZmbekUymWEkk2ExuMfXmPW/nl5Es18b9IXrFldjQtA2Kx0Usx6LjdSlVSii1PBeeiaaeUS6X6HQ6w347QjgMQy4vQ7SWRaPZRrqwLdzQo3slmvyzT12rk9nbQ9c0RDTnbZO1YoFK0BW/3+W0oeG6DoeHhwwmxLZtIWyjntVR6zWkk7LC3NI06e8rKNWvZOQU+7kN8sVPyLVdlPQiyuOHVCefcBx9hDwXx+l4ZA4OaLfbmKaBqqrUajUhqiLZ4rUTtUpVb9AQ5TasFppjol7onLltWpUy4eom/noKb2sN/ygnxiVAkWUMwxhmOMBAtCmq+gVraHsOmmjOOQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;2021년가계부06&quot;
+        title=&quot;&quot;
+        src=&quot;/static/c19600c0183b92509d1f4ea53d4aacd3/d9199/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8006.png&quot;
+        srcset=&quot;/static/c19600c0183b92509d1f4ea53d4aacd3/8ff5a/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8006.png 240w,
+/static/c19600c0183b92509d1f4ea53d4aacd3/e85cb/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8006.png 480w,
+/static/c19600c0183b92509d1f4ea53d4aacd3/d9199/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8006.png 960w,
+/static/c19600c0183b92509d1f4ea53d4aacd3/5bf79/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8006.png 966w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;ol start=&quot;4&quot;&gt;
 &lt;li&gt;“링크입력” 텍스트를 지우고 본인의 2020년 12월 탭의 URL을 입력합니다. &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&quot;./2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8007.png&quot; alt=&quot;2021년가계부07&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/91ec490502c4085b7e98f3b36b7821e6/5bf79/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8007.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 960px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 22.36024844720497%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAA9klEQVQY052PXUvCYACF93v7UPoNUVd2q5AiQkGRkoXMfJ0z5xY4rZV20W3KXp26L4OiTHga/oQOnAPP4dwc5V2GfKxWfG/WrPnlJ8nPzRezyGMeLxIvmYUey5W/ZS+a4wYSGUyZLFxcf7rtpskmigOUOI4QQlAsFinkC+SyWURD8F8pQRiSyZyQSh+wn0qzs7vH4dExRtekY3QxDBPR1BiPJ0gpsW0b0zLR9RZ6S2PQ7/P0OEDXNEbDIcpi6VOu1Wk+9Oi9vmE5Izp9B/XepNY2uOtanJ5dMHBeeHYcqtWb5FGD8vUtuXyJ86sKlbpKqXyJ2tb5A54kFGJr7DfgAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;2021년가계부07&quot;
+        title=&quot;&quot;
+        src=&quot;/static/91ec490502c4085b7e98f3b36b7821e6/d9199/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8007.png&quot;
+        srcset=&quot;/static/91ec490502c4085b7e98f3b36b7821e6/8ff5a/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8007.png 240w,
+/static/91ec490502c4085b7e98f3b36b7821e6/e85cb/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8007.png 480w,
+/static/91ec490502c4085b7e98f3b36b7821e6/d9199/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8007.png 960w,
+/static/91ec490502c4085b7e98f3b36b7821e6/5bf79/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8007.png 966w&quot;
+        sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;ol start=&quot;5&quot;&gt;
 &lt;li&gt;제대로 입력을 했다면 전달대비 항목이 노출됩니다.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&quot;./2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8008.png&quot; alt=&quot;2021년가계부08&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/fcd365848e5821c5e1e4b26c8ec78809/bd48c/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8008.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 488px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 47.950819672131146%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAACaUlEQVQoz01R7UtacRS+f9C2j6bZP9H6WAOVttlSWOSHBY36sgZqYxBjkLRgQZRUW2oty17GzPd3r7el5shJ6E2ben1JJj77/X5E7MLDOfece57znOdyXq8XoVAIgUCARZ/Px3KPxwO/P8DyYDB4D7/fz0Dr/4P26Az37LkWU1OvMPFyAiqVGkajERqNBm/n5vB4cBAymQwKhQJyufweSqUS/f39UBAMDChJX46+vj48ePgIHB02GAyYnZ3F5KQBJpMJ09OvMTMzA51OB7VazSKFXq+HVqvFk5ERqFUqPB0dxfDwMF6MjUE3Po6hoSFw82YzzOZ3iMVjSCQSCIfDiMfjWFlZgdVqxZLFgmQyiVQqhXQ6zc57v7CAD4uL+GLbxhvTPDzBEHjSW17+BM5ht8N1eIwUz4MnEASBEdLBbDZLfA0zz6LRGKsdOJ0Ib24had0Ev22D8HUbKbsDydU1rC4tgfO43YhE4qhUKiiXy7i5uUGxWMTl5SXa7TYymQx4ojydzhClPPxeH4obW5A+r6K5u4eqdQNV2w7Ejxa41tbBOb/tYs/pQrVaZWQ0iqKIfD6PXq+HbreLHnCX/2UXSLUa+9ZLxJyfp9FoNCGVr3FALOBOjo5weuplqigRVXl1dYVcLodOp4Nms3mHFhlsEC8F/CFLa4RUEFLI/y5AIr3atYh9Yh935DqEw+GAm5BKkoR6vcZIC4UC6EMVMpVE4e1tm/ibYFbUCOmP7yc4OztHi7x3yNLj/X1w0UiEFH8yAqqMKqXn0j9KlVEl9XqdxDqaROHFxQVKpRKriWKJLW+02hB/5bBjXcc/pQGCXGs9zEcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;2021년가계부08&quot;
+        title=&quot;&quot;
+        src=&quot;/static/fcd365848e5821c5e1e4b26c8ec78809/bd48c/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8008.png&quot;
+        srcset=&quot;/static/fcd365848e5821c5e1e4b26c8ec78809/8ff5a/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8008.png 240w,
+/static/fcd365848e5821c5e1e4b26c8ec78809/e85cb/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8008.png 480w,
+/static/fcd365848e5821c5e1e4b26c8ec78809/bd48c/2021%EB%85%84%EA%B0%80%EA%B3%84%EB%B6%8008.png 488w&quot;
+        sizes=&quot;(max-width: 488px) 100vw, 488px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;h4&gt;+계정 분류 항목 추가하기&lt;/h4&gt;
 &lt;p&gt;사실 이 부분은..자세하게 설명하기가 좀 애매한데요. 엑셀 함수를 아신다면 다른 수식을 보고 알아서 추가해서 사용하실 수 있을거라 생각합니다. 일단 계정 페이지에서 항목을 추가 한 뒤, 2021년 예산 &gt; 메인 &gt; 월별 지출표 순으로 모두 추가한 계정 항목을 하나씩 추가하면서 수식을 수정하시면됩니다. 어렵다기보다 노가다를 해야하기때문에 월별 지출표를 1,2월이 있는 상태에서 모두 수정하신 뒤에 나머지 페이지를 추가하는게 편할거에요! &lt;/p&gt;
 &lt;p&gt;​&lt;/p&gt;
