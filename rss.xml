@@ -1,4 +1,70 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 30 May 2021 13:42:53 GMT</lastBuildDate><item><title><![CDATA[자바스크립트 할당 연산자]]></title><description><![CDATA[The logical AND assignment (x &&= y) operator only assigns if x is truthy. Logical nullish assignment (??=)]]></description><link>https://ipadorusa.com/posts/자바스크립트_할당_연산자</link><guid isPermaLink="false">https://ipadorusa.com/posts/자바스크립트_할당_연산자</guid><pubDate>Sun, 30 May 2021 13:40:52 GMT</pubDate><content:encoded>&lt;h2&gt;Logical AND assignment (&amp;#x26;&amp;#x26;=)&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by IPADORUSA]]></title><description><![CDATA[웹프론트엔드를 꿈꾼다]]></description><link>http://github.com/dylang/node-rss</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 01 Jun 2021 14:29:43 GMT</lastBuildDate><item><title><![CDATA[리액트(REACT)_공부하기_1일차]]></title><description><![CDATA[리액트 공부하면서 기록하고 싶은거 아니면 궁금해서 더 찾아본 자료에 대해 정리하기 위해 시작]]></description><link>https://ipadorusa.com/posts/리액트(REACT)_공부하기_1일차</link><guid isPermaLink="false">https://ipadorusa.com/posts/리액트(REACT)_공부하기_1일차</guid><pubDate>Tue, 01 Jun 2021 13:15:07 GMT</pubDate><content:encoded>&lt;h2&gt;리액트(REACT) 공부,정리하기 1일차&lt;/h2&gt;
+&lt;p&gt;인프런 강의나 패스트 캠퍼스 강의를 듣다가 어느정도 이해했다고 생각 했었는데 막상 몬가 만들어 볼려고 하면 개념이 부족한거 같고
+공부 하다가 보면 자꾸 다른 지식의 가지로 빠지는거 같아 REACT는 VUE와 다르게 좀 천천히 하더라도 가볼려고 한다.&lt;/p&gt;
+&lt;h3&gt;Virtual DOM 으로 시작하여 공부한 내용&lt;/h3&gt;
+&lt;p&gt;추가적으로 좀 더 자세히 공부한 부분 또는 알게 된점에 대해 링크 모음&lt;/p&gt;
+&lt;p&gt;Reconciliation: The diffing algorithm&lt;/p&gt;
+&lt;p&gt;React는 렌더링에서 Reconciliation 작업을 선행(어떤 변경에 대한 전/후 엘리먼트 트리를 비교(Diff)) 하여 플랫폼 UI에 대한 제어를 최소화 시킨다.&lt;/p&gt;
+&lt;p&gt;정리하면 비교 알고리즘 (Diffing Algorithm) 다음처럼 작동한다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;엘리먼트의 타입이 다른 경우&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;기존 트리를 제거 후 새로운 트리 만든다.&lt;/li&gt;
+&lt;li&gt;기존 트리 제거시 트리 내부의 엘리먼트/컴포넌트들은 모두 제거한다.&lt;/li&gt;
+&lt;li&gt;새로운 트리를 만들 때 내부 엘리먼트/컴포넌트들도 모두 새로 만든다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;DOM 엘리먼트의 타입이 같은 경우&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;엘리먼트의 attributes를 비교한다.&lt;/li&gt;
+&lt;li&gt;변경된 attributes만 업데이트한다.&lt;/li&gt;
+&lt;li&gt;자식 엘리먼트들에 diff 알고리즘을 재귀적으로 적용한다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;같은 타입의 컴포넌트 엘리먼트&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;컴포넌트가 갱신되면 인스턴스는 동일하게 유지되어 렌더링 간 state가 유지됩니다. React는 새로운 엘리먼트의 내용을 반영하기 위해 현재 컴포넌트 인스턴스의 props를 갱신합니다.&lt;/li&gt;
+&lt;li&gt;다음으로 render() 메서드가 호출되고 비교 알고리즘이 이전 결과와 새로운 결과를 재귀적으로 처리합니다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;자식에 대한 재귀적 처리&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;DOM 노드의 자식들을 재귀적으로 처리할 때, React는 기본적으로 동시에 두 리스트를 순회하고 차이점이 있으면 변경을 생성합니다.&lt;/li&gt;
+&lt;li&gt;키값이 없으면 DOM 추가시 비효율적으로 Compares —&gt; Update dom —&gt; Insert dom 이렇게 발생되는데 키값이 있으면 Compares —&gt; Update X, Reorder dom —&gt; Insert dom 이 된다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;ul&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;li&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;2015&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Duke&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;li&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;li&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;2016&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Villanova&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;li&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;ul&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;ul&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;li&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;2014&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Connecticut&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;li&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;li&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;2015&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Duke&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;li&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;li&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;2016&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Villanova&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;li&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;ul&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;[React 공식문서 재조정 (Reconciliation)] : &lt;a href=&quot;https://ko.reactjs.org/docs/reconciliation.html&quot;&gt;https://ko.reactjs.org/docs/reconciliation.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[React 렌더링과 성능 알아보기] : &lt;a href=&quot;https://meetup.toast.com/posts/110&quot;&gt;https://meetup.toast.com/posts/110&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[ReactJS의 Virtual DOM과 Repaint, Reflow]: &lt;a href=&quot;http://blog.drakejin.me/React-VirtualDOM-And-Repaint-Reflow/&quot;&gt;http://blog.drakejin.me/React-VirtualDOM-And-Repaint-Reflow/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;React.StricMode ?&lt;/h3&gt;
+&lt;p&gt;여러 강의를 보다가 몬가 안되면 StrictMode 지우길래 자바스크립트의 엄격 모드 Strict 같은거네 생각하고 있다가 책을 보니 설명이 되어 있었다.&lt;/p&gt;
+&lt;p&gt;리액트의 레거시 기능들을 사용하지 못하게 하는 기능. 이를 사용 하면 문자열 ref, componentWillMount등 옛날 기능 사용할때 경고를 출력합니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;react&quot;&gt;&lt;pre class=&quot;language-react&quot;&gt;&lt;code class=&quot;language-react&quot;&gt;ReactDOM.render(
+  &amp;lt;React.StrictMode&amp;gt;
+    &amp;lt;App /&amp;gt;
+  &amp;lt;/React.StrictMode&amp;gt;,
+  document.getElementById(&amp;#39;root&amp;#39;)
+);&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;JSX는 언제 괄호로 감싸나요 ?&lt;/h3&gt;
+&lt;p&gt;prettier를 사용하다 보니 언제는 있다가 언제는 없다가 하길래 음 잘 작동하네 하다가 주로 JSX 괄호를 감싸는건 여러 줄로 작성할 때 하고 한줄일때는 안한다고 한다. 필수는 아니라고 하니.. 편한대로 하던가 prettier에 옵션이 있다면 못찾겠네.
+arrow Function Parentheses 이것만 나오네&lt;/p&gt;</content:encoded></item><item><title><![CDATA[자바스크립트 할당 연산자]]></title><description><![CDATA[The logical AND assignment (x &&= y) operator only assigns if x is truthy. Logical nullish assignment (??=)]]></description><link>https://ipadorusa.com/posts/자바스크립트_할당_연산자</link><guid isPermaLink="false">https://ipadorusa.com/posts/자바스크립트_할당_연산자</guid><pubDate>Sun, 30 May 2021 13:40:52 GMT</pubDate><content:encoded>&lt;h2&gt;Logical AND assignment (&amp;#x26;&amp;#x26;=)&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The logical AND assignment (x &amp;#x26;&amp;#x26;= y) operator only assigns if x is truthy.&lt;/p&gt;
 &lt;p&gt;논리 AND할당 연산자는 X가 truthy([링트]: &lt;a href=&quot;https://developer.mozilla.org/ko/docs/Glossary/Truthy&quot;&gt;https://developer.mozilla.org/ko/docs/Glossary/Truthy&lt;/a&gt;)일 경우 할당할수 있습니다.&lt;/p&gt;
