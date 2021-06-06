@@ -6,14 +6,17 @@ draft: false
 path: '/posts/리액트(REACT)_공부하기_1일차'
 category: '자바스크립트'
 tags:
+  - '리액트 공부방법'
   - '리액트 공부하기'
   - 'React 공부하기'
   - 'React Hook'
   - 'Virtual DOM'
   - 'React.StricMode'
   - 'Reconciliation'
+  - '프론트엔드'
+  - 'Diffing Algorithm'
 
-description: '리액트 공부하면서 기록하고 싶은거 아니면 궁금해서 더 찾아본 자료에 대해 정리하기 위해 시작'
+description: '리액트 공부하면서 기록하고 싶은거 아니면 궁금해서 더 찾아본 자료에 대해 정리하기 위해 시작, Virtual DOM 정리하면 비교 알고리즘 (Diffing Algorithm)'
 ---
 
 ## 리액트(REACT) 공부,정리하기 1일차
