@@ -18,7 +18,12 @@ tags:
 description: '하루에 한 문제 또는 두문제는 HackerRank Algorithms 에서 풀어보자 알고리즘 (Algorithm) 공부하다 보면 언젠가 이직이나 회사에서 활용하기를 코딩테스트 준비!! plus-minus, mini-max-sum, birthday-cake-candle, time-conversion'
 ---
 
-## HackerRank Algorithms 문제 풀어보자
+## 알고리즘 문제 풀기 하루에 하나씩 풀자
+
+국내 사이트중에 알고리즘 문제 풀기위해 프로그래머스를 이용하다가 1단계 풀고 2단계 문제를 풀려고 하면 테스트 케이스를 공유가 안되어 문제가 안 풀리는 경우가 많아 다른 사이트는 찾던중에
+HackerRank라는 사이트를 알게 되어 하루에 한문제 또는 두문제는 풀어 보기로 하였습니다. [HackerRank 사이트]: https://www.hackerrank.com
+
+### HackerRank Algorithms 문제 풀어보자
 
 1. plus-minus
 2. mini-max-sum
