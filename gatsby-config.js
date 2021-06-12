@@ -11,7 +11,6 @@ module.exports = {
     title: 'Blog by IPADORUSA',
     subtitle: '웹프론트엔드를 꿈꾼다',
     copyright: '© All rights reserved.',
-    disqusShortname: 'ipadorusa-com',
     image: './photo.jpg',
     menu: [
       {

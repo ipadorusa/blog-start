@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'gatsby'
 import AdSense from 'react-adsense'
 import moment from 'moment'
-import Disqus from '../Disqus/Disqus'
 
 import './style.scss'
 
@@ -32,15 +31,6 @@ class PostTemplateDetails extends React.Component {
               </li>
             ))}
         </ul>
-      </div>
-    )
-
-    const commentsBlock = (
-      <div>
-        <Disqus
-          postNode={post}
-          siteMetadata={this.props.data.site.siteMetadata}
-        />
       </div>
     )
 
@@ -84,7 +74,6 @@ class PostTemplateDetails extends React.Component {
                 <br /> <strong>{author.name}</strong> on Twitter
               </a>
             </p>
-            {commentsBlock}
           </div>
         </div>
       </div>
