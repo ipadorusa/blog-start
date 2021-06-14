@@ -15,7 +15,7 @@ tags:
   - 'HackerRank birthday-cake-candles'
   - 'HackerRank time-conversion'
 
-description: '하루에 한 문제 또는 두문제는 HackerRank Algorithms 에서 풀어보자 알고리즘 (Algorithm) 공부하다 보면 언젠가 이직이나 회사에서 활용하기를 코딩테스트 준비!! plus-minus, mini-max-sum, birthday-cake-candle, time-conversion'
+description: 'HackerRank plus-minus in javascript, HackerRank time-conversion in javascript'
 ---
 
 ## 알고리즘 문제 풀기 하루에 하나씩 풀자
@@ -30,7 +30,7 @@ HackerRank라는 사이트를 알게 되어 하루에 한문제 또는 두문제
 3. birthday-cake-candles
 4. time-conversion
 
-### HackerRank plus-minus 문제
+### HackerRank plus-minus in javascript 문제 풀이
 
 ```javascript
 function plusMinus(arr) {
@@ -57,7 +57,7 @@ function plusMinus(arr);
  */
 ```
 
-### HackerRank mini-max-sum 문제
+### HackerRank mini-max-sum in javascript 문제 풀이
 
 ```javascript
 function miniMaxSum(arr) {
@@ -77,7 +77,7 @@ miniMaxSum(arr)
  */
 ```
 
-### HackerRank birthday-cake-candles 문제
+### HackerRank birthday-cake-candles in javascript 문제 풀이
 
 ```javascript
 function birthdayCakeCandles(candles) {
@@ -97,7 +97,7 @@ birthdayCakeCandles(arr)
  */
 ```
 
-### HackerRank time-conversion 문제
+### HackerRank time-conversion in javascript 문제 풀이
 
 ```javascript
 function timeConversion(s) {
@@ -116,7 +116,7 @@ function timeConversion(s) {
  */
 ```
 
-#### HackerRank time-conversion 문제(정규식으로 풀기)
+#### HackerRank time-conversion in javascript 문제 풀이(정규식으로 풀기)
 
 ```javascript
 function timeConversion(s) {
